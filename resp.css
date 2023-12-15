@@ -1,0 +1,584 @@
+@media screen and (min-width: 0px) {
+    #arin_header_btn {
+        display: none;
+    }
+
+    .gap-custom {
+        gap: 48px;
+    }
+
+    #aboutUs_section {
+        display: none;
+    }
+
+    #arin_header_nav {
+        display: none;
+    }
+
+    .about_section div.card_view>div {
+        width: 100%;
+    }
+
+    .arin_wrap {
+        padding-top: 0px;
+        padding-bottom: 210px;
+    }
+
+    .bg-grey {
+        background: white;
+    }
+
+    .connect_header>h4 {
+        color: #000;
+
+        font-size: 24px;
+
+        margin-bottom: 16px;
+    }
+
+    .connect_header>p {
+        color: #666;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26.6px;
+    }
+
+    .bg-meeting {
+        background-image: url(assets/meeting.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 260px;
+        margin-top: 45px;
+        z-index: 20;
+    }
+
+    .hexagon {
+        background-image: url(assets/hexagon.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 87.83px;
+        height: 75.906px;
+        margin-top: -53px;
+    }
+
+    .w-48 {
+        width: 35px;
+        height: 35px;
+        flex-shrink: 0;
+    }
+
+
+
+    .journeyCard_wrapper>div {
+        border-radius: 10px;
+        background: #29166F;
+        width: 100%;
+
+        height: 132px;
+        padding: 12px;
+
+    }
+
+    .cardtop {
+        gap: 21px;
+    }
+
+    .journey_wrapper>p {
+        color: #000;
+
+        text-align: center;
+        font-family: Barlow;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .journey_wrapper {
+        padding-top: 29px;
+    }
+
+    .arin_banner>div>div>div {
+        padding: 49px 0px;
+    }
+
+    .bg-banner {
+        height: 300px;
+        background-size: contain;
+        background-image: url(assets/bg-banner2.png);
+    }
+
+    .arin_banner h3 {
+        color: #29166F;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 35.8px;
+    }
+
+    .arin_banner p:first-child {
+        color: #F7BD01;
+        font-family: Barlow;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .banner_text {
+        color: #000;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 51.8px;
+    }
+
+    .arin_features h1 {
+
+        font-size: 16px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 767px) {
+
+    .bg-banner {
+        height: 280px;
+        background-size: cover;
+        background-image: url(assets/ArinBanner.webp);
+    }
+
+    .about_section div.card_view>div {
+        width: 50%;
+    }
+
+    .arin_features h1 {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .arin_banner p:first-child {
+        font-size: 13.4px;
+        margin-bottom: 15px;
+    }
+
+    .arin_banner>div>div>div {
+        padding: 35px 0px;
+    }
+
+    .arin_banner h3 {
+        color: #FFF;
+        font-size: 25px;
+        margin-bottom: 16px;
+    }
+
+    .connect_header>p {
+        font-size: 14px;
+    }
+
+    .gap-custom {
+        gap: 48px;
+    }
+
+    .banner_text {
+        color: #FFF;
+        font-size: 28px;
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32.8px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #arin_header_btn {
+        display: flex;
+    }
+
+    .connect_header>h4 {
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+
+    .connect_header>p {
+        color: #666;
+        text-align: center;
+        width: 75%;
+        margin: auto;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26.6px;
+    }
+
+    .arin_wrap {
+        padding-top: 190px;
+        padding-bottom: 210px;
+    }
+
+    .bg-grey {
+        background: #EDEDEF;
+    }
+
+    .hexagon {
+
+        width: 121.092px;
+        height: 104.653px;
+        margin-top: -53px;
+    }
+
+    .w-48 {
+        width: 48px;
+        height: 51.172px;
+        flex-shrink: 0;
+    }
+
+    #arin_header_nav {
+        display: flex;
+    }
+
+    #arin_offcanva {
+        display: none;
+    }
+
+    .bg-banner {
+        height: 331px;
+    }
+
+    .journeyCard_wrapper>div {
+        border-radius: 10px;
+        background: #29166F;
+        width: 23%;
+
+        height: 200px;
+        padding: 12px;
+
+    }
+
+    .bg-journey {
+        background-image: url(assets/bg-arrrow.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 560px;
+    }
+
+    .bg-meeting {
+        margin-top: 76px;
+    }
+
+
+
+    .arin_banner p:first-child {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .arin_banner>div>div>div {
+        padding: 65px 0px;
+    }
+
+    .arin_banner h3 {
+        color: #FFF;
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+
+    .banner_text {
+        color: #FFF;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 37.8px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .bg-banner {
+        height: 360px;
+    }
+
+    #aboutUs_section {
+        display: flex;
+    }
+
+    .arin_banner p:first-child {
+        font-size: 15px;
+        margin-bottom: 17px;
+    }
+
+    .arin_banner>div>div>div {
+        padding: 70px 0px;
+    }
+
+    .arin_banner h3 {
+        color: #FFF;
+        font-size: 35px;
+        margin-bottom: 17px;
+    }
+
+    .banner_text {
+        color: #FFF;
+        font-size: 35px;
+        line-height: 38.8px;
+    }
+
+    .bg-journey {
+        height: 560px;
+    }
+
+    .bg-meeting {
+        margin-top: 50px;
+    }
+
+
+
+    #parallelogram {
+        width: 144px;
+        height: 71px;
+    }
+
+    .arrow_image_pos1 {
+        width: 87.083px;
+        height: 124.5px;
+    }
+
+    .arrow_image_pos2 {
+        width: 87.083px;
+        height: 125.5px;
+    }
+
+    .yellow_pos {
+        top: 28%;
+        right: -46%;
+    }
+
+    .blue_pos {
+        top: 27%;
+        right: -69%;
+    }
+
+    .mt-90 {
+        margin-top: 70px;
+    }
+
+    .dealingNumber {
+        color: #FFF;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        /* line-height: 43.8px; */
+        /* transform: skew(-37deg); */
+        margin-bottom: 3px;
+        text-align: center;
+    }
+
+    .dealingText {
+        color: #FFF;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 0px;
+        /* line-height: 26.6px; */
+        /* transform: skew(-37deg); */
+        text-align: center;
+    }
+
+    .arin_aboutUs {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .bg_aboutUs {
+        background-image: url(assets/about_us.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 630px;
+    }
+
+    .mt-19 {
+        margin-top: 19px;
+    }
+
+    .gap-40 {
+        gap: 40px;
+    }
+
+    .about_section h1 {
+        color: #2734A8;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 14px;
+    }
+
+    .about_section h2 {
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33.8px;
+        margin-bottom: 17px;
+    }
+
+    .about_section p {
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26.6px;
+        margin-bottom: 17px;
+    }
+
+    .card_view {
+        gap: 20px;
+    }
+
+    .card_view>div {
+        gap: 20px;
+    }
+
+    .about_section div.card_view>div {
+        width: 50%;
+        border-radius: 5px;
+        border: 1px solid #D9D9D9;
+        overflow: hidden;
+        padding: 10px 8px;
+        max-height: 92px;
+        height: 91px;
+    }
+
+    .mb-13 {
+        margin-bottom: 13px;
+    }
+
+    .card_image {
+        width: 42px;
+        height: 42px;
+    }
+
+    .w-10 {
+        width: 10%;
+    }
+
+    .card_view h3 {
+        color: #000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+
+    }
+
+    .gap-12 {
+        gap: 12px;
+    }
+
+    .card_view p {
+        color: #666;
+        font-size: 12px;
+        line-height: 16px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .bg-banner {
+        height: 400px;
+    }
+
+    .arin_banner>div>div>div {
+        padding: 80px 0px;
+    }
+
+    .arin_banner p:first-child {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 20px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .arin_banner h3 {
+        font-size: 42px;
+        line-height: 35.8px;
+        margin-bottom: 18px;
+    }
+
+    .banner_text {
+        font-size: 29px;
+        line-height: 36.8px;
+    }
+
+    .bg-journey {
+        height: 580px;
+    }
+
+    .bg-meeting {
+        margin-top: 79px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .bg-banner {
+        height: 410px;
+    }
+
+    .arin_banner p:first-child {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .arin_banner h3 {
+        font-size: 43px;
+        line-height: 33.8px;
+        margin-bottom: 19px;
+    }
+
+    .banner_text {
+        font-size: 36px;
+        line-height: 43.8px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    .bg-banner {
+        height: 510px;
+    }
+
+    .arin_banner p:first-child {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .arin_banner h3 {
+        font-size: 48px;
+        line-height: 35.8px;
+        margin-bottom: 19px;
+    }
+
+    .banner_text {
+        font-size: 40px;
+        line-height: 51.8px;
+    }
+}
