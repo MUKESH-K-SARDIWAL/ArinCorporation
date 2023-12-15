@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+$('#owl-carousel1').owlCarousel({
     loop: true,
     margin: 10,
     responsiveClass: true,
@@ -19,6 +19,33 @@ $('.owl-carousel').owlCarousel({
         1000: {
             items: 5,
             nav: true,
+            loop: false
+        }
+    }
+})
+
+
+$('#owl-carousel2').owlCarousel({
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
+    responsive: {
+        0: {
+            items: 3,
+            nav: false,
+
+        },
+        600: {
+            items: 3,
+            nav: false
+        },
+        1000: {
+            items: 3,
+            nav: false,
             loop: false
         }
     }

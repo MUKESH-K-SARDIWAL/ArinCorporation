@@ -984,17 +984,10 @@ button >span{
     border-radius: 10px;
 }
 
-.video_list_card {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 31;
-}
 
-.video_list_card>div {
-    width: 32%;
+
+.card_craousal {
+    width: 100%;
     height: 242px;
     overflow: hidden;
     z-index: 2;

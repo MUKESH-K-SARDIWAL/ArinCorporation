@@ -3,6 +3,35 @@
         display: none;
     }
 
+    .card_heading {
+        color: #000;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .card_date {
+        color: #000;
+
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .overlay_text {
+        color: #FFF;
+        font-family: Barlow;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 162%;
+    }
+
     .gap-custom {
         gap: 48px;
     }
@@ -50,8 +79,9 @@
         background-image: url(assets/meeting.webp);
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: contain;
-        width: 100%;
+        background-size: cover;
+        width: 83%;
+        padding: 90px;
         height: 260px;
         margin-top: 45px;
         z-index: 20;
