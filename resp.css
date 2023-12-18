@@ -3,6 +3,176 @@
         display: none;
     }
 
+    .footer_first>h4 {
+
+        font-size: 14px;
+    }
+
+    .bg-machine {
+        position: relative;
+
+    }
+
+    .footer_sec>h4 {
+        font-size: 20px;
+    }
+
+    .footer_links li>span {
+        font-size: 14px;
+    }
+
+    .footer_third>h4 {
+        font-size: 20px;
+    }
+
+    .footer_fourth>h4 {
+        font-size: 20px;
+    }
+
+    .footer_first>div:first-child {
+        width: 126px;
+        height: 62px;
+    }
+
+    .gap-75 {
+        gap: 40px;
+    }
+
+
+    #footerlogo2 {
+        display: block;
+    }
+
+    #footerlogo1 {
+        display: none;
+    }
+
+    .company_list {
+        gap: 25px;
+    }
+
+
+
+    .cusotm-grey {
+        background-color: #EDEDEF;
+
+    }
+
+    .company_list>div {
+        width: 45%;
+    }
+
+    .bg-blog {
+        padding: 69px 0px 30px 0px;
+    }
+
+    .company_list>div>div {
+        /* width: 34px;
+        height: 32.061px; */
+        width: 25px;
+        height: 25.061px;
+    }
+
+    .company_list>div>h3 {
+        white-space: nowrap;
+        font-size: 17px;
+    }
+
+    .company_card {
+        margin-bottom: 53px;
+        /* height: 168px; */
+    }
+
+    .card_exp_btn {
+        margin-top: 0px;
+    }
+
+    .arin_corpo>h4 {
+
+        margin-bottom: 17px;
+
+        font-size: 14px;
+
+    }
+
+    .blog_wrapp>h6 {
+
+        font-size: 24px;
+    }
+
+    .arin_brand_wrap>div {
+        border-radius: 10px;
+        background: #29166F;
+        width: 100%;
+        height: 132px;
+        padding: 12px;
+
+    }
+
+    .arin_corpo>p {
+        margin-bottom: 49px;
+        color: black;
+        font-size: 18px;
+
+        line-height: 125.6%;
+    }
+
+    .card_craousal {
+        height: 205px;
+    }
+
+    #organization_port {
+        display: none;
+    }
+
+    .organize_left {
+        width: 100%;
+        margin-top: 36px;
+    }
+
+    .overlay_card h1 {
+        font-size: 14px;
+    }
+
+    .overlay_card h2 {
+        font-size: 18px;
+    }
+
+    .organizing_list>li>span:nth-child(2) {
+        color: #000;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28.8px;
+    }
+
+    .organize_left h6 {
+        color: #29166F;
+        font-family: Barlow;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .organize_left h5 {
+        color: #000;
+        font-family: Barlow;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28.8px;
+    }
+
+    .bg-springs {
+        background-position: center;
+    }
+
+    .activities_text {
+        background-color: #EDEDEF;
+    }
+
     .card_heading {
         color: #000;
         text-align: center;
@@ -22,6 +192,271 @@
         font-weight: 400;
         line-height: normal;
     }
+
+    .Activities_wrapper>div {
+        border-radius: 10px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .activity_texth4 {
+        color: #000;
+        margin-bottom: 19px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .activity_textp {
+        color: #000;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 0;
+        line-height: normal;
+    }
+
+    .overlay_text {
+        color: #FFF;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 162%;
+    }
+
+    .gap-custom {
+        gap: 48px;
+    }
+
+    #aboutUs_section {
+        display: none;
+    }
+
+    #arin_header_nav {
+        display: none;
+    }
+
+    .about_section div.card_view>div {
+        width: 100%;
+    }
+
+    .arin_wrap {
+        padding-top: 0px;
+        padding-bottom: 210px;
+    }
+
+    .bg-grey {
+        background: white;
+    }
+
+    .connect_header>h4 {
+        color: #000;
+
+        font-size: 24px;
+
+        margin-bottom: 16px;
+    }
+
+    .connect_header>p {
+        color: #666;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26.6px;
+    }
+
+    .bg-meeting {
+        background-image: url(assets/meeting.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding: 30px;
+        height: 115px;
+        margin-top: 45px;
+        z-index: 20;
+        margin-bottom: 42px;
+    }
+
+    .hexagon {
+        background-image: url(assets/hexagon.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 87.83px;
+        height: 75.906px;
+        margin-top: -53px;
+    }
+
+    .w-48 {
+        width: 35px;
+        height: 35px;
+        flex-shrink: 0;
+    }
+
+
+
+    .journeyCard_wrapper>div {
+        border-radius: 10px;
+        background: #29166F;
+        width: 100%;
+
+        height: 132px;
+        padding: 12px;
+
+    }
+
+    .cardtop {
+        gap: 21px;
+    }
+
+    .journey_wrapper>p {
+        color: #000;
+
+        text-align: center;
+        font-family: Barlow;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .journey_wrapper {
+        padding-top: 29px;
+    }
+
+    .arin_banner>div>div>div {
+        padding: 49px 0px;
+    }
+
+    .bg-banner {
+        height: 300px;
+        background-size: contain;
+        background-image: url(assets/bg-banner2.png);
+    }
+
+    .arin_banner h3 {
+        color: #29166F;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 35.8px;
+    }
+
+    .arin_banner p:first-child {
+        color: #F7BD01;
+        font-family: Barlow;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .banner_text {
+        color: #000;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 51.8px;
+    }
+
+    .arin_features h1 {
+
+        font-size: 16px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 556px) {
+    .overlay_card h2 {
+        font-size: 25px;
+    }
+
+    .company_list>div {
+        width: 47%;
+    }
+
+
+
+    .company_list>div>div {
+        width: 34px;
+        height: 32.061px;
+
+    }
+
+    .company_list>div>h3 {
+        /* white-space: nowrap; */
+        font-size: 24px;
+    }
+
+    .overlay_card h1 {
+        font-size: 16px;
+    }
+
+    .card_craousal {
+        height: 243px;
+    }
+
+    .blog_wrapp>h6 {
+
+        font-size: 28px;
+    }
+
+    .organizing_list>li>span:nth-child(2) {
+        color: #000;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28.8px;
+    }
+
+    .organize_left h6 {
+        color: #29166F;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .organize_left h5 {
+        color: #000;
+        font-family: Barlow;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28.8px;
+    }
+
+
+    .card_heading {
+        color: #000;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .card_date {
+        color: #000;
+
+        font-family: Barlow;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
 
     .overlay_text {
         color: #FFF;
@@ -79,12 +514,13 @@
         background-image: url(assets/meeting.webp);
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover;
-        width: 83%;
-        padding: 90px;
-        height: 260px;
-        margin-top: 45px;
+        background-size: contain;
+        width: 100%;
+        padding: 50px;
+        height: 180px;
+        margin-top: 10px;
         z-index: 20;
+        margin-bottom: 10px;
     }
 
     .hexagon {
@@ -185,8 +621,58 @@
         background-image: url(assets/ArinBanner.webp);
     }
 
+    .gap-75 {
+        gap: 75px;
+    }
+
+    .footer_third>h4 {
+
+        font-size: 23px;
+
+    }
+
+    .footer_first>div:first-child {
+        width: 120px;
+        height: 119.945px;
+    }
+
+    #footerlogo2 {
+        display: none;
+    }
+
+    #footerlogo1 {
+        display: block;
+    }
+
+    .company_list>div {
+        width: inherit;
+    }
+
+    .company_list>div>h3 {
+
+        font-size: 28px;
+    }
+
     .about_section div.card_view>div {
         width: 50%;
+    }
+
+    .organizing_list>li>span:nth-child(2) {
+        color: #000;
+        font-family: Barlow;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28.8px;
+    }
+
+    .organize_left h5 {
+        color: #000;
+        font-family: Barlow;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28.8px;
     }
 
     .arin_features h1 {
@@ -232,6 +718,177 @@
         display: flex;
     }
 
+    .bg-machine {
+        position: relative;
+        background: linear-gradient(0deg, rgba(41, 22, 111, 0.84), rgba(41, 22, 111, 0.84)), url(assets/machine.webp);
+        background-size: cover;
+        /* background-blend-mode: overlay; */
+        padding-bottom: 100px;
+        background-repeat: no-repeat;
+
+        background-position: center;
+    }
+
+    .footer_sec>h4 {
+        font-size: 24px;
+    }
+
+    .footer_links li>span {
+        font-size: 16px;
+    }
+
+    .footer_third>h4 {
+        font-size: 24px;
+    }
+
+    .footer_fourth>h4 {
+        font-size: 24px;
+    }
+
+    .company_list>div>h3 {
+
+        font-size: 32px;
+    }
+
+    .company_card {
+        margin-bottom: 79px;
+        /* height: 114px; */
+    }
+
+
+
+    .cusotm-grey {
+        background-color: #fff;
+    }
+
+    .company_list>div>div {
+        width: 40.641px;
+        height: 35.925px;
+    }
+
+
+    .bg-blog {
+        background-image: url(assets/world.webp);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 69px 0px 121px 0px;
+    }
+
+    .blog_wrapp>h6 {
+
+        font-size: 32px;
+    }
+
+    .arin_corpo>p {
+        color: #FFF;
+        margin-bottom: 49px;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 147.6%;
+    }
+
+    .overlay_card h2 {
+        color: #000;
+        margin-bottom: 22px;
+        font-family: Barlow;
+        font-size: 21px;
+    }
+
+    .center_div {
+
+        width: 148px;
+        height: 128px;
+
+    }
+
+    .card_exp_btn {
+        margin-top: 5px;
+    }
+
+    .center_div p {
+        font-size: 16px;
+    }
+
+    .box {
+        /* position: absolute; */
+        width: 197px;
+        height: 138px;
+
+    }
+
+    .card_craousal {
+
+        height: 170px;
+    }
+
+    .arin_wrap {
+        padding-top: 190px;
+        padding-bottom: 163px;
+    }
+
+    .organize_left h5 {
+        color: #000;
+        font-size: 28px;
+        line-height: 10px;
+    }
+
+    .bg-springs {
+        /* background-image: url(assets/Vector.png); */
+        background-position: 77%;
+    }
+
+    #organization_port {
+        display: flex;
+    }
+
+    .organize_left h6 {
+        color: #29166F;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .organize_left h5 {
+        color: #000;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28.8px;
+        margin-bottom: 28px;
+    }
+
+    .organize_left p {
+        color: #666;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33.8px;
+        margin-bottom: 15px;
+    }
+
+
+    .organize_left {
+        width: 50%;
+        margin-top: 36px;
+    }
+
+    .activities_text {
+        background-color: white;
+    }
+
+    .Activities_wrapper>div {
+        border-radius: 10px;
+        overflow: hidden;
+        width: 33%;
+    }
+
     .connect_header>h4 {
         font-size: 36px;
         margin-bottom: 16px;
@@ -252,6 +909,31 @@
     .arin_wrap {
         padding-top: 190px;
         padding-bottom: 210px;
+    }
+
+    .activities_card+div {
+        padding: 19px 0px;
+        /* border-radius: 10px; */
+    }
+
+    .activity_texth4 {
+        color: #000;
+        margin-bottom: 19px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .activity_textp {
+        color: #000;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 0;
+        line-height: normal;
     }
 
     .bg-grey {
@@ -304,6 +986,13 @@
 
     .bg-meeting {
         margin-top: 76px;
+        background-size: cover;
+        width: 100%;
+        padding: 50px;
+        height: 227px;
+        margin-top: 80px;
+        z-index: 20;
+        margin-bottom: 7px;
     }
 
 
@@ -330,12 +1019,71 @@
         font-weight: 400;
         line-height: 37.8px;
     }
+
 }
 
 @media screen and (min-width: 1100px) {
 
     .bg-banner {
         height: 360px;
+    }
+
+    .company_list {
+        gap: 50px;
+    }
+
+    .blog_wrapp>h6 {
+
+        font-size: 36px;
+    }
+
+    .center_div {
+
+        width: 148px;
+        height: 128px;
+
+    }
+
+    .card_exp_btn {
+        margin-top: 5px;
+    }
+
+    .card_craousal {
+        height: 242px;
+    }
+
+    .overlay_card h2 {
+
+        margin-bottom: 30px;
+
+        font-size: 36px;
+    }
+
+    .center_div p {
+        font-size: 16px;
+    }
+
+    .box {
+        /* position: absolute; */
+        width: 197px;
+        height: 138px;
+
+    }
+
+    .arin_wrap {
+        padding-top: 190px;
+        padding-bottom: 163px;
+    }
+
+    .organize_left h5 {
+        color: #000;
+        font-size: 28px;
+        line-height: 10px;
+    }
+
+    .activities_card+div {
+        padding: 19px 0px;
+        /* border-radius: 10px; */
     }
 
     #aboutUs_section {
@@ -349,6 +1097,26 @@
 
     .arin_banner>div>div>div {
         padding: 70px 0px;
+    }
+
+    .activity_texth4 {
+        color: #000;
+        margin-bottom: 19px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .activity_textp {
+        color: #000;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 0;
+        line-height: normal;
     }
 
     .arin_banner h3 {
@@ -533,9 +1301,20 @@
         height: 400px;
     }
 
+    .arin_corpo>p {
+
+        margin-bottom: 49px;
+
+        font-size: 36px;
+
+        line-height: 147.6%;
+    }
+
     .arin_banner>div>div>div {
         padding: 80px 0px;
     }
+
+
 
     .arin_banner p:first-child {
         font-size: 16px;
@@ -553,6 +1332,26 @@
         margin-bottom: 18px;
     }
 
+    .activity_texth4 {
+        color: #000;
+        margin-bottom: 19px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .activity_textp {
+        color: #000;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 0;
+        line-height: normal;
+    }
+
     .banner_text {
         font-size: 29px;
         line-height: 36.8px;
@@ -563,7 +1362,13 @@
     }
 
     .bg-meeting {
-        margin-top: 79px;
+
+        width: 85%;
+        padding: 50px;
+        height: 227px;
+        margin-top: 80px;
+        z-index: 20;
+        margin-bottom: 7px;
     }
 }
 
@@ -571,6 +1376,45 @@
 
     .bg-banner {
         height: 410px;
+    }
+
+    .organize_left h5 {
+
+        font-size: 36px;
+        line-height: 28.8px;
+        margin-bottom: 28px;
+    }
+
+    .center_div {
+
+        width: 184px;
+        height: 154px;
+
+    }
+
+    .card_exp_btn {
+        margin-top: 35px;
+    }
+
+    .center_div p {
+        font-size: 20px;
+    }
+
+    .box {
+        /* position: absolute; */
+        width: 285px;
+        height: 192px;
+        border-radius: 10px;
+    }
+
+    .arin_wrap {
+        padding-top: 190px;
+        padding-bottom: 210px;
+    }
+
+    .activities_card+div {
+        padding: 26px 0px;
+        /* border-radius: 10px; */
     }
 
     .arin_banner p:first-child {
