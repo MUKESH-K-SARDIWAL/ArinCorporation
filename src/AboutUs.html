@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bc862f33b5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../resp.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  arin_header">
+        <div class="container-lg container-fluid">
+            <div class="d-flex justify-content-between  justify-content-lg-center align-items-center w-100 py-2">
+                <div class="w-25">
+                    <div class="Arin_logo">
+                        <img src="../assets/site-logo.webp" alt="Arin_logo" width="" height="" id="logoArin">
+                    </div>
+                </div>
+                <div class="flex-grow-1 header_nav" id="arin_header_nav">
+                    <ul class="d-flex flex-row align-items-center justify-content-start w-50 header_list">
+                        <li>
+                            <a href="" class="flex gap-1">
+                                <span>Home</span>
+                                <!-- <span><i class="fa-solid fa-angle-down"></i></span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="flex gap-1">
+                                <span>About Us</span>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="flex gap-1">
+                                <span>Features</span>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="flex gap-1">
+                                <span>Media</span>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-25  justify-content-end sign" id="arin_header_btn">
+                    <button>
+                        <span class="text-white">Sign In</span>
+                    </button>
+                </div>
+                <div class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                    aria-controls="offcanvasWithBothOptions" id="arin_offcanva"
+                    class="border-transparent bg-transparent">
+                    <span><i class="fa-solid fa-bars " style="color: #29166F;font-size: 20px;"></i></span>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header arin_header">
+            <div class="w-50">
+                <div class="Arin_logo">
+                    <img src="../assets/site-logo.webp" alt="Arin_logo" width="" height="" id="logoArin">
+                </div> 
+            </div>
+            <div class="w-25  justify-content-end d-flex">
+                <button type="button" class="p-0 bg-transparent text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close">
+                    <div class="w-goback">
+                        <img src="../assets/goback.png" alt="">
+                    </div>
+                </button>
+            </div>
+
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes control
+                            the
+                            overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                            this
+                            with
+                            custom CSS or overriding our default variables. It's also worth noting that just about any
+                            HTML
+                            can go
+                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the
+                            collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes control
+                            the
+                            overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                            this
+                            with
+                            custom CSS or overriding our default variables. It's also worth noting that just about any
+                            HTML
+                            can go
+                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes control
+                            the
+                            overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                            this
+                            with
+                            custom CSS or overriding our default variables. It's also worth noting that just about any
+                            HTML
+                            can go
+                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="arin_aboutUs">
+        <div class="aboutUs_banner">
+            <div class="aboutUs_banner_image">
+                <div class="container-lg container-fluid">
+                    <div class="aboutUs_banner_text
+                    d-flex flex-column justify-content-center align-items-center align-items-md-start  w-100">
+                        <p>About Us</p>
+                        <h1>We Deal With The Aspects Of Professional Services</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutUs_banner_2">
+            <div class="aboutUs_banner_2_backgroundImage">
+                <div class="aboutUs_banner_2_content">
+                    <div class="aboutUs_banner_2_mainImage"></div>
+                    <div class="aboutUs_banner_2_textField">
+                        <p>
+                            We can be your perfect success partners!
+                        </p>
+                        <p>
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                            interested. Sections 1.10.32 and
+                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+                            original form, accompanied by
+                            English versions from the 1914 translation by H. Rackham.
+                        </p>
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                            interested. Sections 1.10.32 and
+                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+                            original form, accompanied by
+                            English versions from the 1914 translation by H. Rackham.
+                            passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutUs_facilities">
+            <div class="aboutUs_facilities_textField">
+                <p>
+                    We Work For The Digital Presence Of Your EnterPrise
+                </p>
+                <p>Our organization especially focuses on these professional aspects to provide our audience a perfect
+                    and smooth
+                    experience.
+                </p>
+            </div>
+            <div class="aboutUs_facilities_contentBoxes">
+                <div class="contentBox_container">
+                    <div class=" contentBox contentBox_1">
+                        <div class="contentBox_1_img"></div>
+                        <div class="contentBox_text">
+                            <p>Content Marketing</p>
+                            <p>Every business has different requirements. Our services and features are set up according
+                                to your needs and preferences.</p>
+                        </div>
+                    </div>
+
+                    <div class=" contentBox contentBox_2">
+                        <div class="contentBox_2_img"></div>
+                        <div class="contentBox_text">
+                            <p>Multiple Languages</p>
+                            <p>Language is not a barrier anymore. We have so many language options that you can easily
+                                choose any language you prefer
+                                for work purpose.</p>
+                        </div>
+                    </div>
+
+                    <div class=" contentBox contentBox_3">
+                        <div class="contentBox_3_img"></div>
+                        <div class="contentBox_text">
+                            <p>Quick support</p>
+                            <p>ARIN Corporation team is 24\7 ready to answer any queries and solve any glitches,
+                                problem. Feel free to connect with us
+                                anytime.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contentBox_container">
+                    <div class=" contentBox contentBox_4">
+                        <div class="contentBox_4_img"></div>
+                        <div class="contentBox_text">
+                            <p>Organized and Seamless Process</p>
+                            <p>We have prepared profile setting features so simple and quick that any enterprise can
+                                create their digital profile and
+                                come out globally in just few minutes.</p>
+                        </div>
+                    </div>
+
+                    <div class=" contentBox contentBox_5">
+                        <div class="contentBox_5_img"></div>
+                        <div class="contentBox_text">
+                            <p>Data and Privacy</p>
+                            <p>Our organization is General Data Protection Regulation (GDPR) certified. Company’s
+                                privacy and security comes first and
+                                your data is always secured with us.</p>
+                        </div>
+                    </div>
+
+                    <div class=" contentBox contentBox_6">
+                        <div class="contentBox_6_img"></div>
+                        <div class="contentBox_text">
+                            <p>Our Vision for Better India</p>
+                            <p>We are pledged to transform India into a digitally empowered economy. Our initiative
+                                towards Digital India and ‘Go
+                                Green’ programme will surely improve our society and environment.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contentBox_container">
+                    <div class=" contentBox contentBox_7">
+                        <div class="contentBox_7_img"></div>
+                        <div class="contentBox_text">
+                            <p>Content Marketing</p>
+                            <p>Every business has different requirements. Our services and features are set up according
+                                to your needs and preferences.</p>
+                        </div>
+                    </div>
+
+                    <div class=" contentBox contentBox_8">
+                        <div class="contentBox_8_img"></div>
+                        <div class="contentBox_text">
+                            <p>Multiple Languages</p>
+                            <p>Language is not a barrier anymore. We have so many language options that you can easily
+                                choose any language you prefer
+                                for work purpose.</p>
+                        </div>
+                    </div>
+
+                    <div class=" contentBox contentBox_9">
+                        <div class="contentBox_9_img"></div>
+                        <div class="contentBox_text">
+                            <p>Quick support</p>
+                            <p>ARIN Corporation team is 24\7 ready to answer any queries and solve any glitches,
+                                problem. Feel free to connect with us
+                                anytime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutUs_banner_3">
+            <div class="aboutUs_banner_3_backgroundImage">
+                <div class="aboutUs_banner_3_text">
+                    <p>We can be your perfect success partners!</p>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form,
+                        by injected humour, or randomised words which don't look even slightly believable. If you are
+                        going to use a passage of
+                        Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                        All the Lorem Ipsum
+                        generators on the Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the
+                        Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model
+                        sentence structures, to
+                        generate Lorem Ipsum which looks reasonable.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutUs_like">
+            <div class="aboutUs_like_container">
+                <div class="aboutUs_like_contain ">
+                    <div class="like_image like_image_1"></div>
+                    <p>Customer Like This</p>
+                </div>
+
+                <div class="aboutUs_like_contain">
+                    <div class="like_image like_image_2"></div>
+                    <p>Customer Like This</p>
+                </div>
+
+                <div class="aboutUs_like_contain">
+                    <div class="like_image like_image_3"></div>
+                    <p>Customer Like This</p>
+                </div>
+
+                <div class="aboutUs_like_contain">
+                    <div class="like_image like_image_4"></div>
+                    <p>Customer Like This</p>
+                </div>
+
+                <div class="aboutUs_like_contain">
+                    <div class="like_image like_image_5"></div>
+                    <p>Customer Like This</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100">
+        <div class="arin_footer bg-footer">
+            <div class="container">
+                <div
+                    class="d-flex flex-row justify-content-lg-between justify-content-center align-items-start flex-wrap flex-lg-nowrap gap-75">
+                    <div
+                        class="footer_first order-2 order-lg-0 col-xl-3 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
+                        <div>
+                            <img src="../assets/favicon.webp" alt="" id="footerlogo1">
+                            <img src="../assets/site-logo.webp" alt="" id="footerlogo2">
+                        </div>
+                        <h4>Email: support@arin.bz/support@arin.business</h4>
+                    </div>
+                    <div
+                        class="footer_sec order-0  order-lg-1 col-xl-2 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
+                        <h4>Links</h4>
+                        <ul class="footer_links">
+                            <li>
+                                <span>About Us</span>
+                            </li>
+                            <li>
+                                <span>Our Story</span>
+                            </li>
+                            <li>
+                                <span>Testimonial</span>
+                            </li>
+                            <li>
+                                <span>Privacy Policy</span>
+                            </li>
+                            <li>
+                                <span>Terms of Use</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="footer_third order-1 order-lg-2 col-xl-2  col-sm-5 col-4 col-lg-2   d-flex flex-column justify-content-start align-items-start">
+                        <h4>Features</h4>
+                        <ul class="footer_links">
+                            <li>
+                                <span>Digital Marketing</span>
+                            </li>
+                            <li>
+                                <span>Content Marketing</span>
+                            </li>
+                            <li>
+                                <span>Lead Generation</span>
+                            </li>
+                            <li>
+                                <span>E-Commerce</span>
+                            </li>
+                            <li>
+                                <span>Influencer Marketing</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="footer_fourth order-3 order-lg-3 col-xl-3 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
+                        <h4>Follow Us on</h4>
+                        <div class="d-flex flex-row align-items-center justify-content-center">
+                            <span class="font_social"><i class="text-white fa-brands fa-square-twitter"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-linkedin"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-square-facebook"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-instagram"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-square-youtube"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="footer_btn d-flex flex-row align-items-center justify-content-lg-between justify-content-center gap-2 flex-wrap flex-lg-nowrap">
+                    <p>Copyright © 2023 ARIN Corporation</p>
+                    <div class="d-flex flex-row align-items-center justify-content-center gap-10">
+                        <p>Privacy Policy</p>
+                        <div style="height: 16px; width: 1px; background-color: white;"></div>
+                        <p>Terms &amp; Conditions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
