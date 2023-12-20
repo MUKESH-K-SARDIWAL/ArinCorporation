@@ -150,6 +150,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+
   background: linear-gradient(86deg, #e87b0d 0%, #f7bd01 99.48%);
   transition: transform 0.3s ease;
   transform: translateY(0);
@@ -175,8 +176,7 @@ img {
   padding-top: 8px;
   padding-bottom: 8px;
 }
- {
-}
+
 .bg-banner {
   background-image: url(assets/ArinBanner.webp);
   background-position: center center;
@@ -1426,8 +1426,11 @@ button > span {
 .activities_btn:hover::before {
   transform: translateY(-100%);
 }
-
+ {
+}
 /* about us */
+
+/* --first--banner-- */
 .arin_aboutUs {
   margin-top: 0px !important;
 }
@@ -1436,20 +1439,12 @@ button > span {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   height: 401px;
 }
 .aboutUs_banner_text {
   padding-top: 95px;
 }
 .aboutUs_banner_text p {
-  display: flex;
-  width: 107px;
-  height: 11px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-
   color: #2734a8;
   font-family: Barlow;
   font-size: 24px;
@@ -1460,7 +1455,7 @@ button > span {
   margin-bottom: 27px;
 }
 .aboutUs_banner_text h1 {
-  width: 464px;
+  width: 35%;
   color: #000;
   font-family: Barlow;
   font-size: 36px;
@@ -1469,54 +1464,42 @@ button > span {
   line-height: 46.3px;
 }
 
+/* --second--banner-- */
 .aboutUs_banner_2_backgroundImage {
   background-image: url(./assets/aboutUs/NEET-UG.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
 }
 .aboutUs_banner_2_content {
-  padding-top: 89px;
-  padding-left: 70px;
-  padding-bottom: 53px;
-
   display: flex;
+  justify-content: center;
+  padding-top: 89px;
+  padding-bottom: 53px;
 }
-.aboutUs_banner_2_mainImage {
-  background-image: url(./assets/aboutUs/Untitled.webp);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 548px;
-  height: 380px;
+.aboutUs_banner_2_pcImage_container {
+  width: 49.9%;
+}
+
+.aboutUs_banner_2_pcImage {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 .aboutUs_banner_2_textField {
-  padding-left: 56px;
+  width: 49.9%;
 }
 .aboutUs_banner_2_textField p:first-child {
-  display: flex;
-  width: 555px;
-  height: 36.729px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-
   color: #f7bd01;
   font-family: Barlow;
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 2rem;
 }
 .aboutUs_banner_2_textField p:nth-child(2) {
-  display: flex;
-  width: 610px;
-  height: 138.755px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-
   color: #fff;
   font-family: Barlow;
   font-size: 14px;
@@ -1525,20 +1508,15 @@ button > span {
   line-height: 33.8px;
 }
 .aboutUs_banner_2_textField p:nth-child(3) {
-  display: flex;
-  width: 603px;
-  height: 189px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-
   color: #fff;
   font-family: Barlow;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 33.8px; /* 241.429% */
+  line-height: 33.8px;
 }
+
+/* --facilites--box-- */
 .aboutUs_facilities {
   background: #ededef;
 }
@@ -1550,8 +1528,6 @@ button > span {
   justify-content: center;
 }
 .aboutUs_facilities_textField p:first-child {
-  width: 698px;
-
   color: #000;
   font-family: Barlow;
   font-size: 30px;
@@ -1560,13 +1536,6 @@ button > span {
   line-height: 38.3px;
 }
 .aboutUs_facilities_textField p:nth-child(2) {
-  display: flex;
-  width: 756px;
-  height: 41px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-
   color: #000;
   font-family: Barlow;
   font-size: 14px;
@@ -1582,165 +1551,65 @@ button > span {
 }
 .contentBox_container {
   display: flex;
-  padding-left: 120px;
+  justify-content: center;
   gap: 19px;
 }
 .contentBox {
   display: flex;
-  width: 387px;
-  height: 134px;
-  flex-shrink: 0;
-}
-.contentBox_1 {
+  gap: 15px;
+  width: 32.5%;
+  height: 150px;
   border-radius: 5px;
+  flex-shrink: 0;
+  padding: 18px 9px 32px 13px;
+}
+
+.contentBox_1 {
   border: 1px solid #f7bd01;
   background: #931734;
 }
 .contentBox_2 {
-  border-radius: 5px;
   border: 1px solid #f7bd01;
   background: #4a4baa;
 }
 .contentBox_3 {
-  border-radius: 5px;
   border: 1px solid #f7bd01;
   background: #6f1e51;
 }
 
 .contentBox_4 {
-  border-radius: 5px;
   border: 1px solid #f7bd01;
   background: #2c3e50;
 }
 
 .contentBox_5 {
-  border-radius: 5px;
   border: 1px solid #f7bd01;
   background: #079c7e;
 }
 .contentBox_6 {
-  border-radius: 5px;
   border: 1px solid #f7bd01;
   background: #0786dc;
 }
 .contentBox_7 {
-  border-radius: 5px;
   border: 1px solid #f7bd01;
   background: #006266;
 }
 .contentBox_8 {
-  border-radius: 5px;
   border: 1px solid #f7bd01;
   background: #b33771;
 }
 .contentBox_9 {
-  border-radius: 5px;
   border: 1px solid #f7bd01;
   background: #1717bb;
 }
-.contentBox_1_img {
-  background-image: url(./assets/card1.webp);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
 
-  width: 52px;
-  height: 49.969px;
-  margin-top: 18px;
-  margin-left: 17px;
+.content_box_image {
+  width: 42px;
+  height: 42px;
 }
-.contentBox_2_img {
-  background-image: url(./assets/card3_1.png);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
 
-  width: 52px;
-  height: 51.895px;
-  margin-top: 19px;
-  margin-left: 13px;
-}
-.contentBox_3_img {
-  background-image: url(./assets/card2_1.png);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  width: 52px;
-  height: 34.787px;
-  margin-top: 19px;
-  margin-left: 17px;
-}
-.contentBox_4_img {
-  background-image: url(./assets/card5.webp);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  width: 52px;
-  height: 52px;
-  margin-top: 18px;
-  margin-left: 16px;
-}
-.contentBox_5_img {
-  background-image: url(./assets/card4.webp);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  width: 40px;
-  height: 46px;
-  margin-top: 18px;
-  margin-left: 19px;
-}
-.contentBox_6_img {
-  background-image: url(./assets/card6.webp);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  width: 52px;
-  height: 43.458px;
-  margin-top: 21px;
-  margin-left: 17px;
-}
-.contentBox_7_img {
-  background-image: url(./assets/card1.webp);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  width: 52px;
-  height: 49.458px;
-  margin-top: 18px;
-  margin-left: 16px;
-}
-.contentBox_8_img {
-  background-image: url(./assets/card3_1.png);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  width: 52px;
-  height: 51.895px;
-  margin-top: 19px;
-  margin-left: 13px;
-}
-.contentBox_9_img {
-  background-image: url(./assets/card2_1.png);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  width: 52px;
-  height: 34.787px;
-  margin-top: 19px;
-  margin-left: 17px;
-}
 .contentBox_text p:first-child {
   display: flex;
-  width: 134px;
-  height: 11px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
@@ -1750,15 +1619,10 @@ button > span {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px; /* 142.857% */
-
-  margin-top: 18px;
-  margin-left: 13px;
+  line-height: 20px;
 }
 .contentBox_text p:nth-child(2) {
   display: flex;
-  width: 296px;
-  height: 55px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
@@ -1768,30 +1632,30 @@ button > span {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 114.286% */
-
-  margin-top: 18px;
-  margin-left: 13px;
+  line-height: 16px;
 }
+
+/* --third--banner-- */
 .aboutUs_banner_3 {
   padding-top: 69px;
   padding-bottom: 64px;
 }
+
 .aboutUs_banner_3_backgroundImage {
   background-image: url(./assets/aboutUs/NEET-UG1.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-
   width: 100%;
   height: 498.869px;
 }
+
 .aboutUs_banner_3_text {
   padding-top: 60px;
-  padding-left: 113px;
 }
+
 .aboutUs_banner_3_text p:first-child {
-  width: 497px;
+  width: 32%;
 
   color: #000;
   font-family: Barlow;
@@ -1800,58 +1664,52 @@ button > span {
   font-weight: 500;
   line-height: normal;
 }
+
 .aboutUs_banner_3_text p:nth-child(2) {
-  width: 525px;
+  width: 42%;
 
   color: #666;
   font-family: Barlow;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 33.8px; /* 241.429% */
+  line-height: 33.8px; 
 }
+
 .aboutUs_like {
   background: #ededef;
 }
+
 .aboutUs_like_container {
   padding-top: 77px;
   padding-bottom: 48px;
-  padding-left: 123px;
-  padding-right: 123px;
-
   display: flex;
   gap: 89px;
+}
+
+.like_image_container {
+  display: flex;
+  justify-content: center;
 }
 .like_image {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 70px;
+  width: 50%;
   height: 70px;
   margin-bottom: 41px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
-.like_image_1 {
-  background-image: url(./assets/aboutUs/Frame.webp);
+.obj-f-c {
+  object-fit: contain;
 }
 
-.like_image_2 {
-  background-image: url(./assets/aboutUs/ClipPathGroup.webp);
-}
-
-.like_image_3 {
-  background-image: url(./assets/aboutUs/Clip\ path\ group-2.webp);
-}
-.like_image_4 {
-  background-image: url(./assets/aboutUs/Vector.webp);
-}
-.like_image_5 {
-  background-image: url(./assets/aboutUs/Clip\ path\ group-1.webp);
+.aboutUs_like_contain span {
+  display: flex;
+  justify-content: center;
 }
 .aboutUs_like_contain p {
   display: flex;
-  width: 170px;
+  width: 100%;
   height: 24px;
   flex-direction: column;
   justify-content: center;
@@ -1861,5 +1719,5 @@ button > span {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px; /* 100% */
+  line-height: 20px;
 }
