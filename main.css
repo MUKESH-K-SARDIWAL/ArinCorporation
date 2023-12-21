@@ -1466,7 +1466,7 @@ button>span {
   font-weight: 500;
   line-height: 46.3px;
 }
-
+{}
 /* --second--banner-- */
 .aboutUs_banner_2_backgroundImage {
   background-image: url(./assets/aboutUs/NEET-UG.webp);
@@ -1524,7 +1524,7 @@ button>span {
   font-weight: 400;
   line-height: 33.8px;
 }
-
+{}
 /* --facilites--box-- */
 .aboutUs_facilities {
   background: #ededef;
@@ -1571,7 +1571,7 @@ button>span {
 
 .contentBox {
   display: flex;
-  gap: 15px;
+  gap: 30px;
   width: 32.5%;
   height: 150px;
   border-radius: 5px;
@@ -1656,7 +1656,7 @@ button>span {
   font-weight: 400;
   line-height: 16px;
 }
-
+{}
 /* --third--banner-- */
 .aboutUs_banner_3 {
   padding-top: 69px;
@@ -1676,8 +1676,7 @@ button>span {
   padding-top: 60px;
 }
 
-.aboutUs_banner_3_text p:first-child {
-  width: 32%;
+.aboutUs_banner_3_text p:nth-child(2) {
 
   color: #000;
   font-family: Barlow;
@@ -1687,8 +1686,7 @@ button>span {
   line-height: normal;
 }
 
-.aboutUs_banner_3_text p:nth-child(2) {
-  width: 42%;
+.aboutUs_banner_3_text p:nth-child(3) {
 
   color: #666;
   font-family: Barlow;
@@ -1697,7 +1695,8 @@ button>span {
   font-weight: 400;
   line-height: 33.8px;
 }
-
+{}
+/* --like--banner-- */
 .aboutUs_like {
   background: #ededef;
 }
@@ -1707,6 +1706,7 @@ button>span {
   padding-bottom: 48px;
   display: flex;
   gap: 89px;
+  justify-content: space-around;
 }
 
 .like_image_container {
