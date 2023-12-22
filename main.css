@@ -1791,3 +1791,65 @@ button>span {
   margin-bottom: 17px;
   line-height: 27px !important;
 }
+
+.diamond_pic {
+  width: 300px;
+  height: 270px;
+  position: relative;
+}
+
+.pic1::before {
+  /* content: ; */
+  content: '';
+  background: url(./assets/benzine-sm.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0px;
+  left: -70px;
+  width: 81px;
+  height: 60px;
+}
+
+.pic1::after {
+  /* content: ; */
+  content: '';
+  background: url(./assets/benzine-big.png);
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 20px;
+  z-index: -1;
+  right: -35px;
+  width: 146px;
+  height: 102px;
+}
+
+.ceo_btn {
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin: 15px auto;
+  width: 68%;
+  background: linear-gradient(82deg, #E87B0D 4.26%, #F7BD01 105.53%);
+}
+
+.ceo_btn>h2 {
+  color: #000;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  line-height: normal;
+}
+
+.ceo_btn>p {
+  color: #FFF;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
