@@ -3,31 +3,95 @@
     display: none;
   }
 
-  .footer_first > h4 {
+  .team_arin_text>div>h4 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34.992px;
+    text-align: center;
+  }
+
+  .team_arin_text>div>p {
+    color: #666;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.8px;
+  }
+
+  .bg-founder {
+    background-image: url(./assets/teambg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 230px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .founder-banner-text {
+    padding: 2px 9px;
+    background: rgba(255, 255, 255, 0.45);
+    width: 85%;
+    margin-top: 0px;
+    margin: 20px;
+    align-self: flex-end;
+
+  }
+
+  .founder-banner-text>h4 {
+    color: #29166F;
+    text-align: center;
+    font-family: Barlow;
     font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+  .founder-banner-text>p {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30.3px;
+    margin-bottom: 0px;
+  }
+
+  .footer_first>h4 {
+    font-size: 12px;
   }
 
   .bg-machine {
     position: relative;
   }
 
-  .footer_sec > h4 {
+  .footer_sec>h4 {
     font-size: 20px;
   }
 
-  .footer_links li > span {
+  .footer_links li>span {
     font-size: 14px;
   }
 
-  .footer_third > h4 {
+  .footer_third>h4 {
     font-size: 20px;
   }
 
-  .footer_fourth > h4 {
+  .footer_fourth>h4 {
     font-size: 20px;
   }
 
-  .footer_first > div:first-child {
+  .footer_first>div:first-child {
     width: 126px;
     height: 62px;
   }
@@ -52,7 +116,7 @@
     background-color: #ededef;
   }
 
-  .company_list > div {
+  .company_list>div {
     width: 45%;
   }
 
@@ -60,14 +124,14 @@
     padding: 69px 0px 30px 0px;
   }
 
-  .company_list > div > div {
+  .company_list>div>div {
     /* width: 34px;
         height: 32.061px; */
     width: 25px;
     height: 25.061px;
   }
 
-  .company_list > div > h3 {
+  .company_list>div>h3 {
     white-space: nowrap;
     font-size: 17px;
   }
@@ -81,17 +145,17 @@
     margin-top: 0px;
   }
 
-  .arin_corpo > h4 {
+  .arin_corpo>h4 {
     margin-bottom: 17px;
 
     font-size: 14px;
   }
 
-  .blog_wrapp > h6 {
+  .blog_wrapp>h6 {
     font-size: 24px;
   }
 
-  .arin_brand_wrap > div {
+  .arin_brand_wrap>div {
     border-radius: 10px;
     background: #29166f;
     width: 100%;
@@ -99,7 +163,7 @@
     padding: 12px;
   }
 
-  .arin_corpo > p {
+  .arin_corpo>p {
     margin-bottom: 49px;
     color: black;
     font-size: 18px;
@@ -128,7 +192,7 @@
     font-size: 18px;
   }
 
-  .organizing_list > li > span:nth-child(2) {
+  .organizing_list>li>span:nth-child(2) {
     color: #000;
     font-family: Barlow;
     font-size: 15px;
@@ -183,7 +247,7 @@
     line-height: normal;
   }
 
-  .Activities_wrapper > div {
+  .Activities_wrapper>div {
     border-radius: 10px;
     overflow: hidden;
     width: 100%;
@@ -230,7 +294,7 @@
     display: none;
   }
 
-  .about_section div.card_view > div {
+  .about_section div.card_view>div {
     width: 100%;
   }
 
@@ -243,7 +307,7 @@
     background: white;
   }
 
-  .connect_header > h4 {
+  .connect_header>h4 {
     color: #000;
 
     font-size: 24px;
@@ -251,7 +315,7 @@
     margin-bottom: 16px;
   }
 
-  .connect_header > p {
+  .connect_header>p {
     color: #666;
     text-align: center;
     font-family: Barlow;
@@ -290,7 +354,7 @@
     flex-shrink: 0;
   }
 
-  .journeyCard_wrapper > div {
+  .journeyCard_wrapper>div {
     border-radius: 10px;
     background: #29166f;
     width: 100%;
@@ -303,7 +367,7 @@
     gap: 21px;
   }
 
-  .journey_wrapper > p {
+  .journey_wrapper>p {
     color: #000;
 
     text-align: center;
@@ -318,7 +382,7 @@
     padding-top: 29px;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 49px 0px;
   }
 
@@ -357,9 +421,11 @@
     font-size: 16px;
     text-align: center;
   }
+
   .aboutUs_banner {
     margin: 14px;
   }
+
   /* --first--banner-- */
   .aboutUs_banner_image {
     background-image: url(./assets/aboutUs_responsive/Rectangle_1.webp);
@@ -369,12 +435,14 @@
     display: flex;
     align-items: flex-end;
   }
+
   .aboutUs_banner_text_container {
     display: flex;
     justify-content: center;
     /* align-items: flex-end; */
     margin-bottom: 32px;
   }
+
   .aboutUs_banner_text {
     width: 335px;
     height: 108px;
@@ -407,37 +475,46 @@
   .aboutUs_banner_2_backgroundImage {
     background-image: url(./assets/aboutUs/NEET-UG.webp);
   }
+
   .aboutUs_banner_2_content {
     flex-direction: column;
   }
+
   .aboutUs_banner_2_content {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   .aboutUs_banner_2_pcImage_container {
     width: 100%;
   }
+
   .aboutUs_banner_2_pcImage {
     width: 100%;
     height: inherit;
   }
+
   .aboutUs_banner_2_textField {
     width: 100%;
   }
+
   .aboutUs_banner_2_textField {
     text-align: center;
   }
+
   .aboutUs_banner_2_textField p:first-child {
     font-size: 14px;
     line-height: normal;
     margin-bottom: 1rem;
   }
+
   .aboutUs_banner_2_textField p:nth-child(2) {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 33.8px;
   }
+
   .aboutUs_banner_2_textField p:nth-child(3) {
     color: #fff;
     font-size: 14px;
@@ -449,24 +526,29 @@
   .aboutUs_facilities_textField {
     padding-top: 20px;
   }
+
   .aboutUs_facilities_textField p:first-child {
     font-size: 18px;
     text-align: center;
     font-weight: 300;
     line-height: 20px;
   }
+
   .aboutUs_facilities_textField p:nth-child(2) {
     font-size: 12px;
     text-align: center;
     font-weight: 200;
     line-height: 14px;
   }
+
   .aboutUs_facilities_contentBoxes {
     padding-bottom: 20px;
   }
+
   .contentBox_container {
     flex-direction: column;
   }
+
   .contentBox {
     width: 100%;
   }
@@ -492,6 +574,10 @@
     position: relative;
     padding-bottom: 10px;
   }
+  .aboutUs_banner_3_text p:first-child {
+    width: auto;
+  }
+
   .banner_3_text_back {
     background-color: #fff;
     margin: 50px 10px 20px;
@@ -507,6 +593,7 @@
   .responsive_image {
     margin-top: -102px;
   }
+
 
   .aboutUs_banner_3_text p:nth-child(2) {
     padding-top: 20px;
@@ -529,23 +616,46 @@
     padding-bottom: 30px;
   }
 }
- {
+
+@media screen and (min-width: 400px) {
+  .founder-banner-text {
+    padding: 2px 9px;
+    background: rgba(255, 255, 255, 0.45);
+    width: 75%;
+    /* margin: 0px auto 20px auto; */
+    align-self: flex-end;
+
+  }
+
+  .founder-banner-text>h4 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .founder-banner-text>p {
+    font-size: 24px;
+    line-height: 46.3px;
+  }
+
 }
+
+/* {} */
+
 @media screen and (min-width: 556px) {
   .overlay_card h2 {
     font-size: 25px;
   }
 
-  .company_list > div {
+  .company_list>div {
     width: 47%;
   }
 
-  .company_list > div > div {
+  .company_list>div>div {
     width: 34px;
     height: 32.061px;
   }
 
-  .company_list > div > h3 {
+  .company_list>div>h3 {
     /* white-space: nowrap; */
     font-size: 24px;
   }
@@ -558,11 +668,11 @@
     height: 243px;
   }
 
-  .blog_wrapp > h6 {
+  .blog_wrapp>h6 {
     font-size: 28px;
   }
 
-  .organizing_list > li > span:nth-child(2) {
+  .organizing_list>li>span:nth-child(2) {
     color: #000;
     font-family: Barlow;
     font-size: 16px;
@@ -630,7 +740,7 @@
     display: none;
   }
 
-  .about_section div.card_view > div {
+  .about_section div.card_view>div {
     width: 100%;
   }
 
@@ -643,7 +753,7 @@
     background: white;
   }
 
-  .connect_header > h4 {
+  .connect_header>h4 {
     color: #000;
 
     font-size: 24px;
@@ -651,7 +761,7 @@
     margin-bottom: 16px;
   }
 
-  .connect_header > p {
+  .connect_header>p {
     color: #666;
     text-align: center;
     font-family: Barlow;
@@ -690,7 +800,7 @@
     flex-shrink: 0;
   }
 
-  .journeyCard_wrapper > div {
+  .journeyCard_wrapper>div {
     border-radius: 10px;
     background: #29166f;
     width: 100%;
@@ -703,7 +813,7 @@
     gap: 21px;
   }
 
-  .journey_wrapper > p {
+  .journey_wrapper>p {
     color: #000;
 
     text-align: center;
@@ -718,7 +828,7 @@
     padding-top: 29px;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 49px 0px;
   }
 
@@ -761,11 +871,13 @@
   .aboutUs_banner_text h1 {
     padding: 0px 30px;
   }
+
   /* about us */
   /* --first--banner-- */
   .aboutUs_banner {
     margin: 0px;
   }
+
   .aboutUs_banner_image {
     background-image: url(assets/aboutUs/Rectangle\ 134.webp);
     background-size: cover;
@@ -775,11 +887,13 @@
     height: 250px;
     display: block;
   }
+
   .aboutUs_banner_text_container {
     display: block;
 
     margin-bottom: 32px;
   }
+
   .aboutUs_banner_text {
     width: 45%;
     height: unset;
@@ -812,16 +926,19 @@
   .aboutUs_banner_2_textField p:first-child {
     font-size: 14px;
   }
+
   .aboutUs_banner_2_textField p:nth-child(2) {
     font-size: 14px;
     font-weight: 400;
     line-height: 33.8px;
   }
+
   .aboutUs_banner_2_textField p:nth-child(3) {
     font-size: 14px;
     font-weight: 400;
     line-height: 33.8px;
   }
+
   /* --third--banner-- */
 
   .aboutUs_banner_3 {
@@ -841,6 +958,10 @@
     position: relative;
     padding-bottom: 20px;
   }
+
+  .aboutUs_banner_3_text p:first-child {
+    width: 75%;
+  }
   .banner_3_text_back {
     background-color: #fff;
     margin: 120px 10px 20px;
@@ -855,6 +976,7 @@
   }
   .responsive_image {
     margin-top: -102px;
+
   }
 
   .aboutUs_banner_3_text p:nth-child(2) {
@@ -872,9 +994,57 @@
     line-height: 33.8px;
   }
 }
- {
-}
+
+/* {} */
+
 @media screen and (min-width: 767px) {
+
+  .bg-founder {
+    background-image: url(./assets/bigteambg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .founder-banner-text {
+    padding: 2px 9px;
+    background: transparent;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: center;
+  }
+
+
+
+  .founder-banner-text>h4 {
+    color: #FEC434;
+    font-family: Barlow;
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 17px;
+  }
+
+  .founder-banner-text>p {
+    color: #FFF;
+    width: 50%;
+    text-align: left;
+    font-family: Barlow;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145.8%;
+  }
+
   .bg-banner {
     height: 280px;
     background-size: cover;
@@ -885,11 +1055,11 @@
     gap: 75px;
   }
 
-  .footer_third > h4 {
+  .footer_third>h4 {
     font-size: 23px;
   }
 
-  .footer_first > div:first-child {
+  .footer_first>div:first-child {
     width: 120px;
     height: 119.945px;
   }
@@ -902,19 +1072,19 @@
     display: block;
   }
 
-  .company_list > div {
+  .company_list>div {
     width: inherit;
   }
 
-  .company_list > div > h3 {
+  .company_list>div>h3 {
     font-size: 28px;
   }
 
-  .about_section div.card_view > div {
+  .about_section div.card_view>div {
     width: 50%;
   }
 
-  .organizing_list > li > span:nth-child(2) {
+  .organizing_list>li>span:nth-child(2) {
     color: #000;
     font-family: Barlow;
     font-size: 15px;
@@ -942,7 +1112,7 @@
     margin-bottom: 15px;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 35px 0px;
   }
 
@@ -952,7 +1122,7 @@
     margin-bottom: 16px;
   }
 
-  .connect_header > p {
+  .connect_header>p {
     font-size: 14px;
   }
 
@@ -968,9 +1138,11 @@
     font-weight: 400;
     line-height: 32.8px;
   }
+
   .aboutUs_banner_image {
     background-position: center center;
   }
+
   .boutUs_banner_text {
     padding: 0px 20px;
   }
@@ -986,11 +1158,13 @@
     height: 250px;
     display: block;
   }
+
   .aboutUs_banner_text_container {
     display: block;
 
     margin-bottom: 32px;
   }
+
   .aboutUs_banner_text {
     width: 50%;
     height: unset;
@@ -1024,40 +1198,49 @@
   .aboutUs_banner_2_backgroundImage {
     background-image: url(./assets/aboutUs/NEET-UG.webp);
   }
+
   .aboutUs_banner_2_content {
     flex-direction: row;
   }
+
   .aboutUs_banner_2_content {
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
     gap: 20px;
   }
+
   .aboutUs_banner_2_pcImage_container {
     width: 49.9%;
     display: flex;
     align-items: center;
   }
+
   .aboutUs_banner_2_pcImage {
     width: 100%;
     height: auto;
   }
+
   .aboutUs_banner_2_textField {
     width: 49.9%;
   }
+
   .aboutUs_banner_2_textField {
     text-align: unset;
   }
+
   .aboutUs_banner_2_textField p:first-child {
     font-size: 30px;
     margin-bottom: 1rem;
   }
+
   .aboutUs_banner_2_textField p:nth-child(2) {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
   }
+
   .aboutUs_banner_2_textField p:nth-child(3) {
     color: #fff;
     font-size: 14px;
@@ -1069,29 +1252,35 @@
   .aboutUs_facilities_textField {
     padding-top: 64px;
   }
+
   .aboutUs_facilities_textField p:first-child {
     font-size: 24px;
     text-align: center;
     font-weight: 400;
     line-height: 20px;
   }
+
   .aboutUs_facilities_textField p:nth-child(2) {
     font-size: 12px;
     text-align: center;
     font-weight: 300;
     line-height: 20px;
   }
+
   .aboutUs_facilities_contentBoxes {
     padding-bottom: 73px;
   }
+
   .contentBox_container {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .contentBox {
     gap: 25px;
     width: 48%;
   }
+
 
   /* --third--banner-- */
   .aboutUs_banner_3 {
@@ -1155,8 +1344,7 @@
   padding-bottom: 48px;
 
 }
- {
-}
+
 
 @media screen and (min-width: 992px) {
   #arin_header_btn {
@@ -1165,11 +1353,9 @@
 
   .bg-machine {
     position: relative;
-    background: linear-gradient(
-        0deg,
+    background: linear-gradient(0deg,
         rgba(41, 22, 111, 0.84),
-        rgba(41, 22, 111, 0.84)
-      ),
+        rgba(41, 22, 111, 0.84)),
       url(assets/machine.webp);
     background-size: cover;
     /* background-blend-mode: overlay; */
@@ -1179,23 +1365,23 @@
     background-position: center;
   }
 
-  .footer_sec > h4 {
+  .footer_sec>h4 {
     font-size: 24px;
   }
 
-  .footer_links li > span {
+  .footer_links li>span {
     font-size: 16px;
   }
 
-  .footer_third > h4 {
+  .footer_third>h4 {
     font-size: 24px;
   }
 
-  .footer_fourth > h4 {
+  .footer_fourth>h4 {
     font-size: 24px;
   }
 
-  .company_list > div > h3 {
+  .company_list>div>h3 {
     font-size: 32px;
   }
 
@@ -1208,7 +1394,7 @@
     background-color: #fff;
   }
 
-  .company_list > div > div {
+  .company_list>div>div {
     width: 40.641px;
     height: 35.925px;
   }
@@ -1221,11 +1407,11 @@
     padding: 69px 0px 121px 0px;
   }
 
-  .blog_wrapp > h6 {
+  .blog_wrapp>h6 {
     font-size: 32px;
   }
 
-  .arin_corpo > p {
+  .arin_corpo>p {
     color: #fff;
     margin-bottom: 49px;
     text-align: center;
@@ -1323,18 +1509,18 @@
     background-color: white;
   }
 
-  .Activities_wrapper > div {
+  .Activities_wrapper>div {
     border-radius: 10px;
     overflow: hidden;
     width: 33%;
   }
 
-  .connect_header > h4 {
+  .connect_header>h4 {
     font-size: 36px;
     margin-bottom: 16px;
   }
 
-  .connect_header > p {
+  .connect_header>p {
     color: #666;
     text-align: center;
     width: 75%;
@@ -1351,7 +1537,7 @@
     padding-bottom: 210px;
   }
 
-  .activities_card + div {
+  .activities_card+div {
     padding: 19px 0px;
     /* border-radius: 10px; */
   }
@@ -1404,7 +1590,7 @@
     height: 331px;
   }
 
-  .journeyCard_wrapper > div {
+  .journeyCard_wrapper>div {
     border-radius: 10px;
     background: #29166f;
     width: 23%;
@@ -1438,7 +1624,7 @@
     margin-bottom: 15px;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 65px 0px;
   }
 
@@ -1461,6 +1647,7 @@
     background-size: cover;
     height: 330px;
   }
+
   .aboutUs_banner_text p {
     text-align: left;
   }
@@ -1471,19 +1658,23 @@
     font-weight: 500;
     padding: 0px 0px;
   }
+
   .aboutUs_banner_text {
     padding-top: 95px;
     width: 100%;
   }
+
   /* --second--banner-- */
 
   .aboutUs_banner_2_content {
     padding-top: 89px;
     padding-bottom: 53px;
   }
+
   .aboutUs_banner_2_pcImage {
     width: 90%;
   }
+
   .aboutUs_banner_2_textField p:first-child {
     margin-bottom: 2rem;
   }
@@ -1491,6 +1682,7 @@
   .aboutUs_banner_2_textField p:nth-child(2) {
     line-height: 33.8px;
   }
+
   .aboutUs_banner_2_textField p:nth-child(3) {
     line-height: 33.8px;
   }
@@ -1503,6 +1695,7 @@
     line-height: 38.3px;
     margin-bottom: 0.5rem;
   }
+
   .aboutUs_facilities_textField p:nth-child(2) {
     font-size: 14px;
     font-weight: 400;
@@ -1518,8 +1711,9 @@
     height: 500px;
   }
 }
- {
-}
+
+  {}
+
 @media screen and (min-width: 1100px) {
   .bg-banner {
     height: 360px;
@@ -1529,7 +1723,7 @@
     gap: 50px;
   }
 
-  .blog_wrapp > h6 {
+  .blog_wrapp>h6 {
     font-size: 36px;
   }
 
@@ -1573,7 +1767,7 @@
     line-height: 10px;
   }
 
-  .activities_card + div {
+  .activities_card+div {
     padding: 19px 0px;
     /* border-radius: 10px; */
   }
@@ -1587,7 +1781,7 @@
     margin-bottom: 17px;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 70px 0px;
   }
 
@@ -1737,11 +1931,11 @@
     gap: 20px;
   }
 
-  .card_view > div {
+  .card_view>div {
     gap: 20px;
   }
 
-  .about_section div.card_view > div {
+  .about_section div.card_view>div {
     width: 50%;
     border-radius: 5px;
     border: 1px solid #d9d9d9;
@@ -1781,22 +1975,25 @@
     font-size: 12px;
     line-height: 16px;
   }
+
   /* --facilities--box-- */
   .contentBox {
     width: 31.8%;
   }
+
   .aboutUs_banner_text {
     width: 100%;
   }
 }
- {
-}
+
+  {}
+
 @media screen and (min-width: 1200px) {
   .bg-banner {
     height: 400px;
   }
 
-  .arin_corpo > p {
+  .arin_corpo>p {
     margin-bottom: 49px;
 
     font-size: 36px;
@@ -1804,7 +2001,7 @@
     line-height: 147.6%;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 80px 0px;
   }
 
@@ -1899,7 +2096,7 @@
     padding-bottom: 210px;
   }
 
-  .activities_card + div {
+  .activities_card+div {
     padding: 26px 0px;
     /* border-radius: 10px; */
   }
