@@ -80,6 +80,9 @@ img {
   -moz-box-shadow: 0 8px 6px -6px #00000045;
   box-shadow: 0 8px 6px -6px #00000045;
   width: 100%;
+  top: 0px;
+  position: sticky;
+  z-index: 999;
 }
 
 .Arin_logo {
