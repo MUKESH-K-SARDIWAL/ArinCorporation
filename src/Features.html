@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bc862f33b5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../resp.css">
+
+</head>
+
+<body>
+
+    <!-- Header  -->
+    <nav class="navbar navbar-expand-lg  arin_header ">
+        <div class="container-lg container-fluid">
+            <div class="d-flex justify-content-between  justify-content-lg-center align-items-center w-100 py-2">
+                <div class="w-25">
+                    <div class="Arin_logo">
+                        <img src="../assets/site-logo.webp" alt="Arin_logo" width="" height="" id="logoArin">
+                    </div>
+                </div>
+                <div class="flex-grow-1 header_nav" id="arin_header_nav">
+                    <ul class="d-flex flex-row align-items-center justify-content-start w-50 header_list">
+                        <li>
+                            <a href="./Home.html" class="flex gap-1">
+                                <span>Home</span>
+                                <!-- <span><i class="fa-solid fa-angle-down"></i></span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./AboutUs.html" class="flex gap-1">
+                                <span>About Us</span>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Features.html" class="flex gap-1">
+                                <span>Features</span>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="flex gap-1">
+                                <span>Media</span>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-25  justify-content-end sign" id="arin_header_btn">
+                    <button>
+                        <span class="text-white">Sign In</span>
+                    </button>
+                </div>
+                <div class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                    aria-controls="offcanvasWithBothOptions" id="arin_offcanva"
+                    class="border-transparent bg-transparent">
+                    <span><i class="fa-solid fa-bars " style="color: #29166F;font-size: 20px;"></i></span>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Side--Menu -->
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header arin_header">
+            <div class="w-50">
+                <div class="Arin_logo">
+                    <img src="../assets/site-logo.webp" alt="Arin_logo" width="" height="" id="logoArin">
+                </div> 
+            </div>
+            <div class="w-25  justify-content-end d-flex">
+                <button type="button" class="p-0 bg-transparent text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close">
+                    <div class="w-goback">
+                        <img src="../assets/goback.png" alt="">
+                    </div>
+                </button>
+            </div>
+
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes control
+                            the
+                            overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                            this
+                            with
+                            custom CSS or overriding our default variables. It's also worth noting that just about any
+                            HTML
+                            can go
+                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the
+                            collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes control
+                            the
+                            overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                            this
+                            with
+                            custom CSS or overriding our default variables. It's also worth noting that just about any
+                            HTML
+                            can go
+                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes control
+                            the
+                            overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                            this
+                            with
+                            custom CSS or overriding our default variables. It's also worth noting that just about any
+                            HTML
+                            can go
+                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --main-banner-- -->
+    <div class="features__main w-100">
+        <div class="features_banner w-100">
+            <div class="bg__founder">
+                <div class="features-banner-text rounded container-lg mx-auto ">
+                    <h4>Who We Are</h4>
+                    <p>The standard chunk of Lorem Ipsum used since</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- --items-- -->
+    <div class="features__items  d-flex container-lg ">
+        <div class="accordion_main w-30">
+            <label class="filter__lable" for="">FILTER BY:</label>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Brand
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <form action="">
+                                <input type="checkbox">
+                                <label for="">Traditional</label><br>
+                                <input type="checkbox">
+                                <label for="">Office</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Price
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <form action="">
+                                <input type="checkbox">
+                                <label for="">Rs.299</label><br>
+                                <input type="checkbox">
+                                <label for="">Rs.400</label><br>
+                                <input type="checkbox">
+                                <label for="">Rs.500</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Discount Range
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <form action="">
+                                <input type="checkbox">
+                                <label for="">Traditional</label><br>
+                                <input type="checkbox">
+                                <label for="">Office</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Discount Range
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <form action="">
+                                <input type="checkbox">
+                                <label for="">Traditional</label><br>
+                                <input type="checkbox">
+                                <label for="">Office</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="features__key-chain w-70">
+            <div class="select__list">
+                <div class=" select__list_items d-flex justify-content-between ">
+                    <div class="select__list_sort select_items d-flex align-items-center">
+                        <label for="sort">SORT BY :</label>
+                        <select name="sort" id="sort">
+                            <option value="Default sorting">Default sorting</option>
+                        </select>
+                    </div>
+                    <div class="select__list_show select_items d-flex align-items-center">
+                        <label for="show">SHOW :</label>
+                        <select name="show" id="show" class="w-80">
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="key_chain_text">
+                <h3>Key Chains</h3>
+                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                    Sections 1.10.32 and
+                    1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original
+                    form, accompanied by
+                    English versions .</p>
+                <div class="key_chain_banners d-flex flex-wrap gap-3">
+                    <div class="key_chain_banner">
+                        <img src="../assets/f-Rectangle 182.png" alt="">
+                        <div class="key_chain_banner_priceBox">
+                            <p>Key Chain</p>
+                            <p>₹2850.00</p>
+                        </div>
+                    </div>
+                    <div class="key_chain_banner">
+                        <img src="../assets/f-Rectangle 183.png" alt="">
+                        <div class="key_chain_banner_priceBox">
+                            <p>Key Chain</p>
+                            <p>₹2850.00</p>
+                        </div>
+                    </div>
+                    <div class="key_chain_banner">
+                        <img src="../assets/f-Rectangle 184.png" alt="">
+                        <div class="key_chain_banner_priceBox">
+                            <p>Key Chain</p>
+                            <p>₹2850.00</p>
+                        </div>
+                    </div>
+                    <div class="key_chain_banner">
+                        <img src="../assets/f-Rectangle 185.png" alt="">
+                        <div class="key_chain_banner_priceBox">
+                            <p>Key Chain</p>
+                            <p>₹2850.00</p>
+                        </div>
+                    </div>
+                    <div class="key_chain_banner">
+                        <img src="../assets/f-Rectangle 194.png" alt="">
+                        <div class="key_chain_banner_priceBox">
+                            <p>Key Chain</p>
+                            <p>₹2850.00</p>
+                        </div>
+                    </div>
+                    <div class="key_chain_banner">
+                        <img src="../assets/f-Rectangle 195.png" alt="">
+                        <div class="key_chain_banner_priceBox">
+                            <p>Key Chain</p>
+                            <p>₹2850.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- --footer-- -->
+   <div class="w-100">
+        <div class="arin_footer bg-footer">
+            <div class="container">
+                <div
+                    class="d-flex flex-row justify-content-lg-between justify-content-center align-items-start flex-wrap flex-lg-nowrap gap-75">
+                    <div
+                        class="footer_first order-2 order-lg-0 col-xl-3 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
+                        <div>
+                            <img src="../assets/favicon.webp" alt="" id="footerlogo1">
+                            <img src="../assets/site-logo.webp" alt="" id="footerlogo2">
+                        </div>
+                        <h4>Email: support@arin.bz/support@arin.business</h4>
+                    </div>
+                    <div
+                        class="footer_sec order-0  order-lg-1 col-xl-2 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
+                        <h4>Links</h4>
+                        <ul class="footer_links">
+                            <li>
+                                <span>About Us</span>
+                            </li>
+                            <li>
+                                <span>Our Story</span>
+                            </li>
+                            <li>
+                                <span>Testimonial</span>
+                            </li>
+                            <li>
+                                <span>Privacy Policy</span>
+                            </li>
+                            <li>
+                                <span>Terms of Use</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="footer_third order-1 order-lg-2 col-xl-2  col-sm-5 col-4 col-lg-2   d-flex flex-column justify-content-start align-items-start">
+                        <h4>Features</h4>
+                        <ul class="footer_links">
+                            <li>
+                                <span>Digital Marketing</span>
+                            </li>
+                            <li>
+                                <span>Content Marketing</span>
+                            </li>
+                            <li>
+                                <span>Lead Generation</span>
+                            </li>
+                            <li>
+                                <span>E-Commerce</span>
+                            </li>
+                            <li>
+                                <span>Influencer Marketing</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="footer_fourth order-3 order-lg-3 col-xl-3 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
+                        <h4>Follow Us on</h4>
+                        <div class="d-flex flex-row align-items-center justify-content-center">
+                            <span class="font_social"><i class="text-white fa-brands fa-square-twitter"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-linkedin"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-square-facebook"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-instagram"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-square-youtube"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="footer_btn d-flex flex-row align-items-center justify-content-lg-between justify-content-center gap-2 flex-wrap flex-lg-nowrap">
+                    <p>Copyright © 2023 ARIN Corporation</p>
+                    <div class="d-flex flex-row align-items-center justify-content-center gap-10">
+                        <p>Privacy Policy</p>
+                        <div style="height: 16px; width: 1px; background-color: white;"></div>
+                        <p>Terms &amp; Conditions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
