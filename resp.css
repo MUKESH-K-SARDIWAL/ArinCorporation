@@ -211,10 +211,11 @@
 
   .bg-greylight {
     background-color: #ededef;
-    ;
+
   }
 
   .team_arin_text>div>h4 {
+
     color: #000;
     font-size: 24px;
     font-style: normal;
@@ -887,6 +888,47 @@
     width: 100%;
     height: auto;
   }
+  /* --blog--page-- */
+  .blog_main_container {
+    flex-direction: column-reverse;
+  }
+  .side_banner {
+    position: static;
+    width: 100%;
+  }
+  .recent_post_heading {
+    padding-bottom: unset;
+  }
+  .recent_post_heading h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .recent_post_text p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 0px 5px;
+  }
+  .blog_container {
+    width: 100%;
+  }
+  .blog {
+    padding: 10px;
+  }
+  .blog_hadding h1 {
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .blog_background {
+    background-size: 100% 100%;
+    height: 140px;
+  }
+  .blog_text p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .blog_button button {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 400px) {
@@ -979,11 +1021,15 @@
     line-height: 46.3px;
   }
 
-  /* --Features-- */
-  /* --items-- */
+  /* --blog--page-- */
+  .side_banner {
+    text-align: center;
+    flex-direction: row !important;
+  }
+  .recent_posts {
+    width: 49%;
+  }
 }
-
-
 
 @media screen and (min-width: 556px) {
   .overlay_card h2 {
@@ -1466,7 +1512,6 @@
   .features-banner-text>h4 {
     text-align: left;
     font-size: 24px;
-
   }
 
   .features-banner-text>p {
@@ -1482,8 +1527,11 @@
     line-height: 28px;
   }
 
-}
+  .blog_background {
+    height: 180px;
+  }
 
+}
 
 @media screen and (min-width: 767px) {
   .bg-founder {
@@ -1956,6 +2004,52 @@
   .key_chain_banner {
     width: 48.2%;
   }
+  /* --blog--page-- */
+  .blog_main_container {
+    flex-direction: row;
+  }
+  .side_banner {
+    width: 30%;
+    position: sticky;
+    text-align: left;
+    flex-direction: column!important;
+  }
+  .recent_posts{
+    width: 100%;
+  }
+  .blog_background {
+    height: 220px;
+    background-size: contain;
+  }
+  .recent_post_heading {
+    padding-bottom: 10px;
+  }
+  .recent_post_heading h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .recent_post_text p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0px 10px;
+  }
+  .blog_container {
+    width: 70%;
+  }
+  .blog {
+    padding: 25px;
+  }
+  .blog_hadding h1 {
+    font-size: 24px;
+    line-height: 133.8%;
+  }
+  .blog_text p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .blog_button button {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -2093,6 +2187,7 @@
     height: 0px;
   }
 
+
   .btn_section {
     width: 30%;
   }
@@ -2108,7 +2203,7 @@
 
   .bg-greylight {
     background-color: #fff;
-    ;
+
   }
 
   .bg-machine {
@@ -2154,7 +2249,9 @@
     background-color: #fff;
   }
 
+
   .bg- .company_list>div>div {
+
     width: 40.641px;
     height: 35.925px;
   }
@@ -2490,8 +2587,23 @@
   .bg__founder {
     height: 380px;
   }
+  /* --blog--page-- */
+  .blog_background {
+    height: 240px;
+  }
+  .blog_container {
+    width: 75%;
+  }
+  .side_banner {
+    width: 25%;
+  }
+  .blog_text p {
+    line-height: 33.8px;
+  }
+  .blog_hadding h1 {
+    font-size: 30px;
+  }
 }
-
 
 @media screen and (min-width: 1100px) {
   .bg-banner {
@@ -2775,14 +2887,17 @@
   .key_chain_banner {
     width: 31.2%;
   }
+  /* --blog--page-- */
+  .blog_background {
+    height: 280px;
+  }
 }
-
-
 
 @media screen and (min-width: 1200px) {
   .bg-banner {
     height: 400px;
   }
+
 
   .experien_text {
     font-size: 30px;
@@ -2860,6 +2975,7 @@
 
   }
 
+
   .btn_section {
     width: 23%;
   }
@@ -2874,6 +2990,7 @@
   }
 
   .arin_corpo>p {
+
     margin-bottom: 49px;
 
     font-size: 36px;
@@ -2947,7 +3064,6 @@
   .key_chain_banner {
     width: 32%;
   }
-
 }
 
 @media screen and (min-width: 1400px) {
