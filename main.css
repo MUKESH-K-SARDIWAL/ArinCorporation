@@ -249,7 +249,7 @@ img {
   width: 100%;
 }
 
-.arin_banner > div > div > div {
+.arin_banner>div>div>div {
   padding: 100px 0px;
 }
 
@@ -358,11 +358,9 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    0deg,
-    #29166f 0.2%,
-    rgba(217, 217, 217, 0) 99.75%
-  );
+  background: linear-gradient(0deg,
+      #29166f 0.2%,
+      rgba(217, 217, 217, 0) 99.75%);
   z-index: 1;
 }
 
@@ -477,11 +475,11 @@ img {
   gap: 20px;
 }
 
-.card_view > div {
+.card_view>div {
   gap: 20px;
 }
 
-.about_section div.card_view > div {
+.about_section div.card_view>div {
   /* width: 50%; */
   border-radius: 5px;
   border: 1px solid #d9d9d9;
@@ -635,7 +633,7 @@ img {
   padding-top: 64px;
 }
 
-.journey_wrapper > h2 {
+.journey_wrapper>h2 {
   color: #2734a8;
   font-size: 16px;
   font-style: normal;
@@ -645,7 +643,7 @@ img {
   text-align: center;
 }
 
-.journey_wrapper > p {
+.journey_wrapper>p {
   color: #000;
   text-align: center;
   font-size: 36px;
@@ -683,7 +681,7 @@ img {
 
 } */
 
-.hexagon + h4 {
+.hexagon+h4 {
   color: #fff;
   font-size: 16px;
   font-style: normal;
@@ -692,7 +690,7 @@ img {
   margin-bottom: 0px;
 }
 
-.client_card > p {
+.client_card>p {
   color: #fff;
   /* text-align: center; */
 
@@ -717,7 +715,7 @@ img {
   padding-bottom: 210px;
 }
 
-.connect_header > h3 {
+.connect_header>h3 {
   color: #2734a8;
   font-family: Barlow;
   font-size: 16px;
@@ -728,7 +726,7 @@ img {
   text-align: center;
 }
 
-.connect_header > h4 {
+.connect_header>h4 {
   color: #000;
 
   text-align: center;
@@ -740,7 +738,7 @@ img {
   margin-bottom: 16px;
 }
 
-.connect_header > p {
+.connect_header>p {
   color: #666;
   text-align: center;
   width: 75%;
@@ -765,7 +763,7 @@ img {
   gap: 18px;
 }
 
-.activities_card + div {
+.activities_card+div {
   padding: 26px 0px;
   /* border-radius: 10px; */
 }
@@ -884,7 +882,7 @@ img {
   gap: 14px;
 }
 
-.organizing_list > li > span:nth-child(2) {
+.organizing_list>li>span:nth-child(2) {
   color: #000;
   font-family: Barlow;
   font-size: 20px;
@@ -893,12 +891,12 @@ img {
   line-height: 28.8px;
 }
 
-.organizing_list > li > span:first-child i {
+.organizing_list>li>span:first-child i {
   font-size: 24px;
   color: #29166f;
 }
 
-button > span {
+button>span {
   font-size: 16px !important;
   font-weight: 500px !important;
   white-space: nowrap !important;
@@ -944,7 +942,7 @@ button > span {
   /* overflow: hidden; */
 }
 
-.arin_corpo > h4 {
+.arin_corpo>h4 {
   color: #f6b701;
   text-align: center;
   margin-top: 45px;
@@ -956,7 +954,7 @@ button > span {
   line-height: normal;
 }
 
-.arin_corpo > p {
+.arin_corpo>p {
   color: #fff;
   margin-bottom: 49px;
   text-align: center;
@@ -984,7 +982,7 @@ button > span {
   margin-top: 20px;
 }
 
-.video_list_card > span {
+.video_list_card>span {
   position: absolute;
   font-size: 48px;
   color: #c7c7c7;
@@ -1022,7 +1020,7 @@ button > span {
   top: 36%;
 }
 
-.play_btn > i {
+.play_btn>i {
   font-size: 60px;
   color: white;
 }
@@ -1074,7 +1072,7 @@ button > span {
   margin-top: 63px;
 }
 
-.arin_brand_wrap > div {
+.arin_brand_wrap>div {
   border-radius: 10px;
   background: #55458e;
   width: 20%;
@@ -1090,7 +1088,7 @@ button > span {
   width: 100%;
 }
 
-.blog_wrapp > h3 {
+.blog_wrapp>h3 {
   text-align: center;
   color: #2734a8;
   font-family: Barlow;
@@ -1102,7 +1100,7 @@ button > span {
   margin-bottom: 14px;
 }
 
-.blog_wrapp > h6 {
+.blog_wrapp>h6 {
   color: #000;
   text-align: center;
   font-family: Barlow;
@@ -1116,7 +1114,7 @@ button > span {
   margin-top: 40px;
 }
 
-.blog_card_Sec > div {
+.blog_card_Sec>div {
   overflow: hidden;
   border-radius: 10px;
 }
@@ -1134,7 +1132,7 @@ button > span {
   padding: 23px 21px;
 }
 
-.blog_text > h1 {
+.blog_text>h1 {
   color: #000;
   text-align: center;
   font-family: Barlow;
@@ -1144,7 +1142,7 @@ button > span {
   line-height: normal;
 }
 
-.blog_text > p {
+.blog_text>p {
   color: #000;
 
   font-family: Barlow;
@@ -1170,8 +1168,8 @@ button > span {
   overflow: hidden;
   color: #fff;
   z-index: 1;
-  margin-top: 56px;
-  margin-bottom: 74px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .blog_explore_btn::before {
@@ -1228,7 +1226,7 @@ button > span {
 }
 
 .blog_explore_btn,
-.blog_Message_btn > span {
+.blog_Message_btn>span {
   color: #fff;
   white-space: nowrap;
   font-family: Barlow;
@@ -1244,7 +1242,7 @@ button > span {
   padding: 40px 0px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 79px;
+  /* margin-bottom: 79px; */
   justify-content: space-between;
   align-items: center;
 }
@@ -1257,7 +1255,7 @@ button > span {
   align-items: center;
 }
 
-.company_list > div {
+.company_list>div {
   display: flex;
   flex-direction: row;
   gap: 12.34px;
@@ -1265,12 +1263,12 @@ button > span {
   justify-content: flex-start;
 }
 
-.company_list > div > div {
+.company_list>div>div {
   /* width: 47.641px;
     height: 44.925px; */
 }
 
-.company_list > div > h3 {
+.company_list>div>h3 {
   color: #fff;
   text-align: center;
   font-family: Barlow;
@@ -1295,12 +1293,12 @@ button > span {
   gap: 33.06px;
 }
 
-.footer_first > div:first-child {
+.footer_first>div:first-child {
   width: 120px;
   height: 119.945px;
 }
 
-.footer_first > h4 {
+.footer_first>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 16px;
@@ -1325,7 +1323,7 @@ button > span {
   gap: 16px;
 }
 
-.footer_sec > h4 {
+.footer_sec>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 24px;
@@ -1335,7 +1333,7 @@ button > span {
   line-height: normal;
 }
 
-.footer_third > h4 {
+.footer_third>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 24px;
@@ -1346,7 +1344,7 @@ button > span {
   line-height: normal;
 }
 
-.footer_links li > span {
+.footer_links li>span {
   color: #fff;
   white-space: nowrap;
   font-family: Barlow;
@@ -1360,7 +1358,7 @@ button > span {
   gap: 75px;
 }
 
-.footer_fourth > h4 {
+.footer_fourth>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 24px;
@@ -1370,11 +1368,11 @@ button > span {
   line-height: normal;
 }
 
-.footer_fourth > div {
+.footer_fourth>div {
   gap: 8px;
 }
 
-.font_social > i {
+.font_social>i {
   font-size: 20px;
 }
 
@@ -1430,8 +1428,7 @@ button > span {
   transform: translateY(-100%);
 }
 
- {
-}
+
 
 /* about us */
 
@@ -1472,8 +1469,7 @@ button > span {
   font-weight: 500;
   line-height: 46.3px;
 }
- {
-}
+
 /* --second--banner-- */
 .aboutUs_banner_2_backgroundImage {
   background-image: url(./assets/aboutUs/NEET-UG.webp);
@@ -1531,8 +1527,7 @@ button > span {
   font-weight: 400;
   line-height: 33.8px;
 }
- {
-}
+
 /* --facilites--box-- */
 .aboutUs_facilities {
   background: #ededef;
@@ -1664,8 +1659,7 @@ button > span {
   font-weight: 400;
   line-height: 16px;
 }
- {
-}
+
 /* --third--banner-- */
 .aboutUs_banner_3 {
   padding-top: 69px;
@@ -1702,8 +1696,7 @@ button > span {
   font-weight: 400;
   line-height: 33.8px;
 }
- {
-}
+
 /* --like--banner-- */
 .aboutUs_like {
   background: #ededef;
@@ -1760,7 +1753,7 @@ button > span {
   width: 100%;
 }
 
-.arin_policy > div > div h3 {
+.arin_policy>div>div h3 {
   color: #000;
   font-size: 30px;
   font-style: normal;
@@ -1769,7 +1762,7 @@ button > span {
   margin-bottom: 20px;
 }
 
-.arin_policy > div > div p {
+.arin_policy>div>div p {
   color: #666;
   font-size: 14px;
   font-style: normal;
@@ -1795,7 +1788,7 @@ button > span {
   min-width: 20px;
 }
 
-.list_image + p {
+.list_image+p {
   margin-bottom: 17px;
   line-height: 27px !important;
 }
@@ -1839,7 +1832,7 @@ button > span {
   background: linear-gradient(82deg, #e87b0d 4.26%, #f7bd01 105.53%);
 }
 
-.ceo_btn > h2 {
+.ceo_btn>h2 {
   color: #000;
   margin-bottom: 5px;
   margin-top: 0px;
@@ -1851,7 +1844,7 @@ button > span {
   line-height: normal;
 }
 
-.ceo_btn > p {
+.ceo_btn>p {
   color: #fff;
   margin-bottom: 0;
   text-align: center;
@@ -1862,8 +1855,7 @@ button > span {
   line-height: normal;
 }
 
- {
-}
+
 /* --Features-- */
 .bg__founder {
   background-image: url(./assets/features-1.webp);
@@ -1876,7 +1868,7 @@ button > span {
   align-items: center;
 }
 
-.features-banner-text > h4 {
+.features-banner-text>h4 {
   color: #fec434;
 
   font-family: Barlow;
@@ -1885,7 +1877,8 @@ button > span {
   font-weight: 500;
   line-height: 20px;
 }
-.features-banner-text > p {
+
+.features-banner-text>p {
   color: #fff;
   width: 40%;
   font-family: Barlow;
@@ -1899,10 +1892,12 @@ button > span {
   margin-top: -14px;
   margin-bottom: 40px;
 }
+
 .select__list_filter {
   display: flex;
   align-items: center;
 }
+
 .select_items {
   gap: 34px;
 }
@@ -1916,6 +1911,7 @@ button > span {
   line-height: normal;
   text-wrap: nowrap;
 }
+
 .select__list select {
   width: 220px;
   height: 51px;
@@ -1925,20 +1921,24 @@ button > span {
 
   background: #fff;
 }
-.select__list_show > select {
+
+.select__list_show>select {
   width: 80px;
 }
+
 .features__items {
   margin-top: 50px;
   margin-bottom: 100px;
   gap: 20px;
 }
+
 .accordion_main {
   position: sticky;
   top: 100px;
   height: fit-content;
   margin-bottom: 20px;
 }
+
 .filter__lable {
   color: #000;
   font-family: Barlow;
@@ -1948,6 +1948,7 @@ button > span {
   line-height: normal;
   margin-bottom: 56px;
 }
+
 .accordion-button {
   color: #000;
   width: 260px;
@@ -1958,26 +1959,32 @@ button > span {
   line-height: normal;
   padding: 13px 5px !important;
 }
+
 .accordion-button::after {
   background-size: 24px;
 }
+
 .accordion-button:not(.collapsed) {
   background: linear-gradient(77deg, #e87b0d 0%, #f7bd01 100%);
   border: none;
   border-width: -1px;
 }
+
 .accordion-button:focus {
   box-shadow: none;
   border: none;
 }
+
 .accordion-body {
   background: linear-gradient(77deg, #e87b0d 0%, #f7bd01 100%);
   margin-top: -1px;
   width: 260px;
 }
+
 .key_chain_text {
   margin-bottom: 30px;
 }
+
 .key_chain_text h3 {
   color: #000;
   font-family: Barlow;
@@ -1986,6 +1993,7 @@ button > span {
   font-weight: 600;
   line-height: normal;
 }
+
 .key_chain_text p {
   color: #666;
   font-family: Barlow;
@@ -1994,16 +2002,19 @@ button > span {
   font-weight: 400;
   line-height: 28px;
 }
+
 .key_chain_banner {
   width: 32.2%;
   height: auto;
 }
+
 .key_chain_banner_priceBox {
   background-color: rgba(0, 0, 0, 0.5);
   height: 50px;
   margin-top: -50px;
   position: relative;
 }
+
 .key_chain_banner_priceBox p:first-child {
   color: #fff;
   font-size: 16px;
@@ -2014,6 +2025,7 @@ button > span {
   margin-bottom: 5px;
   margin-left: 15px;
 }
+
 .key_chain_banner_priceBox p:nth-child(2) {
   color: #fff;
   font-size: 17px;
@@ -2023,3 +2035,113 @@ button > span {
   margin-left: 15px;
 }
 
+.hrefstyle {
+  text-decoration: none;
+}
+
+.heading_photo {
+  Width: 36.06px;
+  Height: 41.64px;
+}
+
+.heading_text {
+  color: #2734A8;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
+
+.testimonial_arin {
+  width: 100%;
+  background: #EDEDEF;
+}
+
+.video_thumbnail {
+  height: 245px;
+  width: 49%;
+}
+
+.video_icon {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.video_icon>i {
+  font-size: 37px;
+}
+
+.BankingSectors {
+  border-radius: 6px;
+  background: linear-gradient(89deg, #E87B0D 0%, #F7BD01 100%);
+  height: 46px;
+  width: inherit;
+  display: flex;
+  border: 1px solid #E87B0D;
+  justify-content: center;
+  align-items: center;
+}
+
+.BankingSectors>span {
+  color: #FFF;
+
+  font-family: Barlow;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.BankingSectors2 {
+  border-radius: 6px;
+  border: 1px solid #E87B0D;
+  height: 46px;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_section {
+  width: 23%;
+}
+
+.img_thumbnail_sec {
+  width: 77%;
+}
+
+.pagination_blue {
+  width: max-content;
+  border-radius: 6px;
+  height: 40px;
+  min-width: 60px;
+  /* padding: 14px 20px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: #29166F 1px solid;
+}
+
+.bg-darkblue {
+  background-color: #29166F;
+}
+
+.gap-9 {
+  gap: 10px;
+}
+
+.pag_text {
+  color: #FFF;
+
+  font-family: Barlow;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px
+}
+.text_darkblue{
+  color: #29166F;
+}

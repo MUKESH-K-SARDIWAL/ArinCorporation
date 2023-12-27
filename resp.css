@@ -2,7 +2,22 @@
   #arin_header_btn {
     display: none;
   }
+    .btn_section {
+      width: 100%;
+    }
+  
+    .img_thumbnail_sec {
+      width: 100%;
+    }
+        .video_thumbnail {
+          height: 245px;
+          width: 100%;
+        }
 
+  .bg-greylight{
+    background-color: #ededef;;
+  }
+  
   .team_arin_text > div > h4 {
     color: #000;
     font-size: 24px;
@@ -112,7 +127,7 @@
   }
 
   .cusotm-grey {
-    background-color: #ededef;
+    background-color: #fff;
   }
 
   .company_list > div {
@@ -120,7 +135,8 @@
   }
 
   .bg-blog {
-    padding: 69px 0px 30px 0px;
+    padding: 25px 0px 30px 0px;
+    margin-top: 12px;
   }
 
   .company_list > div > div {
@@ -136,7 +152,7 @@
   }
 
   .company_card {
-    margin-bottom: 53px;
+    /* margin-bottom: 53px; */
     /* height: 168px; */
   }
 
@@ -661,8 +677,7 @@
     height: auto;
   }
 }
- {
-}
+
 @media screen and (min-width: 400px) {
   .founder-banner-text {
     padding: 2px 9px;
@@ -685,8 +700,7 @@
   /* --items-- */
 }
 
- {
-}
+
 
 @media screen and (min-width: 556px) {
   .overlay_card h2 {
@@ -1065,8 +1079,6 @@
   
 }
 
- {
-}
 
 @media screen and (min-width: 767px) {
   .bg-founder {
@@ -1449,6 +1461,22 @@
   #arin_header_btn {
     display: flex;
   }
+     .btn_section {
+       width: 30%;
+     }
+  
+     .img_thumbnail_sec {
+       width: 70%;
+     }
+  
+     .video_thumbnail {
+       height: 245px;
+       width: 48%;
+     }
+    .bg-greylight {
+      background-color: #fff;
+      ;
+    }
 
   .bg-machine {
     position: relative;
@@ -1487,7 +1515,7 @@
   }
 
   .company_card {
-    margin-bottom: 79px;
+    /* margin-bottom: 79px; */
     /* height: 114px; */
   }
 
@@ -1495,6 +1523,7 @@
     background-color: #fff;
   }
 
+  .bg-
   .company_list > div > div {
     width: 40.641px;
     height: 35.925px;
@@ -1505,7 +1534,8 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 69px 0px 121px 0px;
+    padding: 60px 0px 47px 0px;
+    margin-top: 0px;
   }
 
   .blog_wrapp > h6 {
@@ -1828,8 +1858,6 @@
   }
 }
 
- {
-}
 
 @media screen and (min-width: 1100px) {
   .bg-banner {
@@ -2108,14 +2136,25 @@
   }
 }
 
- {
-}
+
 
 @media screen and (min-width: 1200px) {
   .bg-banner {
     height: 400px;
   }
 
+    .btn_section {
+      width: 23%;
+    }
+  
+    .img_thumbnail_sec {
+      width: 77%;
+    }
+  
+    .video_thumbnail {
+      height: 245px;
+      width: 48%;
+    }
   .arin_corpo > p {
     margin-bottom: 49px;
 
