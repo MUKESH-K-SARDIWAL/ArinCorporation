@@ -2403,7 +2403,7 @@ button > span {
 }
 
 .bg_sign_up {
-  background-image: url(/assets/sign_up.png);
+  background-image: url(./assets/sign_up.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
