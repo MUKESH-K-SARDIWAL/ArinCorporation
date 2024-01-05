@@ -2537,3 +2537,81 @@ button>span {
   line-height: normal;
   white-space: nowrap;
 }
+
+.text_above_image {
+  padding: 10px 15px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.50);
+  min-height: 76px;
+}
+
+.arin_slider_text {
+  color: #000;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  line-height: 20px;
+  /* 125% */
+}
+
+.arin_slider_btn_text {
+  color: #FFF;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  /* 125% */
+}
+
+.slider_card_pos {
+  top: 60%;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  width: 85%;
+  margin: auto;
+}
+
+.connect_btn {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  z-index: 20;
+  
+}
+
+
+.contactusBtn {
+  border: transparent;
+  width: 144px;
+  height: 114px;
+  background-color: #ffffff00;
+  animation: bounceAndScale 1s ease infinite;
+  /* Adjust duration and timing function as needed */
+}
+
+@keyframes bounceAndScale {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+}
+.contactusBtn:hover {
+  animation: none;
+  /* Stop the animation on hover */
+}
