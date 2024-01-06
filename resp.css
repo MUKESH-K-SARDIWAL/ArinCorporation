@@ -10,7 +10,7 @@
   .connect_btn {
     position: fixed;
     bottom: 24px;
-    right: 13px;
+    right: 0;
   }
 
   .text_above_image {
@@ -1006,7 +1006,7 @@
   .connect_btn {
     position: fixed;
     bottom: 24px;
-    right: 13px;
+    right: 0;
   }
 
   .arin_slider_text {
@@ -1141,7 +1141,7 @@
      .connect_btn {
        position: fixed;
        bottom: 24px;
-       right: 13px;
+       right: 0;
      }
   
      .arin_slider_text {
@@ -3361,7 +3361,7 @@
     .connect_btn {
       position: fixed;
       bottom: 60px;
-      right: 60px;
+      right: 0;
       z-index: 20;
   
     }
