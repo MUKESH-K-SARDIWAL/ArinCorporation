@@ -24,6 +24,7 @@
 .accordion-button:focus {
   color: #e87b0d !important;
 }
+
 .accordion-item {
   color: white;
   background-color: none;
@@ -256,7 +257,7 @@ img {
   width: 100%;
 }
 
-.arin_banner > div > div > div {
+.arin_banner>div>div>div {
   padding: 100px 0px;
 }
 
@@ -366,11 +367,9 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    0deg,
-    #29166f 0.2%,
-    rgba(217, 217, 217, 0) 99.75%
-  );
+  background: linear-gradient(0deg,
+      #29166f 0.2%,
+      rgba(217, 217, 217, 0) 99.75%);
   z-index: 1;
 }
 
@@ -485,11 +484,11 @@ img {
   gap: 20px;
 }
 
-.card_view > div {
+.card_view>div {
   gap: 20px;
 }
 
-.about_section div.card_view > div {
+.about_section div.card_view>div {
   /* width: 50%; */
   border-radius: 5px;
   border: 1px solid #d9d9d9;
@@ -644,7 +643,7 @@ img {
   padding-top: 64px;
 }
 
-.journey_wrapper > h2 {
+.journey_wrapper>h2 {
   color: #2734a8;
   font-size: 16px;
   font-style: normal;
@@ -654,7 +653,7 @@ img {
   text-align: center;
 }
 
-.journey_wrapper > p {
+.journey_wrapper>p {
   color: #000;
   text-align: center;
   font-size: 36px;
@@ -692,7 +691,7 @@ img {
 
 } */
 
-.hexagon + h4 {
+.hexagon+h4 {
   color: #fff;
   font-size: 16px;
   font-style: normal;
@@ -701,7 +700,7 @@ img {
   margin-bottom: 0px;
 }
 
-.client_card > p {
+.client_card>p {
   color: #fff;
   /* text-align: center; */
 
@@ -726,7 +725,7 @@ img {
   padding-bottom: 210px;
 }
 
-.connect_header > h3 {
+.connect_header>h3 {
   color: #2734a8;
   font-family: Barlow;
   font-size: 16px;
@@ -737,7 +736,7 @@ img {
   text-align: center;
 }
 
-.connect_header > h4 {
+.connect_header>h4 {
   color: #000;
 
   text-align: center;
@@ -749,7 +748,7 @@ img {
   margin-bottom: 16px;
 }
 
-.connect_header > p {
+.connect_header>p {
   color: #666;
   text-align: center;
   width: 75%;
@@ -774,7 +773,7 @@ img {
   gap: 18px;
 }
 
-.activities_card + div {
+.activities_card+div {
   padding: 26px 0px;
   /* border-radius: 10px; */
 }
@@ -893,7 +892,7 @@ img {
   gap: 14px;
 }
 
-.organizing_list > li > span:nth-child(2) {
+.organizing_list>li>span:nth-child(2) {
   color: #000;
   font-family: Barlow;
   font-size: 20px;
@@ -902,12 +901,12 @@ img {
   line-height: 28.8px;
 }
 
-.organizing_list > li > span:first-child i {
+.organizing_list>li>span:first-child i {
   font-size: 24px;
   color: #29166f;
 }
 
-button > span {
+button>span {
   font-size: 16px !important;
   font-weight: 500px !important;
   white-space: nowrap !important;
@@ -953,7 +952,7 @@ button > span {
   /* overflow: hidden; */
 }
 
-.arin_corpo > h4 {
+.arin_corpo>h4 {
   color: #f6b701;
   text-align: center;
   margin-top: 45px;
@@ -965,7 +964,7 @@ button > span {
   line-height: normal;
 }
 
-.arin_corpo > p {
+.arin_corpo>p {
   color: #fff;
   margin-bottom: 49px;
   text-align: center;
@@ -993,7 +992,7 @@ button > span {
   margin-top: 20px;
 }
 
-.video_list_card > span {
+.video_list_card>span {
   position: absolute;
   font-size: 48px;
   color: #c7c7c7;
@@ -1031,7 +1030,7 @@ button > span {
   top: 36%;
 }
 
-.play_btn > i {
+.play_btn>i {
   font-size: 60px;
   color: white;
 }
@@ -1083,7 +1082,7 @@ button > span {
   margin-top: 63px;
 }
 
-.arin_brand_wrap > div {
+.arin_brand_wrap>div {
   border-radius: 10px;
   background: #55458e;
   width: 20%;
@@ -1099,7 +1098,7 @@ button > span {
   width: 100%;
 }
 
-.blog_wrapp > h3 {
+.blog_wrapp>h3 {
   text-align: center;
   color: #2734a8;
   font-family: Barlow;
@@ -1111,7 +1110,7 @@ button > span {
   margin-bottom: 14px;
 }
 
-.blog_wrapp > h6 {
+.blog_wrapp>h6 {
   color: #000;
   text-align: center;
   font-family: Barlow;
@@ -1125,7 +1124,7 @@ button > span {
   margin-top: 40px;
 }
 
-.blog_card_Sec > div {
+.blog_card_Sec>div {
   overflow: hidden;
   border-radius: 10px;
 }
@@ -1143,7 +1142,7 @@ button > span {
   padding: 23px 21px;
 }
 
-.blog_text > h1 {
+.blog_text>h1 {
   color: #000;
   text-align: center;
   font-family: Barlow;
@@ -1153,7 +1152,7 @@ button > span {
   line-height: normal;
 }
 
-.blog_text > p {
+.blog_text>p {
   color: #000;
 
   font-family: Barlow;
@@ -1237,7 +1236,7 @@ button > span {
 }
 
 .blog_explore_btn,
-.blog_Message_btn > span {
+.blog_Message_btn>span {
   color: #fff;
   white-space: nowrap;
   font-family: Barlow;
@@ -1266,7 +1265,7 @@ button > span {
   align-items: center;
 }
 
-.company_list > div {
+.company_list>div {
   display: flex;
   flex-direction: row;
   gap: 12.34px;
@@ -1274,12 +1273,12 @@ button > span {
   justify-content: flex-start;
 }
 
-.company_list > div > div {
+.company_list>div>div {
   /* width: 47.641px;
     height: 44.925px; */
 }
 
-.company_list > div > h3 {
+.company_list>div>h3 {
   color: #fff;
   text-align: center;
   font-family: Barlow;
@@ -1304,12 +1303,12 @@ button > span {
   gap: 33.06px;
 }
 
-.footer_first > div:first-child {
+.footer_first>div:first-child {
   width: 120px;
   height: 119.945px;
 }
 
-.footer_first > h4 {
+.footer_first>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 16px;
@@ -1334,7 +1333,7 @@ button > span {
   gap: 16px;
 }
 
-.footer_sec > h4 {
+.footer_sec>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 24px;
@@ -1344,7 +1343,7 @@ button > span {
   line-height: normal;
 }
 
-.footer_third > h4 {
+.footer_third>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 24px;
@@ -1355,7 +1354,7 @@ button > span {
   line-height: normal;
 }
 
-.footer_links li > a {
+.footer_links li>a {
   color: #fff;
   text-decoration: none;
   white-space: nowrap;
@@ -1370,7 +1369,7 @@ button > span {
   gap: 75px;
 }
 
-.footer_fourth > h4 {
+.footer_fourth>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 24px;
@@ -1380,11 +1379,11 @@ button > span {
   line-height: normal;
 }
 
-.footer_fourth > div {
+.footer_fourth>div {
   gap: 8px;
 }
 
-.font_social > i {
+.font_social>i {
   font-size: 20px;
 }
 
@@ -1763,7 +1762,7 @@ button > span {
   width: 100%;
 }
 
-.arin_policy > div > div h3 {
+.arin_policy>div>div h3 {
   color: #000;
   font-size: 30px;
   font-style: normal;
@@ -1772,7 +1771,7 @@ button > span {
   margin-bottom: 20px;
 }
 
-.arin_policy > div > div p {
+.arin_policy>div>div p {
   color: #666;
   font-size: 14px;
   font-style: normal;
@@ -1798,7 +1797,7 @@ button > span {
   min-width: 20px;
 }
 
-.list_image + p {
+.list_image+p {
   margin-bottom: 17px;
   line-height: 27px !important;
 }
@@ -1811,7 +1810,7 @@ button > span {
   background: linear-gradient(82deg, #e87b0d 4.26%, #f7bd01 105.53%);
 }
 
-.ceo_btn > h2 {
+.ceo_btn>h2 {
   color: #000;
   margin-bottom: 5px;
   margin-top: 0px;
@@ -1823,7 +1822,7 @@ button > span {
   line-height: normal;
 }
 
-.ceo_btn > p {
+.ceo_btn>p {
   color: #fff;
   margin-bottom: 0;
   text-align: center;
@@ -1846,7 +1845,7 @@ button > span {
   align-items: center;
 }
 
-.features-banner-text > h4 {
+.features-banner-text>h4 {
   color: #fec434;
 
   font-family: Barlow;
@@ -1856,7 +1855,7 @@ button > span {
   line-height: 20px;
 }
 
-.features-banner-text > p {
+.features-banner-text>p {
   color: #fff;
   width: 40%;
   font-family: Barlow;
@@ -1900,7 +1899,7 @@ button > span {
   background: #fff;
 }
 
-.select__list_show > select {
+.select__list_show>select {
   width: 80px;
 }
 
@@ -2051,7 +2050,7 @@ button > span {
   left: 45%;
 }
 
-.video_icon > i {
+.video_icon>i {
   font-size: 37px;
 }
 
@@ -2066,7 +2065,7 @@ button > span {
   align-items: center;
 }
 
-.BankingSectors > span {
+.BankingSectors>span {
   color: #fff;
 
   font-family: Barlow;
@@ -2519,11 +2518,19 @@ button > span {
   gap: 9px;
 }
 
-.gap_9 > div {
+.gap_9>div {
   width: 40px;
   height: 40px;
   min-height: 40px;
   max-width: 40px;
+}
+
+.text_above_image {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 .user_name_style {
@@ -2554,6 +2561,7 @@ button > span {
 }
 
 @keyframes bounceAndScale {
+
   0%,
   20%,
   50%,
@@ -2570,6 +2578,7 @@ button > span {
     transform: translateY(-10px);
   }
 }
+
 .contactusBtn:hover {
   animation: none;
   /* Stop the animation on hover */
@@ -2578,12 +2587,14 @@ button > span {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
 .dropdown-menu button {
   border-radius: 0;
   color: #666;
   background: transparent;
   justify-content: start;
 }
+
 .dropdown-menu button:hover {
   color: white;
 }
@@ -2591,6 +2602,7 @@ button > span {
 .header_list li a span:active {
   color: #e87b0d;
 }
+
 .header_list li a:focus span {
   color: #e87b0d;
 }
@@ -2599,30 +2611,38 @@ button > span {
   color: white !important;
   font-weight: 400;
 }
+
 a {
   text-decoration: none;
 }
+
 .accordion-body-1 {
   background: transparent !important;
   width: 100%;
 }
+
 .accordion-body-1 a span {
   color: white;
 }
+
 .arin_offcanvas_header {
   width: 112%;
 }
+
 .offcanvas-body-1 {
   width: 112%;
 }
+
 .side_menu_sing_in_btn {
   display: flex;
   justify-content: center;
 }
+
 .sign_in_btn_1 a span {
   color: white;
   width: 185px !important;
 }
+
 .accordion-button-1:hover {
   color: #fec434 !important;
   font-style: normal;
@@ -2630,9 +2650,11 @@ a {
   font-weight: 500;
   transition: 0.3s all ease-in-out;
 }
+
 .accordion-button-1:not(.collapsed) {
   box-shadow: none;
 }
+
 .bg-lightBlue {
   background-color: #55458e !important;
 }
