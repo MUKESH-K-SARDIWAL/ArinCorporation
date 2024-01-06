@@ -36,7 +36,7 @@
   .connect_btn {
     position: fixed;
     bottom: 24px;
-    right: 13px;
+    right: 0;
   }
 
   .text_above_image {
@@ -1053,7 +1053,7 @@
   .connect_btn {
     position: fixed;
     bottom: 24px;
-    right: 13px;
+    right: 0;
   }
 
   .arin_slider_text {
@@ -1207,41 +1207,42 @@
     overflow: hidden;
   }
 
-  .connect_btn {
-    position: fixed;
-    bottom: 24px;
-    right: 13px;
-  }
+     .connect_btn {
+       position: fixed;
+       bottom: 24px;
+       right: 0;
+     }
+  
+     .arin_slider_text {
+       color: #000;
+       font-family: Barlow;
+       font-size: 16px;
+       font-style: normal;
+       text-align: center;
+       font-weight: 500;
+       line-height: 20px;
+       /* 125% */
+     }
+  
+     .arin_slider_btn_text {
+       color: #FFF;
+       font-family: Barlow;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 20px;
+       /* 125% */
+     }
+  
+     .slider_card_pos {
+       top: 63%;
+       left: 0px;
+       right: 0px;
+       z-index: 1;
+       width: 85%;
+       margin: auto;
+     }
 
-  .arin_slider_text {
-    color: #000;
-    font-family: Barlow;
-    font-size: 16px;
-    font-style: normal;
-    text-align: center;
-    font-weight: 500;
-    line-height: 20px;
-    /* 125% */
-  }
-
-  .arin_slider_btn_text {
-    color: #FFF;
-    font-family: Barlow;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    /* 125% */
-  }
-
-  .slider_card_pos {
-    top: 63%;
-    left: 0px;
-    right: 0px;
-    z-index: 1;
-    width: 85%;
-    margin: auto;
-  }
 
   .ml-rg {
     margin-left: 41px;
@@ -3460,22 +3461,22 @@
     height: 270px;
   }
 
-  .connect_btn {
-    position: fixed;
-    bottom: 60px;
-    right: 60px;
-    z-index: 20;
+    .connect_btn {
+      position: fixed;
+      bottom: 60px;
+      right: 0;
+      z-index: 20;
+  
+    }
+    .slider_card_pos {
+      top: 60%;
+      left: 0px;
+      right: 0px;
+      z-index: 1;
+      width: 85%;
+      margin: auto;
+    }
 
-  }
-
-  .slider_card_pos {
-    top: 60%;
-    left: 0px;
-    right: 0px;
-    z-index: 1;
-    width: 85%;
-    margin: auto;
-  }
 
   .ceo_btn>h2 {
     font-size: 18px;
