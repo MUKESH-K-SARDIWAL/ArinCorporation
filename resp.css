@@ -3,6 +3,32 @@
     display: none;
   }
 
+  .bg_sign_up {
+    padding: 30px 15px;
+    width: auto;
+    max-width: 700px;
+  }
+
+  .sign_up_img {
+    width: 58px;
+    height: 58px;
+  }
+
+  .text_user_sign {
+    font-size: 20px;
+  }
+
+  .account_text {
+    font-size: 14px;
+  }
+
+  .sign_up_text {
+    font-size: 14px;
+  }
+.or_Text{
+  font-size: 14px;
+}
+
   .ml-rg {
     margin-left: -31px;
   }
@@ -999,6 +1025,27 @@
     align-self: flex-end;
   }
 
+    .sign_up_img {
+      width: 68px;
+      height: 68px;
+    }
+  
+    .text_user_sign {
+      font-size: 25px;
+    }
+  
+    .account_text {
+      font-size: 16px;
+    }
+  
+    .sign_up_text {
+      font-size: 16px;
+    }
+  
+    .or_Text {
+      font-size: 16px;
+    }
+
   .ml-rg {
     margin-left: -31px;
   }
@@ -1133,11 +1180,33 @@
     font-size: 25px;
   }
 
+    .sign_up_img {
+      width: 72px;
+      height: 72px;
+    }
+  
+    .text_user_sign {
+      font-size: 27px;
+    }
+  
+    .account_text {
+      font-size: 17px;
+    }
+  
+    .sign_up_text {
+      font-size: 17px;
+    }
+  
+    .or_Text {
+      font-size: 17px;
+    }
+
   .left_bg_img {
     width: 233px;
     height: 157px;
     overflow: hidden;
   }
+
      .connect_btn {
        position: fixed;
        bottom: 24px;
@@ -1173,6 +1242,7 @@
        width: 85%;
        margin: auto;
      }
+
 
   .ml-rg {
     margin-left: 41px;
@@ -1678,6 +1748,27 @@
     justify-content: start;
     align-items: start;
   }
+
+    .sign_up_img {
+      width: 72px;
+      height: 72px;
+    }
+  
+    .text_user_sign {
+      font-size: 30px;
+    }
+  
+    .account_text {
+      font-size: 18px;
+    }
+  
+    .sign_up_text {
+      font-size: 18px;
+    }
+  
+    .or_Text {
+      font-size: 18px;
+    }
 
   .contactusBtn {
     border: transparent;
@@ -2244,42 +2335,50 @@
     display: flex;
   }
 
-     .text_above_image {
-       padding: 10px 15px;
-       border-radius: 6px;
-       background: rgba(255, 255, 255, 0.50);
-       min-height: 76px;
-     }
+  .text_above_image {
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.50);
+    min-height: 76px;
+  }
+    .sign_up_img {
+      width: 78px;
+      height: 78px;
+    }
   
-     .arin_slider_text {
-       color: #000;
-       font-family: Barlow;
-       font-size: 12px;
-       font-style: normal;
-       text-align: center;
-       font-weight: 500;
-       line-height: 20px;
-       /* 125% */
-     }
-  
-     .arin_slider_btn_text {
-       color: #FFF;
-       font-family: Barlow;
-       font-size: 12px;
-       font-style: normal;
-       font-weight: 500;
-       line-height: 20px;
-       /* 125% */
-     }
-  
-     .slider_card_pos {
-       top: 39%;
-       left: 0px;
-       right: 0px;
-       z-index: 1;
-       width: 85%;
-       margin: auto;
-     }
+    .text_user_sign {
+      font-size: 32px;
+    }
+
+  .arin_slider_text {
+    color: #000;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+  }
+
+  .arin_slider_btn_text {
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+  }
+
+  .slider_card_pos {
+    top: 39%;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    width: 85%;
+    margin: auto;
+  }
 
   .position_card2 {
     top: 15px;
@@ -2840,49 +2939,51 @@
   .bg-banner {
     height: 360px;
   }
+ .text_user_sign {
+   font-size: 32px;
+ }
+  .contactusBtn {
+    border: transparent;
+    width: 144px;
+    height: 114px;
+  }
 
-    .contactusBtn {
-      border: transparent;
-      width: 144px;
-      height: 114px;
-    }
-  
-    .text_above_image {
-      padding: 10px 15px;
-      border-radius: 6px;
-      background: rgba(255, 255, 255, 0.50);
-      min-height: 76px;
-    }
-  
-    .arin_slider_text {
-      color: #000;
-      font-family: Barlow;
-      font-size: 16px;
-      font-style: normal;
-      text-align: center;
-      font-weight: 500;
-      line-height: 20px;
-      /* 125% */
-    }
-  
-    .arin_slider_btn_text {
-      color: #FFF;
-      font-family: Barlow;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 20px;
-      /* 125% */
-    }
-  
-    .slider_card_pos {
-      top: 45%;
-      left: 0px;
-      right: 0px;
-      z-index: 1;
-      width: 85%;
-      margin: auto;
-    }
+  .text_above_image {
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.50);
+    min-height: 76px;
+  }
+
+  .arin_slider_text {
+    color: #000;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+  }
+
+  .arin_slider_btn_text {
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+  }
+
+  .slider_card_pos {
+    top: 45%;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    width: 85%;
+    margin: auto;
+  }
 
   .list_image+p {
     margin-bottom: 15px !important;
@@ -3180,14 +3281,15 @@
     margin-bottom: 25px;
 
   }
-    .slider_card_pos {
-      top: 55%;
-      left: 0px;
-      right: 0px;
-      z-index: 1;
-      width: 85%;
-      margin: auto;
-    }
+
+  .slider_card_pos {
+    top: 55%;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    width: 85%;
+    margin: auto;
+  }
 
   .climbing_image {
     height: 429px;
@@ -3358,6 +3460,7 @@
     width: 300px;
     height: 270px;
   }
+
     .connect_btn {
       position: fixed;
       bottom: 60px;
@@ -3373,6 +3476,7 @@
       width: 85%;
       margin: auto;
     }
+
 
   .ceo_btn>h2 {
     font-size: 18px;
