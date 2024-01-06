@@ -2533,6 +2533,19 @@ button>span {
   -webkit-box-orient: vertical;
 }
 
+#owl-carousel1 {
+  margin: 0 auto;
+  /* Center the carousel horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-carousel .owl-stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .user_name_style {
   color: #000;
 
