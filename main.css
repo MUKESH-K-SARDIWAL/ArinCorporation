@@ -110,6 +110,8 @@ img {
   gap: 27px;
   margin-bottom: 0px;
   padding-left: 0px;
+  padding: 0px;
+ 
 }
 
 .header_nav ul a {
@@ -2600,6 +2602,7 @@ button > span {
 
 .dropdown:hover .dropdown-menu {
   display: block;
+  overflow: hidden;
 }
 
 .dropdown-menu button {
