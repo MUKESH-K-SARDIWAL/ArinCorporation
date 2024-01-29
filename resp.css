@@ -25,9 +25,10 @@
   .sign_up_text {
     font-size: 14px;
   }
-.or_Text{
-  font-size: 14px;
-}
+
+  .or_Text {
+    font-size: 14px;
+  }
 
   .ml-rg {
     margin-left: -31px;
@@ -66,6 +67,9 @@
     line-height: 20px;
     /* 125% */
   }
+    .blog_text p{
+      margin-bottom: 0px !important;
+    }
 
   .slider_card_pos {
     top: 29%;
@@ -1025,26 +1029,26 @@
     align-self: flex-end;
   }
 
-    .sign_up_img {
-      width: 68px;
-      height: 68px;
-    }
-  
-    .text_user_sign {
-      font-size: 25px;
-    }
-  
-    .account_text {
-      font-size: 16px;
-    }
-  
-    .sign_up_text {
-      font-size: 16px;
-    }
-  
-    .or_Text {
-      font-size: 16px;
-    }
+  .sign_up_img {
+    width: 68px;
+    height: 68px;
+  }
+
+  .text_user_sign {
+    font-size: 25px;
+  }
+
+  .account_text {
+    font-size: 16px;
+  }
+
+  .sign_up_text {
+    font-size: 16px;
+  }
+
+  .or_Text {
+    font-size: 16px;
+  }
 
   .ml-rg {
     margin-left: -31px;
@@ -1180,26 +1184,26 @@
     font-size: 25px;
   }
 
-    .sign_up_img {
-      width: 72px;
-      height: 72px;
-    }
-  
-    .text_user_sign {
-      font-size: 27px;
-    }
-  
-    .account_text {
-      font-size: 17px;
-    }
-  
-    .sign_up_text {
-      font-size: 17px;
-    }
-  
-    .or_Text {
-      font-size: 17px;
-    }
+  .sign_up_img {
+    width: 72px;
+    height: 72px;
+  }
+
+  .text_user_sign {
+    font-size: 27px;
+  }
+
+  .account_text {
+    font-size: 17px;
+  }
+
+  .sign_up_text {
+    font-size: 17px;
+  }
+
+  .or_Text {
+    font-size: 17px;
+  }
 
   .left_bg_img {
     width: 233px;
@@ -1207,41 +1211,41 @@
     overflow: hidden;
   }
 
-     .connect_btn {
-       position: fixed;
-       bottom: 24px;
-       right: 0;
-     }
-  
-     .arin_slider_text {
-       color: #000;
-       font-family: Barlow;
-       font-size: 16px;
-       font-style: normal;
-       text-align: center;
-       font-weight: 500;
-       line-height: 20px;
-       /* 125% */
-     }
-  
-     .arin_slider_btn_text {
-       color: #FFF;
-       font-family: Barlow;
-       font-size: 16px;
-       font-style: normal;
-       font-weight: 500;
-       line-height: 20px;
-       /* 125% */
-     }
-  
-     .slider_card_pos {
-       top: 48%;
-       left: 0px;
-       right: 0px;
-       z-index: 1;
-       width: 85%;
-       margin: auto;
-     }
+  .connect_btn {
+    position: fixed;
+    bottom: 24px;
+    right: 0;
+  }
+
+  .arin_slider_text {
+    color: #000;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+  }
+
+  .arin_slider_btn_text {
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+  }
+
+  .slider_card_pos {
+    top: 48%;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    width: 85%;
+    margin: auto;
+  }
 
 
   .ml-rg {
@@ -1749,26 +1753,31 @@
     align-items: start;
   }
 
-    .sign_up_img {
-      width: 72px;
-      height: 72px;
-    }
-  
-    .text_user_sign {
-      font-size: 30px;
-    }
-  
-    .account_text {
-      font-size: 18px;
-    }
-  
-    .sign_up_text {
-      font-size: 18px;
-    }
-  
-    .or_Text {
-      font-size: 18px;
-    }
+  .card_heading {
+
+    font-size: 16px;
+  }
+
+  .sign_up_img {
+    width: 72px;
+    height: 72px;
+  }
+
+  .text_user_sign {
+    font-size: 30px;
+  }
+
+  .account_text {
+    font-size: 18px;
+  }
+
+  .sign_up_text {
+    font-size: 18px;
+  }
+
+  .or_Text {
+    font-size: 18px;
+  }
 
   .contactusBtn {
     border: transparent;
@@ -2321,7 +2330,7 @@
   }
 
   .blog_text p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
   }
 
@@ -2335,20 +2344,26 @@
     display: flex;
   }
 
+  .card_heading {
+
+    font-size: 17px;
+  }
+
   .text_above_image {
     padding: 10px 15px;
     border-radius: 6px;
     background: rgba(255, 255, 255, 0.50);
     min-height: 76px;
   }
-    .sign_up_img {
-      width: 78px;
-      height: 78px;
-    }
-  
-    .text_user_sign {
-      font-size: 32px;
-    }
+
+  .sign_up_img {
+    width: 78px;
+    height: 78px;
+  }
+
+  .text_user_sign {
+    font-size: 32px;
+  }
 
   .arin_slider_text {
     color: #000;
@@ -2927,7 +2942,8 @@
   }
 
   .blog_text p {
-    line-height: 33.8px;
+    font-size: 14px;
+    line-height: 30px;
   }
 
   .blog_hadding h1 {
@@ -2939,9 +2955,16 @@
   .bg-banner {
     height: 360px;
   }
- .text_user_sign {
-   font-size: 32px;
- }
+
+  .text_user_sign {
+    font-size: 32px;
+  }
+
+  .card_heading {
+
+    font-size: 22px;
+  }
+
   .contactusBtn {
     border: transparent;
     width: 144px;
@@ -3461,21 +3484,22 @@
     height: 270px;
   }
 
-    .connect_btn {
-      position: fixed;
-      bottom: 60px;
-      right: 0;
-      z-index: 20;
-  
-    }
-    .slider_card_pos {
-      top: 60%;
-      left: 0px;
-      right: 0px;
-      z-index: 1;
-      width: 85%;
-      margin: auto;
-    }
+  .connect_btn {
+    position: fixed;
+    bottom: 60px;
+    right: 0;
+    z-index: 20;
+
+  }
+
+  .slider_card_pos {
+    top: 60%;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    width: 85%;
+    margin: auto;
+  }
 
 
   .ceo_btn>h2 {
