@@ -1224,6 +1224,12 @@ button>span {
   z-index: 1;
 }
 
+.blog_background>img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .blog_Message_btn::before {
   content: "";
   position: absolute;

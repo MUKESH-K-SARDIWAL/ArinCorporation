@@ -14,88 +14,89 @@
 
 <body>
     <!-- --header-- -->
-<nav class="navbar navbar-expand-lg  arin_header">
-    <div class="container-lg container-fluid">
-        <div class="d-flex justify-content-between  justify-content-lg-center align-items-center w-100 py-2">
-            <div class="w-25">
-                <div class="Arin_logo">
-                    <img src="../assets/site-logo.webp" alt="Arin_logo" width="" height="" id="logoArin">
+    <nav class="navbar navbar-expand-lg  arin_header">
+        <div class="container-lg container-fluid">
+            <div class="d-flex justify-content-between  justify-content-lg-center align-items-center w-100 py-2">
+                <div class="w-25">
+                    <div class="Arin_logo">
+                        <img src="../assets/site-logo.webp" alt="Arin_logo" width="" height="" id="logoArin">
+                    </div>
+                </div>
+                <div class="flex-grow-1 header_nav" id="arin_header_nav">
+                    <ul class="d-flex flex-row align-items-center justify-content-start w-50 header_list">
+                        <li>
+                            <a href="./Home.html" class="flex gap-1">
+                                <span>Home</span>
+                                <!-- <span><i class="fa-solid fa-angle-down"></i></span> -->
+                            </a>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="./AboutUs.html" class="flex gap-1 ">
+                                <span>About Us</span>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <a href="./AboutUs.html">
+                                    <li><button class="dropdown-item" type="button">Why we</button></li>
+                                </a>
+                                <a href="./AboutFounder.html">
+                                    <li><button class="dropdown-item" type="button">Founder</button></li>
+                                </a>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="Features.html" class="flex gap-1">
+                                <span>Features</span>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <a href="Features.html">
+                                    <li><button class="dropdown-item" type="button">Key chains</button></li>
+                                </a>
+                                <a href="">
+                                    <li><button class="dropdown-item" type="button"> Qr code</button></li>
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="./Testimonial.html" class="flex gap-1">
+                                <span>Media</span>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <a href="BlogPage.html">
+                                    <li><button class="dropdown-item" type="button">Blogs</button></li>
+                                </a>
+                                <a href="">
+                                    <li><button class="dropdown-item" type="button">News</button></li>
+                                </a>
+                                <a href="Testimonial.html">
+                                    <li><button class="dropdown-item" type="button">Testimonials</button></li>
+                                </a>
+                                <a href="Tutorials.html">
+                                    <li><button class="dropdown-item" type="button">Tutorials</button></li>
+                                </a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-25 justify-content-end sign" id="arin_header_btn">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <span class="text-white">Sign In</span>
+                    </button>
+                </div>
+                <div class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                    aria-controls="offcanvasWithBothOptions" id="arin_offcanva"
+                    class="border-transparent bg-transparent">
+                    <span><i class="fa-solid fa-bars " style="color: #29166F;font-size: 20px;"></i></span>
                 </div>
             </div>
-            <div class="flex-grow-1 header_nav" id="arin_header_nav">
-                <ul class="d-flex flex-row align-items-center justify-content-start w-50 header_list">
-                    <li>
-                        <a href="./Home.html" class="flex gap-1">
-                            <span>Home</span>
-                            <!-- <span><i class="fa-solid fa-angle-down"></i></span> -->
-                        </a>
-                    </li>
-
-                    <li class="dropdown">
-                        <a href="./AboutUs.html" class="flex gap-1 ">
-                            <span>About Us</span>
-                            <span><i class="fa-solid fa-angle-down"></i></span>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <a href="./AboutUs.html">
-                                <li><button class="dropdown-item" type="button">Why we</button></li>
-                            </a>
-                            <a href="./AboutFounder.html">
-                                <li><button class="dropdown-item" type="button">Founder</button></li>
-                            </a>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="Features.html" class="flex gap-1">
-                            <span>Features</span>
-                            <span><i class="fa-solid fa-angle-down"></i></span>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <a href="Features.html">
-                                <li><button class="dropdown-item" type="button">Key chains</button></li>
-                            </a>
-                            <a href="">
-                                <li><button class="dropdown-item" type="button"> Qr code</button></li>
-                            </a>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="./Testimonial.html" class="flex gap-1">
-                            <span>Media</span>
-                            <span><i class="fa-solid fa-angle-down"></i></span>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <a href="BlogPage.html">
-                                <li><button class="dropdown-item" type="button">Blogs</button></li>
-                            </a>
-                            <a href="">
-                                <li><button class="dropdown-item" type="button">News</button></li>
-                            </a>
-                            <a href="Testimonial.html">
-                                <li><button class="dropdown-item" type="button">Testimonials</button></li>
-                            </a>
-                            <a href="Tutorials.html">
-                                <li><button class="dropdown-item" type="button">Tutorials</button></li>
-                            </a>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="w-25 justify-content-end sign" id="arin_header_btn">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <span class="text-white">Sign In</span>
-                </button>
-            </div>
-            <div class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
-                aria-controls="offcanvasWithBothOptions" id="arin_offcanva" class="border-transparent bg-transparent">
-                <span><i class="fa-solid fa-bars " style="color: #29166F;font-size: 20px;"></i></span>
-            </div>
         </div>
-    </div>
 
-</nav>
-    
+    </nav>
+
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -106,7 +107,7 @@
                                 <img src="../assets/favicon.webp" alt="">
                             </div>
                             <h3 class="text_user_sign">User Sign in</h3>
-                           <div class="col-12 col-md-9 mx-auto">
+                            <div class="col-12 col-md-9 mx-auto">
                                 <input type="text" class="email_sign_in">
                             </div>
                             <button class="sign_in_btn">
@@ -146,7 +147,8 @@
                 </div> 
             </div>
             <div class="w-25  justify-content-end d-flex">
-                <button type="button" class="p-0 bg-transparent text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                <button type="button" class="p-0 bg-transparent text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close">
                     <div class="w-goback">
                         <img src="../assets/goback.png" alt="">
                     </div>
@@ -165,7 +167,7 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
-    
+
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -190,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button-1 accordion-button  collapsed" type="button"
@@ -213,7 +215,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingfour">
                         <button class="accordion-button-1 accordion-button  collapsed" type="button"
@@ -244,7 +246,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="side_menu_sing_in_btn">
                     <button class="sign_in_btn sign_in_btn_1">
                         <a href="">
@@ -252,7 +254,7 @@
                         </a>
                     </button>
                 </div>
-    
+
             </div>
         </div>
     </div>
@@ -275,18 +277,20 @@
                                 <span class="heading_text">Blogs</span>
                             </div>
                         </div>
-                        <div class="blog_main_container  d-flex gap-4 ">
+                        <div class="blog_main_container align-items-start col-12  d-flex gap-4 ">
                             <div
-                                class="blog_container col-12 d-flex flex-column flex-md-nowrap flex-wrap align-items-start justify-content-center gap-4 mt-3 ">
-                                <div class="blog d-flex flex-column gap-md-3">
+                                class="blog_container col-8 d-flex flex-column flex-md-nowrap flex-wrap align-items-start justify-content-center gap-4 mt-3 ">
+                                <div class="blog d-flex flex-column gap-md-3 col-12">
                                     <div class="blog_hadding">
                                         <h1>
-                                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-                                            adipisci velit.
+                                            Lorem ipsum  dolore reiciendis, nesciunt rem maiores illum maxime amet minima?
                                         </h1>
                                     </div>
-                                    <div class="blogger_details d-flex align-items-center justify-content-between">
-                                        <div class="blogger_img"><img src="../assets/blog_page_1.webp" alt=""></div>
+                                    <div
+                                        class="blogger_details d-flex align-items-center justify-content-between col-12">
+                                        <div class="blogger_img">
+                                            <img src="../assets/blog_page_1.webp" alt="">
+                                        </div>
                                         <div class="blogger_date d-flex align-items-center gap-2">
                                             <div class="date_text">
                                                 Posted on
@@ -301,10 +305,10 @@
                                         </div>
                                     </div>
                                     <div class="blog_background blog_background_img_1">
-                                        <img src="../assets/blog_page_6.webp" alt="">
+                                        <img src="../assets/blog_page_7.png" alt="">
                                     </div>
                                     <div class="blog_text">
-                                        <p>
+                                        <!-- <p>
                                             The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
                                             for
                                             those interested. Sections 1.10.32 and
@@ -329,13 +333,17 @@
                                             </h1>
                                         </div>
                                         <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by
+                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+                                            for those interested. Sections 1.10.32 and
+                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced
+                                            in their exact original form, accompanied by
                                             English versions from the 1914 translation by H. Rackham.
                                         </p>
                                         <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by
+                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+                                            for those interested. Sections 1.10.32 and
+                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced
+                                            in their exact original form, accompanied by
                                             English versions from the 1914 translation by H. Rackham.
                                         </p>
 
@@ -343,139 +351,21 @@
                                             <h1>
                                                 Toll Free Number
                                             </h1>
-                                        </div>
+                                        </div> -->
                                         <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-                                            and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
-                                            by
-                                            English versions from the 1914 translation by H. Rackham.
-                                        </p>
-                                        <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-                                            and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
-                                            by
-                                            English versions from the 1914 translation by H. Rackham.
+                                            The  by H. Rackham.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut culpa eos iste neque molestias sit deserunt quam labore, sunt provident. Vel maiores neque magni a placeat voluptas dignissimos inventore! Eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, soluta! Laboriosam, expedita voluptatibus? Laboriosam vero deleniti corrupti quidem repellendus. Perferendis reiciendis rem ullam adipisci. Dolorum fuga laborum aperiam illum! Beatae consequatur exercitationem, quis recusandae consectetur eaque, iure architecto sunt alias quibusdam sint voluptates sit, quisquam et aut dicta! Itaque fugit doloremque mollitia at similique impedit cupiditate dolore? Fuga, enim nisi deserunt quisquam reiciendis exercitationem atque, necessitatibus nihil odit laborum sunt architecto tempore animi, explicabo rerum corporis blanditiis ad nam voluptate veniam est. Impedit pariatur quaerat cum voluptatum illum sint placeat quia quos, ut omnis dolor mollitia? Numquam magnam impedit repellendus? lorem10
+                                            
                                         </p>
 
-                                        <div class="blog_hadding">
-                                            <h1>
-                                                Easy To Remember
-                                            </h1>
-                                        </div>
-                                        <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by
-                                            English versions from the 1914 translation by H. Rackham.
-                                        </p>
-                                        
-
-                                        <div class="blog_hadding">
-                                            <h1>
-                                                Easy To Remember
-                                            </h1>
-                                        </div>
-                                        <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-                                            and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
-                                            by
-                                            English versions from the 1914 translation by H. Rackham.
-                                        </p>
-                                        
-
-                                        <div class="blog_hadding">
-                                            <h1>
-                                                Easy To Remember
-                                            </h1>
-                                        </div>
-                                        <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-                                            and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
-                                            by
-                                            English versions from the 1914 translation by H. Rackham.
-                                        </p>
-                                        
-
-                                        <div class="blog_hadding">
-                                            <h1>
-                                                Easy To Remember
-                                            </h1>
-                                        </div>
-                                        <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-                                            and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
-                                            by
-                                            English versions from the 1914 translation by H. Rackham.
-                                        </p>
-                                        
-
-                                        <div class="blog_hadding">
-                                            <h1>
-                                                Easy To Remember
-                                            </h1>
-                                        </div>
-                                        <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-                                            and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
-                                            by
-                                            English versions from the 1914 translation by H. Rackham.
-                                        </p>
-                                       
-
-                                        <div class="blog_hadding">
-                                            <h1>
-                                                Easy To Remember
-                                            </h1>
-                                        </div>
-                                        <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-                                            and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
-                                            by
-                                            English versions from the 1914 translation by H. Rackham.
-                                        </p>
-                                       
-
-                                        <div class="blog_hadding">
-                                            <h1>
-                                                Easy To Remember
-                                            </h1>
-                                        </div>
-                                        <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-                                            and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
-                                            by
-                                            English versions from the 1914 translation by H. Rackham.
-                                        </p>
-                                        
-                                        <div class="blog_hadding">
-                                            <h1>
-                                                Conclusion
-                                            </h1>
-                                        </div>
-                                        <p>
-                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-                                            and
-                                            1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
-                                            by
-                                            English versions from the 1914 translation by H. Rackham.
-                                        </p>
-                                        
 
                                     </div>
-                                    
 
-                                    
+
+
                                 </div>
-                                
+
                             </div>
-                            <div class="side_banner mt-3 d-flex flex-column gap-4">
+                            <div class="side_banner mt-3 d-flex flex-column gap-4 col-3">
                                 <div class="recent_posts">
                                     <div class="recent_post_heading">
                                         <h3>Recent Posts</h3>
@@ -559,7 +449,7 @@
                     </div>
                 </div>
             </div>
-           
+
             <ul class="my-5 col-12 gap-9 flex-row d-flex justify-content-center align-items-center flex-wrap">
                 <li class="darkactive pagination_blue">
                     <span class="pag_text">1</span>
@@ -585,79 +475,79 @@
     </div>
 
     <!-- --footer-- -->
-<div class="w-100">
-    <div class="arin_footer bg-footer">
-        <div class="container">
-            <div
-                class="d-flex flex-row justify-content-lg-between justify-content-center align-items-start flex-wrap flex-lg-nowrap gap-75">
+    <div class="w-100">
+        <div class="arin_footer bg-footer">
+            <div class="container">
                 <div
-                    class="footer_first order-2 order-lg-0 col-xl-3 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
-                    <div>
-                        <img src="../assets/favicon.webp" alt="" id="footerlogo1">
-                        <img src="../assets/site-logo.webp" alt="" id="footerlogo2">
+                    class="d-flex flex-row justify-content-lg-between justify-content-center align-items-start flex-wrap flex-lg-nowrap gap-75">
+                    <div
+                        class="footer_first order-2 order-lg-0 col-xl-3 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
+                        <div>
+                            <img src="../assets/favicon.webp" alt="" id="footerlogo1">
+                            <img src="../assets/site-logo.webp" alt="" id="footerlogo2">
+                        </div>
+                        <h4>Email: support@arin.bz/support@arin.business</h4>
                     </div>
-                    <h4>Email: support@arin.bz/support@arin.business</h4>
-                </div>
-                <div
-                    class="footer_sec order-0  order-lg-1 col-xl-2 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
-                    <h4>Links</h4>
-                    <ul class="footer_links">
-                        <li>
-                            <a href="./AboutFounder.html">About Us</a>
-                        </li>
-                        <li>
-                            <a href="./Testimonial.html">Testimonial</a>
-                        </li>
+                    <div
+                        class="footer_sec order-0  order-lg-1 col-xl-2 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
+                        <h4>Links</h4>
+                        <ul class="footer_links">
+                            <li>
+                                <a href="./AboutFounder.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="./Testimonial.html">Testimonial</a>
+                            </li>
 
-                        <li>
-                            <a href="./Terms.html">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
-                <div
-                    class="footer_third order-1 order-lg-2 col-xl-2  col-sm-5 col-4 col-lg-2   d-flex flex-column justify-content-start align-items-start">
-                    <h4>Features</h4>
-                    <ul class="footer_links">
-                        <li>
-                            <a href="">Digital Marketing</a>
-                        </li>
-                        <li>
-                            <a href="">Content Marketing</a>
-                        </li>
-                        <li>
-                            <a href="">Lead Generation</a>
-                        </li>
+                            <li>
+                                <a href="./Terms.html">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="footer_third order-1 order-lg-2 col-xl-2  col-sm-5 col-4 col-lg-2   d-flex flex-column justify-content-start align-items-start">
+                        <h4>Features</h4>
+                        <ul class="footer_links">
+                            <li>
+                                <a href="">Digital Marketing</a>
+                            </li>
+                            <li>
+                                <a href="">Content Marketing</a>
+                            </li>
+                            <li>
+                                <a href="">Lead Generation</a>
+                            </li>
 
-                    </ul>
-                </div>
-                <div
-                    class="footer_fourth order-3 order-lg-3 col-xl-3 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
-                    <h4>Follow Us on</h4>
-                    <div class="d-flex flex-row align-items-center justify-content-center">
-                        <span class="font_social"><i class="text-white fa-brands fa-square-twitter"></i></span>
-                        <span class="font_social"><i class="text-white fa-brands fa-linkedin"></i></span>
-                        <span class="font_social"><i class="text-white fa-brands fa-square-facebook"></i></span>
-                        <span class="font_social"><i class="text-white fa-brands fa-instagram"></i></span>
-                        <span class="font_social"><i class="text-white fa-brands fa-square-youtube"></i></span>
+                        </ul>
+                    </div>
+                    <div
+                        class="footer_fourth order-3 order-lg-3 col-xl-3 col-sm-5 col-4 col-lg-2    d-flex flex-column justify-content-start align-items-start">
+                        <h4>Follow Us on</h4>
+                        <div class="d-flex flex-row align-items-center justify-content-center">
+                            <span class="font_social"><i class="text-white fa-brands fa-square-twitter"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-linkedin"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-square-facebook"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-instagram"></i></span>
+                            <span class="font_social"><i class="text-white fa-brands fa-square-youtube"></i></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div
-                class="footer_btn d-flex flex-row align-items-center justify-content-lg-between justify-content-center gap-2 flex-wrap flex-lg-nowrap">
-                <p>Copyright © 2023 ARIN Corporation</p>
-                <div class="d-flex flex-row align-items-center justify-content-center gap-10">
-                    <a href="./PrivacyPolicy.html" class="hrefstyle">
-                        <p>Privacy Policy</p>
-                    </a>
-                    <div style="height: 16px; width: 1px; background-color: white;"></div>
-                    <a href="./Terms.html" class="hrefstyle">
-                        <p>Terms &amp; Conditions</p>
-                    </a>
+                <div
+                    class="footer_btn d-flex flex-row align-items-center justify-content-lg-between justify-content-center gap-2 flex-wrap flex-lg-nowrap">
+                    <p>Copyright © 2023 ARIN Corporation</p>
+                    <div class="d-flex flex-row align-items-center justify-content-center gap-10">
+                        <a href="./PrivacyPolicy.html" class="hrefstyle">
+                            <p>Privacy Policy</p>
+                        </a>
+                        <div style="height: 16px; width: 1px; background-color: white;"></div>
+                        <a href="./Terms.html" class="hrefstyle">
+                            <p>Terms &amp; Conditions</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
