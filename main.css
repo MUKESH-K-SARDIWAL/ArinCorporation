@@ -262,7 +262,7 @@ img {
   width: 100%;
 }
 
-.arin_banner > div > div > div {
+.arin_banner>div>div>div {
   padding: 100px 0px;
 }
 
@@ -372,11 +372,9 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    0deg,
-    #29166f 0.2%,
-    rgba(217, 217, 217, 0) 99.75%
-  );
+  background: linear-gradient(0deg,
+      #29166f 0.2%,
+      rgba(217, 217, 217, 0) 99.75%);
   z-index: 1;
 }
 
@@ -491,11 +489,11 @@ img {
   gap: 20px;
 }
 
-.card_view > div {
+.card_view>div {
   gap: 20px;
 }
 
-.about_section div.card_view > div {
+.about_section div.card_view>div {
   /* width: 50%; */
   border-radius: 5px;
   border: 1px solid #d9d9d9;
@@ -650,7 +648,7 @@ img {
   padding-top: 64px;
 }
 
-.journey_wrapper > h2 {
+.journey_wrapper>h2 {
   color: #2734a8;
   font-size: 16px;
   font-style: normal;
@@ -660,7 +658,7 @@ img {
   text-align: center;
 }
 
-.journey_wrapper > p {
+.journey_wrapper>p {
   color: #000;
   text-align: center;
   font-size: 36px;
@@ -698,7 +696,7 @@ img {
 
 } */
 
-.hexagon + h4 {
+.hexagon+h4 {
   color: #fff;
   font-size: 16px;
   font-style: normal;
@@ -707,7 +705,7 @@ img {
   margin-bottom: 0px;
 }
 
-.client_card > p {
+.client_card>p {
   color: #fff;
   /* text-align: center; */
 
@@ -732,7 +730,7 @@ img {
   padding-bottom: 210px;
 }
 
-.connect_header > h3 {
+.connect_header>h3 {
   color: #2734a8;
   font-family: Barlow;
   font-size: 16px;
@@ -743,7 +741,7 @@ img {
   text-align: center;
 }
 
-.connect_header > h4 {
+.connect_header>h4 {
   color: #000;
 
   text-align: center;
@@ -755,7 +753,7 @@ img {
   margin-bottom: 16px;
 }
 
-.connect_header > p {
+.connect_header>p {
   color: #666;
   text-align: center;
   width: 75%;
@@ -780,7 +778,7 @@ img {
   gap: 18px;
 }
 
-.activities_card + div {
+.activities_card+div {
   padding: 26px 0px;
   /* border-radius: 10px; */
 }
@@ -899,7 +897,7 @@ img {
   gap: 14px;
 }
 
-.organizing_list > li > span:nth-child(2) {
+.organizing_list>li>span:nth-child(2) {
   color: #000;
   font-family: Barlow;
   font-size: 20px;
@@ -908,12 +906,12 @@ img {
   line-height: 28.8px;
 }
 
-.organizing_list > li > span:first-child i {
+.organizing_list>li>span:first-child i {
   font-size: 24px;
   color: #29166f;
 }
 
-button > span {
+button>span {
   font-size: 16px !important;
   font-weight: 500px !important;
   white-space: nowrap !important;
@@ -959,7 +957,7 @@ button > span {
   /* overflow: hidden; */
 }
 
-.arin_corpo > h4 {
+.arin_corpo>h4 {
   color: #f6b701;
   text-align: center;
   margin-top: 45px;
@@ -971,7 +969,7 @@ button > span {
   line-height: normal;
 }
 
-.arin_corpo > p {
+.arin_corpo>p {
   color: #fff;
   margin-bottom: 49px;
   text-align: center;
@@ -999,7 +997,7 @@ button > span {
   margin-top: 20px;
 }
 
-.video_list_card > span {
+.video_list_card>span {
   position: absolute;
   font-size: 48px;
   color: #c7c7c7;
@@ -1037,7 +1035,7 @@ button > span {
   top: 36%;
 }
 
-.play_btn > i {
+.play_btn>i {
   font-size: 60px;
   color: white;
 }
@@ -1089,7 +1087,7 @@ button > span {
   margin-top: 63px;
 }
 
-.arin_brand_wrap > div {
+.arin_brand_wrap>div {
   border-radius: 10px;
   background: #55458e;
   width: 20%;
@@ -1105,7 +1103,7 @@ button > span {
   width: 100%;
 }
 
-.blog_wrapp > h3 {
+.blog_wrapp>h3 {
   text-align: center;
   color: #2734a8;
   font-family: Barlow;
@@ -1117,7 +1115,7 @@ button > span {
   margin-bottom: 14px;
 }
 
-.blog_wrapp > h6 {
+.blog_wrapp>h6 {
   color: #000;
   text-align: center;
   font-family: Barlow;
@@ -1131,7 +1129,7 @@ button > span {
   margin-top: 40px;
 }
 
-.blog_card_Sec > div {
+.blog_card_Sec>div {
   overflow: hidden;
   border-radius: 10px;
 }
@@ -1149,7 +1147,7 @@ button > span {
   padding: 23px 21px;
 }
 
-.blog_text > h1 {
+.blog_text>h1 {
   color: #000;
   text-align: center;
   font-family: Barlow;
@@ -1159,7 +1157,7 @@ button > span {
   line-height: normal;
 }
 
-.blog_text > p {
+.blog_text>p {
   color: #000;
 
   font-family: Barlow;
@@ -1225,7 +1223,7 @@ button > span {
   z-index: 1;
 }
 
-.blog_background > img {
+.blog_background>img {
   width: 100%;
   height: 100%;
   object-fit: fill;
@@ -1249,7 +1247,7 @@ button > span {
 }
 
 .blog_explore_btn,
-.blog_Message_btn > span {
+.blog_Message_btn>span {
   color: #fff;
   white-space: nowrap;
   font-family: Barlow;
@@ -1278,7 +1276,7 @@ button > span {
   align-items: center;
 }
 
-.company_list > div {
+.company_list>div {
   display: flex;
   flex-direction: row;
   gap: 12.34px;
@@ -1286,12 +1284,12 @@ button > span {
   justify-content: flex-start;
 }
 
-.company_list > div > div {
+.company_list>div>div {
   /* width: 47.641px;
     height: 44.925px; */
 }
 
-.company_list > div > h3 {
+.company_list>div>h3 {
   color: #fff;
   text-align: center;
   font-family: Barlow;
@@ -1316,12 +1314,12 @@ button > span {
   gap: 33.06px;
 }
 
-.footer_first > div:first-child {
+.footer_first>div:first-child {
   width: 120px;
   height: 119.945px;
 }
 
-.footer_first > h4 {
+.footer_first>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 16px;
@@ -1346,7 +1344,7 @@ button > span {
   gap: 16px;
 }
 
-.footer_sec > h4 {
+.footer_sec>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 24px;
@@ -1356,7 +1354,7 @@ button > span {
   line-height: normal;
 }
 
-.footer_third > h4 {
+.footer_third>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 24px;
@@ -1367,7 +1365,7 @@ button > span {
   line-height: normal;
 }
 
-.footer_links li > a {
+.footer_links li>a {
   color: #fff;
   text-decoration: none;
   white-space: nowrap;
@@ -1382,7 +1380,7 @@ button > span {
   gap: 75px;
 }
 
-.footer_fourth > h4 {
+.footer_fourth>h4 {
   color: #fff;
   font-family: Barlow;
   font-size: 24px;
@@ -1392,11 +1390,11 @@ button > span {
   line-height: normal;
 }
 
-.footer_fourth > div {
+.footer_fourth>div {
   gap: 8px;
 }
 
-.font_social > i {
+.font_social>i {
   font-size: 20px;
 }
 
@@ -1775,7 +1773,7 @@ button > span {
   width: 100%;
 }
 
-.arin_policy > div > div h3 {
+.arin_policy>div>div h3 {
   color: #000;
   font-size: 30px;
   font-style: normal;
@@ -1784,7 +1782,7 @@ button > span {
   margin-bottom: 20px;
 }
 
-.arin_policy > div > div p {
+.arin_policy>div>div p {
   color: #666;
   font-size: 14px;
   font-style: normal;
@@ -1810,7 +1808,7 @@ button > span {
   min-width: 20px;
 }
 
-.list_image + p {
+.list_image+p {
   margin-bottom: 17px;
   line-height: 27px !important;
 }
@@ -1823,7 +1821,7 @@ button > span {
   background: linear-gradient(82deg, #e87b0d 4.26%, #f7bd01 105.53%);
 }
 
-.ceo_btn > h2 {
+.ceo_btn>h2 {
   color: #000;
   margin-bottom: 5px;
   margin-top: 0px;
@@ -1835,7 +1833,7 @@ button > span {
   line-height: normal;
 }
 
-.ceo_btn > p {
+.ceo_btn>p {
   color: #fff;
   margin-bottom: 0;
   text-align: center;
@@ -1858,7 +1856,7 @@ button > span {
   align-items: center;
 }
 
-.features-banner-text > h4 {
+.features-banner-text>h4 {
   color: #fec434;
 
   font-family: Barlow;
@@ -1868,7 +1866,7 @@ button > span {
   line-height: 20px;
 }
 
-.features-banner-text > p {
+.features-banner-text>p {
   color: #fff;
   width: 40%;
   font-family: Barlow;
@@ -1912,7 +1910,7 @@ button > span {
   background: #fff;
 }
 
-.select__list_show > select {
+.select__list_show>select {
   width: 80px;
 }
 
@@ -2063,7 +2061,7 @@ button > span {
   left: 45%;
 }
 
-.video_icon > i {
+.video_icon>i {
   font-size: 37px;
 }
 
@@ -2078,7 +2076,7 @@ button > span {
   align-items: center;
 }
 
-.BankingSectors > span {
+.BankingSectors>span {
   color: #fff;
 
   font-family: Barlow;
@@ -2446,17 +2444,22 @@ button > span {
 }
 
 .bg_sign_up {
-  background-image: url(./assets/sign_up.png);
+  /* background-image: url(./assets/sign_up.png); */
   background-position: center center;
   background-repeat: no-repeat;
+  /* background-color: #b3c0c033; */
+  background: conic-gradient(from 210deg at 134% -200%, #f17d0838 15%, hsla(232, 57.7%, 41.78%, 0.26) 66%);
+  /* background: linear-gradient(288deg, #f17d0838 39%, hsla(232, 57.7%, 41.78%, 0.26) 90%); */
+  /* background: linear-gradient(65deg, #f17d0838 34%, hsla(232, 57.7%, 41.78%, 0.26) 70%); */
   background-size: 100% 100%;
-  padding: 80px;
-  width: 700px;
+  padding: 25px !important;
+  width: 900px;
   border-radius: 4px;
 }
 
 .modal-dialog {
-  max-width: 700px;
+  max-width: 900px;
+  /* width: 100%; */
 }
 
 .sign_up_img {
@@ -2506,11 +2509,11 @@ button > span {
 }
 
 .account_text {
-  color: #787878;
+  color: #212529;
   font-family: Barlow;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 162%;
 }
 
@@ -2520,7 +2523,7 @@ button > span {
   text-decoration: none;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 162%;
 }
 
@@ -2544,7 +2547,7 @@ button > span {
   gap: 9px;
 }
 
-.gap_9 > div {
+.gap_9>div {
   width: 40px;
   height: 40px;
   min-height: 40px;
@@ -2601,6 +2604,7 @@ button > span {
 }
 
 @keyframes bounceAndScale {
+
   0%,
   20%,
   50%,
@@ -2737,25 +2741,65 @@ a {
 }
 
 .vertical-divider {
-  padding: 1px;
-  margin: 12px;
+  padding: 0.2px;
+  /* margin: 12px; */
   background-color: #666;
-  width: 4px;
+  width: 0.2px;
   height: 500px;
 }
+
 .heading_container h4,
 h5 {
   padding: 20px;
   color: #29166f;
   font-weight: 400;
 }
+
 .heading_container h3 {
   color: #29166f;
-  text-align: center;
+  /* text-align: center; */
 }
 
-/* .heading_container {
+.heading_container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-} */
+  justify-content: flex-start;
+  height: inherit;
+}
+
+.heading_container h3 {
+  /* color: #000; */
+  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.heading_container p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.heading_container ul {
+  padding-left: 0px;
+
+  li {
+    /* margin-left: 10px; */
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    color: #212529;
+  }
+}
+
+.heading_container ul li:first-child {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  /* margin-left: -10px; */
+}

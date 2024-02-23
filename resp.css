@@ -7,10 +7,47 @@
     height: 400px !important;
   }
 
+    .heading_container h3 {
+      /* color: #000; */
+      margin-bottom: 12px;
+      font-size: 22px;
+      font-weight: 600;
+      text-align: left;
+    }
+  
+    .heading_container p {
+      margin-bottom: 20px;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: left;
+    }
+  
+    .heading_container ul {
+      padding-left: 0px;
+  
+      li {
+        /* margin-left: 10px; */
+        list-style-type: none;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        margin-bottom: 8px;
+        color: #212529;
+      }
+    }
+  
+    .heading_container ul li:first-child {
+      font-size: 16px;
+      font-weight: 500;
+      padding-left: 0px;
+      /* margin-left: -10px; */
+    }
+
   .bg_sign_up {
     padding: 30px 15px;
     width: auto;
-    max-width: 700px;
+    max-width: 900px;
   }
 
   .sign_up_img {
@@ -205,8 +242,7 @@
     line-height: 28.8px;
   }
 
-  .bg-net {
-  }
+  .bg-net {}
 
   .check_font {
     font-size: 24px;
@@ -252,12 +288,12 @@
     z-index: -1;
   }
 
-  .ceo_btn > h2 {
+  .ceo_btn>h2 {
     font-size: 11px;
     white-space: nowrap;
   }
 
-  .ceo_btn > p {
+  .ceo_btn>p {
     font-size: 10px;
     white-space: nowrap;
   }
@@ -297,7 +333,7 @@
     background-color: #ededef;
   }
 
-  .team_arin_text > div > h4 {
+  .team_arin_text>div>h4 {
     color: #000;
     font-size: 24px;
     font-style: normal;
@@ -306,7 +342,7 @@
     text-align: center;
   }
 
-  .team_arin_text > div > p {
+  .team_arin_text>div>p {
     color: #666;
     text-align: center;
     font-family: Barlow;
@@ -338,7 +374,7 @@
     align-self: flex-end;
   }
 
-  .founder-banner-text > h4 {
+  .founder-banner-text>h4 {
     color: #29166f;
     text-align: center;
     font-family: Barlow;
@@ -349,7 +385,7 @@
     margin-bottom: 0;
   }
 
-  .founder-banner-text > p {
+  .founder-banner-text>p {
     color: #000;
     text-align: center;
     font-size: 20px;
@@ -360,7 +396,7 @@
     margin-bottom: 0px;
   }
 
-  .footer_first > h4 {
+  .footer_first>h4 {
     font-size: 12px;
   }
 
@@ -368,23 +404,23 @@
     position: relative;
   }
 
-  .footer_sec > h4 {
+  .footer_sec>h4 {
     font-size: 20px;
   }
 
-  .footer_links li > a {
+  .footer_links li>a {
     font-size: 14px;
   }
 
-  .footer_third > h4 {
+  .footer_third>h4 {
     font-size: 20px;
   }
 
-  .footer_fourth > h4 {
+  .footer_fourth>h4 {
     font-size: 20px;
   }
 
-  .footer_first > div:first-child {
+  .footer_first>div:first-child {
     width: 126px;
     height: 62px;
   }
@@ -409,7 +445,7 @@
     background-color: #fff;
   }
 
-  .company_list > div {
+  .company_list>div {
     width: 45%;
   }
 
@@ -418,14 +454,14 @@
     margin-top: 12px;
   }
 
-  .company_list > div > div {
+  .company_list>div>div {
     /* width: 34px;
         height: 32.061px; */
     width: 25px;
     height: 25.061px;
   }
 
-  .company_list > div > h3 {
+  .company_list>div>h3 {
     white-space: nowrap;
     font-size: 17px;
   }
@@ -439,17 +475,17 @@
     margin-top: 0px;
   }
 
-  .arin_corpo > h4 {
+  .arin_corpo>h4 {
     margin-bottom: 17px;
 
     font-size: 14px;
   }
 
-  .blog_wrapp > h6 {
+  .blog_wrapp>h6 {
     font-size: 24px;
   }
 
-  .arin_brand_wrap > div {
+  .arin_brand_wrap>div {
     border-radius: 10px;
     background: #29166f;
     width: 100%;
@@ -457,7 +493,7 @@
     padding: 12px;
   }
 
-  .arin_corpo > p {
+  .arin_corpo>p {
     margin-bottom: 49px;
     color: black;
     font-size: 18px;
@@ -486,7 +522,7 @@
     font-size: 18px;
   }
 
-  .organizing_list > li > span:nth-child(2) {
+  .organizing_list>li>span:nth-child(2) {
     color: #000;
     font-family: Barlow;
     font-size: 15px;
@@ -541,7 +577,7 @@
     line-height: normal;
   }
 
-  .Activities_wrapper > div {
+  .Activities_wrapper>div {
     border-radius: 10px;
     overflow: hidden;
     width: 100%;
@@ -588,7 +624,7 @@
     display: none;
   }
 
-  .about_section div.card_view > div {
+  .about_section div.card_view>div {
     width: 100%;
   }
 
@@ -601,7 +637,7 @@
     background: white;
   }
 
-  .connect_header > h4 {
+  .connect_header>h4 {
     color: #000;
 
     font-size: 24px;
@@ -609,7 +645,7 @@
     margin-bottom: 16px;
   }
 
-  .connect_header > p {
+  .connect_header>p {
     color: #666;
     text-align: center;
     font-family: Barlow;
@@ -648,7 +684,7 @@
     flex-shrink: 0;
   }
 
-  .journeyCard_wrapper > div {
+  .journeyCard_wrapper>div {
     border-radius: 10px;
     background: #29166f;
     width: 100%;
@@ -661,7 +697,7 @@
     gap: 21px;
   }
 
-  .journey_wrapper > p {
+  .journey_wrapper>p {
     color: #000;
 
     text-align: center;
@@ -676,7 +712,7 @@
     padding-top: 29px;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 49px 0px;
   }
 
@@ -922,13 +958,13 @@
     background-position: left;
   }
 
-  .features-banner-text > h4 {
+  .features-banner-text>h4 {
     font-size: 34px;
     padding-bottom: 12px;
     text-align: center;
   }
 
-  .features-banner-text > p {
+  .features-banner-text>p {
     font-size: 24px;
     width: 100%;
     text-align: center;
@@ -951,7 +987,7 @@
     margin-bottom: 20px;
   }
 
-  .select__list_show > select {
+  .select__list_show>select {
     width: 220px;
     margin-left: 20px;
   }
@@ -1022,28 +1058,15 @@
   .blog_button button {
     font-size: 18px;
   }
+
   .bg_sign_up {
-    align-items: center;
-    flex-direction: column-reverse;
+    background: white;
   }
+
   .vertical-divider {
     display: none;
   }
-  .bg_sign_up_right {
-    width: 100%;
-  }
-  .bg_sign_up_left {
-    width: 100%;
-    margin-bottom: 50px;
-  }
-  .heading_container h4,
-  h5 {
-    padding: 5px;
-    font-size: 16px;
-  }
-  .heading_container p {
-    font-size: 14px;
-  }
+
 }
 
 @media screen and (min-width: 400px) {
@@ -1153,12 +1176,12 @@
     z-index: -1;
   }
 
-  .ceo_btn > h2 {
+  .ceo_btn>h2 {
     font-size: 17px;
     white-space: nowrap;
   }
 
-  .ceo_btn > p {
+  .ceo_btn>p {
     font-size: 15px;
     white-space: nowrap;
   }
@@ -1181,12 +1204,12 @@
     height: 96px;
   }
 
-  .founder-banner-text > h4 {
+  .founder-banner-text>h4 {
     font-size: 14px;
     line-height: 20px;
   }
 
-  .founder-banner-text > p {
+  .founder-banner-text>p {
     font-size: 24px;
     line-height: 46.3px;
   }
@@ -1365,24 +1388,24 @@
     font-size: 14px;
   }
 
-  .company_list > div {
+  .company_list>div {
     width: 47%;
   }
 
-  .team_arin_text > div > h4 {
+  .team_arin_text>div>h4 {
     font-size: 26px;
   }
 
-  .team_arin_text > div > p {
+  .team_arin_text>div>p {
     font-size: 13px;
   }
 
-  .company_list > div > div {
+  .company_list>div>div {
     width: 34px;
     height: 32.061px;
   }
 
-  .company_list > div > h3 {
+  .company_list>div>h3 {
     /* white-space: nowrap; */
     font-size: 24px;
   }
@@ -1395,11 +1418,11 @@
     height: 243px;
   }
 
-  .blog_wrapp > h6 {
+  .blog_wrapp>h6 {
     font-size: 28px;
   }
 
-  .organizing_list > li > span:nth-child(2) {
+  .organizing_list>li>span:nth-child(2) {
     color: #000;
     font-family: Barlow;
     font-size: 16px;
@@ -1467,7 +1490,7 @@
     display: none;
   }
 
-  .about_section div.card_view > div {
+  .about_section div.card_view>div {
     width: 100%;
   }
 
@@ -1480,7 +1503,7 @@
     background: white;
   }
 
-  .connect_header > h4 {
+  .connect_header>h4 {
     color: #000;
 
     font-size: 24px;
@@ -1488,7 +1511,7 @@
     margin-bottom: 16px;
   }
 
-  .connect_header > p {
+  .connect_header>p {
     color: #666;
     text-align: center;
     font-family: Barlow;
@@ -1527,7 +1550,7 @@
     flex-shrink: 0;
   }
 
-  .journeyCard_wrapper > div {
+  .journeyCard_wrapper>div {
     border-radius: 10px;
     background: #29166f;
     width: 100%;
@@ -1540,7 +1563,7 @@
     gap: 21px;
   }
 
-  .journey_wrapper > p {
+  .journey_wrapper>p {
     color: #000;
 
     text-align: center;
@@ -1555,7 +1578,7 @@
     padding-top: 29px;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 49px 0px;
   }
 
@@ -1732,12 +1755,12 @@
     height: 220px;
   }
 
-  .features-banner-text > h4 {
+  .features-banner-text>h4 {
     text-align: left;
     font-size: 24px;
   }
 
-  .features-banner-text > p {
+  .features-banner-text>p {
     width: 40%;
     text-align: left;
   }
@@ -1753,28 +1776,11 @@
   .blog_background {
     height: 180px;
   }
-  .bg_sign_up {
-    align-items: start;
-    flex-direction: row;
-  }
-  .vertical-divider {
-    display: block;
-  }
+
   .bg_sign_up_right {
-    width: 40%;
+    width: 45%;
   }
-  .bg_sign_up_left {
-    width: 60%;
-    margin-bottom: 0px;
-  }
-  .heading_container h4,
-  h5 {
-    padding: 20px;
-    font-size: 16px;
-  }
-  .heading_container p {
-    font-size: 14px;
-  }
+
 }
 
 @media screen and (min-width: 767px) {
@@ -1789,6 +1795,46 @@
     display: flex;
     justify-content: start;
     align-items: start;
+  }
+    .heading_container h3 {
+      /* color: #000; */
+      margin-bottom: 12px;
+      font-size: 22px;
+      font-weight: 600;
+      text-align: left;
+    }
+  
+    .heading_container p {
+      margin-bottom: 20px;
+      font-size: 20px;
+      font-weight: 500;
+      text-align: left;
+    }
+  
+    .heading_container ul {
+      padding-left: 0px;
+  
+      li {
+        /* margin-left: 10px; */
+        list-style-type: none;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        margin-bottom: 8px;
+        color: #212529;
+      }
+    }
+  
+    .heading_container ul li:first-child {
+      font-size: 20px;
+      font-weight: 500;
+      padding-left: 0px;
+      /* margin-left: -10px; */
+    }
+
+  .bg_sign_up {
+    background: conic-gradient(from 210deg at 134% -200%, #f17d0838 15%, hsla(232, 57.7%, 41.78%, 0.26) 66%);
   }
 
   .card_heading {
@@ -1887,7 +1933,7 @@
     height: 141px;
   }
 
-  .ceo_btn > h2 {
+  .ceo_btn>h2 {
     font-size: 11px;
     white-space: nowrap;
   }
@@ -1897,7 +1943,7 @@
     margin: 15px auto;
   }
 
-  .ceo_btn > p {
+  .ceo_btn>p {
     font-size: 10px;
     white-space: nowrap;
   }
@@ -1928,11 +1974,11 @@
     height: 0px !important;
   }
 
-  .team_arin_text > div > h4 {
+  .team_arin_text>div>h4 {
     font-size: 28px;
   }
 
-  .team_arin_text > div > p {
+  .team_arin_text>div>p {
     font-size: 14px;
   }
 
@@ -1945,7 +1991,7 @@
     align-self: center;
   }
 
-  .founder-banner-text > h4 {
+  .founder-banner-text>h4 {
     color: #fec434;
     font-family: Barlow;
     text-align: left;
@@ -1956,7 +2002,7 @@
     margin-bottom: 17px;
   }
 
-  .founder-banner-text > p {
+  .founder-banner-text>p {
     color: #fff;
     width: 50%;
     text-align: left;
@@ -1977,11 +2023,11 @@
     gap: 75px;
   }
 
-  .footer_third > h4 {
+  .footer_third>h4 {
     font-size: 23px;
   }
 
-  .footer_first > div:first-child {
+  .footer_first>div:first-child {
     width: 120px;
     height: 119.945px;
   }
@@ -1994,19 +2040,19 @@
     display: block;
   }
 
-  .company_list > div {
+  .company_list>div {
     width: inherit;
   }
 
-  .company_list > div > h3 {
+  .company_list>div>h3 {
     font-size: 28px;
   }
 
-  .about_section div.card_view > div {
+  .about_section div.card_view>div {
     width: 50%;
   }
 
-  .organizing_list > li > span:nth-child(2) {
+  .organizing_list>li>span:nth-child(2) {
     color: #000;
     font-family: Barlow;
     font-size: 15px;
@@ -2034,7 +2080,7 @@
     margin-bottom: 15px;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 35px 0px;
   }
 
@@ -2044,7 +2090,7 @@
     margin-bottom: 16px;
   }
 
-  .connect_header > p {
+  .connect_header>p {
     font-size: 14px;
   }
 
@@ -2273,11 +2319,11 @@
 
   /* --Features-- */
   /* --main--banner-- */
-  .features-banner-text > h4 {
+  .features-banner-text>h4 {
     font-size: 24px;
   }
 
-  .features-banner-text > p {
+  .features-banner-text>p {
     font-size: 36px;
   }
 
@@ -2507,7 +2553,7 @@
     height: 198px;
   }
 
-  .ceo_btn > h2 {
+  .ceo_btn>h2 {
     font-size: 12px;
     white-space: nowrap;
   }
@@ -2517,7 +2563,7 @@
     margin: 15px auto;
   }
 
-  .ceo_btn > p {
+  .ceo_btn>p {
     font-size: 12px;
   }
 
@@ -2578,11 +2624,9 @@
 
   .bg-machine {
     position: relative;
-    background: linear-gradient(
-        0deg,
+    background: linear-gradient(0deg,
         rgba(41, 22, 111, 0.84),
-        rgba(41, 22, 111, 0.84)
-      ),
+        rgba(41, 22, 111, 0.84)),
       url(assets/machine.webp);
     background-size: cover;
     /* background-blend-mode: overlay; */
@@ -2592,23 +2636,23 @@
     background-position: center;
   }
 
-  .footer_sec > h4 {
+  .footer_sec>h4 {
     font-size: 24px;
   }
 
-  .footer_links li > a {
+  .footer_links li>a {
     font-size: 16px;
   }
 
-  .footer_third > h4 {
+  .footer_third>h4 {
     font-size: 24px;
   }
 
-  .footer_fourth > h4 {
+  .footer_fourth>h4 {
     font-size: 24px;
   }
 
-  .company_list > div > h3 {
+  .company_list>div>h3 {
     font-size: 32px;
   }
 
@@ -2621,7 +2665,7 @@
     background-color: #fff;
   }
 
-  .bg- .company_list > div > div {
+  .bg- .company_list>div>div {
     width: 40.641px;
     height: 35.925px;
   }
@@ -2635,11 +2679,11 @@
     margin-top: 0px;
   }
 
-  .blog_wrapp > h6 {
+  .blog_wrapp>h6 {
     font-size: 32px;
   }
 
-  .arin_corpo > p {
+  .arin_corpo>p {
     color: #fff;
     margin-bottom: 49px;
     text-align: center;
@@ -2737,18 +2781,18 @@
     background-color: white;
   }
 
-  .Activities_wrapper > div {
+  .Activities_wrapper>div {
     border-radius: 10px;
     overflow: hidden;
     width: 33%;
   }
 
-  .connect_header > h4 {
+  .connect_header>h4 {
     font-size: 36px;
     margin-bottom: 16px;
   }
 
-  .connect_header > p {
+  .connect_header>p {
     color: #666;
     text-align: center;
     width: 75%;
@@ -2765,7 +2809,7 @@
     padding-bottom: 210px;
   }
 
-  .activities_card + div {
+  .activities_card+div {
     padding: 19px 0px;
     /* border-radius: 10px; */
   }
@@ -2818,7 +2862,7 @@
     height: 331px;
   }
 
-  .journeyCard_wrapper > div {
+  .journeyCard_wrapper>div {
     border-radius: 10px;
     background: #29166f;
     width: 23%;
@@ -2852,7 +2896,7 @@
     margin-bottom: 15px;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 65px 0px;
   }
 
@@ -2945,7 +2989,7 @@
     flex-direction: row;
   }
 
-  .select__list_show > select {
+  .select__list_show>select {
     width: 80px;
     margin-left: 0px;
   }
@@ -3037,7 +3081,7 @@
     margin: auto;
   }
 
-  .list_image + p {
+  .list_image+p {
     margin-bottom: 15px !important;
     line-height: 20px !important;
   }
@@ -3046,7 +3090,7 @@
     gap: 50px;
   }
 
-  .blog_wrapp > h6 {
+  .blog_wrapp>h6 {
     font-size: 36px;
   }
 
@@ -3090,7 +3134,7 @@
     line-height: 10px;
   }
 
-  .activities_card + div {
+  .activities_card+div {
     padding: 19px 0px;
     /* border-radius: 10px; */
   }
@@ -3104,7 +3148,7 @@
     margin-bottom: 17px;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 70px 0px;
   }
 
@@ -3254,11 +3298,11 @@
     gap: 20px;
   }
 
-  .card_view > div {
+  .card_view>div {
     gap: 20px;
   }
 
-  .about_section div.card_view > div {
+  .about_section div.card_view>div {
     width: 50%;
     border-radius: 5px;
     border: 1px solid #d9d9d9;
@@ -3357,7 +3401,7 @@
     height: 227px;
   }
 
-  .ceo_btn > h2 {
+  .ceo_btn>h2 {
     font-size: 14px;
     white-space: nowrap;
   }
@@ -3367,7 +3411,7 @@
     margin: 15px auto;
   }
 
-  .ceo_btn > p {
+  .ceo_btn>p {
     font-size: 14px;
   }
 
@@ -3402,7 +3446,7 @@
     height: 91px;
   }
 
-  .team_arin_text > div > h4 {
+  .team_arin_text>div>h4 {
     font-size: 30px;
   }
 
@@ -3419,7 +3463,7 @@
     width: 48%;
   }
 
-  .arin_corpo > p {
+  .arin_corpo>p {
     margin-bottom: 49px;
 
     font-size: 36px;
@@ -3427,7 +3471,7 @@
     line-height: 147.6%;
   }
 
-  .arin_banner > div > div > div {
+  .arin_banner>div>div>div {
     padding: 80px 0px;
   }
 
@@ -3521,7 +3565,7 @@
     margin: auto;
   }
 
-  .ceo_btn > h2 {
+  .ceo_btn>h2 {
     font-size: 18px;
     white-space: nowrap;
   }
@@ -3531,7 +3575,7 @@
     margin: 15px auto;
   }
 
-  .ceo_btn > p {
+  .ceo_btn>p {
     font-size: 14px;
   }
 
@@ -3583,7 +3627,7 @@
     padding-bottom: 210px;
   }
 
-  .activities_card + div {
+  .activities_card+div {
     padding: 26px 0px;
     /* border-radius: 10px; */
   }
