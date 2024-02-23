@@ -47,7 +47,7 @@
   .text_above_image {
     padding: 10px 15px;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.5);
     min-height: 76px;
   }
 
@@ -63,7 +63,7 @@
   }
 
   .arin_slider_btn_text {
-    color: #FFF;
+    color: #fff;
     font-family: Barlow;
     font-size: 12px;
     font-style: normal;
@@ -97,15 +97,14 @@
     overflow: hidden;
   }
 
-
   .position_card {
     top: 8px;
     left: 12px;
   }
 
   .top_position_fixed2::after {
-    content: '';
-    border-left: 2px solid #29166F;
+    content: "";
+    border-left: 2px solid #29166f;
     height: 98px;
     left: 8.5%;
     top: 45px;
@@ -114,8 +113,8 @@
   }
 
   .top_position_fixed2::after {
-    content: '';
-    border-left: 2px solid #29166F;
+    content: "";
+    border-left: 2px solid #29166f;
     height: 126px;
     left: 8.5%;
     top: 45px;
@@ -141,8 +140,8 @@
   }
 
   .top_position_fixed3::after {
-    content: '';
-    border-left: 2px solid #29166F;
+    content: "";
+    border-left: 2px solid #29166f;
     height: 126px;
     left: 25px;
     top: 45px;
@@ -151,8 +150,8 @@
   }
 
   .top_position_fixed::after {
-    content: '';
-    border-left: 2px solid #29166F;
+    content: "";
+    border-left: 2px solid #29166f;
     height: 127px;
     left: 0px;
     top: 31px;
@@ -206,11 +205,12 @@
     line-height: 28.8px;
   }
 
-  .bg-net {}
+  .bg-net {
+  }
 
   .check_font {
     font-size: 24px;
-    color: #29166F;
+    color: #29166f;
   }
 
   .experien_text {
@@ -252,12 +252,12 @@
     z-index: -1;
   }
 
-  .ceo_btn>h2 {
+  .ceo_btn > h2 {
     font-size: 11px;
     white-space: nowrap;
   }
 
-  .ceo_btn>p {
+  .ceo_btn > p {
     font-size: 10px;
     white-space: nowrap;
   }
@@ -295,11 +295,9 @@
 
   .bg-greylight {
     background-color: #ededef;
-
   }
 
-  .team_arin_text>div>h4 {
-
+  .team_arin_text > div > h4 {
     color: #000;
     font-size: 24px;
     font-style: normal;
@@ -308,7 +306,7 @@
     text-align: center;
   }
 
-  .team_arin_text>div>p {
+  .team_arin_text > div > p {
     color: #666;
     text-align: center;
     font-family: Barlow;
@@ -340,7 +338,7 @@
     align-self: flex-end;
   }
 
-  .founder-banner-text>h4 {
+  .founder-banner-text > h4 {
     color: #29166f;
     text-align: center;
     font-family: Barlow;
@@ -351,7 +349,7 @@
     margin-bottom: 0;
   }
 
-  .founder-banner-text>p {
+  .founder-banner-text > p {
     color: #000;
     text-align: center;
     font-size: 20px;
@@ -362,7 +360,7 @@
     margin-bottom: 0px;
   }
 
-  .footer_first>h4 {
+  .footer_first > h4 {
     font-size: 12px;
   }
 
@@ -370,23 +368,23 @@
     position: relative;
   }
 
-  .footer_sec>h4 {
+  .footer_sec > h4 {
     font-size: 20px;
   }
 
-  .footer_links li>a {
+  .footer_links li > a {
     font-size: 14px;
   }
 
-  .footer_third>h4 {
+  .footer_third > h4 {
     font-size: 20px;
   }
 
-  .footer_fourth>h4 {
+  .footer_fourth > h4 {
     font-size: 20px;
   }
 
-  .footer_first>div:first-child {
+  .footer_first > div:first-child {
     width: 126px;
     height: 62px;
   }
@@ -411,7 +409,7 @@
     background-color: #fff;
   }
 
-  .company_list>div {
+  .company_list > div {
     width: 45%;
   }
 
@@ -420,14 +418,14 @@
     margin-top: 12px;
   }
 
-  .company_list>div>div {
+  .company_list > div > div {
     /* width: 34px;
         height: 32.061px; */
     width: 25px;
     height: 25.061px;
   }
 
-  .company_list>div>h3 {
+  .company_list > div > h3 {
     white-space: nowrap;
     font-size: 17px;
   }
@@ -441,17 +439,17 @@
     margin-top: 0px;
   }
 
-  .arin_corpo>h4 {
+  .arin_corpo > h4 {
     margin-bottom: 17px;
 
     font-size: 14px;
   }
 
-  .blog_wrapp>h6 {
+  .blog_wrapp > h6 {
     font-size: 24px;
   }
 
-  .arin_brand_wrap>div {
+  .arin_brand_wrap > div {
     border-radius: 10px;
     background: #29166f;
     width: 100%;
@@ -459,7 +457,7 @@
     padding: 12px;
   }
 
-  .arin_corpo>p {
+  .arin_corpo > p {
     margin-bottom: 49px;
     color: black;
     font-size: 18px;
@@ -488,7 +486,7 @@
     font-size: 18px;
   }
 
-  .organizing_list>li>span:nth-child(2) {
+  .organizing_list > li > span:nth-child(2) {
     color: #000;
     font-family: Barlow;
     font-size: 15px;
@@ -543,7 +541,7 @@
     line-height: normal;
   }
 
-  .Activities_wrapper>div {
+  .Activities_wrapper > div {
     border-radius: 10px;
     overflow: hidden;
     width: 100%;
@@ -590,7 +588,7 @@
     display: none;
   }
 
-  .about_section div.card_view>div {
+  .about_section div.card_view > div {
     width: 100%;
   }
 
@@ -603,7 +601,7 @@
     background: white;
   }
 
-  .connect_header>h4 {
+  .connect_header > h4 {
     color: #000;
 
     font-size: 24px;
@@ -611,7 +609,7 @@
     margin-bottom: 16px;
   }
 
-  .connect_header>p {
+  .connect_header > p {
     color: #666;
     text-align: center;
     font-family: Barlow;
@@ -650,7 +648,7 @@
     flex-shrink: 0;
   }
 
-  .journeyCard_wrapper>div {
+  .journeyCard_wrapper > div {
     border-radius: 10px;
     background: #29166f;
     width: 100%;
@@ -663,7 +661,7 @@
     gap: 21px;
   }
 
-  .journey_wrapper>p {
+  .journey_wrapper > p {
     color: #000;
 
     text-align: center;
@@ -678,7 +676,7 @@
     padding-top: 29px;
   }
 
-  .arin_banner>div>div>div {
+  .arin_banner > div > div > div {
     padding: 49px 0px;
   }
 
@@ -924,13 +922,13 @@
     background-position: left;
   }
 
-  .features-banner-text>h4 {
+  .features-banner-text > h4 {
     font-size: 34px;
     padding-bottom: 12px;
     text-align: center;
   }
 
-  .features-banner-text>p {
+  .features-banner-text > p {
     font-size: 24px;
     width: 100%;
     text-align: center;
@@ -953,7 +951,7 @@
     margin-bottom: 20px;
   }
 
-  .select__list_show>select {
+  .select__list_show > select {
     width: 220px;
     margin-left: 20px;
   }
@@ -1024,6 +1022,28 @@
   .blog_button button {
     font-size: 18px;
   }
+  .bg_sign_up {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .vertical-divider {
+    display: none;
+  }
+  .bg_sign_up_right {
+    width: 100%;
+  }
+  .bg_sign_up_left {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .heading_container h4,
+  h5 {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .heading_container p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 400px) {
@@ -1077,7 +1097,7 @@
   }
 
   .arin_slider_btn_text {
-    color: #FFF;
+    color: #fff;
     font-family: Barlow;
     font-size: 14px;
     font-style: normal;
@@ -1096,7 +1116,6 @@
   }
 
   .presentation_text {
-
     font-size: 16px;
   }
 
@@ -1104,7 +1123,6 @@
     /* font-size: 30px; */
     font-size: 24px;
     margin-bottom: 17px;
-
   }
 
   .climbing_image {
@@ -1135,12 +1153,12 @@
     z-index: -1;
   }
 
-  .ceo_btn>h2 {
+  .ceo_btn > h2 {
     font-size: 17px;
     white-space: nowrap;
   }
 
-  .ceo_btn>p {
+  .ceo_btn > p {
     font-size: 15px;
     white-space: nowrap;
   }
@@ -1163,12 +1181,12 @@
     height: 96px;
   }
 
-  .founder-banner-text>h4 {
+  .founder-banner-text > h4 {
     font-size: 14px;
     line-height: 20px;
   }
 
-  .founder-banner-text>p {
+  .founder-banner-text > p {
     font-size: 24px;
     line-height: 46.3px;
   }
@@ -1234,7 +1252,7 @@
   }
 
   .arin_slider_btn_text {
-    color: #FFF;
+    color: #fff;
     font-family: Barlow;
     font-size: 16px;
     font-style: normal;
@@ -1252,7 +1270,6 @@
     margin: auto;
   }
 
-
   .ml-rg {
     margin-left: 41px;
   }
@@ -1263,8 +1280,8 @@
   }
 
   .top_position_fixed2::after {
-    content: '';
-    border-left: 2px solid #29166F;
+    content: "";
+    border-left: 2px solid #29166f;
     height: 98px;
     left: 8.5%;
     top: 45px;
@@ -1273,8 +1290,8 @@
   }
 
   .top_position_fixed2::after {
-    content: '';
-    border-left: 2px solid #29166F;
+    content: "";
+    border-left: 2px solid #29166f;
     height: 126px;
     left: 91.5%;
     top: 45px;
@@ -1300,8 +1317,8 @@
   }
 
   .top_position_fixed3::after {
-    content: '';
-    border-left: 2px solid #29166F;
+    content: "";
+    border-left: 2px solid #29166f;
     height: 126px;
     left: 25px;
     top: 45px;
@@ -1310,8 +1327,8 @@
   }
 
   .top_position_fixed::after {
-    content: '';
-    border-left: 2px solid #29166F;
+    content: "";
+    border-left: 2px solid #29166f;
     height: 127px;
     left: 0px;
     top: 31px;
@@ -1337,7 +1354,6 @@
     /* font-size: 30px; */
     font-size: 26px;
     margin-bottom: 18px;
-
   }
 
   .climbing_image {
@@ -1349,28 +1365,24 @@
     font-size: 14px;
   }
 
-  .company_list>div {
+  .company_list > div {
     width: 47%;
   }
 
-
-  .team_arin_text>div>h4 {
+  .team_arin_text > div > h4 {
     font-size: 26px;
-
   }
 
-  .team_arin_text>div>p {
-
+  .team_arin_text > div > p {
     font-size: 13px;
-
   }
 
-  .company_list>div>div {
+  .company_list > div > div {
     width: 34px;
     height: 32.061px;
   }
 
-  .company_list>div>h3 {
+  .company_list > div > h3 {
     /* white-space: nowrap; */
     font-size: 24px;
   }
@@ -1383,11 +1395,11 @@
     height: 243px;
   }
 
-  .blog_wrapp>h6 {
+  .blog_wrapp > h6 {
     font-size: 28px;
   }
 
-  .organizing_list>li>span:nth-child(2) {
+  .organizing_list > li > span:nth-child(2) {
     color: #000;
     font-family: Barlow;
     font-size: 16px;
@@ -1455,7 +1467,7 @@
     display: none;
   }
 
-  .about_section div.card_view>div {
+  .about_section div.card_view > div {
     width: 100%;
   }
 
@@ -1468,7 +1480,7 @@
     background: white;
   }
 
-  .connect_header>h4 {
+  .connect_header > h4 {
     color: #000;
 
     font-size: 24px;
@@ -1476,7 +1488,7 @@
     margin-bottom: 16px;
   }
 
-  .connect_header>p {
+  .connect_header > p {
     color: #666;
     text-align: center;
     font-family: Barlow;
@@ -1515,7 +1527,7 @@
     flex-shrink: 0;
   }
 
-  .journeyCard_wrapper>div {
+  .journeyCard_wrapper > div {
     border-radius: 10px;
     background: #29166f;
     width: 100%;
@@ -1528,7 +1540,7 @@
     gap: 21px;
   }
 
-  .journey_wrapper>p {
+  .journey_wrapper > p {
     color: #000;
 
     text-align: center;
@@ -1543,7 +1555,7 @@
     padding-top: 29px;
   }
 
-  .arin_banner>div>div>div {
+  .arin_banner > div > div > div {
     padding: 49px 0px;
   }
 
@@ -1720,12 +1732,12 @@
     height: 220px;
   }
 
-  .features-banner-text>h4 {
+  .features-banner-text > h4 {
     text-align: left;
     font-size: 24px;
   }
 
-  .features-banner-text>p {
+  .features-banner-text > p {
     width: 40%;
     text-align: left;
   }
@@ -1741,7 +1753,28 @@
   .blog_background {
     height: 180px;
   }
-
+  .bg_sign_up {
+    align-items: start;
+    flex-direction: row;
+  }
+  .vertical-divider {
+    display: block;
+  }
+  .bg_sign_up_right {
+    width: 40%;
+  }
+  .bg_sign_up_left {
+    width: 60%;
+    margin-bottom: 0px;
+  }
+  .heading_container h4,
+  h5 {
+    padding: 20px;
+    font-size: 16px;
+  }
+  .heading_container p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -1759,7 +1792,6 @@
   }
 
   .card_heading {
-
     font-size: 16px;
   }
 
@@ -1793,7 +1825,7 @@
   .text_above_image {
     padding: 10px 15px;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.5);
     min-height: 76px;
   }
 
@@ -1809,7 +1841,7 @@
   }
 
   .arin_slider_btn_text {
-    color: #FFF;
+    color: #fff;
     font-family: Barlow;
     font-size: 16px;
     font-style: normal;
@@ -1828,7 +1860,6 @@
   }
 
   .presentation_text {
-
     font-size: 14px;
   }
 
@@ -1836,7 +1867,6 @@
     /* font-size: 30px; */
     font-size: 28px;
     margin-bottom: 20px;
-
   }
 
   .climbing_image {
@@ -1857,7 +1887,7 @@
     height: 141px;
   }
 
-  .ceo_btn>h2 {
+  .ceo_btn > h2 {
     font-size: 11px;
     white-space: nowrap;
   }
@@ -1867,7 +1897,7 @@
     margin: 15px auto;
   }
 
-  .ceo_btn>p {
+  .ceo_btn > p {
     font-size: 10px;
     white-space: nowrap;
   }
@@ -1898,15 +1928,12 @@
     height: 0px !important;
   }
 
-  .team_arin_text>div>h4 {
+  .team_arin_text > div > h4 {
     font-size: 28px;
-
   }
 
-  .team_arin_text>div>p {
-
+  .team_arin_text > div > p {
     font-size: 14px;
-
   }
 
   .founder-banner-text {
@@ -1918,7 +1945,7 @@
     align-self: center;
   }
 
-  .founder-banner-text>h4 {
+  .founder-banner-text > h4 {
     color: #fec434;
     font-family: Barlow;
     text-align: left;
@@ -1929,7 +1956,7 @@
     margin-bottom: 17px;
   }
 
-  .founder-banner-text>p {
+  .founder-banner-text > p {
     color: #fff;
     width: 50%;
     text-align: left;
@@ -1950,11 +1977,11 @@
     gap: 75px;
   }
 
-  .footer_third>h4 {
+  .footer_third > h4 {
     font-size: 23px;
   }
 
-  .footer_first>div:first-child {
+  .footer_first > div:first-child {
     width: 120px;
     height: 119.945px;
   }
@@ -1967,19 +1994,19 @@
     display: block;
   }
 
-  .company_list>div {
+  .company_list > div {
     width: inherit;
   }
 
-  .company_list>div>h3 {
+  .company_list > div > h3 {
     font-size: 28px;
   }
 
-  .about_section div.card_view>div {
+  .about_section div.card_view > div {
     width: 50%;
   }
 
-  .organizing_list>li>span:nth-child(2) {
+  .organizing_list > li > span:nth-child(2) {
     color: #000;
     font-family: Barlow;
     font-size: 15px;
@@ -2007,7 +2034,7 @@
     margin-bottom: 15px;
   }
 
-  .arin_banner>div>div>div {
+  .arin_banner > div > div > div {
     padding: 35px 0px;
   }
 
@@ -2017,7 +2044,7 @@
     margin-bottom: 16px;
   }
 
-  .connect_header>p {
+  .connect_header > p {
     font-size: 14px;
   }
 
@@ -2246,11 +2273,11 @@
 
   /* --Features-- */
   /* --main--banner-- */
-  .features-banner-text>h4 {
+  .features-banner-text > h4 {
     font-size: 24px;
   }
 
-  .features-banner-text>p {
+  .features-banner-text > p {
     font-size: 36px;
   }
 
@@ -2354,14 +2381,13 @@
   }
 
   .card_heading {
-
     font-size: 17px;
   }
 
   .text_above_image {
     padding: 10px 15px;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.5);
     min-height: 76px;
   }
 
@@ -2386,7 +2412,7 @@
   }
 
   .arin_slider_btn_text {
-    color: #FFF;
+    color: #fff;
     font-family: Barlow;
     font-size: 12px;
     font-style: normal;
@@ -2421,8 +2447,8 @@
   }
 
   .top_position_fixed2::after {
-    content: '';
-    border-left: 2px solid #29166F;
+    content: "";
+    border-left: 2px solid #29166f;
     height: 111px;
     left: 91.5%;
     top: 45px;
@@ -2431,8 +2457,8 @@
   }
 
   .top_position_fixed::after {
-    content: '';
-    border-left: 2px solid #29166F;
+    content: "";
+    border-left: 2px solid #29166f;
     height: 143px;
     left: 0px;
     top: 31px;
@@ -2447,7 +2473,6 @@
   }
 
   .presentation_text {
-
     font-size: 20px;
   }
 
@@ -2456,14 +2481,12 @@
     background-position: 70% center;
     background-size: contain;
     background-repeat: no-repeat;
-
   }
 
   .experien_text {
     /* font-size: 30px; */
     font-size: 20px;
     margin-bottom: 25px;
-
   }
 
   .climbing_image {
@@ -2484,7 +2507,7 @@
     height: 198px;
   }
 
-  .ceo_btn>h2 {
+  .ceo_btn > h2 {
     font-size: 12px;
     white-space: nowrap;
   }
@@ -2494,7 +2517,7 @@
     margin: 15px auto;
   }
 
-  .ceo_btn>p {
+  .ceo_btn > p {
     font-size: 12px;
   }
 
@@ -2536,7 +2559,6 @@
     height: 0px;
   }
 
-
   .btn_section {
     width: 30%;
   }
@@ -2552,14 +2574,15 @@
 
   .bg-greylight {
     background-color: #fff;
-
   }
 
   .bg-machine {
     position: relative;
-    background: linear-gradient(0deg,
+    background: linear-gradient(
+        0deg,
         rgba(41, 22, 111, 0.84),
-        rgba(41, 22, 111, 0.84)),
+        rgba(41, 22, 111, 0.84)
+      ),
       url(assets/machine.webp);
     background-size: cover;
     /* background-blend-mode: overlay; */
@@ -2569,23 +2592,23 @@
     background-position: center;
   }
 
-  .footer_sec>h4 {
+  .footer_sec > h4 {
     font-size: 24px;
   }
 
-  .footer_links li>a {
+  .footer_links li > a {
     font-size: 16px;
   }
 
-  .footer_third>h4 {
+  .footer_third > h4 {
     font-size: 24px;
   }
 
-  .footer_fourth>h4 {
+  .footer_fourth > h4 {
     font-size: 24px;
   }
 
-  .company_list>div>h3 {
+  .company_list > div > h3 {
     font-size: 32px;
   }
 
@@ -2598,9 +2621,7 @@
     background-color: #fff;
   }
 
-
-  .bg- .company_list>div>div {
-
+  .bg- .company_list > div > div {
     width: 40.641px;
     height: 35.925px;
   }
@@ -2614,11 +2635,11 @@
     margin-top: 0px;
   }
 
-  .blog_wrapp>h6 {
+  .blog_wrapp > h6 {
     font-size: 32px;
   }
 
-  .arin_corpo>p {
+  .arin_corpo > p {
     color: #fff;
     margin-bottom: 49px;
     text-align: center;
@@ -2716,18 +2737,18 @@
     background-color: white;
   }
 
-  .Activities_wrapper>div {
+  .Activities_wrapper > div {
     border-radius: 10px;
     overflow: hidden;
     width: 33%;
   }
 
-  .connect_header>h4 {
+  .connect_header > h4 {
     font-size: 36px;
     margin-bottom: 16px;
   }
 
-  .connect_header>p {
+  .connect_header > p {
     color: #666;
     text-align: center;
     width: 75%;
@@ -2744,7 +2765,7 @@
     padding-bottom: 210px;
   }
 
-  .activities_card+div {
+  .activities_card + div {
     padding: 19px 0px;
     /* border-radius: 10px; */
   }
@@ -2797,7 +2818,7 @@
     height: 331px;
   }
 
-  .journeyCard_wrapper>div {
+  .journeyCard_wrapper > div {
     border-radius: 10px;
     background: #29166f;
     width: 23%;
@@ -2831,7 +2852,7 @@
     margin-bottom: 15px;
   }
 
-  .arin_banner>div>div>div {
+  .arin_banner > div > div > div {
     padding: 65px 0px;
   }
 
@@ -2924,7 +2945,7 @@
     flex-direction: row;
   }
 
-  .select__list_show>select {
+  .select__list_show > select {
     width: 80px;
     margin-left: 0px;
   }
@@ -2970,7 +2991,6 @@
   }
 
   .card_heading {
-
     font-size: 22px;
   }
 
@@ -2983,7 +3003,7 @@
   .text_above_image {
     padding: 10px 15px;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.5);
     min-height: 76px;
   }
 
@@ -2999,7 +3019,7 @@
   }
 
   .arin_slider_btn_text {
-    color: #FFF;
+    color: #fff;
     font-family: Barlow;
     font-size: 16px;
     font-style: normal;
@@ -3017,18 +3037,16 @@
     margin: auto;
   }
 
-  .list_image+p {
+  .list_image + p {
     margin-bottom: 15px !important;
     line-height: 20px !important;
-
   }
-
 
   .company_list {
     gap: 50px;
   }
 
-  .blog_wrapp>h6 {
+  .blog_wrapp > h6 {
     font-size: 36px;
   }
 
@@ -3072,7 +3090,7 @@
     line-height: 10px;
   }
 
-  .activities_card+div {
+  .activities_card + div {
     padding: 19px 0px;
     /* border-radius: 10px; */
   }
@@ -3086,7 +3104,7 @@
     margin-bottom: 17px;
   }
 
-  .arin_banner>div>div>div {
+  .arin_banner > div > div > div {
     padding: 70px 0px;
   }
 
@@ -3236,11 +3254,11 @@
     gap: 20px;
   }
 
-  .card_view>div {
+  .card_view > div {
     gap: 20px;
   }
 
-  .about_section div.card_view>div {
+  .about_section div.card_view > div {
     width: 50%;
     border-radius: 5px;
     border: 1px solid #d9d9d9;
@@ -3306,12 +3324,10 @@
     height: 400px;
   }
 
-
   .experien_text {
     font-size: 30px;
 
     margin-bottom: 25px;
-
   }
 
   .slider_card_pos {
@@ -3339,10 +3355,9 @@
   .diamond_pic {
     width: 256px;
     height: 227px;
-
   }
 
-  .ceo_btn>h2 {
+  .ceo_btn > h2 {
     font-size: 14px;
     white-space: nowrap;
   }
@@ -3352,7 +3367,7 @@
     margin: 15px auto;
   }
 
-  .ceo_btn>p {
+  .ceo_btn > p {
     font-size: 14px;
   }
 
@@ -3387,11 +3402,9 @@
     height: 91px;
   }
 
-  .team_arin_text>div>h4 {
+  .team_arin_text > div > h4 {
     font-size: 30px;
-
   }
-
 
   .btn_section {
     width: 23%;
@@ -3406,8 +3419,7 @@
     width: 48%;
   }
 
-  .arin_corpo>p {
-
+  .arin_corpo > p {
     margin-bottom: 49px;
 
     font-size: 36px;
@@ -3415,7 +3427,7 @@
     line-height: 147.6%;
   }
 
-  .arin_banner>div>div>div {
+  .arin_banner > div > div > div {
     padding: 80px 0px;
   }
 
@@ -3498,7 +3510,6 @@
     bottom: 60px;
     right: 0;
     z-index: 20;
-
   }
 
   .slider_card_pos {
@@ -3510,8 +3521,7 @@
     margin: auto;
   }
 
-
-  .ceo_btn>h2 {
+  .ceo_btn > h2 {
     font-size: 18px;
     white-space: nowrap;
   }
@@ -3521,7 +3531,7 @@
     margin: 15px auto;
   }
 
-  .ceo_btn>p {
+  .ceo_btn > p {
     font-size: 14px;
   }
 
@@ -3540,7 +3550,6 @@
     width: 146px;
     height: 102px;
     top: 89px;
-
   }
 
   .organize_left h5 {
@@ -3574,7 +3583,7 @@
     padding-bottom: 210px;
   }
 
-  .activities_card+div {
+  .activities_card + div {
     padding: 26px 0px;
     /* border-radius: 10px; */
   }
