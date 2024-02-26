@@ -3,46 +3,66 @@
     display: none;
   }
 
+  .crossbtn {
+    background-color: transparent;
+    border: 0px;
+    position: absolute;
+    top: -17px;
+    right: -106px;
+  }
+
+  .vertical-divider {
+    padding: 1px;
+    /* margin: 12px; */
+    background-color: #f7bd01;
+    width: 100%;
+    height: 2px;
+  }
+
+  .sign_in_btn {
+    width: 99px;
+  }
+
   .blog_background_img_4 {
     height: 400px !important;
   }
 
-    .heading_container h3 {
-      /* color: #000; */
-      margin-bottom: 12px;
-      font-size: 22px;
-      font-weight: 600;
+  .heading_container h3 {
+    /* color: #000; */
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .heading_container p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .heading_container ul {
+    padding-left: 0px;
+
+    li {
+      /* margin-left: 10px; */
+      list-style-type: none;
       text-align: left;
-    }
-  
-    .heading_container p {
-      margin-bottom: 20px;
       font-size: 16px;
       font-weight: 500;
-      text-align: left;
+      letter-spacing: 1.5px;
+      margin-bottom: 8px;
+      color: #212529;
     }
-  
-    .heading_container ul {
-      padding-left: 0px;
-  
-      li {
-        /* margin-left: 10px; */
-        list-style-type: none;
-        text-align: left;
-        font-size: 16px;
-        font-weight: 500;
-        letter-spacing: 1.5px;
-        margin-bottom: 8px;
-        color: #212529;
-      }
-    }
-  
-    .heading_container ul li:first-child {
-      font-size: 16px;
-      font-weight: 500;
-      padding-left: 0px;
-      /* margin-left: -10px; */
-    }
+  }
+
+  .heading_container ul li:first-child {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 0px;
+    /* margin-left: -10px; */
+  }
 
   .bg_sign_up {
     padding: 30px 15px;
@@ -56,7 +76,8 @@
   }
 
   .text_user_sign {
-    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: 0px;
   }
 
   .account_text {
@@ -1063,9 +1084,9 @@
     background: white;
   }
 
-  .vertical-divider {
+  /* .vertical-divider {
     display: none;
-  }
+  } */
 
 }
 
@@ -1075,6 +1096,14 @@
     background: rgba(255, 255, 255, 0.45);
     width: 75%;
     align-self: flex-end;
+  }
+
+  .crossbtn {
+    background-color: transparent;
+    border: 0px;
+    position: absolute;
+    top: -17px;
+    right: -136px;
   }
 
   .sign_up_img {
@@ -1230,6 +1259,14 @@
     font-size: 25px;
   }
 
+  .crossbtn {
+    background-color: transparent;
+    border: 0px;
+    position: absolute;
+    top: -17px;
+    right: -220px;
+  }
+
   .sign_up_img {
     width: 72px;
     height: 72px;
@@ -1237,6 +1274,7 @@
 
   .text_user_sign {
     font-size: 27px;
+    margin-bottom: 10px;
   }
 
   .account_text {
@@ -1778,12 +1816,16 @@
   }
 
   .bg_sign_up_right {
-    width: 45%;
+    width: 100%;
   }
 
 }
 
 @media screen and (min-width: 767px) {
+  .bg_sign_up_right {
+    width: 45%;
+  }
+
   .bg-founder {
     background-image: url(./assets/bigteambg.webp);
     background-position: center center;
@@ -1796,42 +1838,55 @@
     justify-content: start;
     align-items: start;
   }
-    .heading_container h3 {
-      /* color: #000; */
-      margin-bottom: 12px;
-      font-size: 22px;
-      font-weight: 600;
+
+  .sign_in_btn {
+    width: 141px;
+  }
+
+  .vertical-divider {
+    padding: 0.2px;
+    /* margin: 12px; */
+    background-color: #666;
+    width: 0.2px;
+    height: 500px;
+  }
+
+  .heading_container h3 {
+    /* color: #000; */
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .heading_container p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .heading_container ul {
+    padding-left: 0px;
+
+    li {
+      /* margin-left: 10px; */
+      list-style-type: none;
       text-align: left;
-    }
-  
-    .heading_container p {
-      margin-bottom: 20px;
       font-size: 20px;
       font-weight: 500;
-      text-align: left;
+      letter-spacing: 1.5px;
+      margin-bottom: 8px;
+      color: #212529;
     }
-  
-    .heading_container ul {
-      padding-left: 0px;
-  
-      li {
-        /* margin-left: 10px; */
-        list-style-type: none;
-        text-align: left;
-        font-size: 20px;
-        font-weight: 500;
-        letter-spacing: 1.5px;
-        margin-bottom: 8px;
-        color: #212529;
-      }
-    }
-  
-    .heading_container ul li:first-child {
-      font-size: 20px;
-      font-weight: 500;
-      padding-left: 0px;
-      /* margin-left: -10px; */
-    }
+  }
+
+  .heading_container ul li:first-child {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    /* margin-left: -10px; */
+  }
 
   .bg_sign_up {
     background: conic-gradient(from 210deg at 134% -200%, #f17d0838 15%, hsla(232, 57.7%, 41.78%, 0.26) 66%);

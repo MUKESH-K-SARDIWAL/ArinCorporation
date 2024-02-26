@@ -2740,13 +2740,8 @@ a {
   outline: 1px solid lightgrey;
 }
 
-.vertical-divider {
-  padding: 0.2px;
-  /* margin: 12px; */
-  background-color: #666;
-  width: 0.2px;
-  height: 500px;
-}
+
+
 
 .heading_container h4,
 h5 {

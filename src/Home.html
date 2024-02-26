@@ -108,63 +108,88 @@
 
     </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> -->
+    <div class="modal fade show" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-modal="true"
+        role="dialog" style="display: block;">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="d-flex flex-md-row flex-column-reverse justify-content-evenly bg_sign_up gap-lg-0 gap-5 flex-wrap flex-md-nowrap">
-                    <div class="col-md-6 col-12 d-flex bg_sign_up_right my-auto">
+                <div
+                    class="d-flex flex-md-row flex-column justify-content-evenly bg_sign_up gap-lg-0 gap-2 flex-wrap flex-md-nowrap">
+                    <div class="col-lg-6 justify-content-center col-12 d-flex bg_sign_up_right my-auto">
+
                         <div class="heading_container ">
+                            <div class="sign_up_img d-md-none d-block mx-auto mb-2 position-relative">
+                                <img src="../assets/favicon.webp" alt="">
+                                <button class="crossbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <span>
+                                        <i class="fa-solid fa-x" style="color: #f7bd01;font-size: 18px;"></i>
+                                    </span>
+                                </button>
+                            </div>
                             <h3>
                                 Create an account now
                             </h3>
                             <p>
-                            <img src="../assets/list_img.png" width="10" height="10" style="width: 10px;height: 10px;background-color: b3c0c033;" alt=""> Get all the features
+                                <img src="../assets/list_img.png" width="10" height="10"
+                                    style="width: 10px;height: 10px;background-color: b3c0c033;" alt=""> Get all the
+                                features
                             </p>
                             <ul>
                                 <li style=" font-size: 21px;
   font-weight: 600;color: #29166f;">By signing-up you will be able to:</li>
                                 <li><img src="../assets/list_img.png" width="10" height="10"
-                                        style="width: 10px;height: 10px;background-color: b3c0c033;" alt=""> Create your brand</li>
+                                        style="width: 10px;height: 10px;background-color: b3c0c033;" alt=""> Create your
+                                    brand</li>
                                 <li><img src="../assets/list_img.png" width="10" height="10"
-                                        style="width: 10px;height: 10px;background-color: b3c0c033;" alt=""> Become an influencer</li>
+                                        style="width: 10px;height: 10px;background-color: b3c0c033;" alt=""> Become an
+                                    influencer</li>
                                 <li><img src="../assets/list_img.png" width="10" height="10"
-                                        style="width: 10px;height: 10px;background-color: b3c0c033;" alt=""> General Leads</li>
+                                        style="width: 10px;height: 10px;background-color: b3c0c033;" alt=""> General
+                                    Leads</li>
                                 <li><img src="../assets/list_img.png" width="10" height="10"
-                                        style="width: 10px;height: 10px;background-color: b3c0c033;" alt=""> Have a Digital business Card and much
+                                        style="width: 10px;height: 10px;background-color: b3c0c033;" alt=""> Have a
+                                    Digital business Card and much
                                     more!</li>
                             </ul>
 
                         </div>
 
                     </div>
-                    <div class="vertical-divider d-none d-lg-block">
+                    <div class="vertical-divider ">
 
                     </div>
                     <div class=" col-md-6 col-12 bg_sign_up_left my-auto">
                         <div class="">
-                            <form action="#" class="d-flex flex-column justify-content-center align-items-center gap-3">
-                                <div class="sign_up_img">
-                                    <img src="../assets/favicon.webp" alt="">
+                            <form action="#"
+                                class="d-flex flex-md-column  flex-row justify-content-center align-items-center  gap-2 col">
+
+                                <div
+                                    class="d-flex flex-column justify-content-center align-items-center gap-2 gap-md-3 col-7 col-md-12">
+                                    <div class="sign_up_img d-md-block d-none">
+                                        <img src="../assets/favicon.webp" alt="">
+                                    </div>
+                                    <h3 class="text_user_sign">User Sign in</h3>
+                                    <div class="col-12 col-md-9 mx-auto">
+                                        <input type="text" class="email_sign_in">
+                                    </div>
+                                    <button class="sign_in_btn">
+                                        <span>Sign In</span>
+                                    </button>
                                 </div>
-                                <h3 class="text_user_sign">User Sign in</h3>
-                                <div class="col-12 col-md-9 mx-auto">
-                                    <input type="text" class="email_sign_in">
-                                </div>
-                                <button class="sign_in_btn">
-                                    <span>Sign In</span>
-                                </button>
-                                <div class="d-flex flex-row justify-content-center gap-2 align-items-center">
+                                <!-- <div class="d-flex flex-row justify-content-center gap-2 align-items-center">
                                     <span class="account_text">Don’t have an account?</span>
                                     <a href="" class="sign_up_text">
                                         Sign Up
-                                    </a>
-                                </div>
-                                <div class="d-flex flex-row align-items-center justify-content-center gap-1 w-100">
+                                    </a> 
+                                 </div> -->
+                                <div
+                                    class="d-flex flex-row align-items-center justify-content-center gap-1 col-md-12 col-1">
                                     <div class="single_line"></div>
                                     <span class="or_Text">OR</span>
                                     <div class="single_line"></div>
                                 </div>
-                                <div class="d-flex flex-row justify-content-center gap_9 align-items-center">
+                                <div
+                                    class="d-flex flex-row justify-content-center gap_9 align-items-center col-md-12 col-4">
                                     <div><img src="../assets/flat-color-icons_google.png" alt=""></div>
                                     <div><img src="../assets/logos_microsoft-icon.png" alt=""></div>
                                     <div><img src="../assets/logos_microsoft-icon-1.png" alt=""></div>
