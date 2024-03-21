@@ -1,0 +1,150 @@
+@media screen and (min-width: 0px) {
+    .py-120 {
+        padding: 30px 0;
+    }
+
+    .banner-big-text {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+
+    .headline {
+        font-size: 1.5rem;
+    }
+
+    .title_heading {
+        font-size: 1.2rem;
+        line-height: 1.75rem;
+    }
+
+    .fcard-text {
+        display: block;
+        padding: 14px 16px 9px 16px;
+    }
+
+    .sec-list-item {
+        font-size: 0.8rem;
+        line-height: 1.50rem;
+    }
+
+    .sec_button {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        border-radius: 20px;
+        height: 42px;
+        padding: 0 15px;
+        background-color: #0b57d0;
+    }
+
+    .discription {
+        font-size: 0.8rem;
+        line-height: 1.25rem;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        margin-top: 12px;
+    }
+
+    .banner-small-text {
+        padding: 0 20px;
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 556px) {
+    .py-120 {
+        padding: 40px 0;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+    }
+
+    .headline {
+        font-size: 2rem;
+    }
+
+    .banner-big-text {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .banner-small-text {
+        padding: 0 20px;
+        font-size: 1.1rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .sec-list-item {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+    .discription {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+    .title_heading {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .py-120 {
+        padding: 120px 0;
+    }
+
+    .headline {
+        font-size: 2.5rem;
+    }
+
+    .fcard-text {
+        display: block;
+        padding: 24px 32px 16px 32px;
+    }
+
+    .banner-big-text {
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+    }
+
+    .banner-small-text {
+        padding: 0 20px;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .title_heading {
+        margin: 8px 0 16px;
+        font-size: 2rem;
+        line-height: 2.75rem;
+    }
+
+    .sec_button {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        border-radius: 32px;
+        height: 48px;
+        padding: 0 24px;
+    }
+
+    .discription {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 32px;
+    }
+}
+
+@media screen and (min-width:767px) {}
