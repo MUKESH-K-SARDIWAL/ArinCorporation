@@ -3,6 +3,10 @@
     display: none;
   }
 
+  .banner-big-text {
+    margin-top: 48px;
+  }
+
   .crossbtn {
     background-color: transparent;
     border: 0px;
@@ -1826,6 +1830,9 @@
     width: 45%;
   }
 
+    .banner-big-text {
+      margin-top: 24px;
+    }
   .bg-founder {
     background-image: url(./assets/bigteambg.webp);
     background-position: center center;
