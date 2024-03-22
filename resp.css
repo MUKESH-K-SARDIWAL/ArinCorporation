@@ -3,6 +3,8 @@
     display: none;
   }
 
+  
+
   .crossbtn {
     background-color: transparent;
     border: 0px;
@@ -1826,6 +1828,7 @@
     width: 45%;
   }
 
+    
   .bg-founder {
     background-image: url(./assets/bigteambg.webp);
     background-position: center center;
