@@ -168,7 +168,7 @@
     }
 }
 
-@media (max-width:767px){
+@media (max-width:992px){
     .modal-form h3{
         font-size: 16px;
         margin-bottom: 10px;
@@ -215,5 +215,8 @@
     }
     .modal-form ul li{
         padding: 0px 2px;
+    }
+    .modal-form.flex-column{
+        border-top: none;
     }
 }

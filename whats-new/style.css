@@ -401,7 +401,7 @@ li {
     background: conic-gradient(from 213deg at 134% -200%, #d3e3fd94 15%, #7cacf870 66%)
 }
 
-@media (min-width:767px) {
+@media (min-width:992px) {
     .border-left{
         border-left: 1px solid #666;
     }
