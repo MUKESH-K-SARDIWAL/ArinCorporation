@@ -397,6 +397,10 @@ li {
     margin-right: 10px;
 }
 
+.sign-up-modal{
+    background: conic-gradient(from 213deg at 134% -200%, #d3e3fd94 15%, #7cacf870 66%)
+}
+
 @media (min-width:992px) {
     .border-left{
         border-left: 1px solid #666;
@@ -407,9 +411,9 @@ li {
     filter: blur(2px);
 }
 
-.modal-form .form-logo{
+.form-logo{
     width: 78px;
-    margin-bottom: 16px;
+    margin:0px auto 16px;
 }
 
 .modal-form h3{
@@ -441,7 +445,7 @@ li {
 
 .modal-form .form-control{
     box-shadow: none !important;
-    border: none !important;
+    border: 1px solid #9a9797;
 }
 
 .divider{
@@ -472,3 +476,4 @@ li {
     border-radius: 14px;
     overflow: hidden;
 }
+

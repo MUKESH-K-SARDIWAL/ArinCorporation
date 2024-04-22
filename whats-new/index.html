@@ -300,10 +300,13 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content signup-form">
-                <div class="p-4" style="background: conic-gradient(from 213deg at 134% -200%, #d3e3fd94 15%, #7cacf870 66%)">
+                <div class="sign-up-modal p-4">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="modal-left-content">
+                                <div class="text-center d-lg-none">
+                                    <img class="form-logo " src="../assets/favicon.webp" alt="">
+                                </div>
                                 <h4>Create an account now</h4>
                                 <ul>
                                     <li><img src="../assets/list_img.png" alt=""> Get all the features</li>
@@ -319,14 +322,16 @@
                         </div>
                         <div class="col-lg-6 border-left">
                             <div class="modal-form text-center p-md-4">
-                                <img class="form-logo" src="../assets/favicon.webp" alt="">
-                                <h3>User Sign in</h3>
-                                <form action="">
-                                    <div class="mb-4">
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <button type="button" class="submit-btn btn"  data-bs-toggle="modal" data-bs-target="#otp">Sign In</button>
-                                </form>
+                                <img class="form-logo d-none d-lg-block" src="../assets/favicon.webp" alt="">
+                                <div>
+                                    <h3>User Sign in</h3>
+                                    <form action="">
+                                        <div class="mb-md-4 mb-2">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <button type="button" class="submit-btn btn"  data-bs-toggle="modal" data-bs-target="#otp">Sign In</button>
+                                    </form>
+                                </div>
                                 <div class="divider">
                                     <span>OR</span>
                                 </div>
@@ -345,16 +350,20 @@
     <div class="modal fade" id="otp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content signup-form">
-                <div class="p-4" style="background: conic-gradient(from 213deg at 134% -200%, #d3e3fd94 15%, #7cacf870 66%)">
-                    <div class="modal-form text-center">
+                <div class="sign-up-modal p-4">
+                    <div class="text-center">
                         <img class="form-logo" src="../assets/favicon.webp" alt="">
-                        <h3>Verify Email Address</h3>
-                        <form action="">
-                            <div class="mb-4">
-                                <input type="text" class="form-control" placeholder="OTP">
-                            </div>
-                            <button type="button" class="submit-btn btn">Verify</button>
-                        </form>
+                    </div>
+                    <div class="modal-form flex-column text-center">
+                        <div>
+                            <h3>Verify Email Address</h3>
+                            <form action="">
+                                <div class="mb-md-4 mb-2">
+                                    <input type="text" class="form-control" placeholder="OTP">
+                                </div>
+                                <button type="button" class="submit-btn btn">Verify</button>
+                            </form>
+                        </div>
                         <div class="divider">
                             <span>OR</span>
                         </div>

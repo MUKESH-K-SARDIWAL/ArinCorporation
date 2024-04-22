@@ -167,3 +167,50 @@
         overflow: hidden;
     }
 }
+
+@media (max-width:767px){
+    .modal-form h3{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .modal-left-content h4{
+        font-size: 20px;
+    }
+    .modal-left-content ul li{
+        font-size: 16px;
+    }
+    .form-logo{
+        width: 60px;
+    }
+    .sign-up-modal{
+        background: #fff;
+    }
+    .modal-form .form-control{
+        border: 1px solid ;
+    }
+    .modal-form ul li a img{
+        width: 26px;
+    }
+    .divider{
+        margin: 0;
+    }
+    .divider span{
+        background-color: transparent;
+        padding: 0px;
+    }
+    .divider::before{
+        display: none;
+    }
+    .modal-form{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .modal-form ul{
+        display: flex;
+        justify-content: center;
+    }
+    .modal-form ul li{
+        padding: 0px 2px;
+    }
+}
