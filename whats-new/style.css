@@ -374,10 +374,6 @@ li {
     text-decoration: none;
 }
 
-.modal-left-content{
-    padding: 20px;
-}
-
 .modal-left-content h4{
     margin-bottom: 12px;
     font-size: 22px;
@@ -407,7 +403,9 @@ li {
     }
 }
 
-
+.img-blurred{
+    filter: blur(2px);
+}
 
 .modal-form .form-logo{
     width: 78px;
