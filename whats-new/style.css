@@ -50,11 +50,12 @@ body {
 }
 
 .bg-banner {
-    background-image: url(./assets/shapes-light.png);
+    background-image: url(../assets/arin-banner.webp);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     border-radius: 24px;
     z-index: 1;
+    background-repeat: no-repeat;
 }
 
 ul{
@@ -231,7 +232,7 @@ li {
     transition: opacity 1s, -webkit-transform .5s;
     transition: transform .5s, opacity 1s;
     transition: transform .5s, opacity 1s, -webkit-transform .5s;
-    background-color: var(--backcard);
+    background-color: #fff4eb;
     list-style-type: none;
 }
 
@@ -281,13 +282,13 @@ li {
 }
 
 .show-more-button {
-    background-color: var(--btn);
-    border: 1px solid var(--btn);
-    color: var(--btn-hover);
-    border-radius: 50px;
+    background-color: #29166f;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
     cursor: pointer;
     margin-top: 0;
-    padding: 12px 16px 12px 24px;
+    padding: 8px 16px;
 }
 
 .cursor-pointer {
@@ -398,7 +399,7 @@ li {
 }
 
 .sign-up-modal{
-    background: conic-gradient(from 213deg at 134% -200%, #d3e3fd94 15%, #7cacf870 66%)
+    background: conic-gradient(from 210deg at 134% -200%, #f17d0838 15%, hsla(232, 57.7%, 41.78%, 0.26) 66%);
 }
 
 @media (min-width:992px) {
@@ -456,7 +457,7 @@ li {
 .divider span{
     color: #9a9797;
     padding: 2px 10px;
-    background-color: #c5dafc;
+    background-color: rgb(200 204 232);
     display: inline-block;
     position: relative
 }
@@ -475,5 +476,114 @@ li {
     border: none;
     border-radius: 14px;
     overflow: hidden;
+}
+
+.blog {
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 25px;
+    gap: 5px;
+    width: 100%;
+}
+
+.blog_hadding h1 {
+    color: #000;
+    font-family: Barlow;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.8%;
+}
+
+.blogger_img img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: 50% top;
+}
+
+.date_text {
+    color: #2734a8;
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.date{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blog_background img{
+    width: 100%;
+}
+
+.blog_text p {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33.8px;
+}
+
+.recent_posts {
+    border-radius: 3px;
+    background: linear-gradient(42deg, #e87b0d 22.87%, #f7bd01 96%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+}
+
+.recent_post_heading h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.recent_post_text p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23.8px;
+    margin: 10px 0px 10px;
+}
+
+.line {
+    height: 1px;
+    background: #fff;
+}
+
+.pagination_blue {
+    width: max-content;
+    border-radius: 6px;
+    height: 40px;
+    min-width: 60px;
+    padding: 14px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: #29166f 1px solid;
+}
+
+.darkactive {
+    background-color: #29166f;
+}
+
+.pag_text {
+    color: #fff;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.text_darkblue {
+    color: #29166f;
+}
+
+.gap-9 {
+    gap: 10px;
 }
 
