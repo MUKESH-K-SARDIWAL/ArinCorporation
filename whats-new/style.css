@@ -15,6 +15,10 @@
     --footer-text: #5f6368;
 }
 
+a{
+    text-decoration: none;
+}
+
 .bg-white {
     background-color: var(--white) !important;
 }
@@ -281,6 +285,15 @@ li {
     color: var(--btn-hover);
 }
 
+.label-cont{
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 4px;
+    background-color: #000;
+    border-radius: 4px;
+    background-color: #ffeadf;
+}
+
 .show-more-button {
     background-color: #29166f;
     border: none;
@@ -289,6 +302,11 @@ li {
     cursor: pointer;
     margin-top: 0;
     padding: 8px 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.show-more-button:hover{
+    background-color: #f1a406;
 }
 
 .cursor-pointer {
@@ -296,11 +314,8 @@ li {
 }
 
 .themebtn {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
     top: 20px;
-    right: 40px;
+    right: 20px;
 }
 
 .followus {
