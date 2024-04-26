@@ -201,7 +201,6 @@ ul{
 }
 
 .sec-image {
-    margin-bottom: 40px;
     height: 400px;
     border-radius: 30px;
     overflow: hidden;
@@ -272,8 +271,10 @@ li {
 
 .card-image {
     display: inline-block;
-    height: auto;
     vertical-align: bottom;
+    height: 240px;
+    object-fit: cover;
+    object-position: 50% top;
 }
 
 .chr-icon--link {
@@ -600,5 +601,17 @@ li {
 
 .gap-9 {
     gap: 10px;
+}
+
+.text-dark .fa-youtube{
+    color: #f00;
+}
+
+.text-dark .fa-facebook{
+    color: #1877f2
+}
+
+.text-dark .fa-twitter{
+    color: #1d9bf0
 }
 
