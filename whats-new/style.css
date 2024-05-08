@@ -74,7 +74,6 @@ ul{
 
 .banner-big-text {
     font-size: 3.5rem;
-    line-height: 4.5rem;
     font-weight: 500;
     letter-spacing: -0.5px;
     margin-top: 24px;
@@ -90,7 +89,6 @@ ul{
     font-weight: 400;
     padding: 0 20px;
     font-size: 1.25rem;
-    line-height: 2rem;
     color: var(--primary-text);
     /* background: #F1A403;
     background: linear-gradient(to right, #F1A403 0%, #DE331B 38%, #2A176F 94%);
@@ -100,7 +98,7 @@ ul{
 
 .color_team {
     background: #F1A403;
-    background: linear-gradient(to right, #F1A403 0%, #DE331B 38%, #2A176F 94%);
+    background: linear-gradient(to right, #F1A403 0%, #DE331B 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -117,7 +115,6 @@ ul{
 
     div {
         width: 64px;
-        height: 64px;
     }
 }
 
