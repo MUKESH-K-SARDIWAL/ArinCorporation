@@ -125,7 +125,7 @@ ul{
     line-height: .6875rem;
     /* color: var(--btn-hover); */
     background: #F1A403;
-    background: linear-gradient(to right, #F1A403 0%, #DE331B 38%, #2A176F 94%);
+    background: linear-gradient(to right, #F1A403 0%, #DE331B 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: max-content;
