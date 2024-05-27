@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="./assets/js/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styleresp.css">
+</head>
+
+<body>
+
+    <header
+        class="w-100 position-sticky top-0 left-0 bg-white top-header-shadow d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="d-flex w-100 flex-row align-items-center justify-content-between">
+                <div class="col">
+                    <div class="special-font Arin_text">ARIN</div>
+                </div>
+                <div class="col">
+                    <div class="col-12 d-flex justify-content-end align-items-center gap-4">
+                        <a href="" class="headerIcon">
+                            <span>
+                                <i class="fa-regular fa-comments"></i>
+                            </span>
+                        </a>
+                        <a href="" class="headerIcon">
+                            <span>
+                                <i class="fa-solid fa-list"></i>
+                            </span>
+                        </a>
+                        <a href="" class="headerIcon">
+                            <span>
+                                <i class="fa-solid fa-chart-column"></i>
+                            </span>
+                        </a>
+                        <div class="dropdown">
+                            <button class="profileBtn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside" aria-expanded="false" aria-expanded="false">
+                                <img src="./assets/men.webp" class="w-100 h-100 object-contain" alt="">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                        <span class="dropdown-text me-2"><i
+                                                                class="fa-regular fa-building"></i></span>
+                                                        <span class="dropdown-text">Business</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse "
+                                                    data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                            <span><i class="fa-regular fa-pen-to-square"></i></span>
+                                                            <span>Edit Profile</span>
+                                                        </a>
+                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                            <span><i class="fa-regular fa-pen-to-square"></i></span>
+                                                            <span>Create Titles</span>
+                                                        </a>
+                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                            <span><i class="fa-regular fa-credit-card"></i></span>
+                                                            <span>Biz Cards</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                        aria-expanded="false" aria-controls="collapseTwo">
+                                                        <span class="dropdown-text me-2"><i
+                                                                class="fa-solid fa-trophy"></i></span>
+                                                        <span class="dropdown-text">Rewards</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample">
+                                                    <!-- <div class="accordion-body px-0 py-1"> -->
+                                                    <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                            <span><i class="fa-solid fa-chart-line"></i></span>
+                                                            <span>My Leads</span>
+                                                        </a>
+                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                            <span><i class="fa-solid fa-chart-column"></i></span>
+                                                            <span>My Promotion</span>
+                                                        </a>
+                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                            <span><i class="fa-regular fa-heart"></i></span>
+                                                            <span>Liked</span>
+                                                        </a>
+                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                            <span><i class="fa-regular fa-comments"></i></span>
+                                                            <span>Message</span>
+                                                        </a>
+                                                    </div>
+                                                    <!-- </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="dropDown-innerdiv d-flex gap-2 align-items-center">
+                                            <span><i class="fa-solid fa-camera-retro"></i></span>
+                                            <span class="">AI - Cam</span>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="dropDown-innerdiv d-flex gap-2 align-items-center">
+                                            <span><i class="fa-solid fa-qrcode"></i></span>
+                                            <span>QR Code</span>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="dropDown-innerdiv d-flex gap-2 align-items-center">
+                                            <span><i class="fa-solid fa-share"></i></span>
+                                            <span>Share</span>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="accordion" id="accordionExample2">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne2"
+                                                        aria-expanded="true" aria-controls="collapseOne2">
+                                                        <span class="dropdown-text me-2">
+                                                            <i class="fa-solid fa-toggle-on"></i></span>
+                                                        <span class="dropdown-text">Switch Profile</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne2" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample2">
+                                                    <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                        <input type="text" class="searchInput">
+                                                        <a href="" class="accordion-inner-link py-2 w-100 d-flex gap-2">
+                                                            <span class="dropdown-text me-2"><i
+                                                                    class="fa-regular fa-building"></i></span>
+                                                            <span class="dropdown-text">Business</span>
+                                                        </a>
+                                                        <a href="" class="accordion-inner-link py-2 w-100 d-flex gap-2">
+                                                            <span class="dropdown-text me-2"><i
+                                                                    class="fa-regular fa-building"></i></span>
+                                                            <span class="dropdown-text">Business</span>
+                                                        </a>
+                                                        <a href="" class="accordion-inner-link py-2 w-100 d-flex gap-2">
+                                                            <span class="dropdown-text me-2"><i
+                                                                    class="fa-regular fa-building"></i></span>
+                                                            <span class="dropdown-text">Business</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="dropDown-innerdiv d-flex gap-2 align-items-center">
+                                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                            <span>Search</span>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="dropDown-innerdiv d-flex gap-2 align-items-center">
+                                            <span><i class="fa-solid fa-right-from-bracket"></i></span>
+                                            <span>Log Out</span>
+                                        </div>
+                                    </a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main-wrapper">
+        <div class="container">
+            <div
+                class="d-flex flex-row justify-content-between flex-wrap align-items-start gap-4 mt-lg-5 mt-md-3  mt-0 ">
+                <div class="col-lg-6 col-12 position-lg-sticky top-80 pt-lg-4 pt-md-3 pt-0">
+                    <div class="swiper mySwiper position-relative">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./assets/profile.png" class="w-100 h-100" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/profile.png" class="w-100 h-100" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/profile.png" class="w-100 h-100" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/profile.png" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                        <div class="position-absolute brandsImage">
+                            <img src="./assets/men.webp" class="w-100 h-100" alt="">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 d-flex flex-column  profle_detail">
+                    <h3 class="profile-name">User Name</h3>
+                    <p class="profile-address">Consultant, Blogger , and Public Speaker in New York</p>
+                    <button class="consultant-btn">
+                        <span><i class="fa-solid fa-align-left"></i></span>
+                        <span>Read More</span>
+                    </button>
+                    <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed est hic dolores
+                        ea numquam.
+                        Quisquam velit consequatur numquam dolorem facilis? Delectus maxime doloribus deleniti ipsam,
+                        maiores tempora mollitia,
+                        minus dolore reprehenderit asperiores placeat, cum laboriosam dolorum
+                        fugit ab impedit. Id magnam, voluptas vero illo neque quis velit est laudantium distinctio
+                        quaerat iusto deserunt eveniet, pariatur ipsam nobis architecto odio tempore autem et assumenda
+                        iure libero voluptate ut. Possimus, a pariatur!
+                    </p>
+                    <div class="my-2 d-flex flex-row gap-3">
+                        <span class="hastag-text">#hastag</span>
+                        <span class="hastag-text">#hastag</span>
+                        <span class="hastag-text">#hastag</span>
+                        <span class="hastag-text">#hastag</span>
+                        <span class="hastag-text">#hastag</span>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between align-items-center mt-4">
+                        <div class="d-flex flex-column">
+                            <h2 class="heading-text">
+                                WORK
+                            </h2>
+                            <p class="about-text pt-0 mt-0">Deloitte Consulting</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h2 class="heading-text">
+                                EDUCTION
+                            </h2>
+                            <p class="about-text pt-0 mt-0">New York University</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center gap-3 my-2">
+                        <a href="" class="brands-icon">
+                            <span>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </span>
+                        </a>
+                        <a href="" class="brands-icon">
+                            <span>
+                                <i class="fa-brands fa-facebook"></i>
+                            </span>
+                        </a>
+                        <a href="" class="brands-icon">
+                            <span>
+                                <i class="fa-brands fa-square-twitter"></i>
+                            </span>
+                        </a>
+                        <a href="" class="brands-icon">
+                            <span>
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="accordion mt-4" id="accordionlist">
+                        <div class="accordion-item border-list">
+                            <h2 class="accordion-header" id="headingListOne">
+                                <button class="accordion-button list-btn" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordListOne" aria-expanded="true" aria-controls="accordListOne">
+                                    <span>About Me</span>
+                                </button>
+                            </h2>
+                            <div id="accordListOne" class="accordion-collapse collapse" aria-labelledby="headingListOne"
+                                data-bs-parent="#accordionlist">
+                                <div class="accordion-body">
+                                    <strong>
+                                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly
+                                        used to demonstrate the visual form of a
+                                        document or a typeface without relying on meaningful content. Lorem ipsum may be
+                                        used as a placeholder before final copy
+                                        is available
+
+                                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly
+                                        used to demonstrate the visual form of a
+                                        document or a typeface without relying on meaningful content
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-list">
+                            <h2 class="accordion-header" id="headingListTwo">
+                                <button class="accordion-button list-btn collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#accordListTwo" aria-expanded="false"
+                                    aria-controls="accordListTwo">
+                                    <span>Company Bio</span>
+                                </button>
+                            </h2>
+                            <div id="accordListTwo" class="accordion-collapse collapse" aria-labelledby="headingListTwo"
+                                data-bs-parent="#accordionlist">
+                                <div class="accordion-body">
+                                    <span>
+                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece of classical Latin literature
+                                        from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor
+                                        at Hampden-Sydney College in Virginia,
+                                        looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum
+                                        passage, and going through the cites of
+                                        the word in classical literature, discovered the undoubtable source. Lorem Ipsum
+                                        comes from sections 1.10.32 and 1.10.33
+                                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+                                        written in 45 BC. This book is a treatise
+                                        on the theory of ethics, very popular during the Renaissance.
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-list">
+                            <h2 class="accordion-header" id="headingListThree">
+                                <button class="accordion-button list-btn collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#accordListThree" aria-expanded="false"
+                                    aria-controls="accordListThree">
+                                    <span>Terms And Condition</span>
+                                </button>
+                            </h2>
+                            <div id="accordListThree" class="accordion-collapse collapse"
+                                aria-labelledby="headingListThree" data-bs-parent="#accordionlist">
+                                <div class="accordion-body">
+                                    <div class="d-flex">
+                                        <strong>1.</strong>&nbsp;<span>
+                                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly
+                                            used to demonstrate the visual form of a
+                                            document or a typeface without relying on meaningful content. Lorem ipsum
+                                            may be
+                                            used as a placeholder before the final
+                                            copy is available.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-list">
+                            <h2 class="accordion-header" id="headingListfour">
+                                <button class="accordion-button list-btn" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordListFour" aria-expanded="true"
+                                    aria-controls="accordListFour">
+                                    <span>Products</span>
+                                </button>
+                            </h2>
+                            <div id="accordListFour" class="accordion-collapse collapse"
+                                aria-labelledby="headingListfour" data-bs-parent="#accordionlist">
+                                <div class="accordion-body text-center">
+                                    <div class="productGrid gap-3 mb-3">
+                                        <div class="col">
+                                            <div class="productImage">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg" class="w-100 h-100" alt="">
+                                            </div>
+                                            <h2 class="productTitle">Product Name</h2>
+                                        </div>
+                                        <div class="col">
+                                            <div class="productImage">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg" class="w-100 h-100" alt="">
+                                            </div>
+                                            <h2 class="productTitle">Product Name</h2>
+                                        </div>
+                                        <div class="col">
+                                            <div class="productImage">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg" class="w-100 h-100" alt="">
+                                            </div>
+                                            <h2 class="productTitle">Product Name</h2>
+                                        </div>
+                                        <div class="col">
+                                            <div class="productImage">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg" class="w-100 h-100" alt="">
+                                            </div>
+                                            <h2 class="productTitle">Product Name</h2>
+                                        </div>
+                                    </div>
+                                    <a href="" class="text-center loadMore ">Load More ..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            dynamicBullets: true,
+            spaceBetween: 30,
+            // // loop: true,
+            // pagination: {
+            //     el: ".swiper-pagination",
+            //     clickable: ,
+            // },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+    </script>
+</body>
+
+</html>

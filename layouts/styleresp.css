@@ -1,0 +1,27 @@
+@media (max-width:1300px) {}
+
+@media (max-width:992px) {
+    .position-lg-sticky {
+        position: static;
+    }
+}
+
+@media (max-width:550px) {
+    .swiper-slide {
+        height: 90vh;
+        width: 100%;
+
+        img {
+            /* object-fit: contain; */
+        }
+    }
+
+    .productGrid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .profile-address {
+        line-height: 1.5;
+    }
+}

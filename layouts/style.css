@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+body {
+    font-family: "Barlow";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.special-font {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Arin_text {
+    background: #F1A403;
+    background: linear-gradient(to right, #F1A403 0%, #DE331B 38%, #2A176F 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 700;
+    word-spacing: 1.1px;
+}
+
+
+.headerIcon i {
+    color: #2A176F;
+    font-size: 20px;
+}
+
+.top-80 {
+    top: 80px;
+}
+
+.top-header-shadow {
+    box-shadow: 0px 0px 23px 0px #0000002e;
+    height: 80px;
+    z-index: 9999;
+}
+
+.object-contain {
+    object-fit: contain;
+}
+
+.profileBtn {
+    border: 1px solid #2A176F;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-text {
+    font-size: 13px;
+    color: #2A176F;
+    font-weight: 500;
+    line-height: 1;
+
+}
+
+.dropdown-item {
+    padding: 0px;
+    border: 0px;
+    border: none;
+}
+
+.dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* padding: 4px; */
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    box-shadow: none;
+}
+
+.accordion-button:hover {
+    background-color: #2A176F;
+
+    span {
+        color: white !important;
+    }
+
+    span i {
+        color: white !important;
+    }
+}
+
+.accordion-button::after {
+
+    background-size: 0px;
+    font-size: 15px;
+    content: "\f107";
+    font-family: FontAwesome;
+    color: #2A176F;
+    margin-top: 5px;
+    /* margin-left: 4px; */
+
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: none !important;
+}
+
+/* .accordion-button:hover {
+    box-shadow: none;
+    background-color: #2A176F;
+} */
+.accordion-item {
+    border: 0px !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    background-color: #2A176F;
+    color: white !important;
+
+}
+
+.accordion-button:focus .dropdown-text {
+    color: white;
+}
+
+.accordion-button {
+    padding: 8px;
+}
+
+.accordion-inner-link {
+    background-color: white;
+    text-decoration: none;
+    padding: 4px 8px;
+    /* padding-right: 8px; */
+
+}
+
+.accordion-inner-link i {
+    font-size: 14px;
+    color: #2A176F;
+}
+
+.accordion-inner-link span {
+    font-size: 13px;
+    color: #2A176F;
+}
+
+.accordion-inner-link:hover i,
+.accordion-inner-link:hover span {
+    color: white;
+}
+
+.accordion-inner-link:hover {
+    background-color: #2A176F;
+}
+
+.dropDown-innerdiv {
+    height: 36px;
+    background-color: white;
+    padding: 8px;
+
+    span {
+        font-size: 13px;
+        color: #2A176F;
+    }
+}
+
+.dropDown-innerdiv:hover {
+    background-color: #2A176F;
+
+    span {
+        color: white;
+    }
+}
+
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-radius: 0px;
+}
+
+.searchInput {
+    border-radius: 6px;
+    border: 1px solid #2A176F;
+    width: 100%;
+    padding: 6px;
+}
+
+.position-lg-sticky {
+    position: sticky;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 700px !important; */
+    width: 100% !important;
+    /* min-height: 100vh; */
+    height: 600px;
+}
+
+.profle_detail .profile-name {
+    font-size: 24px;
+    color: #2A176F;
+    line-height: 1;
+    margin-bottom: 12px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.profile-address {
+    font-size: 20px;
+    color: #3b3b3b;
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-family: "Barlow";
+}
+
+.consultant-btn {
+    border: 1px solid #2A176F;
+    background-color: white;
+    border-radius: 10px;
+    height: 42px;
+    min-width: 150px;
+    max-width: 160px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+
+    i {
+        font-size: 16px;
+        color: #2A176F;
+    }
+
+}
+
+.consultant-btn span {
+    font-size: 16px;
+    color: #2A176F;
+    font-weight: 600;
+
+}
+
+.consultant-btn:hover {
+    background-color: #2A176F;
+}
+
+.consultant-btn:hover span {
+    color: white;
+
+    i {
+        color: white;
+    }
+}
+
+.about-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #696969;
+    margin-top: 16px;
+}
+
+.hastag-text {
+    font-size: 14px;
+    color: #696969;
+    font-family: 500;
+}
+
+.heading-text {
+    font-size: 14px;
+    color: #3b3b3b;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.brands-icon i {
+    font-size: 28px;
+    color: #2A176F;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 16px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    color: #2A176F;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px #0000007c;
+    border-radius: 50%;
+}
+
+/* .border-list {
+    border: 1px solid #2A176F !important;
+}
+
+.list-btn {
+    background-color: white;
+}
+
+.list-btn:hover {
+    background-color: white;
+} */
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.productTitle {
+    font-size: 16px;
+    color: #2A176F;
+    font-weight: 600;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.productImage {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+
+    img {
+        object-fit: contain;
+    }
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+
+}
+
+.brandsImage {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    left: 5px;
+    box-shadow: 0px 0px 12px 0px #000000b8;
+    top: 5px;
+    z-index: 999;
+}
+
+.loadMore {
+    font-size: 16px;
+    color: #2A176F;
+    line-height: 1;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    border: 1px solid #2A176F;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
