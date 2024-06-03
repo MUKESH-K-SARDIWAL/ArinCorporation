@@ -1,8 +1,158 @@
-@media (max-width:1300px) {}
+@media (min-width:992px) {
+    .collshow {
+        display: block !important;
+    }
+
+    .accordHeader {
+        display: none !important;
+    }
+}
+
+@media (max-width:1200px) {
+    .profle_detail .profile-name {
+        font-size: 22px;
+    }
+
+    .features-grid {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(2, minmax(280px, 1fr));
+    }
+
+    .profile-address {
+        font-size: 16px;
+    }
+
+    .brands-icon i {
+        font-size: 31px;
+    }
+
+    .w-30 {
+        width: 40%;
+    }
+
+    .w-70 {
+        width: 60%;
+    }
+}
+
 
 @media (max-width:992px) {
     .position-lg-sticky {
         position: static;
+    }
+
+    .profle_detail .profile-name {
+        font-size: 32px;
+    }
+
+    .text-heading {
+        font-size: 32px;
+    }
+
+    .profile-address {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 32px;
+    }
+
+    .top-header-shadow {
+        position: absolute;
+        top: 0px;
+        z-index: 999;
+        height: inherit;
+        margin-top: 10px;
+    }
+
+
+
+    .w-70 {
+        width: 100%;
+    }
+
+    .w-30 {
+        width: 100%;
+
+    }
+
+    .position-custom {
+        position: absolute;
+        top: -156px;
+        z-index: 999;
+    }
+
+
+    .padding-custom {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .order-3 {
+        order: 3;
+        text-align: end;
+        width: 100%;
+
+    }
+
+
+    .order-4 {
+        order: 4;
+        text-align: end;
+        width: 100%;
+
+    }
+
+    .brandsImage {
+        width: 90px;
+        height: 90px;
+        background-color: white;
+    }
+        .fcard-text {
+            padding-top: 10px;
+        }
+                .facrd-headline{
+                    margin-bottom: 0px !important;
+                }
+}
+
+@media (max-width:776px) {
+    .userImage {
+        margin: auto;
+    }
+
+    .facrd-headline {
+        margin-top: 5px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    
+
+    .collshow {
+        display: inherit;
+    }
+
+    .accordHeader {
+        display: initial;
+    }
+
+    .brands-icon i {
+        font-size: 36px;
+    }
+
+   
+
+    .features-grid {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10px;
+    }
+
+    .mt-header {
+        margin-top: 2px;
     }
 }
 
@@ -12,8 +162,33 @@
         width: 100%;
 
         img {
-            /* object-fit: contain; */
+            object-fit: cover;
         }
+    }
+        .fcard-text {
+            padding-top: 0px;
+        }
+
+
+    .features-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 4px;
+        /* margin-top: 8px; */
+    }
+
+    .facrd-headline {
+        text-align: center;
+    }
+
+    .playBtn {
+        top: 40%;
+        left: 40%;
+    }
+
+    .brandsImage {
+        width: 70px;
+        height: 70px;
+        margin-left: 10px;
     }
 
     .productGrid {
@@ -21,7 +196,13 @@
         gap: 10px;
     }
 
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 34px;
+        height: 34px;
+    }
+
     .profile-address {
-        line-height: 1.5;
+        line-height: 1;
     }
 }

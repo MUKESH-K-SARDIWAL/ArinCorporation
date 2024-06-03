@@ -11,36 +11,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- <link rel="stylesheet" href="./assets/js/swiper-bundle.min.css"> -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./color.css">
     <link rel="stylesheet" href="./styleresp.css">
 </head>
 
 <body>
 
-    <header
-        class="w-100 position-sticky top-0 left-0 bg-white top-header-shadow d-flex align-items-center justify-content-center">
-        <div class="container">
-            <div class="d-flex w-100 flex-row align-items-center justify-content-between">
-                <div class="col">
-                    <div class="special-font Arin_text">ARIN</div>
+    <div class="w-100  top-header-shadow mt-lg-0 mt-4 d-flex align-items-center justify-content-center">
+        <div class="container-lg container-fluid px-0">
+            <div class="d-flex w-100 flex-row align-items-lg-center align-items-start justify-content-between">
+                <div class="col ps-lg-0 ps-sm-4 ps-2">
+                    <!-- <div class="special-font Arin_text">ARIN</div> -->
+                    <label for="productlogo" class="brandsImage ">
+                        <img src="./assets/logo.svg" class="w-100 h-100" alt="">
+                        <input type="file" name="productlogo" class="d-none" id="productlogo">
+                    </label>
                 </div>
-                <div class="col">
-                    <div class="col-12 d-flex justify-content-end align-items-center gap-4">
-                        <a href="" class="headerIcon">
+                <div class="col mt-header">
+                    <div
+                        class="col-12 d-flex justify-content-end align-items-center gap-lg-4 gap-3 flex-lg-nowrap flex-wrap pe-lg-0 pe-4">
+                        <a href="" class="headerIcon order-1">
                             <span>
-                                <i class="fa-regular fa-comments"></i>
+                                <i class="fa-regular text-Darkblue fa-comments iconShadow"></i>
                             </span>
                         </a>
-                        <a href="" class="headerIcon">
+                        <a href="" class="headerIcon order-3 order-lg-2">
                             <span>
-                                <i class="fa-solid fa-list"></i>
+                                <i class="fa-solid text-Darkblue fa-list iconShadow"></i>
                             </span>
                         </a>
-                        <a href="" class="headerIcon">
+                        <a href="" class="headerIcon order-4 order-lg-3">
                             <span>
-                                <i class="fa-solid fa-chart-column"></i>
+                                <i class="fa-solid text-Darkblue fa-chart-column iconShadow"></i>
                             </span>
                         </a>
-                        <div class="dropdown">
+                        <div class="dropdown iconShadow order-2 order-lg-4">
                             <button class="profileBtn dropdown-toggle" type="button" data-bs-toggle="dropdown"
                                 data-bs-auto-close="outside" aria-expanded="false" aria-expanded="false">
                                 <img src="./assets/men.webp" class="w-100 h-100 object-contain" alt="">
@@ -54,23 +59,26 @@
                                                     <button class="accordion-button" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                         aria-expanded="true" aria-controls="collapseOne">
-                                                        <span class="dropdown-text me-2"><i
+                                                        <span class="dropdown-text  text-Darkblue me-2"><i
                                                                 class="fa-regular fa-building"></i></span>
-                                                        <span class="dropdown-text">Business</span>
+                                                        <span class="dropdown-text  text-Darkblue">Business</span>
                                                     </button>
                                                 </h2>
                                                 <div id="collapseOne" class="accordion-collapse collapse "
                                                     data-bs-parent="#accordionExample">
                                                     <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
-                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
                                                             <span><i class="fa-regular fa-pen-to-square"></i></span>
                                                             <span>Edit Profile</span>
                                                         </a>
-                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
                                                             <span><i class="fa-regular fa-pen-to-square"></i></span>
                                                             <span>Create Titles</span>
                                                         </a>
-                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
                                                             <span><i class="fa-regular fa-credit-card"></i></span>
                                                             <span>Biz Cards</span>
                                                         </a>
@@ -82,28 +90,32 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                         aria-expanded="false" aria-controls="collapseTwo">
-                                                        <span class="dropdown-text me-2"><i
+                                                        <span class="dropdown-text  text-Darkblue me-2"><i
                                                                 class="fa-solid fa-trophy"></i></span>
-                                                        <span class="dropdown-text">Rewards</span>
+                                                        <span class="dropdown-text  text-Darkblue">Rewards</span>
                                                     </button>
                                                 </h2>
                                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                                     data-bs-parent="#accordionExample">
                                                     <!-- <div class="accordion-body px-0 py-1"> -->
                                                     <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
-                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
                                                             <span><i class="fa-solid fa-chart-line"></i></span>
                                                             <span>My Leads</span>
                                                         </a>
-                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
                                                             <span><i class="fa-solid fa-chart-column"></i></span>
                                                             <span>My Promotion</span>
                                                         </a>
-                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
                                                             <span><i class="fa-regular fa-heart"></i></span>
                                                             <span>Liked</span>
                                                         </a>
-                                                        <a href="" class="accordion-inner-link w-100 d-flex gap-2">
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
                                                             <span><i class="fa-regular fa-comments"></i></span>
                                                             <span>Message</span>
                                                         </a>
@@ -115,21 +127,21 @@
                                     </a>
                                 </li>
                                 <li><a class="dropdown-item" href="#">
-                                        <div class="dropDown-innerdiv d-flex gap-2 align-items-center">
-                                            <span><i class="fa-solid fa-camera-retro"></i></span>
-                                            <span class="">AI - Cam</span>
+                                        <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                            <span class="text-Darkblue"><i class="fa-solid fa-camera-retro"></i></span>
+                                            <span class="text-Darkblue">AI - Cam</span>
                                         </div>
                                     </a></li>
                                 <li><a class="dropdown-item" href="#">
-                                        <div class="dropDown-innerdiv d-flex gap-2 align-items-center">
-                                            <span><i class="fa-solid fa-qrcode"></i></span>
-                                            <span>QR Code</span>
+                                        <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                            <span class="text-Darkblue"><i class="fa-solid fa-qrcode"></i></span>
+                                            <span class="text-Darkblue">QR Code</span>
                                         </div>
                                     </a></li>
                                 <li><a class="dropdown-item" href="#">
-                                        <div class="dropDown-innerdiv d-flex gap-2 align-items-center">
-                                            <span><i class="fa-solid fa-share"></i></span>
-                                            <span>Share</span>
+                                        <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                            <span class="text-Darkblue"><i class="fa-solid fa-share"></i></span>
+                                            <span class="text-Darkblue">Share</span>
                                         </div>
                                     </a></li>
                                 <li><a class="dropdown-item" href="#">
@@ -139,29 +151,32 @@
                                                     <button class="accordion-button" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseOne2"
                                                         aria-expanded="true" aria-controls="collapseOne2">
-                                                        <span class="dropdown-text me-2">
+                                                        <span class="dropdown-text  text-Darkblue me-2">
                                                             <i class="fa-solid fa-toggle-on"></i></span>
-                                                        <span class="dropdown-text">Switch Profile</span>
+                                                        <span class="dropdown-text  text-Darkblue">Switch Profile</span>
                                                     </button>
                                                 </h2>
                                                 <div id="collapseOne2" class="accordion-collapse collapse"
                                                     data-bs-parent="#accordionExample2">
                                                     <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
                                                         <input type="text" class="searchInput">
-                                                        <a href="" class="accordion-inner-link py-2 w-100 d-flex gap-2">
-                                                            <span class="dropdown-text me-2"><i
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
+                                                            <span class="dropdown-text  text-Darkblue me-2"><i
                                                                     class="fa-regular fa-building"></i></span>
-                                                            <span class="dropdown-text">Business</span>
+                                                            <span class="dropdown-text  text-Darkblue">Business</span>
                                                         </a>
-                                                        <a href="" class="accordion-inner-link py-2 w-100 d-flex gap-2">
-                                                            <span class="dropdown-text me-2"><i
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
+                                                            <span class="dropdown-text  text-Darkblue me-2"><i
                                                                     class="fa-regular fa-building"></i></span>
-                                                            <span class="dropdown-text">Business</span>
+                                                            <span class="dropdown-text  text-Darkblue">Business</span>
                                                         </a>
-                                                        <a href="" class="accordion-inner-link py-2 w-100 d-flex gap-2">
-                                                            <span class="dropdown-text me-2"><i
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
+                                                            <span class="dropdown-text  text-Darkblue me-2"><i
                                                                     class="fa-regular fa-building"></i></span>
-                                                            <span class="dropdown-text">Business</span>
+                                                            <span class="dropdown-text  text-Darkblue">Business</span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -171,15 +186,17 @@
                                     </a>
                                 </li>
                                 <li><a class="dropdown-item" href="#">
-                                        <div class="dropDown-innerdiv d-flex gap-2 align-items-center">
-                                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                                            <span>Search</span>
+                                        <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                            <span class="text-Darkblue"><i
+                                                    class="fa-solid fa-magnifying-glass"></i></span>
+                                            <span class="text-Darkblue">Search</span>
                                         </div>
                                     </a></li>
                                 <li><a class="dropdown-item" href="#">
-                                        <div class="dropDown-innerdiv d-flex gap-2 align-items-center">
-                                            <span><i class="fa-solid fa-right-from-bracket"></i></span>
-                                            <span>Log Out</span>
+                                        <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                            <span class="text-Darkblue"><i
+                                                    class="fa-solid fa-right-from-bracket"></i></span>
+                                            <span class="text-Darkblue">Log Out</span>
                                         </div>
                                     </a></li>
                             </ul>
@@ -189,96 +206,117 @@
                 </div>
             </div>
         </div>
-    </header>
+    </div>
     <section class="main-wrapper">
-        <div class="container">
-            <div
-                class="d-flex flex-row justify-content-between flex-wrap align-items-start gap-4 mt-lg-5 mt-md-3  mt-0 ">
-                <div class="col-lg-6 col-12 position-lg-sticky top-80 pt-lg-4 pt-md-3 pt-0">
-                    <div class="swiper mySwiper position-relative">
+        <div class="container-lg container-fluid  px-0">
+            <div class="d-flex flex-row justify-content-evenly flex-wrap flex-lg-nowrap align-items-center gap-lg-5 ">
+                <div class="w-70 px-0 position-lg-sticky top-80">
+                    <div class="swiper mySwiper ">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="./assets/profile.png" class="w-100 h-100" alt="">
+                                <img src="./assets/image1.avif" class="w-100 h-100" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="./assets/profile.png" class="w-100 h-100" alt="">
+                                <img src="./assets/image2.avif" class="w-100 h-100" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="./assets/profile.png" class="w-100 h-100" alt="">
+                                <img src="./assets/image1.avif" class="w-100 h-100" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="./assets/profile.png" class="w-100 h-100" alt="">
+                                <img src="./assets/image4.avif" class="w-100 h-100" alt="">
                             </div>
                         </div>
-                        <div class="position-absolute brandsImage">
-                            <img src="./assets/men.webp" class="w-100 h-100" alt="">
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+
+                        <div class="swiper-button-next bg-white  text-Darkblue"></div>
+                        <div class="swiper-button-prev bg-white  text-Darkblue"></div>
                         <!-- <div class="swiper-pagination"></div> -->
                     </div>
                 </div>
-                <div class="col-lg-5 col-12 d-flex flex-column  profle_detail">
-                    <h3 class="profile-name">User Name</h3>
-                    <p class="profile-address">Consultant, Blogger , and Public Speaker in New York</p>
-                    <button class="consultant-btn">
-                        <span><i class="fa-solid fa-align-left"></i></span>
-                        <span>Read More</span>
-                    </button>
-                    <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed est hic dolores
-                        ea numquam.
-                        Quisquam velit consequatur numquam dolorem facilis? Delectus maxime doloribus deleniti ipsam,
-                        maiores tempora mollitia,
-                        minus dolore reprehenderit asperiores placeat, cum laboriosam dolorum
-                        fugit ab impedit. Id magnam, voluptas vero illo neque quis velit est laudantium distinctio
-                        quaerat iusto deserunt eveniet, pariatur ipsam nobis architecto odio tempore autem et assumenda
-                        iure libero voluptate ut. Possimus, a pariatur!
-                    </p>
-                    <div class="my-2 d-flex flex-row gap-3">
-                        <span class="hastag-text">#hastag</span>
-                        <span class="hastag-text">#hastag</span>
-                        <span class="hastag-text">#hastag</span>
-                        <span class="hastag-text">#hastag</span>
-                        <span class="hastag-text">#hastag</span>
+                <div class="w-30 px-3 px-lg-0 d-flex flex-column position-relative  profle_detail">
+                    <div class=" position-lg-static position-custom">
+                        <h3 class="profile-name text-Darkblue text-start text-shadow">USER NAME</h3>
+                        <p class="profile-address text-darkGrey text-start text-shadow">Consultant, Blogger</p>
+                        <p class="profile-address text-darkGrey text-start text-shadow">New
+                            York</p>
+                        <div class="d-flex flex-row align-items-center  justify-content-start gap-3 mb-2 mt-lg-3 mt-2">
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue fa-linkedin"></i>
+                                </span>
+                            </a>
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue fa-facebook"></i>
+                                </span>
+                            </a>
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue fa-square-twitter"></i>
+                                </span>
+                            </a>
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue fa-square-instagram"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <button class="consultant-btn mx-auto mx-md-0">
+                        <span class="text-Darkblue" text-Darkblue><i class="fa-solid fa-align-left"></i></span>
+                        <span class="text-Darkblue" text-Darkblue>Read More</span>
+                    </button> -->
+                    <!-- <div class="userImage">
+                        <img src="./assets/men.webp" class="w-100 h-100" alt="">
+                    </div> -->
+
+                    <div>
+                        <h3 class="text-heading text-Darkblue mt-4 pt-2 pt-lg-0 mt-lg-1 text-lg-start text-center">About
+                            me</h3>
+                        <p class="about-text text-lightGray2 text-md-start text-center mt-lg-1 mt-4"
+                            style="font-weight: 500;">
+
+                            In publishing and graphic design, Lorem ipsum is
+                            a placeholder text
+                            commonly used to demonstrate the visual form of a
+                            document or a typeface without relying on meaningful content. Lorem ipsum may be used as
+                            a
+                            placeholder before final
+                            copy
+                            is available
+
+                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
+                            demonstrate the visual form of
+                            a
+                            document or a typeface without relying on meaningful content
+
+                        </p>
+                    </div>
+                    <div class="my-2 d-flex flex-row flex-wrap gap-2">
+                        <span class="hastag-text text-lightGray">#hastag</span>
+                        <span class="hastag-text text-lightGray">#hastag</span>
+                        <span class="hastag-text text-lightGray">#hastag</span>
+                        <span class="hastag-text text-lightGray">#hastag</span>
+                        <!-- <span class="hastag-text">#hastag</span> -->
                     </div>
                     <div class="d-flex flex-row justify-content-between align-items-center mt-4">
                         <div class="d-flex flex-column">
-                            <h2 class="heading-text">
+                            <h2 class="heading-text text-darkGrey">
                                 WORK
                             </h2>
-                            <p class="about-text pt-0 mt-0">Deloitte Consulting</p>
+                            <p class="about-text text-lightGray pt-0 mt-0">Deloitte Consulting</p>
                         </div>
                         <div class="d-flex flex-column">
-                            <h2 class="heading-text">
+                            <h2 class="heading-text text-darkGrey">
                                 EDUCTION
                             </h2>
-                            <p class="about-text pt-0 mt-0">New York University</p>
+                            <p class="about-text text-lightGray pt-0 mt-0">New York University</p>
                         </div>
                     </div>
 
-                    <div class="d-flex flex-row align-items-center gap-3 my-2">
-                        <a href="" class="brands-icon">
-                            <span>
-                                <i class="fa-brands fa-linkedin"></i>
-                            </span>
-                        </a>
-                        <a href="" class="brands-icon">
-                            <span>
-                                <i class="fa-brands fa-facebook"></i>
-                            </span>
-                        </a>
-                        <a href="" class="brands-icon">
-                            <span>
-                                <i class="fa-brands fa-square-twitter"></i>
-                            </span>
-                        </a>
-                        <a href="" class="brands-icon">
-                            <span>
-                                <i class="fa-brands fa-square-instagram"></i>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="accordion mt-4" id="accordionlist">
+
+
+
+                    <!-- <div class="accordion mt-4" id="accordionlist">
                         <div class="accordion-item border-list">
                             <h2 class="accordion-header" id="headingListOne">
                                 <button class="accordion-button list-btn" type="button" data-bs-toggle="collapse"
@@ -369,25 +407,29 @@
                                     <div class="productGrid gap-3 mb-3">
                                         <div class="col">
                                             <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg" class="w-100 h-100" alt="">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
+                                                    class="w-100 h-100" alt="">
                                             </div>
                                             <h2 class="productTitle">Product Name</h2>
                                         </div>
                                         <div class="col">
                                             <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg" class="w-100 h-100" alt="">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
+                                                    class="w-100 h-100" alt="">
                                             </div>
                                             <h2 class="productTitle">Product Name</h2>
                                         </div>
                                         <div class="col">
                                             <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg" class="w-100 h-100" alt="">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
+                                                    class="w-100 h-100" alt="">
                                             </div>
                                             <h2 class="productTitle">Product Name</h2>
                                         </div>
                                         <div class="col">
                                             <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg" class="w-100 h-100" alt="">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
+                                                    class="w-100 h-100" alt="">
                                             </div>
                                             <h2 class="productTitle">Product Name</h2>
                                         </div>
@@ -396,12 +438,503 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="accordion-item border-list">
+                            <h2 class="accordion-header" id="headingListfive">
+                                <button class="accordion-button list-btn collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#accordListFive" aria-expanded="false"
+                                    aria-controls="accordListFive">
+                                    <span>Events</span>
+                                </button>
+                            </h2>
+                            <div id="accordListFive" class="accordion-collapse collapse"
+                                aria-labelledby="headingListfive" data-bs-parent="#accordionlist">
+                                <div class="accordion-body">
+                                    <div class="productGrid gap-3 mb-3">
+                                        <div class="col">
+                                            <div class="productImage">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
+                                                    class="w-100 h-100" alt="">
+                                            </div>
+                                            <h2 class="productTitle">Concert</h2>
+                                        </div>
+                                        <div class="col">
+                                            <div class="productImage">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
+                                                    class="w-100 h-100" alt="">
+                                            </div>
+                                            <h2 class="productTitle">Concert</h2>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-list">
+                            <h2 class="accordion-header" id="headingListSix">
+                                <button class="accordion-button list-btn collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#accordListSix" aria-expanded="false"
+                                    aria-controls="accordListSix">
+                                    <span>New Awards</span>
+                                </button>
+                            </h2>
+                            <div id="accordListSix" class="accordion-collapse collapse" aria-labelledby="headingListSix"
+                                data-bs-parent="#accordionlist">
+                                <div class="accordion-body">
+                                    <div class="productGrid gap-3 mb-3">
+                                        <div class="col">
+                                            <div class="productImage">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
+                                                    class="w-100 h-100" alt="">
+                                            </div>
+                                            <h2 class="productTitle">Concert</h2>
+                                        </div>
+                                        <div class="col">
+                                            <div class="productImage">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
+                                                    class="w-100 h-100" alt="">
+                                            </div>
+                                            <h2 class="productTitle">Concert</h2>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-list">
+                            <h2 class="accordion-header" id="headingList7">
+                                <button class="accordion-button list-btn collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#accordList7" aria-expanded="false"
+                                    aria-controls="accordList7">
+                                    <span>New Awards</span>
+                                </button>
+                            </h2>
+                            <div id="accordList7" class="accordion-collapse collapse" aria-labelledby="headingList7"
+                                data-bs-parent="#accordionlist">
+                                <div class="accordion-body">
+                                    <div class="productGrid gap-3 mb-3">
+                                        <div class="col">
+                                            <div class="productImage">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
+                                                    class="w-100 h-100" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-list">
+                            <h2 class="accordion-header" id="headingList8">
+                                <button class="accordion-button list-btn collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#accordList8" aria-expanded="false"
+                                    aria-controls="accordList8">
+                                    <span>Arin Test</span>
+                                </button>
+                            </h2>
+                            <div id="accordList8" class="accordion-collapse collapse" aria-labelledby="headingList8"
+                                data-bs-parent="#accordionlist">
+                                <div class="accordion-body">
+                                    <div class="productGrid gap-3 mb-3">
+                                        <div class="col">
+                                            <div class="productImage">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
+                                                    class="w-100 h-100" alt="">
+                                            </div>
+
+                                        </div>
+                                        <div class="col">
+                                            <div class="productImage">
+                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
+                                                    class="w-100 h-100" alt="">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
+    <section class="company-wrapper">
+        <div class="container-lg container-fluid">
+            <div class="align-items-center d-flex flex-column mt-5 py-5">
+                <h3 class="text-heading2 text-Darkblue mt-lg-4 text-center">Company Bio</h3>
+                <p class="about-text text-lightGray text-center ">Contrary to popular belief, Lorem Ipsum is not
+                    simply random text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                    Hampden-Sydney College in Virginia,
+                    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+                    going through the cites of
+                    the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from
+                    sections 1.10.32 and 1.10.33
+                    of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
+                    BC. This book is a treatise
+                    on the theory of ethics, very popular during the Renaissance.
+                </p>
+            </div>
+        </div>
 
+    </section>
+    <section class="features-wrapper">
+        <div class="container-xl container-fluid">
+            <div class="pt-lg-5 pt-md-4 pt-3">
+                <!--  -->
+                <div class="accordion mt-4" id="accordionlist">
+                    <div class="accordion-item border-list">
+                        <h3 class="text-heading2 text-Darkblue mb-3 text-center d-lg-block d-none ">Our
+                            Product</h3>
+                        <h2 class="accordion-header accordHeader" id="headingListOne">
+                            <button class="accordion-button list-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#accordListOne" aria-expanded="true" aria-controls="accordListOne">
+                                <span class="text-heading2 text-center text-Darkblue" style="flex: 1;">Our
+                                    Product</span>
+                            </button>
+                        </h2>
+                        <div id="accordListOne" class="accordion-collapse collapse collshow"
+                            aria-labelledby="headingListOne" data-bs-parent="#accordionlist">
+                            <div class="accordion-body p-lg-0">
+                                <ul class="features-grid ps-0">
+                                    <li
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                        <div class="fcard-text  gap-2">
+                                            <h3 class="facrd-headline mb-0 text-Darkblue ">Product Title</h3>
+                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
+                                                Advanced Digital
+                                                Marketing Strategies
+                                                for Growth</p>
+                                            <a href="#"
+                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
+                                                style="color:blue;">Learn
+                                                more
+                                                <span style="transform: rotate(316deg);color: blue;">
+                                                    <i class=" fa fa-arrow-right"></i>
+                                                </span>
+                                            </a> -->
+                                        </div>
+                                        <div class="environment environment--active mt-auto">
+                                            <img class="w-100 card-image pt-md-2  "
+                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
+                                                alt="">
+                                        </div>
+                                    </li>
+                                    <li
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                        <div class="fcard-text  gap-2">
+                                            <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
+                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
+                                                Advanced Digital
+                                                Marketing Strategies
+                                                for Growth</p>
+                                            <a href="#"
+                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
+                                                style="color:blue;">Learn
+                                                more
+                                                <span style="transform: rotate(316deg);color: blue;">
+                                                    <i class=" fa fa-arrow-right"></i>
+                                                </span>
+                                            </a> -->
+                                        </div>
+                                        <div class="environment environment--active mt-auto">
+                                            <img class="w-100 card-image pt-md-2  "
+                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
+                                                alt="">
+                                        </div>
+                                    </li>
+                                    <li
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                        <div class="fcard-text  gap-2">
+                                            <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
+                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
+                                                Advanced Digital
+                                                Marketing Strategies
+                                                for Growth</p>
+                                            <a href="#"
+                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
+                                                style="color:blue;">Learn
+                                                more
+                                                <span style="transform: rotate(316deg);color: blue;">
+                                                    <i class=" fa fa-arrow-right"></i>
+                                                </span>
+                                            </a> -->
+                                        </div>
+                                        <div class="environment position-relative mt-auto">
+                                            <video src="https://arin.bz/public/collections-v2/videos/branding-video.mp4"
+                                                class="w-100 card-image  pt-md-3 " style="object-fit: contain;" width="100%" height="100%" controls></video>
+
+                                            <!-- <span
+                                                class="bg-white playBtn position-absolute text-Darkblue d-flex justify-content-center align-items-center">
+                                                <i class="fa-solid fa-play"></i>
+                                            </span> -->
+                                        </div>
+                                    </li>
+                                    <li
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse ">
+                                        <div class="fcard-text  gap-2">
+                                            <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
+                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
+                                                Advanced Digital
+                                                Marketing Strategies
+                                                for Growth</p>
+                                            <a href="#"
+                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
+                                                style="color:blue;">Learn
+                                                more
+                                                <span style="transform: rotate(316deg);color: blue;">
+                                                    <i class=" fa fa-arrow-right"></i>
+                                                </span>
+                                            </a> -->
+                                        </div>
+                                        <div class="environment position-relative mt-auto">
+                                            <img class="w-100 card-image  pt-md-3 "
+                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
+                                                alt="">
+                                            <span
+                                                class="bg-white playBtn position-absolute text-Darkblue d-flex justify-content-center align-items-center">
+                                                <i class="fa-solid fa-play"></i>
+                                            </span>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <div class="d-flex justify-content-center show-more text-Darkblue">
+                                    <a href="#" class="d-flex align-items-center show-more-button text-Darkblue gap-2">
+                                        <span>
+                                            View more
+                                        </span>
+                                        <span class="mt-1">
+                                            <i class="fa fa-angle-down"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-list">
+                        <h3 class="text-heading2 text-Darkblue text-center mt-5 mb-3 d-lg-block d-none">Our Product</h3>
+                        <h2 class="accordion-header accordHeader" id="headingListTwo">
+                            <button class="accordion-button list-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#accordListTwo" aria-expanded="true" aria-controls="accordListTwo">
+                                <span class="text-heading2 text-center text-Darkblue" style="flex: 1;">Our
+                                    Product</span>
+                            </button>
+                        </h2>
+                        <div id="accordListTwo" class="accordion-collapse collapse collshow"
+                            aria-labelledby="headingListTwo" data-bs-parent="#accordionlist">
+                            <div class="accordion-body p-lg-0">
+                                <ul class="features-grid ps-0">
+                                    <li
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                        <div class="fcard-text  gap-2">
+                                            <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
+                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
+                                                Advanced Digital
+                                                Marketing Strategies
+                                                for Growth</p>
+                                            <a href="#"
+                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
+                                                style="color:blue;">Learn
+                                                more
+                                                <span style="transform: rotate(316deg);color: blue;">
+                                                    <i class=" fa fa-arrow-right"></i>
+                                                </span>
+                                            </a> -->
+                                        </div>
+                                        <div class="environment environment--active mt-auto">
+                                            <img class="w-100 card-image pt-md-2  "
+                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
+                                                alt="">
+                                        </div>
+                                    </li>
+                                    <li
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                        <div class="fcard-text  gap-2">
+                                            <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
+                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
+                                                Advanced Digital
+                                                Marketing Strategies
+                                                for Growth</p>
+                                            <a href="#"
+                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
+                                                style="color:blue;">Learn
+                                                more
+                                                <span style="transform: rotate(316deg);color: blue;">
+                                                    <i class=" fa fa-arrow-right"></i>
+                                                </span>
+                                            </a> -->
+                                        </div>
+                                        <div class="environment environment--active mt-auto">
+                                            <img class="w-100 card-image pt-md-2  "
+                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
+                                                alt="">
+                                        </div>
+                                    </li>
+                                    <li
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                        <div class="fcard-text  gap-2">
+                                            <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
+                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
+                                                Advanced Digital
+                                                Marketing Strategies
+                                                for Growth</p>
+                                            <a href="#"
+                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
+                                                style="color:blue;">Learn
+                                                more
+                                                <span style="transform: rotate(316deg);color: blue;">
+                                                    <i class=" fa fa-arrow-right"></i>
+                                                </span>
+                                            </a> -->
+                                        </div>
+                                        <div class="environment position-relative mt-auto">
+                                            <img class="w-100 card-image  pt-md-3 "
+                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
+                                                alt="">
+                                            <span
+                                                class="bg-white playBtn text-Darkblue  position-absolute d-flex justify-content-center align-items-center">
+                                                <i class="fa-solid fa-play"></i>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse ">
+                                        <div class="fcard-text  gap-2">
+                                            <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
+                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
+                                                Advanced Digital
+                                                Marketing Strategies
+                                                for Growth</p>
+                                            <a href="#"
+                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
+                                                style="color:blue;">Learn
+                                                more
+                                                <span style="transform: rotate(316deg);color: blue;">
+                                                    <i class=" fa fa-arrow-right"></i>
+                                                </span>
+                                            </a> -->
+                                        </div>
+                                        <div class="environment position-relative mt-auto">
+                                            <img class="w-100 card-image  pt-md-3 "
+                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
+                                                alt="">
+                                            <span
+                                                class="bg-white playBtn position-absolute text-Darkblue d-flex justify-content-center align-items-center">
+                                                <i class="fa-solid fa-play"></i>
+                                            </span>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <div class="d-flex justify-content-center show-more">
+                                    <a href="#" class="d-flex align-items-center show-more-button text-Darkblue gap-2">
+                                        <span>
+                                            View more
+                                        </span>
+                                        <span class="mt-1">
+                                            <i class="fa fa-angle-down"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+    <footer class="mt-5 pt-5">
+        <div class="footer-wrapper ">
+            <div class="container-lg container-fluid ">
+                <div class="d-flex flex-column gap-4 pt-4">
+                    <div class="d-flex flex-row align-items-center pt-4  gap-md-4 gap-2 flex-md-nowrap flex-wrap">
+                        <h3 class="followus text-black me-4">Follow us</h3>
+
+                        <a href="" target="_blank">
+                            <span class="text-dark">
+                                <i class="fa fa-linkedin fa-brands font-24"></i>
+                            </span>
+                        </a>
+                        <a href="" target="_blank">
+                            <span class="text-dark">
+                                <i class="fa fa-twitter fa-brands  font-24"></i>
+                            </span>
+                        </a>
+                        <a href="" target="_blank">
+                            <span class="text-dark">
+                                <i class="fa fa-facebook fa-brands font-24"></i>
+                            </span>
+                        </a>
+                        <a href="" target="_blank">
+                            <span class="text-dark">
+                                <i class="fa fa-youtube  fa-brands  font-24"></i>
+                            </span>
+                        </a>
+                        <a href="" target="_blank">
+                            <span class="text-dark">
+                                <i class="fa fa-instagram fa-brands font-24"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="border-bottom w-100 my-4"></div>
+                <div class="row justify-content-between gap-lg-0 gap-4 pb-5">
+                    <div class="col-md col-12">
+                        <div
+                            class="d-flex flex-row align-items-center flex-lg-nowrap flex-wrap gap-lg-5 gap-md-3 gap-2">
+                            <div class="col">
+                                <h1 class="color_team special-font">
+                                    ARIN
+                                </h1>
+                            </div>
+                            <div class="col">
+                                <a href="" class="footer_link text-footer text-decoration-none">
+                                    <span class="">Privacy Policy</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="" class="footer_link text-footer text-decoration-none">
+                                    <span class="">Terms &amp; Conditions</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="" class="footer_link text-footer text-decoration-none">
+                                    <span class="">ARIN Products</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md col-12 d-flex flex-row justify-content-end">
+                        <div class="d-flex flex-row align-items-center gap-5">
+                            <div>
+                                <a href="" class="d-flex gap-2 align-items-center text-decoration-none">
+                                    <span>
+                                        <i class="fa fa-circle-question text-black"></i>
+                                    </span>
+                                    <span class="footer_link text-footer text-decoration-none ">Help</span>
+                                </a>
+                            </div>
+                            <div>
+                                <select name="" class="col-12 border-grey rounded p-2" id="selectLang">
+                                    <option value="" selected="">English</option>
+                                    <option value="">Hindi</option>
+                                    <option value="">Bengali</option>
+                                    <option value="">Odia</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -413,11 +946,9 @@
             slidesPerView: 1,
             dynamicBullets: true,
             spaceBetween: 30,
-            // // loop: true,
-            // pagination: {
-            //     el: ".swiper-pagination",
-            //     clickable: ,
-            // },
+            loop: true,
+            centeredSlides: true,
+
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -426,5 +957,9 @@
 
     </script>
 </body>
+<!-- autoplay: {
+delay: 2500,
+disableOnInteraction: false,
+}, -->
 
 </html>

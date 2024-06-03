@@ -1,0 +1,39 @@
+.text-Darkblue {
+    color: #2A176F;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.text-darkGrey {
+    color: #3b3b3b;
+}
+
+.text-lightGray {
+    color: #696969;
+}
+
+.text-dark {
+    color: black !important;
+}
+
+.text-dark .fa-youtube {
+    color: #f00;
+}
+
+.text-dark .fa-facebook {
+    color: #1877f2
+}
+
+.text-dark .fa-twitter {
+    color: #1d9bf0
+}
+
+.text-footer {
+    color: #5f6368;
+}
+
+.text-black {
+    color: black !important;
+}
