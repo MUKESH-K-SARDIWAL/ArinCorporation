@@ -30,12 +30,15 @@ body {
 }
 
 .profileBtn {
-    border: 1px solid #2A176F;
+    border: 1px solid;
     border-radius: 50%;
     width: 32px;
     height: 32px;
 }
 
+.border-color{
+    border-color: #2A176F;
+}
 .dropdown-toggle::after {
     display: none;
 }
