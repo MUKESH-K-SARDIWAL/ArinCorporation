@@ -36,9 +36,7 @@ body {
     height: 32px;
 }
 
-.border-color{
-    border-color: #2A176F;
-}
+
 .dropdown-toggle::after {
     display: none;
 }

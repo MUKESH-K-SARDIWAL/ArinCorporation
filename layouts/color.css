@@ -37,3 +37,6 @@
 .text-black {
     color: black !important;
 }
+.border-color {
+    border-color: #2A176F;
+}
