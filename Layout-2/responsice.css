@@ -1,0 +1,16 @@
+@media (min-width:1500px) {
+    .layout-box {
+        max-width: 1500px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .right-side-box {
+        height: 101.8vh;
+    }
+
+    .header-box {
+        max-width: 1500px;
+        width: 100%;
+    }
+}

@@ -6,9 +6,14 @@
     background-color: #fecc32;
 }
 
-.text-primary{
-    color: #fecc32;
+.text-primary {
+    color: #fecc32 !important;
 }
-.text-secondary{
+
+.text-dark {
     color: black;
+}
+
+.text-white{
+    color: white !important;
 }

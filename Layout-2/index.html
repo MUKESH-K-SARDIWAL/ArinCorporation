@@ -11,46 +11,294 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./color.css">
+    <link rel="stylesheet" href="./responsice.css">
 </head>
 
 <body>
 
-
-    <div class="d-flex flex-row align-items-center justify-content-start
-     position-relative flex-1 w-100 mainbox bg-blue">
-        <div class="left-side-box bg-darkBlue position-relative">
-            <div class="container">
-                <div class="inner-left-side ms-5 mt-5">
-                    <div class="mt-5">
-                        <div class="company-logo">
-                            <img src="./assets/logo.svg" class="w-100 h-100" alt="">
+    <div class="layout-box ">
+        <div class="bg-darkBlue">
+            <div class="position-absolute header-box top-0 left-0 w-100">
+                <div class="mx-5 mt-2 flex-row d-flex justify-content-between align-items-center ">
+                    <div class="col">
+                        <div class=" ">
+                            <div class="company-logo">
+                                <img src="./assets/logo.svg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="col-12 d-flex justify-content-end align-items-center gap-lg-4 gap-3 flex-lg-nowrap flex-wrap pe-lg-0 pe-4">
+                            <a href="" class="headerIcon order-1">
+                                <span>
+                                    <i class="fa-regular text-white fa-comments iconShadow"></i>
+                                </span>
+                            </a>
+                            <a href="" class="headerIcon order-3 order-lg-2">
+                                <span>
+                                    <i class="fa-solid text-white fa-list iconShadow"></i>
+                                </span>
+                            </a>
+                            <a href="" class="headerIcon order-4 order-lg-3">
+                                <span>
+                                    <i class="fa-solid text-white fa-chart-column iconShadow"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown iconShadow order-2 order-lg-4">
+                                <button class="profileBtn border-color dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                                    aria-expanded="false">
+                                    <img src="./assets/men.webp" class="w-100 h-100" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="accordion" id="accordionExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            <span class="dropdown-text  text-primary me-2"><i
+                                                                    class="fa-regular fa-building"></i></span>
+                                                            <span class="dropdown-text  text-primary">Business</span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseOne" class="accordion-collapse collapse "
+                                                        data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-primary w-100 d-flex gap-2">
+                                                                <span><i class="fa-regular fa-pen-to-square"></i></span>
+                                                                <span>Edit Profile</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-primary w-100 d-flex gap-2">
+                                                                <span><i class="fa-regular fa-pen-to-square"></i></span>
+                                                                <span>Create Titles</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-primary w-100 d-flex gap-2">
+                                                                <span><i class="fa-regular fa-credit-card"></i></span>
+                                                                <span>Biz Cards</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                            aria-expanded="false" aria-controls="collapseTwo">
+                                                            <span class="dropdown-text  text-primary me-2"><i
+                                                                    class="fa-solid fa-trophy"></i></span>
+                                                            <span class="dropdown-text  text-primary">Rewards</span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionExample">
+                                                        <!-- <div class="accordion-body px-0 py-1"> -->
+                                                        <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white text-primary w-100 d-flex gap-2">
+                                                                <span><i class="fa-solid fa-chart-line"></i></span>
+                                                                <span>My Leads</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-primary w-100 d-flex gap-2">
+                                                                <span><i class="fa-solid fa-chart-column"></i></span>
+                                                                <span>My Promotion</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-primary w-100 d-flex gap-2">
+                                                                <span><i class="fa-regular fa-heart"></i></span>
+                                                                <span>Liked</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-primary w-100 d-flex gap-2">
+                                                                <span><i class="fa-regular fa-comments"></i></span>
+                                                                <span>Message</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- </div> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                                <span class="text-primary"><i class="fa-solid fa-camera-retro"></i></span>
+                                                <span class="text-primary">AI - Cam</span>
+                                            </div>
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                                <span class="text-primary"><i class="fa-solid fa-qrcode"></i></span>
+                                                <span class="text-primary">QR Code</span>
+                                            </div>
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                                <span class="text-primary"><i class="fa-solid fa-share"></i></span>
+                                                <span class="text-primary">Share</span>
+                                            </div>
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="accordion" id="accordionExample2">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseOne2"
+                                                            aria-expanded="true" aria-controls="collapseOne2">
+                                                            <span class="dropdown-text  text-primary me-2">
+                                                                <i class="fa-solid fa-toggle-on"></i></span>
+                                                            <span class="dropdown-text  text-primary">Switch Profile</span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseOne2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionExample2">
+                                                        <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                            <input type="text" class="searchInput">
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-primary py-2 w-100 d-flex gap-2">
+                                                                <span class="dropdown-text  text-primary me-2"><i
+                                                                        class="fa-regular fa-building"></i></span>
+                                                                <span class="dropdown-text  text-primary">Business</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-primary py-2 w-100 d-flex gap-2">
+                                                                <span class="dropdown-text  text-primary me-2"><i
+                                                                        class="fa-regular fa-building"></i></span>
+                                                                <span class="dropdown-text  text-primary">Business</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-primary py-2 w-100 d-flex gap-2">
+                                                                <span class="dropdown-text  text-primary me-2"><i
+                                                                        class="fa-regular fa-building"></i></span>
+                                                                <span class="dropdown-text  text-primary">Business</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                                <span class="text-primary"><i
+                                                        class="fa-solid fa-magnifying-glass"></i></span>
+                                                <span class="text-primary">Search</span>
+                                            </div>
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                                <span class="text-primary"><i
+                                                        class="fa-solid fa-right-from-bracket"></i></span>
+                                                <span class="text-primary">Log Out</span>
+                                            </div>
+                                        </a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="left-bottom-strip1 bg-yellow"></div>
-            <div class="left-bottom-strip2 bg-yellow"></div>
-        </div>
-
-        <div class="right-side-box position-relative">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./assets/men1.png" class="" alt="profile-image">
+            <div class="d-flex flex-row align-items-center justify-content-start
+                 position-relative flex-1 w-100 mainbox bg-blue">
+                <div class="left-side-box bg-darkBlue position-relative">
+                    <div class=" position-relative z-100">
+                        <div class="inner-left-box ms-5 mt-5 pt-5">
+                            <h3 class="username text-white ">Mukesh Kumar</h3>
+                            <h4 class="user-post text-primary mt-3">Consultant, Blogger New York</h4>
+                            <div class="about-me-section mt-4">
+                                <h3 class="text-dark heading">About me</h3>
+                                <p class="text-white subtext">In publishing and graphic design, Lorem ipsum is a placeholder
+                                    text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be used as
+                                    a
+                                    placeholder before final copy
+                                    is available In publishing and graphic design, Lorem ipsum is a placeholder text
+                                    commonly
+                                    used to demonstrate the visual
+                                    form of a document or a typeface without relying on meaningful content</p>
+                                <div class="d-flex flex-row gap-3">
+                                    <ul class="ps-0 my-2 d-flex flex-row gap-3 align-items-center hastaglist">
+                                        <li class="hashtag text-white">
+                                            <span class="">#hastag</span>
+                                        </li>
+                                        <li class="hashtag text-white">
+                                            <span class="">#hastag</span>
+                                        </li>
+                                        <li class="hashtag text-white">
+                                            <span class="">#hastag</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mt-3 d-flex flex-row align-items-center gap-4">
+                                    <div class="d-flex flex-column">
+                                        <h2 class="h2 text-white">WORK</h2>
+                                        <p class="text-white">Deloitte Consulting</p>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <h2 class="h2 text-white">EDUCTION</h2>
+                                        <p class="text-white">New York University</p>
+                                    </div>
+                                </div>
+                                <div class="w-full bottom-box">
+                                    <div class="d-flex flex-row align-items-center  justify-content-start pt-3 gap-3">
+                                        <a href="" class="brands-icon text-primary">
+                                            <span>
+                                                <i class="fa-brands fa-linkedin"></i>
+                                            </span>
+                                        </a>
+                                        <a href="" class="brands-icon text-primary">
+                                            <span>
+                                                <i class="fa-brands fa-facebook"></i>
+                                            </span>
+                                        </a>
+                                        <a href="" class="brands-icon text-primary">
+                                            <span>
+                                                <i class="fa-brands fa-square-twitter"></i>
+                                            </span>
+                                        </a>
+                                        <a href="" class="brands-icon text-primary">
+                                            <span>
+                                                <i class="fa-brands fa-square-instagram"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/men3.png" class="" alt="profile-image">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/men1.png" class="" alt="profile-image">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/men2.png" class="" alt="profile-image">
-                    </div>
+                    <div class="left-bottom-strip1 bg-yellow"></div>
+                    <div class="left-bottom-strip2 bg-yellow"></div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="right-side-box position-relative overflow-hidden">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./assets/men1.png" class="" alt="profile-image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/men3.png" class="" alt="profile-image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/men1.png" class="" alt="profile-image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/men2.png" class="" alt="profile-image">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="right-top-overlay position-absolute"></div>
+                    <div class="right-top-overlay2 position-absolute"></div>
+                    <div class="right-top-strip bg-yellow"></div>
+                </div>
             </div>
-            <div class="right-top-strip bg-yellow"></div>
         </div>
     </div>
 
