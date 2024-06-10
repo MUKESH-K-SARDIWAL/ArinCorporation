@@ -11,7 +11,7 @@ body {
 /* header css start */
 
 .headerIcon i {
-    
+
     font-size: 20px;
 }
 
@@ -34,6 +34,8 @@ body {
     border-radius: 50%;
     width: 32px;
     height: 32px;
+    padding: 0px;
+    overflow: hidden;
 }
 
 
@@ -43,7 +45,7 @@ body {
 
 .dropdown-text {
     font-size: 13px;
-    
+
     font-weight: 500;
     line-height: 1;
 
@@ -113,7 +115,7 @@ body {
 }
 
 .accordion-inner-link {
-   
+
     text-decoration: none;
     padding: 4px 8px;
     /* padding-right: 8px; */
@@ -122,12 +124,12 @@ body {
 
 .accordion-inner-link i {
     font-size: 14px;
-    
+
 }
 
 .accordion-inner-link span {
     font-size: 13px;
-    
+
 }
 
 .dropDown-innerdiv {
@@ -137,7 +139,7 @@ body {
 
     span {
         font-size: 13px;
-        
+
     }
 }
 
@@ -208,7 +210,7 @@ body {
 
 .profle_detail .profile-name {
     font-size: 28px;
-    
+
     line-height: 1;
     margin-bottom: 12px;
     font-weight: 700;
@@ -217,7 +219,7 @@ body {
 
 .profile-address {
     font-size: 18px;
-    
+
     text-align: left;
     line-height: 1;
     margin-bottom: 4px;
@@ -240,14 +242,14 @@ body {
 
     i {
         font-size: 16px;
-        
+
     }
 
 }
 
 .consultant-btn span {
     font-size: 16px;
-    
+
     font-weight: 600;
 
 }
@@ -260,19 +262,19 @@ body {
 .about-text {
     font-size: 18px;
     font-weight: 500;
-    
+
     margin-top: 4px;
 }
 
 .hastag-text {
     font-size: 14px;
-    
+
     font-family: 500;
 }
 
 .heading-text {
     font-size: 15px;
-   
+
     font-weight: 600;
     line-height: 1;
     margin-bottom: 4px;
@@ -280,7 +282,7 @@ body {
 
 .brands-icon i {
     font-size: 36px;
-    
+
 }
 
 .swiper-button-next:after,
@@ -292,8 +294,8 @@ body {
 .swiper-button-prev {
     width: 40px;
     height: 40px;
-    
-    
+
+
     box-shadow: 0px 0px 10px 1px #0000007c;
     border-radius: 50%;
 }
@@ -325,7 +327,7 @@ body {
 /* extra css start */
 .productTitle {
     font-size: 16px;
-    
+
     font-weight: 600;
     margin-top: 8px;
     text-align: center;
@@ -350,15 +352,12 @@ body {
 }
 
 .brandsImage {
-    border-radius: 50%;
+    border-radius: 12px;
     overflow: hidden;
     width: 100px;
     height: 70px;
     cursor: pointer;
-    /* left: 5px; */
-    /* box-shadow: 0px 0px 12px 0px #000000b8; */
-    /* top: 5px; */
-    /* z-index: 999; */
+
 }
 
 .list-btn {
@@ -377,7 +376,7 @@ body {
 
 .loadMore {
     font-size: 16px;
-    
+
     line-height: 1;
     font-weight: 500;
     text-decoration: none;
@@ -394,19 +393,19 @@ body {
 .text-heading {
     font-weight: 600;
     font-size: 22px;
-    
+
 }
 
 .text-heading2 {
     font-weight: 600;
     font-size: 32px;
-    
+
 }
 
 .about-text2 {
     font-size: 16px;
     font-weight: 500;
-   
+
     margin-top: 4px;
 }
 
@@ -421,7 +420,7 @@ body {
     font-weight: 500;
     font-size: 2.5rem;
     line-height: 2.5rem;
-    
+
 }
 
 .features-grid {
@@ -517,7 +516,7 @@ body {
 /* footer css start */
 
 .followus {
-    
+
     font-weight: 400;
     /* margin: 0 32px 8px 0; */
 }
@@ -544,7 +543,7 @@ body {
 .footer_link {
     cursor: pointer;
     display: inline-block;
-    
+
     font-size: 20px;
     text-wrap: nowrap;
     font-weight: 500;
