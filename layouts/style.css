@@ -34,6 +34,8 @@ body {
     border-radius: 50%;
     width: 32px;
     height: 32px;
+    padding: 0px;
+    overflow: hidden;
 }
 
 
@@ -350,15 +352,10 @@ body {
 }
 
 .brandsImage {
-    border-radius: 50%;
-    overflow: hidden;
+    border-radius: 12px;
     width: 100px;
     height: 70px;
     cursor: pointer;
-    /* left: 5px; */
-    /* box-shadow: 0px 0px 12px 0px #000000b8; */
-    /* top: 5px; */
-    /* z-index: 999; */
 }
 
 .list-btn {

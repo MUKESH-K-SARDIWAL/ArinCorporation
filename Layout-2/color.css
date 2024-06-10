@@ -1,0 +1,14 @@
+.bg-darkBlue {
+    background: rgb(6 28 45);
+}
+
+.bg-yellow {
+    background-color: #fecc32;
+}
+
+.text-primary{
+    color: #fecc32;
+}
+.text-secondary{
+    color: black;
+}

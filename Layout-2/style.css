@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+body {
+    font-family: "Barlow";
+    font-weight: 400;
+    font-style: normal;
+    min-width: 100%;
+}
+
+.mainbox {
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.left-side-box {
+    width: 50%;
+    z-index: 10;
+    height: 100vh;
+    position: relative;
+}
+
+.left-side-box::after {
+    content: '';
+    position: absolute;
+    height: 100vh;
+    right: -25%;
+    top: 0px;
+    background: rgb(6 28 45);
+    width: 402px;
+    transform: skewX(19deg);
+}
+
+.left-side-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -26.6%;
+    background-color: #fecc32;
+    transform: skewX(20.3deg);
+    width: 25px;
+    height: 100vh;
+}
+
+.right-side-box {
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+}
+
+
+/* right side swiper css  start */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* height: 100vh !important; */
+}
+
+.swiper-slide img {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* right side swiper css  end */
+
+/* left-side design start*/
+.company-logo {
+    width: 150px;
+    height: 75px;
+}
+
+.right-top-strip {
+    position: absolute;
+    top: 0px;
+    left: 115px;
+    height: 200px;
+    transform: skewX(20deg);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 14px;
+    width: 20px;
+    z-index: 20;
+}
+
+.left-bottom-strip1 {
+    position: absolute;
+    bottom: 0px;
+    right: -31%;
+    height: 281px;
+    transform: skewX(20deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 30px;
+    width: 17px;
+    z-index: 20;
+}
+
+.left-bottom-strip2 {
+    position: absolute;
+    bottom: 0px;
+    right: -25%;
+    height: 210px;
+    transform: skewX(20deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 30px;
+    width: 17px;
+    z-index: 20;
+}
+
+/* left-side design end */
