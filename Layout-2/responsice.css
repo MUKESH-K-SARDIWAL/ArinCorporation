@@ -1,3 +1,373 @@
+@media (min-width:300px) {
+    .mainbox {
+        overflow: hidden;
+    }
+
+    .company-logo {
+        width: 150px;
+        max-height: 75px;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .left-side-box {
+        height: 100%;
+        min-height: 100%;
+    }
+
+    .username {
+        font-size: 2rem;
+    }
+
+    .user-post {
+        font-size: 1.1rem;
+    }
+
+    .subtext {
+        font-size: 0.8rem;
+    }
+
+    .heading {
+        font-size: 1.4rem;
+    }
+
+    .left-side-box {
+        width: 100%;
+    }
+
+    .left-side-box::after {
+        display: none;
+    }
+
+    .left-side-box::before {
+        display: none;
+    }
+
+    .right-top-overlay2 {
+        top: 8%;
+        right: 97%;
+        background-color: hsl(0deg 0% 100% / 37%);
+    }
+
+    .right-top-strip {
+        top: 240px;
+        left: 19px;
+        transform: skewX(23deg);
+    }
+
+    .right-top-overlay {
+        right: -64%;
+        top: -72%;
+        background-color: hsl(0deg 0% 100% / 37%);
+    }
+
+    .left-bottom-strip2 {
+        bottom: 129%;
+        right: 2%;
+        display: none;
+        transform: skewX(24deg);
+    }
+
+    .left-bottom-strip1 {
+        display: none;
+    }
+}
+
+@media (min-width: 400px) {
+    .right-top-overlay {
+        top: -53%;
+    }
+}
+
+@media (min-width: 450px) {
+    .right-top-overlay {
+        top: -44%;
+    }
+}
+
+@media (min-width: 500px) {
+    .right-top-overlay {
+        display: none;
+    }
+
+    .left-bottom-strip2 {
+        display: none;
+    }
+}
+
+@media (min-width:778px) {
+    .mainbox {
+        overflow: hidden;
+    }
+
+
+    .left-side-box {
+        width: 100%;
+    }
+
+    .left-side-box::after {
+        display: none;
+    }
+
+    .left-side-box::before {
+        display: none;
+    }
+
+    .right-top-overlay2 {
+        top: 32%;
+        right: 86%;
+
+        background-color: hsl(45.62deg 96.8% 75.49% / 37%);
+    }
+
+    .right-top-strip {
+        top: 119px;
+        left: 19px;
+        transform: skewX(23deg);
+    }
+
+
+
+
+    .left-bottom-strip1 {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .user-post {
+        font-size: 1.5rem;
+    }
+
+    .company-logo {
+        background: transparent;
+        border-radius: 0px;
+    }
+
+    .accordHeader {
+        display: none !important;
+    }
+
+    .right-side-box {
+        height: 89.7vh;
+        min-height: 85vh;
+        width: 70%;
+    }
+
+    .left-bottom-strip2 {
+        display: block;
+    }
+
+    .right-top-overlay {
+        right: -39%;
+        display: block;
+        background-color: hsl(45.62deg 96.8% 75.49% / 37%);
+    }
+
+    .left-side-box::after {
+        display: block;
+    }
+
+    .left-side-box::before {
+        display: block;
+    }
+
+    .mainbox {
+        /* overflow: visible; */
+        height: 90vh;
+        /* height: 100%; */
+    }
+
+    .left-side-box {
+        width: 50%;
+    }
+
+    .right-top-overlay {
+        right: -52%;
+    }
+
+    .user-post {
+        font-size: 1rem;
+    }
+
+    .left-side-box::after {
+        right: -33%;
+    }
+
+    .right-top-overlay2 {
+        right: -42%;
+        top: -32%;
+    }
+
+    .right-top-strip {
+        left: 140px;
+        transform: skewX(20deg);
+        top: 0px;
+    }
+
+    .left-bottom-strip2 {
+        right: -25%;
+        display: block;
+        height: 186px;
+        bottom: 0%;
+        transform: skewX(20deg);
+    }
+
+    .left-bottom-strip1 {
+        right: -37%;
+        display: block;
+    }
+
+    .left-side-box::before {
+        right: -38.6%;
+    }
+
+    .username {
+        font-size: 2rem;
+    }
+
+    .subtext {
+        font-size: 0.8rem;
+    }
+
+    .heading {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1020px) {
+    .right-side-box {
+        height: 97.7vh;
+        min-height: 85vh;
+    }
+}
+
+@media (min-width:1100px) {
+    .right-top-strip {
+        left: 110px;
+    }
+
+    .mainbox {
+        height: 100vh;
+    }
+
+    .left-side-box {
+        width: 50%;
+    }
+
+    .subtext {
+        font-size: 1rem;
+    }
+
+    .user-post {
+        font-size: 1.5rem;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .username {
+        font-size: 3rem;
+    }
+
+    .left-bottom-strip1 {
+        right: -30%;
+        height: 215px;
+    }
+
+    .left-side-box::after {
+        right: -23%;
+        /* width: 321px; */
+    }
+
+    .left-side-box::before {
+        right: -25.6%;
+    }
+
+    .right-top-overlay2 {
+        right: -36%;
+    }
+
+    .right-top-overlay {
+        right: -42%;
+    }
+
+    .left-bottom-strip2 {
+        right: -20%;
+        height: 135px;
+    }
+
+    .right-side-box {
+        height: 100vh;
+        min-height: 85vh;
+        width: 60%;
+    }
+}
+
+@media (min-width:1300px) {
+    .right-top-strip {
+        left: 130px;
+    }
+
+    .left-side-box::before {
+        right: -26.6%;
+    }
+
+    .left-side-box::after {
+        right: -25%;
+        width: 402px;
+    }
+
+    .left-bottom-strip1 {
+        right: -30%;
+        height: 215px;
+    }
+
+    .right-top-overlay {
+        right: -37%;
+    }
+
+    .right-top-overlay2 {
+        right: -32%;
+    }
+
+    .left-bottom-strip2 {
+        right: -21%;
+        height: 135px;
+    }
+}
+
+@media (min-width:1350px) {
+    .right-side-box {
+        height: 100vh;
+        width: 55%;
+    }
+
+    .left-side-box::before {
+        right: -27%;
+    }
+}
+
+@media (min-width: 1410px) {
+    .right-side-box {
+        height: 100vh;
+    }
+
+    .left-bottom-strip1 {
+        right: -28%;
+        height: 215px;
+    }
+
+    .right-top-strip {
+        left: 153px;
+    }
+
+    .left-side-box::before {
+        right: -27%;
+    }
+}
+
 @media (min-width:1500px) {
     .layout-box {
         max-width: 1500px;
@@ -5,8 +375,41 @@
         width: 100%;
     }
 
+    .left-side-box::before {
+        right: -25%;
+    }
+
+    .right-top-strip {
+        left: 129px;
+    }
+
+    .right-top-overlay2 {
+        right: -35%;
+    }
+
+    .right-top-overlay {
+        right: -27%;
+        top: -29%;
+    }
+
+    .left-side-box::after {
+        right: -23%;
+    }
+
+    .left-bottom-strip1 {
+        right: -24%;
+        height: 281px;
+
+    }
+
+    .left-bottom-strip2 {
+        right: -17%;
+        height: 183px;
+    }
+
     .right-side-box {
-        height: 101.8vh;
+        height: 100vh;
+        min-height: 80vh;
     }
 
     .header-box {
@@ -14,3 +417,5 @@
         width: 100%;
     }
 }
+
+@media (min-width:1600px) {}

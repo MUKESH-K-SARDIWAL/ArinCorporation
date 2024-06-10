@@ -10,10 +10,18 @@
     color: #fecc32 !important;
 }
 
+.text-secondary {
+    color: #696969 !important;
+}
+
 .text-dark {
     color: black;
 }
 
-.text-white{
+.text-white {
     color: white !important;
+}
+
+.border-primary {
+    border-color: #fecc32 !important;
 }

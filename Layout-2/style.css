@@ -209,9 +209,10 @@ body {
 .iconShadow {
     filter: drop-shadow(0px 0px 2px #fecc32);
 }
+
 .right-side-box {
-    height: 100vh;
-    min-height: 100vh;
+    height: 88vh;
+    min-height: 88vh;
     position: absolute;
     right: 0px;
 }
@@ -227,6 +228,7 @@ body {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
+    width: 100% !important;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -243,6 +245,7 @@ body {
 
 .swiper-pagination-bullets {
     top: 93% !important;
+    left: 15% !important;
 }
 
 .swiper-pagination-bullet-active {
@@ -350,10 +353,15 @@ body {
     font-size: 1rem;
     font-weight: 400;
     word-spacing: 4px;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 8;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: vertical; */
+
+}
+
+.mobileuserbox {
+    z-index: 99;
 
 }
 
@@ -375,26 +383,15 @@ body {
     text-transform: uppercase;
 }
 
-.bottom-box {
-    /* height: 200px;
-    position: relative;
-    z-index: 111; */
-    /* overflow: hidden; */
-}
-
-/* .bottom-box::after {
-    position: absolute;
-    top: 0px;
-    width: 400px;
-    transform: skew(19.62deg);
-    height: 200px;
-    content: '';
-    right: -39.4%;
-    background-color: #fff;
-} */
 
 .brands-icon {
     font-size: 36px;
 }
 
 /* left-side design end */
+
+/* company bio start  */
+
+
+
+/* company bio end */
