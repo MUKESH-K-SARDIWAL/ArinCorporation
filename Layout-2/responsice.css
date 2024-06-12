@@ -47,17 +47,20 @@
         top: 8%;
         right: 97%;
         background-color: hsl(0deg 0% 100% / 37%);
+        border: 2px solid;
     }
 
     .right-top-strip {
         top: 240px;
         left: 19px;
+        /* display: none; */
         transform: skewX(23deg);
     }
 
     .right-top-overlay {
         right: -64%;
-        top: -72%;
+        top: -80%;
+        border: 2px solid;
         background-color: hsl(0deg 0% 100% / 37%);
     }
 
@@ -161,6 +164,7 @@
     .right-top-overlay {
         right: -39%;
         display: block;
+        border: none;
         background-color: hsl(45.62deg 96.8% 75.49% / 37%);
     }
 
@@ -197,10 +201,12 @@
     .right-top-overlay2 {
         right: -42%;
         top: -32%;
+        border: none;
     }
 
     .right-top-strip {
         left: 140px;
+        display: block;
         transform: skewX(20deg);
         top: 0px;
     }
