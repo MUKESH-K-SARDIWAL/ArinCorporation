@@ -280,9 +280,15 @@ body {
     z-index: 9999;
 }
 
-.spring:hover{
+.spring:hover {
     border-color: white;
     outline-color: white;
     cursor: pointer;
 }
+
 /* header style end */
+
+
+.text-nowrap {
+    text-wrap: nowrap;
+}

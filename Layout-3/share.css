@@ -221,7 +221,7 @@
     .brandsImage {
         width: 90px;
         height: 90px;
-        background-color: white;
+        /* background-color: white; */
     }
 
     .fcard-text {

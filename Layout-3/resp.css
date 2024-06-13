@@ -25,6 +25,10 @@
     .bottom-border-strip {
         left: 52%;
     }
+
+    .aboutmetext {
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width:300px) {}
