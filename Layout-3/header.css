@@ -1,0 +1,178 @@
+.header-box {
+    z-index: 9999;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconShadow {
+    filter: drop-shadow(0px 0px 2px #fecc32);
+}
+
+.headerIcon i {
+    font-size: 20px;
+}
+
+.profileBtn {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-text {
+    font-size: 13px;
+
+    font-weight: 500;
+    line-height: 1;
+
+}
+
+.dropdown-item {
+    padding: 0px;
+    border: 0px;
+    border: none;
+}
+
+.dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* padding: 4px; */
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    box-shadow: none;
+}
+
+/* .accordion-button:hover {
+   
+
+    span {
+        color: white !important;
+    }
+
+    span i {
+        color: white !important;
+    }
+} */
+
+.accordion-button::after {
+
+    background-size: 0px;
+    font-size: 15px;
+    content: "\f107";
+    font-family: FontAwesome;
+    color: #fecc32;
+    margin-top: 5px;
+    /* margin-left: 4px; */
+
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: none !important;
+}
+
+
+.accordion-item {
+    border: 0px !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    /* background-color: #2A176F; */
+    /* color: white !important; */
+
+}
+
+.accordion-button {
+    padding: 8px;
+}
+
+.accordion-inner-link {
+
+    text-decoration: none;
+    padding: 4px 8px;
+    /* padding-right: 8px; */
+
+}
+
+.accordion-inner-link i {
+    font-size: 14px;
+
+}
+
+.accordion-inner-link span {
+    font-size: 13px;
+
+}
+
+.dropDown-innerdiv {
+    height: 36px;
+    /* background-color: white; */
+    padding: 8px;
+
+    span {
+        font-size: 13px;
+
+    }
+}
+
+
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-radius: 0px;
+}
+
+.searchInput {
+    border-radius: 6px;
+    border: 1px solid #fecc32;
+    width: 100%;
+    padding: 6px;
+}
+
+.position-lg-sticky {
+    position: sticky;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.brandsImage {
+    border-radius: 12px;
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+}
+.iconShadow {
+    filter: drop-shadow(0px 0px 2px #fecc32);
+}
+
+.right-side-box {
+    height: 88vh;
+    min-height: 88vh;
+    position: absolute;
+    right: 0px;
+}

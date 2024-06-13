@@ -1,0 +1,40 @@
+.bg-back {
+    background: rgb(116, 37, 128);
+    background: -moz-linear-gradient(45deg, rgba(116, 37, 128, 1) 0%, rgba(65, 35, 109, 1) 79%);
+    background: -webkit-linear-gradient(45deg, rgba(116, 37, 128, 1) 0%, rgba(65, 35, 109, 1) 79%);
+    background: linear-gradient(45deg, rgba(116, 37, 128, 1) 0%, rgba(65, 35, 109, 1) 79%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#742580", endColorstr="#41236d", GradientType=1);
+}
+
+.bg-stripline-1 {
+    background: #7b2683;
+}
+
+.bg-orange {
+    background-color: #ef5227 !important;
+}
+
+.text-primary {
+    color: #289E62 !important;
+}
+
+.text-secondary {
+    color: #696969 !important;
+}
+
+.text-orange {
+    color: #ef5227;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.primary-border {
+    border-color: #e5759d;
+}
+
+.primary-outline {
+    outline-color: #e5759d;
+}
+
