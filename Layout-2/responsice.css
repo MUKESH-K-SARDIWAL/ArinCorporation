@@ -3,6 +3,10 @@
         overflow: hidden;
     }
 
+    .swiper-pagination-bullets {
+        left: 0% !important;
+    }
+
     .company-logo {
         width: 150px;
         max-height: 75px;
@@ -140,6 +144,11 @@
 @media (min-width:992px) {
     .user-post {
         font-size: 1.5rem;
+    }
+
+    .swiper-pagination-bullets {
+
+        left: 15% !important;
     }
 
     .company-logo {
