@@ -214,6 +214,16 @@ body {
     border-radius: 50%;
     overflow: hidden;
     border: 10px solid transparent;
+
+}
+
+.profileswiper {
+    width: 410px;
+    height: 410px;
+    border-radius: 50%;
+}
+
+.circle-border {
     outline-width: 8px;
     outline-style: double;
 }

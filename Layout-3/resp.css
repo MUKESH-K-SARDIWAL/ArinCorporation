@@ -18,6 +18,11 @@
 
     }
 
+    .profileswiper {
+        width: 310px;
+        height: 310px;
+    }
+
     .bottom-solid-strip {
         left: 75%;
     }
