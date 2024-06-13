@@ -21,7 +21,7 @@
     .features-grid {
         display: grid;
         gap: 16px;
-        grid-template-columns: repeat(2, minmax(280px, 1fr));
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .profile-address {
@@ -87,7 +87,9 @@
 
     .position-custom {
         position: absolute;
-        top: -156px;
+        /* top: -156px; */
+        bottom: 5%;
+        left: 20px;
         z-index: 999;
     }
 
@@ -115,7 +117,7 @@
     .brandsImage {
         width: 90px;
         height: 90px;
-        background-color: white;
+        /* background-color: white; */
     }
 
     .fcard-text {
@@ -165,6 +167,9 @@
 }
 
 @media (max-width:550px) {
+    .environment {
+            height: 110px;
+        }
     .swiper-slide {
         height: 100vh;
         width: 100%;

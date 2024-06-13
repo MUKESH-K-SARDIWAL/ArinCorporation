@@ -70,17 +70,49 @@ body {
     box-shadow: none;
 }
 
-/* .accordion-button:hover {
-   
+.box-triping {}
 
-    span {
-        color: white !important;
+.colorBox {
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    border-radius: 50%;
+    animation: changeColor 2s infinite;
+    /* 12s = 2s per color * 6 colors */
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: red;
     }
 
-    span i {
-        color: white !important;
+    16.67% {
+        background-color: blue;
     }
-} */
+
+    33.33% {
+        background-color: green;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    66.67% {
+        background-color: purple;
+    }
+
+    83.33% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: red;
+    }
+
+    /* To ensure the loop is smooth */
+}
+
 
 .accordion-button::after {
 
@@ -208,7 +240,9 @@ body {
     /* min-height: 100%; */
     /* height: 600px; */
 }
-
+.profle_detail{
+    z-index: -1;
+}
 .profle_detail .profile-name {
     font-size: 28px;
 
@@ -216,6 +250,11 @@ body {
     margin-bottom: 12px;
     font-weight: 700;
     text-align: left;
+}
+
+.webviewBox {
+    bottom: 4%;
+    right: -101%;
 }
 
 .profile-address {
@@ -305,6 +344,8 @@ body {
     max-width: 1800px;
     width: 100%;
     margin: auto;
+    /* z-index: -1;
+    position: relative; */
 }
 
 .w-70 {
@@ -355,8 +396,8 @@ body {
 .brandsImage {
     border-radius: 12px;
     overflow: hidden;
-    width: 100px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     cursor: pointer;
 
 }
@@ -413,7 +454,9 @@ body {
 
 /* product section css start */
 
-.company-wrapper {
+.company-wrapper {}
+
+.bg-gray-light {
     background-color: #d1d1d135;
 }
 
@@ -427,7 +470,7 @@ body {
 .features-grid {
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(4, minmax(280px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     width: 100%;
     justify-content: center;
     justify-items: center;
@@ -510,6 +553,23 @@ body {
     transform: translateY(-5px);
 }
 
+
+.environment {
+    height: 150px;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.btnText {
+    font-size: 12px;
+}
+
+.cardbtn {
+    height: 23px;
+}
 
 /* product section  css end*/
 

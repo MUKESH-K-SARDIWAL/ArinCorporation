@@ -23,7 +23,8 @@
                 <div class="col ps-lg-0 ps-sm-4 ps-2">
                     <!-- <div class="special-font Arin_text">ARIN</div> -->
                     <label for="productlogo" class="brandsImage ">
-                        <img src="./assets/logo.svg" class="w-100 h-100" alt="">
+                        <img src="https://arin.bz/public/uploads/brands-logo/17158663250404.blob" class="w-100 h-100"
+                            alt="">
                         <input type="file" name="productlogo" class="d-none" id="productlogo">
                     </label>
                 </div>
@@ -46,8 +47,9 @@
                             </span>
                         </a>
                         <div class="dropdown iconShadow order-2 order-lg-4">
-                            <button class="profileBtn border-color dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                data-bs-auto-close="outside" aria-expanded="false" aria-expanded="false">
+                            <button class="profileBtn border-color dropdown-toggle" type="button"
+                                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                                aria-expanded="false">
                                 <img src="./assets/men.webp" class="w-100 h-100" alt="">
                             </button>
                             <ul class="dropdown-menu">
@@ -210,9 +212,9 @@
     <section class="main-wrapper">
         <div class="container-lg container-fluid  px-0">
             <div class="d-flex flex-row justify-content-evenly flex-wrap flex-lg-nowrap align-items-center gap-lg-5 ">
-                <div class="w-70 px-0 position-lg-sticky top-80">
+                <div class="w-70 px-0">
                     <div class="swiper mySwiper ">
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper position-relative">
                             <div class="swiper-slide">
                                 <img src="./assets/image1.avif" class="w-100 h-100" alt="">
                             </div>
@@ -225,15 +227,49 @@
                             <div class="swiper-slide">
                                 <img src="./assets/image4.avif" class="w-100 h-100" alt="">
                             </div>
+                            <a href="" class="d-lg-block d-none position-absolute webviewBox colorBox "></a>
                         </div>
 
                         <div class="swiper-button-next bg-white  text-Darkblue"></div>
                         <div class="swiper-button-prev bg-white  text-Darkblue"></div>
                         <!-- <div class="swiper-pagination"></div> -->
+                        <div class="d-lg-none d-block position-absolute   position-custom">
+                            <div class="d-flex flex-row align-items-center justify-content-start">
+                                <h3 class="profile-name text-Darkblue text-start text-shadow">USER NAME</h3>
+                                <a href="" class="d-block colorBox"></a>
+                            </div>
+                            <p class="profile-address text-darkGrey text-start text-shadow">Lorem ipsum, dolor sit amet
+                                consectetur adipisicing elit. Labore, nisi! Lorem ipsum dolor sit amet.</p>
+                            <p class="profile-address text-darkGrey text-start text-shadow">New
+                                York</p>
+                            <div
+                                class="d-flex flex-row align-items-center  justify-content-start gap-3 mb-2 mt-lg-3 mt-2">
+                                <a href="" class="brands-icon">
+                                    <span>
+                                        <i class="fa-brands text-Darkblue fa-linkedin"></i>
+                                    </span>
+                                </a>
+                                <a href="" class="brands-icon">
+                                    <span>
+                                        <i class="fa-brands text-Darkblue fa-facebook"></i>
+                                    </span>
+                                </a>
+                                <a href="" class="brands-icon">
+                                    <span>
+                                        <i class="fa-brands text-Darkblue fa-square-twitter"></i>
+                                    </span>
+                                </a>
+                                <a href="" class="brands-icon">
+                                    <span>
+                                        <i class="fa-brands text-Darkblue fa-square-instagram"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="w-30 px-3 px-lg-0 d-flex flex-column position-relative  profle_detail">
-                    <div class=" position-lg-static position-custom">
+                    <div class="d-lg-block d-none">
                         <h3 class="profile-name text-Darkblue text-start text-shadow">USER NAME</h3>
                         <p class="profile-address text-darkGrey text-start text-shadow">Consultant, Blogger</p>
                         <p class="profile-address text-darkGrey text-start text-shadow">New
@@ -261,14 +297,6 @@
                             </a>
                         </div>
                     </div>
-                    <!-- <button class="consultant-btn mx-auto mx-md-0">
-                        <span class="text-Darkblue" text-Darkblue><i class="fa-solid fa-align-left"></i></span>
-                        <span class="text-Darkblue" text-Darkblue>Read More</span>
-                    </button> -->
-                    <!-- <div class="userImage">
-                        <img src="./assets/men.webp" class="w-100 h-100" alt="">
-                    </div> -->
-
                     <div>
                         <h3 class="text-heading text-Darkblue mt-4 pt-2 pt-lg-0 mt-lg-1 text-lg-start text-center">About
                             me</h3>
@@ -291,278 +319,15 @@
 
                         </p>
                     </div>
-                    <!-- <div class="my-2 d-flex flex-row flex-wrap gap-2">
-                        <span class="hastag-text text-lightGray">#hastag</span>
-                        <span class="hastag-text text-lightGray">#hastag</span>
-                        <span class="hastag-text text-lightGray">#hastag</span>
-                        <span class="hastag-text text-lightGray">#hastag</span>
-                    </div>
-                    <div class="d-flex flex-row justify-content-between align-items-center mt-4">
-                        <div class="d-flex flex-column">
-                            <h2 class="heading-text text-darkGrey">
-                                WORK
-                            </h2>
-                            <p class="about-text text-lightGray pt-0 mt-0">Deloitte Consulting</p>
-                        </div>
-                        <div class="d-flex flex-column">
-                            <h2 class="heading-text text-darkGrey">
-                                EDUCTION
-                            </h2>
-                            <p class="about-text text-lightGray pt-0 mt-0">New York University</p>
-                        </div>
-                    </div> -->
-
-
-
-
-                    <!-- <div class="accordion mt-4" id="accordionlist">
-                        <div class="accordion-item border-list">
-                            <h2 class="accordion-header" id="headingListOne">
-                                <button class="accordion-button list-btn" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#accordListOne" aria-expanded="true" aria-controls="accordListOne">
-                                    <span>About Me</span>
-                                </button>
-                            </h2>
-                            <div id="accordListOne" class="accordion-collapse collapse" aria-labelledby="headingListOne"
-                                data-bs-parent="#accordionlist">
-                                <div class="accordion-body">
-                                    <strong>
-                                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly
-                                        used to demonstrate the visual form of a
-                                        document or a typeface without relying on meaningful content. Lorem ipsum may be
-                                        used as a placeholder before final copy
-                                        is available
-
-                                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly
-                                        used to demonstrate the visual form of a
-                                        document or a typeface without relying on meaningful content
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item border-list">
-                            <h2 class="accordion-header" id="headingListTwo">
-                                <button class="accordion-button list-btn collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#accordListTwo" aria-expanded="false"
-                                    aria-controls="accordListTwo">
-                                    <span>Company Bio</span>
-                                </button>
-                            </h2>
-                            <div id="accordListTwo" class="accordion-collapse collapse" aria-labelledby="headingListTwo"
-                                data-bs-parent="#accordionlist">
-                                <div class="accordion-body">
-                                    <span>
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-                                        in a piece of classical Latin literature
-                                        from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor
-                                        at Hampden-Sydney College in Virginia,
-                                        looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum
-                                        passage, and going through the cites of
-                                        the word in classical literature, discovered the undoubtable source. Lorem Ipsum
-                                        comes from sections 1.10.32 and 1.10.33
-                                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                                        written in 45 BC. This book is a treatise
-                                        on the theory of ethics, very popular during the Renaissance.
-                                    </span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item border-list">
-                            <h2 class="accordion-header" id="headingListThree">
-                                <button class="accordion-button list-btn collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#accordListThree" aria-expanded="false"
-                                    aria-controls="accordListThree">
-                                    <span>Terms And Condition</span>
-                                </button>
-                            </h2>
-                            <div id="accordListThree" class="accordion-collapse collapse"
-                                aria-labelledby="headingListThree" data-bs-parent="#accordionlist">
-                                <div class="accordion-body">
-                                    <div class="d-flex">
-                                        <strong>1.</strong>&nbsp;<span>
-                                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly
-                                            used to demonstrate the visual form of a
-                                            document or a typeface without relying on meaningful content. Lorem ipsum
-                                            may be
-                                            used as a placeholder before the final
-                                            copy is available.
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item border-list">
-                            <h2 class="accordion-header" id="headingListfour">
-                                <button class="accordion-button list-btn" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#accordListFour" aria-expanded="true"
-                                    aria-controls="accordListFour">
-                                    <span>Products</span>
-                                </button>
-                            </h2>
-                            <div id="accordListFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingListfour" data-bs-parent="#accordionlist">
-                                <div class="accordion-body text-center">
-                                    <div class="productGrid gap-3 mb-3">
-                                        <div class="col">
-                                            <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
-                                                    class="w-100 h-100" alt="">
-                                            </div>
-                                            <h2 class="productTitle">Product Name</h2>
-                                        </div>
-                                        <div class="col">
-                                            <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
-                                                    class="w-100 h-100" alt="">
-                                            </div>
-                                            <h2 class="productTitle">Product Name</h2>
-                                        </div>
-                                        <div class="col">
-                                            <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
-                                                    class="w-100 h-100" alt="">
-                                            </div>
-                                            <h2 class="productTitle">Product Name</h2>
-                                        </div>
-                                        <div class="col">
-                                            <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
-                                                    class="w-100 h-100" alt="">
-                                            </div>
-                                            <h2 class="productTitle">Product Name</h2>
-                                        </div>
-                                    </div>
-                                    <a href="" class="text-center loadMore ">Load More ..</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item border-list">
-                            <h2 class="accordion-header" id="headingListfive">
-                                <button class="accordion-button list-btn collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#accordListFive" aria-expanded="false"
-                                    aria-controls="accordListFive">
-                                    <span>Events</span>
-                                </button>
-                            </h2>
-                            <div id="accordListFive" class="accordion-collapse collapse"
-                                aria-labelledby="headingListfive" data-bs-parent="#accordionlist">
-                                <div class="accordion-body">
-                                    <div class="productGrid gap-3 mb-3">
-                                        <div class="col">
-                                            <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
-                                                    class="w-100 h-100" alt="">
-                                            </div>
-                                            <h2 class="productTitle">Concert</h2>
-                                        </div>
-                                        <div class="col">
-                                            <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
-                                                    class="w-100 h-100" alt="">
-                                            </div>
-                                            <h2 class="productTitle">Concert</h2>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item border-list">
-                            <h2 class="accordion-header" id="headingListSix">
-                                <button class="accordion-button list-btn collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#accordListSix" aria-expanded="false"
-                                    aria-controls="accordListSix">
-                                    <span>New Awards</span>
-                                </button>
-                            </h2>
-                            <div id="accordListSix" class="accordion-collapse collapse" aria-labelledby="headingListSix"
-                                data-bs-parent="#accordionlist">
-                                <div class="accordion-body">
-                                    <div class="productGrid gap-3 mb-3">
-                                        <div class="col">
-                                            <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
-                                                    class="w-100 h-100" alt="">
-                                            </div>
-                                            <h2 class="productTitle">Concert</h2>
-                                        </div>
-                                        <div class="col">
-                                            <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
-                                                    class="w-100 h-100" alt="">
-                                            </div>
-                                            <h2 class="productTitle">Concert</h2>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item border-list">
-                            <h2 class="accordion-header" id="headingList7">
-                                <button class="accordion-button list-btn collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#accordList7" aria-expanded="false"
-                                    aria-controls="accordList7">
-                                    <span>New Awards</span>
-                                </button>
-                            </h2>
-                            <div id="accordList7" class="accordion-collapse collapse" aria-labelledby="headingList7"
-                                data-bs-parent="#accordionlist">
-                                <div class="accordion-body">
-                                    <div class="productGrid gap-3 mb-3">
-                                        <div class="col">
-                                            <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
-                                                    class="w-100 h-100" alt="">
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item border-list">
-                            <h2 class="accordion-header" id="headingList8">
-                                <button class="accordion-button list-btn collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#accordList8" aria-expanded="false"
-                                    aria-controls="accordList8">
-                                    <span>Arin Test</span>
-                                </button>
-                            </h2>
-                            <div id="accordList8" class="accordion-collapse collapse" aria-labelledby="headingList8"
-                                data-bs-parent="#accordionlist">
-                                <div class="accordion-body">
-                                    <div class="productGrid gap-3 mb-3">
-                                        <div class="col">
-                                            <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
-                                                    class="w-100 h-100" alt="">
-                                            </div>
-
-                                        </div>
-                                        <div class="col">
-                                            <div class="productImage">
-                                                <img src="https://arin.bz/public/uploads/product-galleries/512385/17158712205745.jpg"
-                                                    class="w-100 h-100" alt="">
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
     </section>
-    <section class="company-wrapper">
+    <section class="company-wrapper bg-gray-light">
         <div class="container-lg container-fluid">
             <div class="align-items-center d-flex flex-column mt-5 py-5">
-                <h3 class="text-heading2 text-Darkblue mt-lg-4 text-center">Company Bio</h3>
-                <p class="about-text text-lightGray text-center ">Contrary to popular belief, Lorem Ipsum is not
+                <h3 class="text-heading2 text-Darkblue text-center">Company Bio</h3>
+                <p class="about-text text-lightGray text-center mb-0">Contrary to popular belief, Lorem Ipsum is not
                     simply random text. It has roots in a piece of classical Latin literature
                     from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
                     Hampden-Sydney College in Virginia,
@@ -598,94 +363,77 @@
                             <div class="accordion-body p-lg-0">
                                 <ul class="features-grid ps-0">
                                     <li
-                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-column ">
                                         <div class="fcard-text  gap-2">
                                             <h3 class="facrd-headline mb-0 text-Darkblue ">Product Title</h3>
-                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
-                                                Advanced Digital
-                                                Marketing Strategies
-                                                for Growth</p>
-                                            <a href="#"
-                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
-                                                style="color:blue;">Learn
-                                                more
-                                                <span style="transform: rotate(316deg);color: blue;">
-                                                    <i class=" fa fa-arrow-right"></i>
-                                                </span>
-                                            </a> -->
                                         </div>
-                                        <div class="environment environment--active mt-auto">
+                                        <div class="environment environment--active">
                                             <img class="w-100 card-image pt-md-2  "
                                                 src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
                                                 alt="">
                                         </div>
+                                        <div
+                                            class="d-flex flex-row align-items-center gap-2 flex-wrap my-2 mb-lg-0 mt-2 justify-content-center">
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Add to Card</span>
+                                            </button>
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Buy Now</span>
+                                            </button>
+                                        </div>
+
                                     </li>
                                     <li
-                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-column ">
                                         <div class="fcard-text  gap-2">
                                             <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
-                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
-                                                Advanced Digital
-                                                Marketing Strategies
-                                                for Growth</p>
-                                            <a href="#"
-                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
-                                                style="color:blue;">Learn
-                                                more
-                                                <span style="transform: rotate(316deg);color: blue;">
-                                                    <i class=" fa fa-arrow-right"></i>
-                                                </span>
-                                            </a> -->
                                         </div>
-                                        <div class="environment environment--active mt-auto">
+                                        <div class="environment environment--active">
                                             <img class="w-100 card-image pt-md-2  "
                                                 src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
                                                 alt="">
                                         </div>
+                                        <div
+                                            class="d-flex flex-row align-items-center gap-2 flex-wrap my-2 mb-lg-0 mt-2 justify-content-center">
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Add to Card</span>
+                                            </button>
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Buy Now</span>
+                                            </button>
+                                        </div>
                                     </li>
                                     <li
-                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-column ">
                                         <div class="fcard-text  gap-2">
                                             <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
-                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
-                                                Advanced Digital
-                                                Marketing Strategies
-                                                for Growth</p>
-                                            <a href="#"
-                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
-                                                style="color:blue;">Learn
-                                                more
-                                                <span style="transform: rotate(316deg);color: blue;">
-                                                    <i class=" fa fa-arrow-right"></i>
-                                                </span>
-                                            </a> -->
                                         </div>
                                         <div class="environment position-relative mt-auto">
                                             <video src="https://arin.bz/public/collections-v2/videos/branding-video.mp4"
-                                                class="w-100 card-image  pt-md-3 " style="object-fit: contain;" width="100%" height="100%" controls></video>
-
-                                            <!-- <span
-                                                class="bg-white playBtn position-absolute text-Darkblue d-flex justify-content-center align-items-center">
-                                                <i class="fa-solid fa-play"></i>
-                                            </span> -->
+                                                class="w-100 card-image  pt-md-3 " style="object-fit: contain;"
+                                                width="100%" height="100%" controls></video>
+                                        </div>
+                                        <div
+                                            class="d-flex flex-row align-items-center gap-2 flex-wrap my-2 mb-lg-0 mt-2 justify-content-center">
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Add to Card</span>
+                                            </button>
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Buy Now</span>
+                                            </button>
                                         </div>
                                     </li>
                                     <li
-                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse ">
+                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-column  ">
                                         <div class="fcard-text  gap-2">
                                             <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
-                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
-                                                Advanced Digital
-                                                Marketing Strategies
-                                                for Growth</p>
-                                            <a href="#"
-                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
-                                                style="color:blue;">Learn
-                                                more
-                                                <span style="transform: rotate(316deg);color: blue;">
-                                                    <i class=" fa fa-arrow-right"></i>
-                                                </span>
-                                            </a> -->
+
                                         </div>
                                         <div class="environment position-relative mt-auto">
                                             <img class="w-100 card-image  pt-md-3 "
@@ -695,6 +443,17 @@
                                                 class="bg-white playBtn position-absolute text-Darkblue d-flex justify-content-center align-items-center">
                                                 <i class="fa-solid fa-play"></i>
                                             </span>
+                                        </div>
+                                        <div
+                                            class="d-flex flex-row align-items-center gap-2 flex-wrap my-2 mb-lg-0 mt-2 justify-content-center">
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Add to Card</span>
+                                            </button>
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Buy Now</span>
+                                            </button>
                                         </div>
                                     </li>
 
@@ -725,107 +484,90 @@
                             aria-labelledby="headingListTwo" data-bs-parent="#accordionlist">
                             <div class="accordion-body p-lg-0">
                                 <ul class="features-grid ps-0">
-                                    <li
-                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                    <li class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-column ">
+                                        <div class="fcard-text  gap-2">
+                                            <h3 class="facrd-headline mb-0 text-Darkblue ">Product Title</h3>
+                                        </div>
+                                        <div class="environment environment--active">
+                                            <img class="w-100 card-image pt-md-2  "
+                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg" alt="">
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center gap-2 flex-wrap my-2 mb-lg-0 mt-2 justify-content-center">
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Add to Card</span>
+                                            </button>
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Buy Now</span>
+                                            </button>
+                                        </div>
+                                
+                                    </li>
+                                    <li class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-column ">
                                         <div class="fcard-text  gap-2">
                                             <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
-                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
-                                                Advanced Digital
-                                                Marketing Strategies
-                                                for Growth</p>
-                                            <a href="#"
-                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
-                                                style="color:blue;">Learn
-                                                more
-                                                <span style="transform: rotate(316deg);color: blue;">
-                                                    <i class=" fa fa-arrow-right"></i>
-                                                </span>
-                                            </a> -->
                                         </div>
-                                        <div class="environment environment--active mt-auto">
+                                        <div class="environment environment--active">
                                             <img class="w-100 card-image pt-md-2  "
-                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
-                                                alt="">
+                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg" alt="">
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center gap-2 flex-wrap my-2 mb-lg-0 mt-2 justify-content-center">
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Add to Card</span>
+                                            </button>
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Buy Now</span>
+                                            </button>
                                         </div>
                                     </li>
-                                    <li
-                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                    <li class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-column ">
                                         <div class="fcard-text  gap-2">
                                             <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
-                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
-                                                Advanced Digital
-                                                Marketing Strategies
-                                                for Growth</p>
-                                            <a href="#"
-                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
-                                                style="color:blue;">Learn
-                                                more
-                                                <span style="transform: rotate(316deg);color: blue;">
-                                                    <i class=" fa fa-arrow-right"></i>
-                                                </span>
-                                            </a> -->
                                         </div>
-                                        <div class="environment environment--active mt-auto">
-                                            <img class="w-100 card-image pt-md-2  "
-                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
-                                                alt="">
+                                        <div class="environment position-relative mt-auto">
+                                            <video src="https://arin.bz/public/collections-v2/videos/branding-video.mp4"
+                                                class="w-100 card-image  pt-md-3 " style="object-fit: contain;" width="100%" height="100%"
+                                                controls></video>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center gap-2 flex-wrap my-2 mb-lg-0 mt-2 justify-content-center">
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Add to Card</span>
+                                            </button>
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Buy Now</span>
+                                            </button>
                                         </div>
                                     </li>
-                                    <li
-                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse">
+                                    <li class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-column  ">
                                         <div class="fcard-text  gap-2">
                                             <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
-                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
-                                                Advanced Digital
-                                                Marketing Strategies
-                                                for Growth</p>
-                                            <a href="#"
-                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
-                                                style="color:blue;">Learn
-                                                more
-                                                <span style="transform: rotate(316deg);color: blue;">
-                                                    <i class=" fa fa-arrow-right"></i>
-                                                </span>
-                                            </a> -->
+                                
                                         </div>
                                         <div class="environment position-relative mt-auto">
                                             <img class="w-100 card-image  pt-md-3 "
-                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
-                                                alt="">
-                                            <span
-                                                class="bg-white playBtn text-Darkblue  position-absolute d-flex justify-content-center align-items-center">
-                                                <i class="fa-solid fa-play"></i>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="rounded-md-4  p-md-3 p-0  w-100 position-relative features_card d-flex flex-lg-column flex-column-reverse ">
-                                        <div class="fcard-text  gap-2">
-                                            <h3 class="facrd-headline mb-0 text-Darkblue">Product Title</h3>
-                                            <!-- <p class="my-2 w-100 fcard-copy d-md-block d-none">Beyond the Basics:
-                                                Advanced Digital
-                                                Marketing Strategies
-                                                for Growth</p>
-                                            <a href="#"
-                                                class="d-md-flex d-none flex-row align-items-center text-decoration-none gap-2"
-                                                style="color:blue;">Learn
-                                                more
-                                                <span style="transform: rotate(316deg);color: blue;">
-                                                    <i class=" fa fa-arrow-right"></i>
-                                                </span>
-                                            </a> -->
-                                        </div>
-                                        <div class="environment position-relative mt-auto">
-                                            <img class="w-100 card-image  pt-md-3 "
-                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg"
-                                                alt="">
+                                                src="https://arin.bz/public/uploads/blog/thumbnails/17149994718138.jpg" alt="">
                                             <span
                                                 class="bg-white playBtn position-absolute text-Darkblue d-flex justify-content-center align-items-center">
                                                 <i class="fa-solid fa-play"></i>
                                             </span>
                                         </div>
+                                        <div class="d-flex flex-row align-items-center gap-2 flex-wrap my-2 mb-lg-0 mt-2 justify-content-center">
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Add to Card</span>
+                                            </button>
+                                            <button
+                                                class="border-0 d-flex flex-row align-items-center justify-content-center bg-primary rounded cardbtn">
+                                                <span class="text-white btnText">Buy Now</span>
+                                            </button>
+                                        </div>
                                     </li>
-
+                                
                                 </ul>
                                 <div class="d-flex justify-content-center show-more">
                                     <a href="#" class="d-flex align-items-center show-more-button text-Darkblue gap-2">
@@ -888,10 +630,11 @@
                     <div class="col-md col-12">
                         <div
                             class="d-flex flex-row align-items-center flex-lg-nowrap flex-wrap gap-lg-5 gap-md-3 gap-2">
-                            <div class="col">
-                                <h1 class="color_team special-font">
-                                    ARIN
-                                </h1>
+                            <div class="col-lg col-12">
+                                <label for="productlogo" class="brandsImage ">
+                                    <img src="https://arin.bz/public/uploads/brands-logo/17158663250404.blob"
+                                        class="w-100 h-100" alt="">
+                                </label>
                             </div>
                             <div class="col">
                                 <a href="" class="footer_link text-footer text-decoration-none">
