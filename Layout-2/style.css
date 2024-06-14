@@ -419,3 +419,9 @@ body {
     height: 70px;
     margin-left: 10px;
 }
+
+.blinkit {
+    bottom: 5%;
+    right: 5%;
+    z-index: 99;
+}
