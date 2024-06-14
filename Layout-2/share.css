@@ -1,5 +1,10 @@
 /* product section css start */
 
+.text-heading2 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
 .company-wrapper {
     background-color: #d1d1d135;
 }
@@ -254,11 +259,7 @@
 
     }
 
-    .brandsImage {
-        width: 90px;
-        height: 90px;
-        /* background-color: white; */
-    }
+
 
     .fcard-text {
         padding-top: 10px;
@@ -309,7 +310,7 @@
 @media (max-width:550px) {
     .swiper-slide {
         height: 90vh;
-        width: 100% ;
+        width: 100%;
 
         img {
             object-fit: cover;
@@ -334,12 +335,6 @@
     .playBtn {
         top: 40%;
         left: 40%;
-    }
-
-    .brandsImage {
-        width: 70px;
-        height: 70px;
-        margin-left: 10px;
     }
 
     .productGrid {

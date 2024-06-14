@@ -348,11 +348,23 @@ body {
 }
 
 .brandsImage {
-    border-radius: 12px;
-    width: 100px;
-    height: 70px;
+    img {
+        object-fit: contain;
+    }
+}
+
+.circleLogo {
+    width: 75px;
+    height: 75px;
     cursor: pointer;
 }
+
+.rectangleLogo {
+    width: 120px;
+    height: 75px;
+    cursor: pointer;
+}
+
 
 .list-btn {
     border-bottom: 1px solid #2a176f1f;

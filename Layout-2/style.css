@@ -415,10 +415,24 @@ body {
 /* header common css */
 
 .brandsImage {
-    width: 70px;
-    height: 70px;
-    margin-left: 10px;
+    cursor: pointer;
+
+    img {
+        object-fit: contain;
+    }
 }
+
+.circleLogo {
+    width: 75px;
+    height: 75px;
+}
+
+.rectangleLogo {
+    width: 120px;
+    height: 75px;
+}
+
+
 
 .blinkit {
     bottom: 5%;
