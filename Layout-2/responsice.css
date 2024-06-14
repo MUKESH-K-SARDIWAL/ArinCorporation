@@ -7,6 +7,10 @@
         left: 0% !important;
     }
 
+    .mobileuserbox {
+        margin-bottom: 20px;
+    }
+
     .company-logo {
         width: 150px;
         max-height: 75px;
@@ -37,6 +41,10 @@
 
     .left-side-box {
         width: 100%;
+    }
+
+    .right-side-box {
+        min-height: 100vh;
     }
 
     .left-side-box::after {
@@ -112,6 +120,8 @@
     }
 
 
+
+
     .left-side-box {
         width: 100%;
     }
@@ -148,6 +158,10 @@
 @media (min-width:992px) {
     .user-post {
         font-size: 1.5rem;
+    }
+
+    .mobileuserbox {
+        margin-bottom: 0px;
     }
 
     .environment {
