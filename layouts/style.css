@@ -385,6 +385,10 @@ body {
     height: 60px;
     cursor: pointer;
 
+    img {
+        object-fit: contain;
+    }
+
 }
 
 .list-btn {
