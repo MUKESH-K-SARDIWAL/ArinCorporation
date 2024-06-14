@@ -93,6 +93,10 @@
 }
 
 @media (min-width: 500px) {
+    .environment {
+        height: 110px;
+    }
+
     .right-top-overlay {
         display: none;
     }
@@ -144,6 +148,10 @@
 @media (min-width:992px) {
     .user-post {
         font-size: 1.5rem;
+    }
+
+    .environment {
+        height: 150px;
     }
 
     .swiper-pagination-bullets {

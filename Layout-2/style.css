@@ -425,3 +425,22 @@ body {
     right: 5%;
     z-index: 99;
 }
+
+
+.environment {
+    height: 150px;
+
+    img {
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+    }
+}
+
+.btnText {
+    font-size: 12px;
+}
+
+.cardbtn {
+    height: 23px;
+}
