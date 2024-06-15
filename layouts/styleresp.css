@@ -9,7 +9,7 @@
 }
 
 @media (max-width:1200px) {
-    .profile-name {
+    .profle_detail .profile-name {
         font-size: 22px;
     }
 
@@ -48,7 +48,7 @@
         position: static;
     }
 
-  .profile-name {
+    .profle_detail .profile-name {
         font-size: 32px;
     }
 
@@ -168,8 +168,9 @@
 
 @media (max-width:550px) {
     .environment {
-            height: 110px;
-        }
+        height: 110px;
+    }
+
     .swiper-slide {
         height: 100vh;
         width: 100%;
@@ -200,8 +201,6 @@
     }
 
     .brandsImage {
-        width: 70px;
-        height: 70px;
         margin-left: 10px;
     }
 
