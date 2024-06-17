@@ -70,17 +70,7 @@ body {
     box-shadow: none;
 }
 
-/* .accordion-button:hover {
-   
 
-    span {
-        color: white !important;
-    }
-
-    span i {
-        color: white !important;
-    }
-} */
 
 .accordion-button::after {
 
@@ -196,21 +186,37 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* max-width: 700px !important; */
     width: 100% !important;
+    height: 80vh;
 
     img {
-        min-height: 90vh !important;
+        min-height: 70vh !important;
         object-fit: cover;
     }
+
+    /* min-height: 100%; */
+    /* height: 600px; */
 }
 
-.profle_detail .profile-name {
+.aboutBlock {
+    z-index: -1;
+    position: relative;
+}
+
+.profile-name {
     font-size: 28px;
 
     line-height: 1;
     margin-bottom: 12px;
     font-weight: 700;
     text-align: left;
+}
+
+.webviewBox {
+    bottom: 3%;
+    z-index: 99;
+    right: 6%;
 }
 
 .profile-address {
@@ -300,6 +306,8 @@ body {
     max-width: 1800px;
     width: 100%;
     margin: auto;
+    /* z-index: -1;
+    position: relative; */
 }
 
 .w-70 {
@@ -348,6 +356,8 @@ body {
 }
 
 .brandsImage {
+    cursor: pointer;
+
     img {
         object-fit: contain;
     }
@@ -356,13 +366,11 @@ body {
 .circleLogo {
     width: 75px;
     height: 75px;
-    cursor: pointer;
 }
 
 .rectangleLogo {
     width: 120px;
     height: 75px;
-    cursor: pointer;
 }
 
 
@@ -418,7 +426,9 @@ body {
 
 /* product section css start */
 
-.company-wrapper {
+
+
+.bg-gray-light {
     background-color: #d1d1d135;
 }
 
@@ -432,7 +442,7 @@ body {
 .features-grid {
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(4, minmax(280px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     width: 100%;
     justify-content: center;
     justify-items: center;
@@ -514,6 +524,7 @@ body {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
 }
+
 
 .environment {
     height: 150px;

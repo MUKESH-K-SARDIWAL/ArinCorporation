@@ -9,7 +9,7 @@
 }
 
 @media (max-width:1200px) {
-    .profle_detail .profile-name {
+    .profile-name {
         font-size: 22px;
     }
 
@@ -48,7 +48,7 @@
         position: static;
     }
 
-    .profle_detail .profile-name {
+    .profile-name {
         font-size: 32px;
     }
 
@@ -115,9 +115,11 @@
     }
 
     .brandsImage {
+        /*
         width: 90px;
         height: 90px;
-        /* background-color: white; */
+        background-color: white; 
+        */
     }
 
     .fcard-text {
@@ -201,6 +203,8 @@
     }
 
     .brandsImage {
+        /*width: 70px;
+        height: 70px;*/
         margin-left: 10px;
     }
 
