@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./xzoom.min.css">
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+</head>
+
+<body>
+
+    <div class="w-100  top-header-shadow mt-lg-0 mt-4 d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="d-flex w-100 flex-row align-items-center justify-content-between">
+                <div class="col ps-lg-0">
+                    <label for="productlogo" class="brandsImage circleLogo">
+                        <img src="./assets/logo.svg" class="w-100 h-100" alt="">
+                    </label>
+                </div>
+                <div class="col mt-header">
+                    <div
+                        class="col-12 d-flex justify-content-end align-items-center gap-lg-4 gap-3 flex-lg-nowrap flex-wrap ">
+                        <a href="" class="headerIcon ">
+                            <span>
+                                <i class="fa-regular text-Darkblue fa-comments iconShadow"></i>
+                            </span>
+                        </a>
+                        <a href="" class="headerIcon  ">
+                            <span>
+                                <i class="fa-solid text-Darkblue fa-list iconShadow"></i>
+                            </span>
+                        </a>
+                        <a href="" class="headerIcon  ">
+                            <span>
+                                <i class="fa-solid text-Darkblue fa-chart-column iconShadow"></i>
+                            </span>
+                        </a>
+                        <div class="dropdown iconShadow  ">
+                            <button class="profileBtn bolor dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside" aria-expanded="false" aria-expanded="false">
+                                <img src="./assets/Escape-Window.jpg" class="w-100 h-100" alt="">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                        <span class="dropdown-text  text-Darkblue me-2"><i
+                                                                class="fa-regular fa-building"></i></span>
+                                                        <span class="dropdown-text  text-Darkblue">Business</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse "
+                                                    data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                            <span><i class="fa-regular fa-pen-to-square"></i></span>
+                                                            <span>Edit Profile</span>
+                                                        </a>
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                            <span><i class="fa-regular fa-pen-to-square"></i></span>
+                                                            <span>Create Titles</span>
+                                                        </a>
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                            <span><i class="fa-regular fa-credit-card"></i></span>
+                                                            <span>Biz Cards</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                        aria-expanded="false" aria-controls="collapseTwo">
+                                                        <span class="dropdown-text  text-Darkblue me-2"><i
+                                                                class="fa-solid fa-trophy"></i></span>
+                                                        <span class="dropdown-text  text-Darkblue">Rewards</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample">
+                                                    <!-- <div class="accordion-body px-0 py-1"> -->
+                                                    <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                            <span><i class="fa-solid fa-chart-line"></i></span>
+                                                            <span>My Leads</span>
+                                                        </a>
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                            <span><i class="fa-solid fa-chart-column"></i></span>
+                                                            <span>My Promotion</span>
+                                                        </a>
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                            <span><i class="fa-regular fa-heart"></i></span>
+                                                            <span>Liked</span>
+                                                        </a>
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                            <span><i class="fa-regular fa-comments"></i></span>
+                                                            <span>Message</span>
+                                                        </a>
+                                                    </div>
+                                                    <!-- </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                            <span class="text-Darkblue"><i class="fa-solid fa-camera-retro"></i></span>
+                                            <span class="text-Darkblue">AI - Cam</span>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                            <span class="text-Darkblue"><i class="fa-solid fa-qrcode"></i></span>
+                                            <span class="text-Darkblue">QR Code</span>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                            <span class="text-Darkblue"><i class="fa-solid fa-share"></i></span>
+                                            <span class="text-Darkblue">Share</span>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="accordion" id="accordionExample2">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne2"
+                                                        aria-expanded="true" aria-controls="collapseOne2">
+                                                        <span class="dropdown-text  text-Darkblue me-2">
+                                                            <i class="fa-solid fa-toggle-on"></i></span>
+                                                        <span class="dropdown-text  text-Darkblue">Switch Profile</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne2" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExample2">
+                                                    <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                        <input type="text" class="searchInput">
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
+                                                            <span class="dropdown-text  text-Darkblue me-2"><i
+                                                                    class="fa-regular fa-building"></i></span>
+                                                            <span class="dropdown-text  text-Darkblue">Business</span>
+                                                        </a>
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
+                                                            <span class="dropdown-text  text-Darkblue me-2"><i
+                                                                    class="fa-regular fa-building"></i></span>
+                                                            <span class="dropdown-text  text-Darkblue">Business</span>
+                                                        </a>
+                                                        <a href=""
+                                                            class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
+                                                            <span class="dropdown-text  text-Darkblue me-2"><i
+                                                                    class="fa-regular fa-building"></i></span>
+                                                            <span class="dropdown-text  text-Darkblue">Business</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                            <span class="text-Darkblue"><i
+                                                    class="fa-solid fa-magnifying-glass"></i></span>
+                                            <span class="text-Darkblue">Search</span>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                            <span class="text-Darkblue"><i
+                                                    class="fa-solid fa-right-from-bracket"></i></span>
+                                            <span class="text-Darkblue">Log Out</span>
+                                        </div>
+                                    </a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="productDetailPage mb-4 mb-md-5 mt-2">
+        <div class="container">
+            <div class="row gap-lg-0 gap-5">
+                <div class="col-xl-5 col-lg-6  ">
+                    <div class="zoomImageBox">
+
+                        <img class="xzoom" id="main_image" src="./assets/French-Security-Door-1.jpg"
+                            xoriginal="./assets/French-Security-Door-1.jpg">
+
+                        <div class="xzoom-thumbs">
+                            <a href="./assets/French-Security-Door-1.jpg">
+                                <img class="xzoom-gallery" width="80" src="./assets/French-Security-Door-1.jpg"
+                                    xpreview="./assets/French-Security-Door-1.jpg" alt="French Security Door">
+                            </a>
+                            <a href="./assets/French-Security-Door-2.jpg"><img class="xzoom-gallery" width="80"
+                                    src="./assets/French-Security-Door-2.jpg"
+                                    xpreview="./assets/French-Security-Door-2.jpg" alt="French Security Door">
+                            </a>
+                            <a href="./assets/French-Security-Door-2.jpg"><img class="xzoom-gallery" width="80"
+                                    src="./assets/French-Security-Door-2.jpg"
+                                    xpreview="./assets/French-Security-Door-2.jpg" alt="French Security Door">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-6  ">
+                    <div class="pageContent text-lg-start text-center">
+                        <h1 id="title">French Security Door</h1>
+                        <div id="description">
+                            <p>TENTUFF™ French Security Doors facilitate the transformation of style to safety. We
+                                promise
+                                to match the aesthetics and lifestyle of your French Doors without compromising on the
+                                well
+                                being of you and your loved ones. Reliable high security french doors that naturally fit
+                                in
+                                your home.</p>
+
+                            <h3>Application</h3>
+
+                            <p>TENTUFF™ appealing French Security Doors render extensive protection and assure safety in
+                                all
+                                spaces of your home. These can be installed in large front and back doors of your
+                                property.
+                            </p>
+                        </div>
+
+                        <h6>Standard Colors</h6>
+                        <div class="colorBoxes d-flex flex-row justify-content-lg-start justify-content-center">
+                            <div class="box" style="background:#7a1010"></div>
+                            <div class="box" style="background:#4f0808"></div>
+                            <div class="box" style="background:#302727"></div>
+                            <div class="box" style="background:#d9c4c4"></div>
+                        </div>
+                        <div id="features">
+                            <h3>Features</h3>
+
+                            <ul>
+                                <li>The TENTUFF™ High Security French Doors are made of high strength and durable
+                                    stainless
+                                    steel to provide overall protection.</li>
+                                <li>This security system handles all forms of attacks from damaging objects like knives,
+                                    crowbars, etc.</li>
+                                <li>The high safety in TENTUFF™ French Door Security devices is assured through a
+                                    smartly
+                                    built lock-in system.&nbsp;</li>
+                            </ul>
+                        </div>
+                        <div
+                            class="d-flex flex-row align-items-center justify-content-lg-start justify-content-center gap-3 mt-4 flex-wrap">
+                            <div class="requestAQuote">
+                                <a href="#" class="btn btn-primary btn-lg">Add to Cart</a>
+                            </div>
+                            <div class="requestAQuote">
+                                <a href="#" class="btn btn-primary btn-lg">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="otherProducts my-5">
+        <div class="container">
+            <div class="row">
+                <h3 class="showOther" style="display: block;">Other Products..</h3>
+                <section class="">
+                    <div class="owl-carousel owl-theme">
+                        <div class="col test">
+                            <div class="card">
+                                <div class="catProduct">
+                                    <div class="img">
+                                        <a href="#"><img src="./assets/Hinged-Security-Door-2.png"
+                                                alt="Hinged Security Door"></a>
+                                    </div>
+                                    <h3>Hinged Security Door</h3>
+                                    <p>TENTUFF™ Hinged Security doors protect the entry point &amp; back
+                                        doors
+                                        of your home.</p>
+
+                                    <div class="avlColors d-flex justify-content-between">
+                                        <p><b>Standard Colors</b></p>
+                                        <div class="colorBoxes">
+                                            <div class="box" style="background:#7a1010"></div>
+                                            <div class="box" style="background:#4f0808"></div>
+                                            <div class="box" style="background:#302727"></div>
+                                            <div class="box" style="background:#d9c4c4"></div>
+                                        </div>
+                                    </div>
+                                    <a class="linkBtn" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col test">
+                            <div class="card">
+                                <div class="catProduct">
+                                    <div class="img">
+                                        <a href="#"><img src="./assets/SLIDING-DOOR.jpg"
+                                                alt="Sliding Security Door"></a>
+                                    </div>
+                                    <h3>Sliding Security Door</h3>
+                                    <p>TENTUFF™ Sliding Security Doors are the perfect fit to secure your
+                                        existing Aluminium, Wooden, or UPVC sliding doors.</p>
+
+                                    <div class="avlColors d-flex justify-content-between">
+                                        <p><b>Standard Colors</b></p>
+                                        <div class="colorBoxes">
+                                            <div class="box" style="background:#7a1010"></div>
+                                            <div class="box" style="background:#4f0808"></div>
+                                            <div class="box" style="background:#302727"></div>
+                                            <div class="box" style="background:#d9c4c4"></div>
+                                        </div>
+                                    </div>
+                                    <a class="linkBtn" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col test">
+                            <div class="card">
+                                <div class="catProduct">
+                                    <div class="img">
+                                        <a href="#"><img src="./assets/TENTUFF-HINGED-WINDOW.jpg"
+                                                alt="Hinged Security Window"></a>
+                                    </div>
+                                    <h3>Hinged Security Window</h3>
+                                    <p>TENTUFF™ Hinged Windows are fitted with a concealed hinged unit along
+                                        their sides to swing outward or inward.</p>
+
+                                    <div class="avlColors d-flex justify-content-between">
+                                        <p><b>Standard Colors</b></p>
+                                        <div class="colorBoxes">
+                                            <div class="box" style="background:#7a1010"></div>
+                                            <div class="box" style="background:#4f0808"></div>
+                                            <div class="box" style="background:#302727"></div>
+                                            <div class="box" style="background:#d9c4c4"></div>
+                                        </div>
+                                    </div>
+                                    <a class="linkBtn" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col test">
+                            <div class="card">
+                                <div class="catProduct">
+                                    <div class="img">
+                                        <a href="#"><img src="./assets/Bi-Fold-Security-Door-1.jpg"
+                                                alt="Bi Fold Security Door"></a>
+                                    </div>
+                                    <h3>Bi Fold Security Door</h3>
+                                    <p>TENTUFF™ Bi fold Security Doors (also referred to as folding sliding)
+                                        transform your home and garden into a seamless living space.</p>
+
+                                    <div class="avlColors d-flex justify-content-between">
+                                        <p><b>Standard Colors</b></p>
+                                        <div class="colorBoxes">
+                                            <div class="box" style="background:#7a1010"></div>
+                                            <div class="box" style="background:#4f0808"></div>
+                                            <div class="box" style="background:#302727"></div>
+                                            <div class="box" style="background:#d9c4c4"></div>
+                                        </div>
+                                    </div>
+                                    <a class="linkBtn" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col test">
+                            <div class="card">
+                                <div class="catProduct">
+                                    <div class="img">
+                                        <a href="#"><img src="./assets/Fixed_Security_Window.jpg"
+                                                alt="Fixed Security Window"></a>
+                                    </div>
+                                    <h3>Fixed Security Window</h3>
+                                    <p>Large and fixed windows are becoming impressive style statements in
+                                        modern residences.</p>
+
+                                    <div class="avlColors d-flex justify-content-between">
+                                        <p><b>Standard Colors</b></p>
+                                        <div class="colorBoxes">
+                                            <div class="box" style="background:#7a1010"></div>
+                                            <div class="box" style="background:#4f0808"></div>
+                                            <div class="box" style="background:#302727"></div>
+                                            <div class="box" style="background:#d9c4c4"></div>
+                                        </div>
+                                    </div>
+                                    <a class="linkBtn" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col test">
+                            <div class="card">
+                                <div class="catProduct">
+                                    <div class="img">
+                                        <a href="#"><img src="./assets/Escape-Window.jpg" alt="Escape Windows"></a>
+                                    </div>
+                                    <h3>Escape Windows</h3>
+                                    <p>TENTUFF™ Escape Window Security Screen provides an easy keyless exit
+                                        that
+                                        you can open effortlessly with one single touch</p>
+
+                                    <div class="avlColors d-flex justify-content-between">
+                                        <p><b>Standard Colors</b></p>
+                                        <div class="colorBoxes">
+                                            <div class="box" style="background:#7a1010"></div>
+                                            <div class="box" style="background:#4f0808"></div>
+                                            <div class="box" style="background:#302727"></div>
+                                            <div class="box" style="background:#d9c4c4"></div>
+                                        </div>
+                                    </div>
+                                    <a class="linkBtn" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-5 ">
+        <div class="footer-wrapper ">
+            <div class="container ">
+                <div class="d-flex flex-column gap-4 pt-4">
+                    <div class="d-flex flex-row align-items-center pt-4  gap-4">
+                        <h3 class="followus me-4">Follow us</h3>
+                        <a href="">
+                            <span class="text-dark">
+                                <i class="fa fa-youtube  fa-brands  font-24"></i>
+                            </span>
+                        </a>
+                        <a href="">
+                            <span class="text-dark">
+                                <i class="fa fa-twitter fa-brands  font-24"></i>
+                            </span>
+                        </a>
+                        <a href="">
+                            <span class="text-dark">
+                                <i class="fa fa-facebook fa-brands font-24"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="border-bottom w-100 my-4"></div>
+                <div class="row justify-content-between gap-lg-0 gap-4 pb-5">
+                    <div class="col-md col-12">
+                        <div
+                            class="d-flex flex-row align-items-center flex-lg-nowrap flex-wrap gap-lg-5 gap-md-3 gap-2">
+                            <div class="col-md col-12">
+                                <label for="productlogo" class="brandsImage circleLogo">
+                                    <img src="./assets/logo.svg" class="w-100 h-100" alt="">
+                                </label>
+                            </div>
+                            <div class="col">
+                                <a href="" class="footer_link text-md-start text-center text-decoration-none">
+                                    <span class="">Privacy and Terms</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="" class="footer_link text-md-start text-center text-decoration-none">
+                                    <span class="">About Us</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="" class="footer_link text-md-start text-center text-decoration-none">
+                                    <span class="">Our Products</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md col-12 d-flex flex-row justify-content-end">
+                        <div class="d-flex flex-row align-items-center gap-5">
+                            <div>
+                                <a href="" class="d-flex gap-2 align-items-center text-decoration-none">
+                                    <span>
+                                        <i class="fa fa-circle-question text-black"></i>
+                                    </span>
+                                    <span class="footer_link text-decoration-none ">Help</span>
+                                </a>
+                            </div>
+                            <div>
+                                <select name="" class="col-12 border-grey rounded p-2" id="">
+                                    <option value="">India</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./xzoom.min.js"></script>
+    <script src="./owl.carousel.min.js"></script>
+    <script>
+        // $("selector").xzoom();
+        $("#main_image, .xzoom-gallery").xzoom(
+            { zoomWidth: 300, zoomHeight: 300, title: true, tint: '#333', Xoffset: 10, }
+        );
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: true,
+            dotsEach: true,
+            responsive: {
+                280: {
+                    items: 1
+                },
+                400: {
+                    items: 1.6
+                },
+                767: {
+                    items: 2
+                },
+                992: {
+                    items: 3
+                },
+                1100: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
