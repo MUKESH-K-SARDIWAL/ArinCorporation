@@ -589,3 +589,10 @@ body {
 }
 
 /* footer css end */
+
+
+
+.profile-index {
+    position: relative;
+    z-index: -1;
+}
