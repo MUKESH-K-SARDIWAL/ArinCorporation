@@ -9,17 +9,9 @@ body {
     min-width: 100%;
 }
 
-.mainbox {
-    /* height: 100vh;
-    overflow: hidden; */
-}
-
-
-
 .left-side-box {
     width: 50%;
     z-index: 10;
-    /* height: 100vh; */
     height: 100%;
     min-height: 100vh;
     position: relative;
@@ -48,171 +40,14 @@ body {
     min-height: 100vh;
 }
 
-.header-box {
-    z-index: 9999;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .iconShadow {
     filter: drop-shadow(0px 0px 2px #fecc32);
 }
 
-.headerIcon i {
-    font-size: 20px;
-}
-
-.profileBtn {
-    border: 1px solid;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    padding: 0px;
-    overflow: hidden;
-}
 
 
-.dropdown-toggle::after {
-    display: none;
-}
+/* right side swiper css  start */
 
-.dropdown-text {
-    font-size: 13px;
-
-    font-weight: 500;
-    line-height: 1;
-
-}
-
-.dropdown-item {
-    padding: 0px;
-    border: 0px;
-    border: none;
-}
-
-.dropdown-menu {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    /* padding: 4px; */
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.accordion-button:not(.collapsed) {
-    background-color: white;
-    box-shadow: none;
-}
-
-/* .accordion-button:hover {
-   
-
-    span {
-        color: white !important;
-    }
-
-    span i {
-        color: white !important;
-    }
-} */
-
-.accordion-button::after {
-
-    background-size: 0px;
-    font-size: 15px;
-    content: "\f107";
-    font-family: FontAwesome;
-    color: #fecc32;
-    margin-top: 5px;
-    /* margin-left: 4px; */
-
-}
-
-.accordion-button:not(.collapsed)::after {
-    transform: none !important;
-}
-
-
-.accordion-item {
-    border: 0px !important;
-}
-
-.accordion-button:focus {
-    box-shadow: none;
-    /* background-color: #2A176F; */
-    /* color: white !important; */
-
-}
-
-.accordion-button {
-    padding: 8px;
-}
-
-.accordion-inner-link {
-
-    text-decoration: none;
-    padding: 4px 8px;
-    /* padding-right: 8px; */
-
-}
-
-.accordion-inner-link i {
-    font-size: 14px;
-
-}
-
-.accordion-inner-link span {
-    font-size: 13px;
-
-}
-
-.dropDown-innerdiv {
-    height: 36px;
-    /* background-color: white; */
-    padding: 8px;
-
-    span {
-        font-size: 13px;
-
-    }
-}
-
-
-.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
-    border-radius: 0px;
-}
-
-.searchInput {
-    border-radius: 6px;
-    border: 1px solid #fecc32;
-    width: 100%;
-    padding: 6px;
-}
-
-.position-lg-sticky {
-    position: sticky;
-}
-
-.order-1 {
-    order: 1;
-}
-
-.order-2 {
-    order: 2;
-}
-
-.order-3 {
-    order: 3;
-}
-
-.order-4 {
-    order: 4;
-}
-
-.iconShadow {
-    filter: drop-shadow(0px 0px 2px #fecc32);
-}
 
 .right-side-box {
     height: 88vh;
@@ -221,8 +56,6 @@ body {
     right: 0px;
 }
 
-
-/* right side swiper css  start */
 
 .swiper {
     width: 100%;
@@ -277,6 +110,9 @@ body {
 }
 
 /* right side swiper css  end */
+
+
+
 
 /* left-side design start*/
 .company-logo {
@@ -367,11 +203,6 @@ body {
     font-size: 1rem;
     font-weight: 400;
     word-spacing: 4px;
-    /* text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 8;
-    -webkit-box-orient: vertical; */
-
 }
 
 .mobileuserbox {
@@ -379,10 +210,6 @@ body {
     width: 66% !important;
     margin: auto;
     left: 18%;
-    /* background-color: #ffffff57;
-    border: 1px solid #fff;
-    border-radius: 14px; */
-
 }
 
 .hashtag {
@@ -413,48 +240,8 @@ body {
 
 
 /* header common css */
-
-.brandsImage {
-    cursor: pointer;
-
-    img {
-        object-fit: contain;
-    }
-}
-
-.circleLogo {
-    width: 75px;
-    height: 75px;
-}
-
-.rectangleLogo {
-    width: 120px;
-    height: 75px;
-}
-
-
-
 .blinkit {
     bottom: 5%;
     right: 5%;
     z-index: 99;
-}
-
-
-.environment {
-    height: 150px;
-
-    img {
-        width: 100%;
-        object-fit: contain;
-        height: 100%;
-    }
-}
-
-.btnText {
-    font-size: 12px;
-}
-
-.cardbtn {
-    height: 23px;
 }

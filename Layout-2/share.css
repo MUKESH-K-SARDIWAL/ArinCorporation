@@ -1,3 +1,186 @@
+/* header css start */
+
+.header-box {
+    z-index: 9999;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconShadow {
+    filter: drop-shadow(0px 0px 2px #fecc32);
+}
+
+.headerIcon i {
+    font-size: 20px;
+}
+
+.profileBtn {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-text {
+    font-size: 13px;
+
+    font-weight: 500;
+    line-height: 1;
+
+}
+
+.dropdown-item {
+    padding: 0px;
+    border: 0px;
+    border: none;
+}
+
+.dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* padding: 4px; */
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    box-shadow: none;
+}
+
+.brandsImage {
+    cursor: pointer;
+
+    img {
+        object-fit: contain;
+    }
+}
+
+.circleLogo {
+    width: 75px;
+    height: 75px;
+}
+
+.rectangleLogo {
+    width: 120px;
+    height: 75px;
+}
+
+.accordion-button::after {
+
+    background-size: 0px;
+    font-size: 15px;
+    content: "\f107";
+    font-family: FontAwesome;
+    margin-top: 5px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: none !important;
+}
+
+
+.accordion-item {
+    border: 0px !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button {
+    padding: 8px;
+}
+
+.accordion-inner-link {
+
+    text-decoration: none;
+    padding: 4px 8px;
+}
+
+.accordion-inner-link i {
+    font-size: 14px;
+
+}
+
+.accordion-inner-link span {
+    font-size: 13px;
+    
+}
+
+.dropDown-innerdiv {
+    height: 36px;
+    padding: 8px;
+
+    span {
+        font-size: 13px;
+
+    }
+}
+
+
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-radius: 0px;
+}
+
+.searchInput {
+    border-radius: 6px;
+    border: 1px solid;
+    width: 90%;
+    margin: auto;
+    padding: 6px;
+}
+
+.position-lg-sticky {
+    position: sticky;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+
+.environment {
+    height: 150px;
+
+    img {
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+    }
+}
+
+.btnText {
+    font-size: 12px;
+}
+
+.cardbtn {
+    height: 23px;
+}
+
+/* header css end */
+
 /* product section css start */
 
 .text-heading2 {
@@ -5,7 +188,7 @@
     font-size: 32px;
 }
 
-.company-wrapper {
+.bg-gray-light {
     background-color: #d1d1d135;
 }
 
@@ -111,7 +294,6 @@
 .followus {
 
     font-weight: 400;
-    /* margin: 0 32px 8px 0; */
 }
 
 
@@ -120,17 +302,23 @@
     border-bottom: 1 solid #dee2e6 !important;
 }
 
-.color_team {
-    background: #F1A403;
-    background: linear-gradient(to right, #F1A403 0%, #DE331B 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .special-font {
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.text-dark .fa-youtube {
+    color: #f00;
+}
+
+.text-dark .fa-facebook {
+    color: #1877f2
+}
+
+.text-dark .fa-twitter {
+    color: #1d9bf0
 }
 
 .footer_link {
