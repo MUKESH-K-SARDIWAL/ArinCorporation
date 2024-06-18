@@ -414,6 +414,21 @@ p {
     border-bottom: 1px solid #000;
 }
 
+.icon-position {
+    top: 28px;
+    left: 41px;
+    z-index: 99;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
 /* product list secion css end */
 
 /* header css start */

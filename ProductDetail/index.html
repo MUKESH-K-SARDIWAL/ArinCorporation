@@ -225,14 +225,16 @@
                                     <img class="xzoom-gallery" width="80" src="./assets/French-Security-Door-1.jpg"
                                         xpreview="./assets/French-Security-Door-1.jpg" alt="French Security Door">
                                 </a>
-                                <a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                                    style="display: block; width: 90px; height: 70px;">
-                                    <video
-                                        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                                        width="100%" height="100%"
-                                        xpreview="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                                        alt="French Security Door" style="object-fit: cover;"></video>
-                                </a>
+                                <div type="button" class="position-relative" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop" style="display: block; width: 90px; height: 70px;">
+                                    <span class="position-absolute icon-position">
+                                        <i class=" fa-solid fa-play text-white"></i>
+                                    </span>
+                                    <!--  -->
+
+                                    <img class="xzoom-gallery" width="80" src="./assets/French-Security-Door-1.jpg"
+                                        alt="French Security Door">
+                                </div>
                                 <a href="./assets/French-Security-Door-2.jpg">
                                     <img class="xzoom-gallery" width="80" src="./assets/French-Security-Door-2.jpg"
                                         xpreview="./assets/French-Security-Door-2.jpg" alt="French Security Door">
@@ -310,7 +312,7 @@
                         </div>
 
                         <div class="accordion mt-3" id="accordionExample">
-                            <div class="accordion-item newHeader" >
+                            <div class="accordion-item newHeader">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -380,6 +382,30 @@
             </div>
         </div>
     </section>
+    
+
+    <!-- Video Modal start -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header2 flex-row d-flex justify-content-end">
+                    <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                    <button type="button" class="btn-close pe-3 pt-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                        width="100%" height="100%"
+                        xpreview="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                        alt="French Security Door" controls style="object-fit: cover;"></video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Modalend -->
+
+
     <section class="otherProducts my-5">
         <div class="container">
             <div class="row">
