@@ -59,7 +59,14 @@ p {
     font-size: 18px;
     margin-top: 25px;
 }
-
+#headingOne.accordion-header{
+    border-bottom: 1px solid black;
+}
+h4 .accordion-button {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px !important;
+    /* margin-top: 25px ; */
+}
 .productDetailPage p {
     font-size: 16px;
 }
@@ -403,6 +410,7 @@ p {
     font-size: 1rem;
     font-weight: 500;
     text-decoration: line-through;
+    color: #393e46;
 }
 
 .offerprice {

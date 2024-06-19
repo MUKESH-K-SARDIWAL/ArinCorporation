@@ -215,18 +215,14 @@
                         <img class="xzoom" id="main_image" src="./assets/French-Security-Door-1.jpg"
                             xoriginal="./assets/French-Security-Door-1.jpg">
 
-                        <!-- <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                            width="100%" height="100%"
-                            xpreview="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                            alt="French Security Door" class="videoPreview" controls style="object-fit: cover;"></video> -->
+                      
                         <div class="xzoom-thumbs">
                             <div class="owl-carousel owl1 owl-theme">
                                 <a href="./assets/French-Security-Door-1.jpg">
                                     <img class="xzoom-gallery" width="80" src="./assets/French-Security-Door-1.jpg"
                                         xpreview="./assets/French-Security-Door-1.jpg" alt="French Security Door">
                                 </a>
-                                <div type="button" class="position-relative" data-bs-toggle="modal"
-                                    data-bs-target="#staticBackdrop" style="display: block; width: 90px; height: 70px;">
+                                <div type="button" class="position-relative" onclick="openModal()" style="display: block; width: 90px; height: 70px;">
                                     <span class="position-absolute icon-position">
                                         <i class=" fa-solid fa-play text-white"></i>
                                     </span>
@@ -292,7 +288,7 @@
 
                             <div class="flex-row d-flex gap-2 justify-content-start align-items-center">
                                 <span class="offerprice">₹ 23000</span>
-                                <span class="mrpprice">₹ 23000</span>
+                                <span class="mrpprice">₹ 32000</span>
                             </div>
                             <h3>Application</h3>
 
@@ -313,12 +309,12 @@
 
                         <div class="accordion mt-3" id="accordionExample">
                             <div class="accordion-item newHeader">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                <h4 class="accordion-header h6" id="headingOne">
+                                    <button class="accordion-button text-black" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         Features
                                     </button>
-                                </h2>
+                                </h4>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
@@ -382,7 +378,7 @@
             </div>
         </div>
     </section>
-    
+
 
     <!-- Video Modal start -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -391,7 +387,8 @@
             <div class="modal-content">
                 <div class="modal-header2 flex-row d-flex justify-content-end">
                     <h5 class="modal-title" id="staticBackdropLabel"></h5>
-                    <button type="button" class="btn-close pe-3 pt-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close pe-3 pt-3" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
@@ -685,6 +682,15 @@
                 }
             }
         })
+    </script>
+    <script>
+        var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), {
+            keyboard: false
+        })
+
+        function openModal() {
+            myModal.show()
+        }   
     </script>
 </body>
 
