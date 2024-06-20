@@ -206,6 +206,7 @@
             </div>
         </div>
     </div>
+
     <section class="productDetailPage mb-4 mb-md-5 mt-2">
         <div class="container">
             <div class="row gap-lg-0 gap-5">
@@ -215,14 +216,15 @@
                         <img class="xzoom" id="main_image" src="./assets/French-Security-Door-1.jpg"
                             xoriginal="./assets/French-Security-Door-1.jpg">
 
-                      
+
                         <div class="xzoom-thumbs">
                             <div class="owl-carousel owl1 owl-theme">
                                 <a href="./assets/French-Security-Door-1.jpg">
                                     <img class="xzoom-gallery" width="80" src="./assets/French-Security-Door-1.jpg"
                                         xpreview="./assets/French-Security-Door-1.jpg" alt="French Security Door">
                                 </a>
-                                <div type="button" class="position-relative" onclick="openModal()" style="display: block; width: 90px; height: 70px;">
+                                <div type="button" class="position-relative" onclick="openModal()"
+                                    style="display: block; width: 90px; height: 70px;">
                                     <span class="position-absolute icon-position">
                                         <i class=" fa-solid fa-play text-white"></i>
                                     </span>
@@ -264,7 +266,7 @@
                     </div>
 
                 </div>
-                <div class="col-xl-7 col-lg-6  ">
+                <div class="col-xl-7 col-lg-6  overflow-hidden h-screen">
                     <div class="pageContent text-lg-start text-center">
                         <h1 id="title">French Security Door</h1>
                         <div id="description">
@@ -399,7 +401,6 @@
             </div>
         </div>
     </div>
-
     <!-- Video Modalend -->
 
 
@@ -560,25 +561,36 @@
             </div>
         </div>
     </section>
-    <footer class="mt-5 ">
+    <footer class="mt-5 pt-5">
         <div class="footer-wrapper ">
-            <div class="container ">
+            <div class="container-lg container-fluid ">
                 <div class="d-flex flex-column gap-4 pt-4">
-                    <div class="d-flex flex-row align-items-center pt-4  gap-4">
-                        <h3 class="followus me-4">Follow us</h3>
-                        <a href="">
+                    <div class="d-flex flex-row align-items-center pt-4  gap-md-4 gap-2 flex-md-nowrap flex-wrap">
+                        <h3 class="followus text-black me-4">Follow us</h3>
+
+                        <a href="" target="_blank">
                             <span class="text-dark">
-                                <i class="fa fa-youtube  fa-brands  font-24"></i>
+                                <i class="fa fa-linkedin fa-brands font-24"></i>
                             </span>
                         </a>
-                        <a href="">
+                        <a href="" target="_blank">
                             <span class="text-dark">
                                 <i class="fa fa-twitter fa-brands  font-24"></i>
                             </span>
                         </a>
-                        <a href="">
+                        <a href="" target="_blank">
                             <span class="text-dark">
                                 <i class="fa fa-facebook fa-brands font-24"></i>
+                            </span>
+                        </a>
+                        <a href="" target="_blank">
+                            <span class="text-dark">
+                                <i class="fa fa-youtube  fa-brands  font-24"></i>
+                            </span>
+                        </a>
+                        <a href="" target="_blank">
+                            <span class="text-dark">
+                                <i class="fa fa-instagram fa-brands font-24"></i>
                             </span>
                         </a>
                     </div>
@@ -587,43 +599,24 @@
                 <div class="row justify-content-between gap-lg-0 gap-4 pb-5">
                     <div class="col-md col-12">
                         <div
-                            class="d-flex flex-row align-items-center flex-lg-nowrap flex-wrap gap-lg-5 gap-md-3 gap-2">
-                            <div class="col-md col-12">
-                                <label for="productlogo" class="brandsImage circleLogo">
+                            class="d-flex flex-row align-items-center flex-lg-nowrap flex-wrap gap-lg-5 gap-md-3 gap-2 justify-content-center justify-content-md-start">
+                            <div class="col-lg-2 col-md-4 col-sm-4 text-center text-md-start">
+                                <label for="productlogo" class="brandsImage rectangleLogo">
                                     <img src="./assets/logo.svg" class="w-100 h-100" alt="">
                                 </label>
                             </div>
-                            <div class="col">
-                                <a href="" class="footer_link text-md-start text-center text-decoration-none">
-                                    <span class="">Privacy and Terms</span>
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="" class="footer_link text-md-start text-center text-decoration-none">
-                                    <span class="">About Us</span>
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="" class="footer_link text-md-start text-center text-decoration-none">
-                                    <span class="">Our Products</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md col-12 d-flex flex-row justify-content-end">
-                        <div class="d-flex flex-row align-items-center gap-5">
-                            <div>
-                                <a href="" class="d-flex gap-2 align-items-center text-decoration-none">
-                                    <span>
-                                        <i class="fa fa-circle-question text-black"></i>
-                                    </span>
-                                    <span class="footer_link text-decoration-none ">Help</span>
-                                </a>
-                            </div>
-                            <div>
-                                <select name="" class="col-12 border-grey rounded p-2" id="">
-                                    <option value="">India</option>
-                                </select>
+                            <div
+                                class="d-flex flex-row align-items-center justify-content-start col-md-6 col-sm-8 col-12">
+                                <div class="col-lg-4 col-xl-3 col-md-6 col  text-md-start">
+                                    <a href="" class="footer_link text-footer text-decoration-none">
+                                        <span class="">Privacy Policy</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-xl-3 col-md-6 col text-center text-md-start">
+                                    <a href="" class="footer_link text-footer text-decoration-none">
+                                        <span class="">Terms &amp; Conditions</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
