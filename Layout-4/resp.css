@@ -9,19 +9,111 @@
     }
 }
 
-@media (max-width:767px) {}
+@media (max-width:767px) {
+    .rombus-box {
+        width: 430px;
+        height: 430px;
+    }
 
-@media (max-width:526px) {
-    .profileswiperImage {
+    .top-left-circle {
+
         width: 300px;
         height: 300px;
 
     }
 
-    .profileswiper {
+    .bottom-right-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .parent-rombus-box {
+        width: 440px;
+        height: 440px;
+    }
+
+    .parent-rombus-box1 {
+        width: 445px;
+        height: 445px;
+    }
+
+    .profileswiperImage {
+        width: 430px;
+        height: 430px;
+    }
+}
+
+@media (max-width:526px) {
+    .rombus-box {
+        width: 300px;
+        height: 400px;
+        margin: 0px auto;
+        clip-path: none;
+    }
+
+    .dotes-top-right {
+        top: 9rem;
+        right: 1rem;
+    }
+
+    .dotes-bottom-right {
+        right: 8rem;
+        bottom: 21rem;
+    }
+
+    .top-left-circle {
+        top: -20px;
+        left: 5px;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+    }
+
+    .bottom-right-circle {
+        bottom: 30%;
+        right: -15px;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+    }
+
+    .h-2screen {
+        min-height: 85dvh;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .parent-rombus-box {
+        width: 330px;
+        margin: 0px auto;
+        height: 430px;
+        clip-path: none;
+    }
+
+    .parent-rombus-box1 {
+        width: 305px;
+        margin: 0px auto;
+        height: 415px;
+        clip-path: none;
+    }
+
+    .profileswiperImage {
+        width: 300px;
+        height: 400px;
+
+
+    }
+
+    .swiper-slide {
+        height: 100% !important;
+    }
+
+    /* .profileswiper {
         width: 310px;
         height: 310px;
-    }
+    } */
 
     .bottom-solid-strip {
         left: 75%;

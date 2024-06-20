@@ -38,7 +38,7 @@ body {
 }
 
 .dotes-top-right {
-    top: 2rem;
+    top: 4rem;
     right: 2rem;
     opacity: 0.6;
 }
@@ -87,6 +87,7 @@ body {
     width: 500px;
     height: 500px;
     overflow: hidden;
+
 }
 
 .profileswiper {
@@ -94,6 +95,7 @@ body {
     height: 410px;
     border-radius: 50%;
 }
+
 
 .circle-border {
     outline-width: 8px;
@@ -187,6 +189,10 @@ body {
     z-index: 9999;
 }
 
+.iconShadow {
+    filter: drop-shadow(0px 0px 2px #fff);
+}
+
 .spring:hover {
     border-color: white;
     outline-color: white;
@@ -203,3 +209,19 @@ body {
 
 
 /* right side box */
+
+.top-left {
+    position: absolute;
+    margin: auto;
+    top: 14px;
+    right: 0px;
+    bottom: 0;
+    z-index: 99;
+    left: 12px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 40px 10px 0px 0px #e6e7e9;
+    transform: rotate(190deg);
+}
