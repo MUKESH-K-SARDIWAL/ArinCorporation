@@ -1,0 +1,25 @@
+.bg-back {
+    background: rgb(230, 231, 233);
+    background: linear-gradient(45deg, rgba(230, 231, 233, 1) 3%, rgba(230, 231, 233, 0.9164040616246498) 80%);
+}
+
+.text-primary {
+    color: #289E62 !important;
+}
+
+.text-secondary {
+    color: #696969 !important;
+}
+
+
+.text-white {
+    color: white !important;
+}
+
+.primary-border {
+    border-color: #e5759d;
+}
+
+.primary-outline {
+    outline-color: #e5759d;
+}
