@@ -4,13 +4,11 @@ img {
 }
 
 a {
-    color: #000;
+   
     text-decoration: underline;
 }
 
-p {
-    color: #393e46;
-}
+
 
 
 /* banner secion css start */
@@ -97,7 +95,7 @@ h4 .accordion-button {
     position: relative;
     line-height: 20px;
     margin: 8px 0;
-    color: #393e46;
+    
 }
 
 .productDetailPage ul li::before {
@@ -122,10 +120,8 @@ h4 .accordion-button {
 
 .btn-check:focus+.btn-primary,
 .btn-primary {
-    color: #fff;
-    background-color: #000;
+   
     border-color: #000;
-    /* box-shadow: 0 0 0 .25rem rgba(38, 38, 38, .5); */
 }
 
 
@@ -183,8 +179,7 @@ h4 .accordion-button {
     top: 28%;
     font-size: 24px !important;
     width: 21px;
-    background: #0000001c !important;
-    color: #fcb118 !important;
+   
     line-height: 1 !important;
     display: flex;
     justify-content: center;
@@ -319,9 +314,9 @@ h4 .accordion-button {
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    background: #1f1f1f;
+    
     font-family: "Roboto Condensed", sans-serif;
-    color: #fff;
+    /* color: #fff; */
     margin: -10px;
     margin-top: 5px;
     box-sizing: content-box;
@@ -335,8 +330,8 @@ h4 .accordion-button {
     top: 39%;
     font-size: 50px !important;
     width: 35px;
-    background: #0000001c !important;
-    color: #fcb118 !important;
+    /* background: #0000001c !important;
+    color: #fcb118 !important; */
     line-height: 1 !important;
     display: flex;
     justify-content: center;
@@ -376,10 +371,7 @@ h4 .accordion-button {
     -webkit-tap-highlight-color: transparent;
 }
 
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-    background: #fcb118;
-}
+
 
 .owl-theme .owl-dots .owl-dot {
     display: inline-block;
@@ -413,7 +405,7 @@ h4 .accordion-button {
     font-size: 1rem;
     font-weight: 500;
     text-decoration: line-through;
-    color: #393e46;
+   
 }
 
 .offerprice {
@@ -432,8 +424,8 @@ h4 .accordion-button {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #000;
-    color: white;
+    /* background-color: #000; */
+    /* color: white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -505,7 +497,7 @@ h4 .accordion-button {
     font-size: 15px;
     content: "\f107";
     font-family: FontAwesome;
-    color: #2A176F;
+    /* color: #2A176F; */
     margin-top: 5px;
 }
 
@@ -620,7 +612,6 @@ h4 .accordion-button {
 }
 
 .followus {
-    color: black;
     font-weight: 400;
 }
 
@@ -631,7 +622,6 @@ h4 .accordion-button {
 .footer_link {
     cursor: pointer;
     display: inline-block;
-    color: black;
     font-size: 20px;
     text-wrap: nowrap;
     font-weight: 500;

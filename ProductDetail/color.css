@@ -1,0 +1,40 @@
+p {
+    color: #393e46;
+}
+
+.color-black {
+    color: black;
+}
+
+.primary-text {
+    color: #393e46;
+}
+
+.color-white {
+    color: white;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.owl1 .owl-nav button.owl-next,
+.owl1 .owl-nav button.owl-prev,
+.owl2 .owl-nav button.owl-next,
+.owl2 .owl-nav button.owl-prev {
+    background: #0000001c !important;
+    color: #fcb118 !important;
+}
+
+.text-sec{
+    color: #393e46;
+}
+
+.btn-black {
+    background: #1f1f1f;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #fcb118;
+}
