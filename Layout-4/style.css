@@ -9,7 +9,197 @@ body {
     min-width: 100%;
 }
 
+
+/*  background css start */
+
+.bg-layout-3 {
+
+    min-height: 100vh;
+    height: 100%;
+
+}
+
+.top-left-circle {
+    top: -133px;
+    left: 70px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.dottes {
+    position: absolute;
+    content: '';
+    width: 212px;
+    height: 56px;
+    background: radial-gradient(circle, #7844cd 28%, transparent 25%);
+    background-size: 16px 18px;
+
+}
+
+.dotes-top-right {
+    top: 2rem;
+    right: 2rem;
+    opacity: 0.6;
+}
+
+.bottom-left-circle {
+    width: 175px;
+    height: 175px;
+    bottom: 25px;
+    left: 25px;
+    border-radius: 50%;
+}
+
+.bottom-right-circle {
+    bottom: -112px;
+    right: -79px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.dotes-bottom-right {
+    right: 15rem;
+    bottom: 3rem;
+    opacity: 1;
+}
+
+/* background css end */
+
+
+/* swiper css start */
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+
+    img {
+
+        width: 100%;
+    }
+}
+
+.profileswiperImage {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.profileswiper {
+    width: 410px;
+    height: 410px;
+    border-radius: 50%;
+}
+
+.circle-border {
+    outline-width: 8px;
+    outline-style: double;
+}
+
+.rombus-box {
+    width: 500px;
+    height: 500px;
+    background: black;
+    clip-path: polygon(1% 1%, 99% 17%, 96% 65%, 13% 83%);
+    /* background: #7844cd;  */
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+}
+
+.parent-rombus-box {
+    width: 510px;
+    height: 510px;
+    margin: auto;
+    background: transparent;
+    clip-path: polygon(1% 1%, 99% 17%, 96% 65%, 13% 83%);
+}
+
+.parent-rombus-box1 {
+    width: 515px;
+    margin: auto;
+    height: 515px;
+    background: #7844cd;
+    clip-path: polygon(1% 1%, 99% 17%, 96% 65%, 13% 83%);
+}
+
+/* swiper css end */
+
+
+/* left side content css start */
+.userName {
+    font-size: 2rem;
+    font-weight: 700;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+
+.userdestination {
+    font-size: 1rem;
+    font-weight: 600;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px #fff;
+}
+
+.h-screen {
+    height: 100dvh;
+}
+
+.aboutmeheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.aboutmetext {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.brands-icon i {
+    font-size: 36px;
+
+}
+
+.z-10 {
+    z-index: 100;
+}
+
+/* left side content css end */
+
+
+/* header style start */
+
+.layoutHeader {
+    width: 100%;
+    z-index: 9999;
+}
+
+.spring:hover {
+    border-color: white;
+    outline-color: white;
+    cursor: pointer;
+}
+
+/* header style end */
+
+
 .text-nowrap {
     text-wrap: nowrap;
 }
 
+
+
+/* right side box */

@@ -3,8 +3,8 @@
     background: linear-gradient(45deg, rgba(230, 231, 233, 1) 3%, rgba(230, 231, 233, 0.9164040616246498) 80%);
 }
 
-.text-primary {
-    color: #289E62 !important;
+.text-darkBlue {
+    color: #000000 !important;
 }
 
 .text-secondary {
@@ -22,4 +22,8 @@
 
 .primary-outline {
     outline-color: #e5759d;
+}
+
+.bg-circle {
+    background: #a571fa;
 }
