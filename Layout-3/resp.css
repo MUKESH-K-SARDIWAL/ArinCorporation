@@ -7,9 +7,41 @@
         min-height: 100%;
         height: 100%;
     }
+
+    .userName {
+        font-size: 2.5rem;
+    }
+
+    .userdestination {
+        font-size: 1.8rem;
+    }
+
+    .brands-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .aboutmetext {
+        font-size: 1.5rem;
+    }
+
+    .aboutmeheading {
+        font-size: 2rem;
+    }
+
+    .brands-icon i {
+        font-size: 24px !important;
+    }
 }
 
 @media (max-width:767px) {}
+
+@media (max-width: 550px) {
+    .swiper-slide {
+        height: 100% !important;
+        width: 100% !important;
+    }
+}
 
 @media (max-width:526px) {
     .profileswiperImage {
@@ -31,9 +63,9 @@
         left: 52%;
     }
 
-    .aboutmetext {
+    /* .aboutmetext {
         font-size: 0.8rem;
-    }
+    } */
 }
 
 @media (max-width:300px) {}
