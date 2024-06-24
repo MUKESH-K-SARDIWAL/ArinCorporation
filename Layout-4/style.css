@@ -54,8 +54,8 @@ body {
 .bottom-right-circle {
     bottom: -112px;
     right: -79px;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height:300px;
     border-radius: 50%;
 }
 
@@ -84,17 +84,17 @@ body {
 }
 
 .profileswiperImage {
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     overflow: hidden;
 
 }
 
-.profileswiper {
+/* .profileswiper {
     width: 410px;
     height: 410px;
     border-radius: 50%;
-}
+} */
 
 
 .circle-border {
@@ -103,29 +103,15 @@ body {
 }
 
 .rombus-box {
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     background: black;
     clip-path: polygon(1% 1%, 99% 17%, 96% 65%, 13% 83%);
     /* background: #7844cd;  */
     filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
 
-.parent-rombus-box {
-    width: 510px;
-    height: 510px;
-    margin: auto;
-    background: transparent;
-    clip-path: polygon(1% 1%, 99% 17%, 96% 65%, 13% 83%);
-}
 
-.parent-rombus-box1 {
-    width: 515px;
-    margin: auto;
-    height: 515px;
-    background: #7844cd;
-    clip-path: polygon(1% 1%, 99% 17%, 96% 65%, 13% 83%);
-}
 
 /* swiper css end */
 
@@ -212,16 +198,106 @@ body {
 
 .top-left {
     position: absolute;
-    margin: auto;
-    top: 14px;
-    right: 0px;
-    bottom: 0;
+    /* top: 12px;
     z-index: 99;
-    left: 12px;
+    left: 17px;
+    width: 80px;
+    height: 95px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 40px 10px 0px 0px #e6e7e9;
+    transform: rotate(215deg); */
+    top: 13px;
+    z-index: 99;
+    left: 16px;
+    width: 80px;
+    height: 91px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 40px 10px 0px 0px #e6e7e9;
+    transform: rotate(213deg);
+}
+
+.top-right {
+    position: absolute;
+    /* top: 77px;
+    z-index: 99;
+    right: 8px;
     width: 100px;
     height: 100px;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 40px 10px 0px 0px #e6e7e9;
-    transform: rotate(190deg);
+    box-shadow: 67px 10px 0px 0px #e6e7e9;
+    transform: rotate(310deg); */
+    top: 85px;
+    z-index: 99;
+    right: 8px;
+    width: 97px;
+    height: 97px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 67px 10px 0px 0px #e6e7e9;
+    transform: rotate(311deg);
+}
+
+.bottom-left {
+    /* bottom: 95px;
+    z-index: 99;
+    left: 56px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 60px 10px 0px 0px #000;
+    transform: rotate(121deg); */
+    bottom: 98px;
+    z-index: 99;
+    left: 65px;
+    width: 90px;
+    height: 98px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 60px 10px 0px 0px #e6e7e9;
+    transform: rotate(121deg);
+}
+
+.bottom-right {
+    bottom: 179px;
+    z-index: 99;
+    right: 24px;
+    width: 74px;
+    height: 103px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 44px 10px 0px 0px #e6e7e9;
+    transform: rotate(32deg);
+}
+
+.circle-over-image {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    top: 9rem;
+    right: 6rem;
+    z-index: 999;
+}
+
+.brands-icon {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    grid-template-columns: 1fr 24px;
+    text-decoration: none;
+}
+
+.brands-icon span:first-child {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.brands-icon i {
+    font-size: 20px !important;
 }

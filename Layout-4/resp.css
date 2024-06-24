@@ -1,3 +1,61 @@
+@media (max-width:1200px) {
+    .userName {
+        font-size: 1.6rem;
+    }
+
+    .aboutmeheading {
+        font-size: 1.3rem;
+    }
+
+    .aboutmetext {
+        font-size: 14px;
+    }
+
+    .brands-icon i {
+        font-size: 16px !important;
+    }
+
+
+}
+
+@media (max-width:1050px) {
+    .profileswiperImage {
+        width: 500px;
+        height: 500px;
+    }
+
+    .rombus-box {
+        width: 500px;
+        height: 500px;
+    }
+
+    .bottom-left {
+        bottom: 92px;
+        left: 59px;
+    }
+
+    .brands-icon {
+        grid-template-columns: 1fr 16px;
+    }
+
+    .bottom-right {
+        bottom: 158px;
+        right: 21px;
+    }
+
+    .top-right {
+        top: 76px;
+    }
+
+    .top-left-circle {
+        top: -102px;
+        left: 12rem;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}
+
 @media (max-width:992px) {
     .h-screen {
         height: 100%;
