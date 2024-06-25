@@ -467,7 +467,12 @@ body {
 
 
 
-.profile-index {
+/* .profile-index {
     position: relative;
     z-index: -1;
+} */
+
+.top-header-shadow{
+    position: relative;
+    z-index: 99;
 }
