@@ -152,8 +152,6 @@ body {
     font-weight: 500;
     letter-spacing: 1px;
     word-spacing: 2px;
-    word-wrap: break-word;
-    word-break: break-all;
 }
 
 .brands-icon i {
@@ -283,11 +281,12 @@ body {
 }
 
 .brands-icon {
-    display: grid;
+    /* display: grid;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
     grid-template-columns: 1fr 24px;
+     */
     text-decoration: none;
 }
 

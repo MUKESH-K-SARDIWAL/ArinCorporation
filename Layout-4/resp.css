@@ -65,6 +65,31 @@
         min-height: 100%;
         height: 100%;
     }
+
+    .userName {
+        font-size: 3rem;
+    }
+
+    .userdestination {
+        font-size: 1.8rem;
+    }
+
+    .aboutmeheading {
+        font-size: 1.7rem;
+    }
+
+    .aboutmetext {
+        font-size: 20px;
+    }
+
+    .brands-icon span:first-child {
+        font-size: 1.5rem;
+    }
+
+    .brands-icon i {
+        font-size: 1.5rem !important;
+    }
+
 }
 
 @media (max-width:767px) {
@@ -99,14 +124,51 @@
         width: 430px;
         height: 430px;
     }
+
+    .bottom-left {
+        bottom: 79px;
+        left: 51px;
+    }
+
+    .bottom-right {
+        bottom: 133px;
+        right: 19px;
+    }
+
+    .top-right {
+        right: 7px;
+        top: 64px;
+    }
+
 }
 
-@media (max-width:526px) {
+@media (max-width:576px) {
     .rombus-box {
         width: 300px;
-        height: 400px;
+        height: 300px;
         margin: 0px auto;
-        clip-path: none;
+        /* clip-path: none; */
+    }
+
+    .bottom-left {
+        bottom: 52px;
+        left: 24px;
+    }
+
+    .bottom-right {
+        bottom: 90px;
+        right: 12px;
+    }
+
+    .top-left {
+        top: 9px;
+
+        left: 13px;
+    }
+
+    .top-right {
+        right: 5px;
+        top: 43px;
     }
 
     .dotes-top-right {
@@ -120,16 +182,21 @@
     }
 
     .top-left-circle {
-        top: -20px;
-        left: 5px;
+        top: 117px;
+        left: 41px;
         width: 170px;
         height: 170px;
         border-radius: 50%;
     }
 
+    .swiper-slide {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
     .bottom-right-circle {
-        bottom: 30%;
-        right: -15px;
+        bottom: 44%;
+        right: 38px;
         width: 170px;
         height: 170px;
         border-radius: 50%;
@@ -143,23 +210,9 @@
         flex-direction: column;
     }
 
-    .parent-rombus-box {
-        width: 330px;
-        margin: 0px auto;
-        height: 430px;
-        clip-path: none;
-    }
-
-    .parent-rombus-box1 {
-        width: 305px;
-        margin: 0px auto;
-        height: 415px;
-        clip-path: none;
-    }
-
     .profileswiperImage {
         width: 300px;
-        height: 400px;
+        height: 300px;
 
 
     }
@@ -168,10 +221,9 @@
         height: 100% !important;
     }
 
-    /* .profileswiper {
-        width: 310px;
-        height: 310px;
-    } */
+    .brands-icon i {
+        font-size: 2.2rem !important;
+    }
 
     .bottom-solid-strip {
         left: 75%;
@@ -181,9 +233,29 @@
         left: 52%;
     }
 
+    .aboutmeheading {
+        font-size: 2.2rem;
+    }
+
+    .userdestination {
+        font-size: 1.3rem;
+    }
+
     .aboutmetext {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
 }
 
-@media (max-width:300px) {}
+@media (max-width:400px) {
+    .userName {
+        font-size: 1.8rem;
+    }
+
+    .aboutmeheading {
+        font-size: 1.5rem;
+    }
+
+    .aboutmetext {
+        font-size: 1.1rem;
+    }
+}
