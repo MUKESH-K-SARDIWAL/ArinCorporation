@@ -16,8 +16,8 @@
 
 @media (max-width:992px) {
     .blinkit {
-        bottom: 36%;
-        right: 6%;
+        bottom: 58.5%;
+        right: 15%;
         z-index: 9999;
     }
 
@@ -57,11 +57,11 @@
 }
 
 @media (max-width:767px) {
-    .blinkit {
+    /* .blinkit {
         bottom: 58%;
         right: 12%;
         z-index: 9999;
-    }
+    } */
 }
 
 @media (max-width: 550px) {
