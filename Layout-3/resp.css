@@ -1,6 +1,6 @@
 @media (max-width:992px) {
     .h-screen {
-        height: 100%;
+        min-height: 100%;
     }
 
     .bg-layout-3 {
