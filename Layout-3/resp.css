@@ -1,4 +1,26 @@
+@media (max-width:2000px) {
+    .blinkit {
+        bottom: -4%;
+        right: 0%;
+        z-index: 9999;
+    }
+}
+
+@media (max-width:1400px) {
+    .blinkit {
+        bottom: 13%;
+        right: 0%;
+        z-index: 9999;
+    }
+}
+
 @media (max-width:992px) {
+    .blinkit {
+        bottom: 36%;
+        right: 6%;
+        z-index: 9999;
+    }
+
     .h-screen {
         min-height: 100%;
     }
@@ -34,12 +56,24 @@
     }
 }
 
-@media (max-width:767px) {}
+@media (max-width:767px) {
+        .blinkit {
+                bottom: 42%;
+                right: 22%;
+                z-index: 9999;
+            }
+}
 
 @media (max-width: 550px) {
-    .h-mobile-screen{
+    .h-mobile-screen {
         min-height: 85vh;
     }
+                .blinkit {
+                    bottom: 48%;
+                    right: 15%;
+                    z-index: 9999;
+                }
+
     .swiper-slide {
         height: 100% !important;
         width: 100% !important;
