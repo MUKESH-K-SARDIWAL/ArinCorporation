@@ -1,24 +1,24 @@
 @media (max-width:2000px) {
     .blinkit {
-        bottom: 11%;
+        /* bottom: -94px;
         right: 0%;
-        z-index: 9999;
+        z-index: 9999; */
     }
 }
 
 @media (max-width:1400px) {
     .blinkit {
-        bottom: 13%;
+        /* bottom: -100px;
         right: 0%;
-        z-index: 9999;
+        z-index: 9999; */
     }
 }
 
 @media (max-width:992px) {
     .blinkit {
-        bottom: 58.5%;
-        right: 15%;
-        z-index: 9999;
+        /* bottom: 220px;
+        right: 29px;
+        z-index: 9999; */
     }
 
     .h-screen {
@@ -57,11 +57,11 @@
 }
 
 @media (max-width:767px) {
-    /* .blinkit {
-        bottom: 58%;
-        right: 12%;
-        z-index: 9999;
-    } */
+    .blinkit {
+        /* bottom: 220px;
+        right: 29px;
+        z-index: 9999; */
+    }
 }
 
 @media (max-width: 550px) {
@@ -70,8 +70,8 @@
     }
 
     .blinkit {
-        bottom: 58.5%;
-        right: 15%;
+        bottom: 336px;
+        right: 29px;
         z-index: 9999;
     }
 
@@ -89,9 +89,8 @@
     }
 
     .blinkit {
-        bottom: 67.5%;
-        right: 15%;
-        z-index: 9999;
+        /* bottom: 422px;
+        right: 29px; */
     }
 
     .profileswiper {
@@ -114,8 +113,8 @@
 
 @media (max-width:400px) {
     .blinkit {
-        bottom: 69.5%;
-        right: 7%;
-        z-index: 9999;
+        /* bottom: 422px;
+        right: 29px;
+        z-index: 9999; */
     }
 }

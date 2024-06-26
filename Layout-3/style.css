@@ -14,7 +14,7 @@ body {
 
 .bg-layout-3 {
 
-    min-height: 100vh;
+    min-height: 100%;
     height: 100%;
 
 }
@@ -315,4 +315,12 @@ body {
     bottom: 80px;
     right: 76px;
     z-index: 9999;
+}
+
+.blinkit {
+    /* bottom: -95px;
+    right: 0%;
+    z-index: 9999; */
+    text-align: end;
+    margin-right: 22px;
 }
