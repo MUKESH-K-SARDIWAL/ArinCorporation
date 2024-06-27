@@ -203,7 +203,7 @@
     }
 
     .h-2screen {
-        min-height: 85dvh;
+        min-height: 90dvh;
         height: 100%;
         display: flex;
         justify-content: center;
