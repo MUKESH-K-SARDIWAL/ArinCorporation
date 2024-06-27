@@ -1,0 +1,261 @@
+@media (max-width:1200px) {
+    .userName {
+        font-size: 1.6rem;
+    }
+
+    .aboutmeheading {
+        font-size: 1.3rem;
+    }
+
+    .aboutmetext {
+        font-size: 14px;
+    }
+
+    .brands-icon i {
+        font-size: 16px !important;
+    }
+
+
+}
+
+@media (max-width:1050px) {
+    .profileswiperImage {
+        width: 500px;
+        height: 500px;
+    }
+
+    .rombus-box {
+        width: 500px;
+        height: 500px;
+    }
+
+    .bottom-left {
+        bottom: 92px;
+        left: 59px;
+    }
+
+    .brands-icon {
+        grid-template-columns: 1fr 16px;
+    }
+
+    .bottom-right {
+        bottom: 158px;
+        right: 21px;
+    }
+
+    .top-right {
+        top: 76px;
+    }
+
+    .top-left-circle {
+        top: -102px;
+        left: 12rem;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width:992px) {
+    .h-screen {
+        height: 100%;
+    }
+
+    .bg-layout-3 {
+        min-height: 100%;
+        height: 100%;
+    }
+
+    .userName {
+        font-size: 3rem;
+    }
+
+    .userdestination {
+        font-size: 1.8rem;
+    }
+
+    .aboutmeheading {
+        font-size: 1.7rem;
+    }
+
+    .aboutmetext {
+        font-size: 20px;
+    }
+
+    .brands-icon span:first-child {
+        font-size: 1.5rem;
+    }
+
+    .brands-icon i {
+        font-size: 1.5rem !important;
+    }
+
+}
+
+@media (max-width:767px) {
+    .rombus-box {
+        width: 430px;
+        height: 430px;
+    }
+
+    .top-left-circle {
+
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .bottom-right-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .parent-rombus-box {
+        width: 440px;
+        height: 440px;
+    }
+
+    .parent-rombus-box1 {
+        width: 445px;
+        height: 445px;
+    }
+
+    .profileswiperImage {
+        width: 430px;
+        height: 430px;
+    }
+
+    .bottom-left {
+        bottom: 79px;
+        left: 51px;
+    }
+
+    .bottom-right {
+        bottom: 133px;
+        right: 19px;
+    }
+
+    .top-right {
+        right: 7px;
+        top: 64px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .rombus-box {
+        width: 300px;
+        height: 300px;
+        margin: 0px auto;
+        /* clip-path: none; */
+    }
+
+    .bottom-left {
+        bottom: 52px;
+        left: 24px;
+    }
+
+    .bottom-right {
+        bottom: 90px;
+        right: 12px;
+    }
+
+    .top-left {
+        top: 9px;
+
+        left: 13px;
+    }
+
+    .top-right {
+        right: 5px;
+        top: 43px;
+    }
+
+    .dotes-top-right {
+        top: 9rem;
+        right: 1rem;
+    }
+
+    .dotes-bottom-right {
+        right: 8rem;
+        bottom: 21rem;
+    }
+
+    .top-left-circle {
+        top: 117px;
+        left: 41px;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+    }
+
+    .swiper-slide {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .bottom-right-circle {
+        bottom: 44%;
+        right: 38px;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+    }
+
+    .h-2screen {
+        min-height: 85dvh;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .profileswiperImage {
+        width: 300px;
+        height: 300px;
+
+
+    }
+
+    .swiper-slide {
+        height: 100% !important;
+    }
+
+    .brands-icon i {
+        font-size: 2.2rem !important;
+    }
+
+    .bottom-solid-strip {
+        left: 75%;
+    }
+
+    .bottom-border-strip {
+        left: 52%;
+    }
+
+    .aboutmeheading {
+        font-size: 2.2rem;
+    }
+
+    .userdestination {
+        font-size: 1.3rem;
+    }
+
+    .aboutmetext {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:400px) {
+    .userName {
+        font-size: 1.8rem;
+    }
+
+    .aboutmeheading {
+        font-size: 1.5rem;
+    }
+
+    .aboutmetext {
+        font-size: 1.1rem;
+    }
+}
