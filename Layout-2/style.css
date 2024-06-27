@@ -159,7 +159,7 @@ body {
 
 .username {
     font-size: 3rem;
-    text-shadow: 2px 1px 7px rgba(255, 255, 255, 0.764);
+    text-shadow: 2px 1px 7px rgba(0, 0, 0, 0.764) !important;
     line-height: 1;
     text-transform: uppercase;
     word-spacing: 2px;
@@ -169,7 +169,7 @@ body {
 
 .user-post {
     font-size: 1.5rem;
-    /* text-shadow: 2px 1px 7px rgba(255, 255, 255, 0.764); */
+    text-shadow: 2px 1px 7px rgba(0, 0, 0, 0.764) !important;
     line-height: 1;
     word-spacing: 2px;
     font-weight: 600;
@@ -233,6 +233,7 @@ body {
 
 .brands-icon {
     font-size: 36px;
+    text-shadow: 2px 1px 7px rgba(0, 0, 0, 0.764) !important;
 }
 
 /* left-side design end */
@@ -244,4 +245,10 @@ body {
     bottom: 5%;
     right: 5%;
     z-index: 99;
+}
+
+.center-align {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
