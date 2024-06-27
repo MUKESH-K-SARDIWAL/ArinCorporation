@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout 4</title>
+    <title>Layout 5</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -16,52 +16,342 @@
 </head>
 
 <body>
-   <div class=" ">
-       
-        <!-- <div class="container"> -->
-            <div
-                class=" col-12 d-flex flex-lg-row flex-column-reverse align-items-center justify-content-between">
-                <div class="col-lg-6 col bg-back h-screen">
-                   <div class="left-side-box "></div> 
-                   
-                </div>
-                <div class="col-lg-6 col h-screen">
-                    <div class="">
-                        <div class="swiper mySwiper position-relative rombus-box">
-                            <div class="swiper-wrapper ">
-                               
-                                <div class="swiper-slide">
-                                    <div class="profileswiperImage  ">
-                                        <img src="./assets/men2.png" class="w-100 h-100" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="profileswiperImage  ">
-                                        <img src="./assets/men1.png" class="w-100 h-100" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="profileswiperImage  ">
-                                        <img src="./assets/men3.png" class="w-100 h-100" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="profileswiperImage  ">
-                                        <img src="./assets/men1.png" class="w-100 h-100" alt="">
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            
-                        </div>
-                        
+
+    <div class="position-absolute layoutHeader top-0 left-0">
+        <!-- header html replace start here -->
+        <div class="w-100 top-header-shadow mt-lg-0 mt-4 d-flex align-items-center justify-content-center">
+            <div class=" container-fluid">
+                <div class="d-flex w-100 flex-row align-items-lg-center align-items-start justify-content-between">
+                    <div class="col ps-lg-0 ps-sm-4 ps-2 brandsImage">
+                        <!-- <div class="special-font Arin_text">ARIN</div> -->
+                        <label for="productlogo" class="brandsImage rectangleLogo">
+                            <img src="./assets/logo.svg" class="w-100 h-100" alt="">
+                            <input type="file" name="productlogo" class="d-none" id="productlogo">
+                        </label>
                     </div>
-                    <!-- <div class="blinkit text-end">
-                        <div class="spinner-grow  text-danger" role="status">
-                            <span class="visually-hidden">Loading...</span>
+                    <div class="col mt-header">
+                        <div
+                            class="col-12 d-flex justify-content-end align-items-center gap-lg-4 gap-3 flex-lg-nowrap flex-wrap pe-lg-0 pe-4">
+                            <a href="" class="headerIcon order-1">
+                                <span>
+                                    <i class="fa-regular text-Darkblue fa-comments iconShadow"></i>
+                                </span>
+                            </a>
+                            <a href="" class="headerIcon order-3 order-lg-2">
+                                <span>
+                                    <i class="fa-solid text-Darkblue fa-list iconShadow"></i>
+                                </span>
+                            </a>
+                            <a href="" class="headerIcon order-4 order-lg-3">
+                                <span>
+                                    <i class="fa-solid text-Darkblue fa-chart-column iconShadow"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown iconShadow order-2 order-lg-4">
+                                <button class="profileBtn border-color dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                                    aria-expanded="false">
+                                    <img src="./assets/men1.png" class="w-100 h-100" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="accordion" id="accordionExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            <span class="dropdown-text  text-Darkblue me-2"><i
+                                                                    class="fa-regular fa-building"></i></span>
+                                                            <span class="dropdown-text  text-Darkblue">Business</span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseOne" class="accordion-collapse collapse "
+                                                        data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                                <span><i class="fa-regular fa-pen-to-square"></i></span>
+                                                                <span>Edit Profile</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                                <span><i class="fa-regular fa-pen-to-square"></i></span>
+                                                                <span>Create Titles</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                                <span><i class="fa-regular fa-credit-card"></i></span>
+                                                                <span>Biz Cards</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                            aria-expanded="false" aria-controls="collapseTwo">
+                                                            <span class="dropdown-text  text-Darkblue me-2"><i
+                                                                    class="fa-solid fa-trophy"></i></span>
+                                                            <span class="dropdown-text  text-Darkblue">Rewards</span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionExample">
+                                                        <!-- <div class="accordion-body px-0 py-1"> -->
+                                                        <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                                <span><i class="fa-solid fa-chart-line"></i></span>
+                                                                <span>My Leads</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                                <span><i class="fa-solid fa-chart-column"></i></span>
+                                                                <span>My Promotion</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                                <span><i class="fa-regular fa-heart"></i></span>
+                                                                <span>Liked</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
+                                                                <span><i class="fa-regular fa-comments"></i></span>
+                                                                <span>Message</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- </div> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                                <span class="text-Darkblue"><i
+                                                        class="fa-solid fa-camera-retro"></i></span>
+                                                <span class="text-Darkblue">AI - Cam</span>
+                                            </div>
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                                <span class="text-Darkblue"><i class="fa-solid fa-qrcode"></i></span>
+                                                <span class="text-Darkblue">QR Code</span>
+                                            </div>
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                                <span class="text-Darkblue"><i class="fa-solid fa-share"></i></span>
+                                                <span class="text-Darkblue">Share</span>
+                                            </div>
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="accordion" id="accordionExample2">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseOne2"
+                                                            aria-expanded="true" aria-controls="collapseOne2">
+                                                            <span class="dropdown-text  text-Darkblue me-2">
+                                                                <i class="fa-solid fa-toggle-on"></i></span>
+                                                            <span class="dropdown-text  text-Darkblue">Switch
+                                                                Profile</span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseOne2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionExample2">
+                                                        <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
+                                                            <input type="text" class="searchInput">
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
+                                                                <span class="dropdown-text  text-Darkblue me-2"><i
+                                                                        class="fa-regular fa-building"></i></span>
+                                                                <span
+                                                                    class="dropdown-text  text-Darkblue">Business</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
+                                                                <span class="dropdown-text  text-Darkblue me-2"><i
+                                                                        class="fa-regular fa-building"></i></span>
+                                                                <span
+                                                                    class="dropdown-text  text-Darkblue">Business</span>
+                                                            </a>
+                                                            <a href=""
+                                                                class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
+                                                                <span class="dropdown-text  text-Darkblue me-2"><i
+                                                                        class="fa-regular fa-building"></i></span>
+                                                                <span
+                                                                    class="dropdown-text  text-Darkblue">Business</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                                <span class="text-Darkblue"><i
+                                                        class="fa-solid fa-magnifying-glass"></i></span>
+                                                <span class="text-Darkblue">Search</span>
+                                            </div>
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
+                                                <span class="text-Darkblue"><i
+                                                        class="fa-solid fa-right-from-bracket"></i></span>
+                                                <span class="text-Darkblue">Log Out</span>
+                                            </div>
+                                        </a></li>
+                                </ul>
+                            </div>
+
                         </div>
-                    </div> -->
-                    <!-- <div class="d-block d-sm-none mt-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header html replace end here -->
+    </div>
+
+    <div class=" ">
+
+        <!-- <div class="container"> -->
+        <div class=" col-12 d-flex flex-lg-row flex-column-reverse align-items-center justify-content-between overflow-hidden h-min position-relative h-screen bg-back"
+            id="mainBox">
+            <div class="col-xl-7 col-lg-6 col   py-100">
+                <div class="left-side-box"></div>
+                <div class="left-side-content container mx-auto ">
+                    <div class="d-lg-block d-none">
+                        <div>
+                            <h3 class="userName text-shadow text-Darkblue text-center ">Mukesh Kumar</h3>
+                            <h4 class="userdestination text-shadow text-Darkblue text-center ">Front End Dev.,
+                            </h4>
+                            <h4 class="userdestination text-shadow text-Darkblue text-center ">
+                                Rajasthan India</h4>
+                        </div>
+                        <div class="col-12 d-flex  gap-4 my-3 justify-content-center align-items-center">
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue text-shadow fa-linkedin"></i>
+                                </span>
+                            </a>
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue text-shadow fa-facebook"></i>
+                                </span>
+                            </a>
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue text-shadow fa-square-twitter"></i>
+                                </span>
+                            </a>
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue text-shadow fa-square-instagram"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mt-3 mb-lg-4 mb-1">
+                        <h3 class="aboutmeheading text-Darkblue text-center ">
+                            About me
+                        </h3>
+                        <p class="text-Darkblue aboutmetext text-center ">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit.
+                            Illum
+                            obcaecati saepe delectus nisi tempora recusandae consectetur ab voluptatum soluta
+                            teneturipsum dolor sit amet
+                            consectetur adipisicing elit.
+                            Illum
+                            tempora recusandae consectetur ab voluptatum soluta
+                            teneturipsum dolor sit ametobcaecati saepe delectus nisi
+                            obcaecati saepe delectus nisi tempora recusandae consectetur
+                        </p>
+                        <div
+                            class="hastag d-flex flex-row align-items-center justify-content-lg-center justify-content-center gap-3 mt-4 flex-wrap">
+                            <p class="mb-0 aboutmetext text-Darkblue text-nowrap">#hastags</p>
+                            <p class="mb-0 aboutmetext text-Darkblue text-nowrap">#hastags</p>
+                            <p class="mb-0 aboutmetext text-Darkblue text-nowrap">#hastags</p>
+                            <p class="mb-0 aboutmetext text-Darkblue text-nowrap">#hastags</p>
+                        </div>
+                        <div class="d-flex flex-row align-items-center  justify-content-center gap-5 mt-4">
+                            <div class="text-center">
+                                <h3 class="aboutmeheading text-Darkblue">WORK</h3>
+                                <p class="aboutmetext text-Darkblue">Deloitte Consulting</p>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="aboutmeheading text-Darkblue">EDUCTION</h3>
+                                <p class="aboutmetext text-Darkblue">New York University</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-6 col ">
+                <div class="swiper mySwiper position-relative ">
+                    <div class="swiper-wrapper " id="imageHeight">
+
+                        <div class="swiper-slide">
+                            <div class="profileswiperImage">
+                                <img src="./assets/men2.png" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profileswiperImage">
+                                <img src="./assets/men1.png" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profileswiperImage">
+                                <img src="./assets/men3.png" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profileswiperImage">
+                                <img src="./assets/men1.png" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="d-lg-none d-block position-absolute mobile-screen-visible">
+                        <div>
+                            <h3 class="userName text-shadow text-Darkblue text-center ">Mukesh Kumar</h3>
+                            <h4 class="userdestination text-shadow text-Darkblue text-center ">Front End Dev.,
+                            </h4>
+                            <h4 class="userdestination text-shadow text-Darkblue text-center ">
+                                Rajasthan India</h4>
+                        </div>
+                        <div class="col-12 d-flex  gap-4 my-3 justify-content-center align-items-center">
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue text-shadow fa-linkedin"></i>
+                                </span>
+                            </a>
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue text-shadow fa-facebook"></i>
+                                </span>
+                            </a>
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue text-shadow fa-square-twitter"></i>
+                                </span>
+                            </a>
+                            <a href="" class="brands-icon">
+                                <span>
+                                    <i class="fa-brands text-Darkblue text-shadow fa-square-instagram"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+                <!-- <div class="d-block d-sm-none mt-1">
                         <h3 class="userName text-shadow text-Darkblue text-center text-lg-start">Mukesh Kumar</h3>
                         <h4 class="userdestination text-shadow text-Darkblue text-center text-lg-start">Front End Dev.
                         </h4>
@@ -93,27 +383,50 @@
                         </div>
                     </div>
                      -->
-                </div>
             </div>
+            <div class="bluestrip" id="left-side-box"></div>
+        </div>
         <!-- </div> -->
     </div>
-   
+
+    
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
     <script>
+        function changeHeight() {
+            // Change the height of the first box
+            const box1 = document.getElementById('mainBox');
+            console.log(`box1==>`, box1.offsetHeight);  // Example height change
+
+            // Set the height of the second box to match the first box
+            const box2 = document.getElementById('imageHeight');
+            const leftSideBox = document.getElementById('left-side-box');
+            box2.style.height = box1.offsetHeight + 'px';
+            leftSideBox.style.height = (box1.offsetHeight) * 2 + 'px'
+        }
+        // changeHeight()
+
+        // Observe changes in the first box's height
+        // const box1 = document.getElementById('box1');
+        // const observer = new ResizeObserver(entries => {
+        //     for (let entry of entries) {
+        //         const box2 = document.getElementById('box2');
+        //         box2.style.height = entry.contentRect.height + 'px';
+        //     }
+        // });
+
+        // observer.observe(box1);
+    </script>
+    <script>
         var swiper = new Swiper(".mySwiper", {
-            // direction: "vertical",
-            // pagination: {
-            //     el: ".swiper-pagination",
-            //     clickable: true,
-            // },
-            // autoplay: {
-            //     delay: 2500,
-            //     disableOnInteraction: false,
-            // },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
         });
     </script>
 </body>

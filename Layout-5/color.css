@@ -2,8 +2,12 @@
     background: #00bd9f;
 }
 
+.bluestrip {
+    background: #000086cf;
+}
+
 .text-Darkblue {
-    color: #000000 !important;
+    color: #fff !important;
 }
 
 .text-secondary {
