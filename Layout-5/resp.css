@@ -133,7 +133,12 @@
 @media (max-width:767px) {}
 
 @media (max-width:576px) {
+    .blinkit {
 
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+    }
 
     .swiper-slide {
         height: 100% !important;
