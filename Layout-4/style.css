@@ -300,3 +300,11 @@ body {
 .brands-icon i {
     font-size: 20px !important;
 }
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
