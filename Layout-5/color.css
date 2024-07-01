@@ -18,3 +18,7 @@
 .text-white {
     color: white !important;
 }
+
+.swiper-pagination-bullet-active {
+    background: #00bd9f;
+}
