@@ -198,13 +198,14 @@
 }
 
 .features-grid {
-    display: grid;
+    display: flex;
     gap: 16px;
     grid-template-columns: repeat(4, minmax(280px, 1fr));
     width: 100%;
     justify-content: center;
     justify-items: center;
     margin-top: 16px;
+    flex-wrap: wrap;
 }
 
 
@@ -215,6 +216,7 @@
     overflow: hidden;
     cursor: pointer;
     max-width: 400px;
+    width: 23% !important;
     border-radius: 6px;
     /* background-color: #eef7ff; */
     background-color: #fff4eb;
@@ -348,15 +350,13 @@
 }
 
 @media (max-width:1200px) {
+
+
     .profle_detail .profile-name {
         font-size: 22px;
     }
 
-    .features-grid {
-        display: grid;
-        gap: 16px;
-        grid-template-columns: repeat(2, minmax(280px, 1fr));
-    }
+
 
     .profile-address {
         font-size: 16px;
@@ -383,6 +383,16 @@
 
     .profle_detail .profile-name {
         font-size: 32px;
+    }
+
+    .features-grid {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(2, minmax(280px, 1fr));
+    }
+
+    .features_card {
+        width: 100% !important;
     }
 
     .text-heading {
@@ -538,3 +548,98 @@
         line-height: 1;
     }
 }
+
+
+
+
+
+
+
+
+
+/* New Css Add for header menu start */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown-list {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown-list ul {
+    padding-left: 0rem;
+}
+
+.dropdown-list {
+    position: absolute;
+    top: calc(100% - 10px);
+    right: 0;
+    width: 260px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px #0000002e;
+}
+
+.fw-bold {
+    font-weight: 700 !important;
+}
+
+.dropdown-list ul li {
+    display: block;
+    padding-left: 0;
+    text-align: left;
+    position: relative;
+}
+
+.dropdown-list ul li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dropdown-list ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    width: 100%;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.dropdown-list ul li a i {
+    margin-right: 10px;
+}
+
+.has_submenu_link::before {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    content: '\f078';
+    font-family: "Font Awesome 5 Pro";
+    transition: all 0.3s ease-in-out;
+}
+
+.submenu {
+    display: none;
+    padding-left: 25px;
+}
+
+.submenu.open {
+    display: block;
+}
+
+.has_submenu_link.open::before {
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+}
+
+/* New Css Add for header menu end */

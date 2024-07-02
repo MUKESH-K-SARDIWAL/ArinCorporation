@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout 5</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://arin.bz/public/bni/assets/jquery/jquery.min.js"></script>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./color.css">
     <link rel="stylesheet" href="./share.css">
@@ -48,166 +51,143 @@
                                 </span>
                             </a>
                             <div class="dropdown iconShadow order-2 order-lg-4">
-                                <button class="profileBtn border-color dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
-                                    aria-expanded="false">
+                                <button class="profileBtn border-color dropdown-toggle">
                                     <img src="./assets/men1.png" class="w-100 h-100" alt="">
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="accordion" id="accordionExample">
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header">
-                                                        <button class="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                            aria-expanded="true" aria-controls="collapseOne">
-                                                            <span class="dropdown-text  text-Darkblue me-2"><i
-                                                                    class="fa-regular fa-building"></i></span>
-                                                            <span class="dropdown-text  text-Darkblue">Business</span>
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseOne" class="accordion-collapse collapse "
-                                                        data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
-                                                            <a href=""
-                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
-                                                                <span><i class="fa-regular fa-pen-to-square"></i></span>
-                                                                <span>Edit Profile</span>
-                                                            </a>
-                                                            <a href=""
-                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
-                                                                <span><i class="fa-regular fa-pen-to-square"></i></span>
-                                                                <span>Create Titles</span>
-                                                            </a>
-                                                            <a href=""
-                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
-                                                                <span><i class="fa-regular fa-credit-card"></i></span>
-                                                                <span>Biz Cards</span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                            aria-expanded="false" aria-controls="collapseTwo">
-                                                            <span class="dropdown-text  text-Darkblue me-2"><i
-                                                                    class="fa-solid fa-trophy"></i></span>
-                                                            <span class="dropdown-text  text-Darkblue">Rewards</span>
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                                        data-bs-parent="#accordionExample">
-                                                        <!-- <div class="accordion-body px-0 py-1"> -->
-                                                        <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
-                                                            <a href=""
-                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
-                                                                <span><i class="fa-solid fa-chart-line"></i></span>
-                                                                <span>My Leads</span>
-                                                            </a>
-                                                            <a href=""
-                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
-                                                                <span><i class="fa-solid fa-chart-column"></i></span>
-                                                                <span>My Promotion</span>
-                                                            </a>
-                                                            <a href=""
-                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
-                                                                <span><i class="fa-regular fa-heart"></i></span>
-                                                                <span>Liked</span>
-                                                            </a>
-                                                            <a href=""
-                                                                class="accordion-inner-link bg-white  text-Darkblue w-100 d-flex gap-2">
-                                                                <span><i class="fa-regular fa-comments"></i></span>
-                                                                <span>Message</span>
-                                                            </a>
-                                                        </div>
-                                                        <!-- </div> -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">
-                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
-                                                <span class="text-Darkblue"><i
-                                                        class="fa-solid fa-camera-retro"></i></span>
-                                                <span class="text-Darkblue">AI - Cam</span>
-                                            </div>
-                                        </a></li>
-                                    <li><a class="dropdown-item" href="#">
-                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
-                                                <span class="text-Darkblue"><i class="fa-solid fa-qrcode"></i></span>
-                                                <span class="text-Darkblue">QR Code</span>
-                                            </div>
-                                        </a></li>
-                                    <li><a class="dropdown-item" href="#">
-                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
-                                                <span class="text-Darkblue"><i class="fa-solid fa-share"></i></span>
-                                                <span class="text-Darkblue">Share</span>
-                                            </div>
-                                        </a></li>
-                                    <li><a class="dropdown-item" href="#">
-                                            <div class="accordion" id="accordionExample2">
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header">
-                                                        <button class="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseOne2"
-                                                            aria-expanded="true" aria-controls="collapseOne2">
-                                                            <span class="dropdown-text  text-Darkblue me-2">
-                                                                <i class="fa-solid fa-toggle-on"></i></span>
-                                                            <span class="dropdown-text  text-Darkblue">Switch
-                                                                Profile</span>
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseOne2" class="accordion-collapse collapse"
-                                                        data-bs-parent="#accordionExample2">
-                                                        <div class="accordion-body px-0 py-1 d-flex flex-column w-100">
-                                                            <input type="text" class="searchInput">
-                                                            <a href=""
-                                                                class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
-                                                                <span class="dropdown-text  text-Darkblue me-2"><i
-                                                                        class="fa-regular fa-building"></i></span>
-                                                                <span
-                                                                    class="dropdown-text  text-Darkblue">Business</span>
-                                                            </a>
-                                                            <a href=""
-                                                                class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
-                                                                <span class="dropdown-text  text-Darkblue me-2"><i
-                                                                        class="fa-regular fa-building"></i></span>
-                                                                <span
-                                                                    class="dropdown-text  text-Darkblue">Business</span>
-                                                            </a>
-                                                            <a href=""
-                                                                class="accordion-inner-link bg-white  text-Darkblue py-2 w-100 d-flex gap-2">
-                                                                <span class="dropdown-text  text-Darkblue me-2"><i
-                                                                        class="fa-regular fa-building"></i></span>
-                                                                <span
-                                                                    class="dropdown-text  text-Darkblue">Business</span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                <div class="dropdown-list">
+                                    <ul class="fw-bold">
 
+                                        <li><a href="https://arin.bz"><i class="fas fa-home"></i> Home</a></li>
+                                        <li><a href="https://arin.bz/messages"><i class="fas fa-paper-plane"></i>
+                                                Messages</a></li>
+
+                                        <li class="has_submenu"><a class="has_submenu_link" href="javascript:void(0)"><i
+                                                    class="fas fa-user"></i>
+                                                Profile</a>
+                                            <div class="submenu">
+                                                <ul>
+                                                    <li><a href="https://arin.bz/shivani" title="View Profile"><i
+                                                                class="fas fa-eye"></i> View
+                                                            Profile</a></li>
+                                                    <li><a href="https://arin.bz/make/profile" title="Edit Profile"><i
+                                                                class="fas fa-pen"></i> Edit
+                                                            Profile</a></li>
+                                                    <li><a href="https://arin.bz/user/products"
+                                                            title="Catalogue Manager"><i
+                                                                class="fas fa-cart-arrow-down"></i> Catalogue
+                                                            Manager</a></li>
+                                                    <li><a href="https://arin.bz/product/add-edit?flag=self"
+                                                            title="Add Catalogue"><i class="fas fa-cart-plus"></i> Add
+                                                            Catalogue</a></li>
+                                                    <li><a href="https://arin.bz/leads-generated"
+                                                            title="Manage Leads Generated Data"><i
+                                                                class="fas fa-chart-line"></i> My Leads</a></li>
+                                                    <li><a href="https://arin.bz/leads-referred"
+                                                            title="Manage Leads Referred Data"><i
+                                                                class="fas fa-chart-line"></i> My Connects</a></li>
+                                                    <li><a href="https://arin.bz/liked" title="Manage Liked Data"><i
+                                                                class="fas fa-heart"></i> Liked</a>
+                                                    </li>
+                                                    <li><a href="https://arin.bz/profile/blogs" title="Manage Blogs"><i
+                                                                class="fas fa-blog"></i>
+                                                            Blogs</a></li>
+                                                    <li><a href="https://arin.bz/user/partners" title="Partners"><i
+                                                                class="fas fa-truck"></i>
+                                                            Partners</a></li>
+                                                    <li><a href="https://arin.bz/user/cart" title="Cart"><i
+                                                                class="fas fa-shopping-cart"></i> Cart</a>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                        </a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">
-                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
-                                                <span class="text-Darkblue"><i
-                                                        class="fa-solid fa-magnifying-glass"></i></span>
-                                                <span class="text-Darkblue">Search</span>
+                                        </li>
+
+                                        <li class="has_submenu"><a class="has_submenu_link" href="javascript:void(0)"><i
+                                                    class="fas fa-cog"></i> Dynamic
+                                                Sections</a>
+                                            <div class="submenu">
+                                                <ul>
+                                                    <li><a href="https://arin.bz/user/manage-labels"
+                                                            title="dynamic labels"><i class="fas fa-cog"></i>Sections
+                                                        </a></li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=18998"
+                                                            title="Awards"><i class="fas fa-trophy"></i> Events</a></li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=18999"
+                                                            title="Awards"><i class="fas fa-trophy"></i> Offer For
+                                                            Product</a></li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=19000"
+                                                            title="Awards"><i class="fas fa-trophy"></i> New Test
+                                                            Events</a></li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=19001"
+                                                            title="Awards"><i class="fas fa-trophy"></i> Dynamic
+                                                            Label</a></li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=19003"
+                                                            title="Awards"><i class="fas fa-trophy"></i> Concerts</a>
+                                                    </li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=19004"
+                                                            title="Awards"><i class="fas fa-trophy"></i> Arin
+                                                            Certification</a></li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=19005"
+                                                            title="Awards"><i class="fas fa-trophy"></i> Offers</a></li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=19006"
+                                                            title="Awards"><i class="fas fa-trophy"></i> New Arin
+                                                            Test</a></li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=19016"
+                                                            title="Awards"><i class="fas fa-trophy"></i> Offer For
+                                                            Product New</a></li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=19017"
+                                                            title="Awards"><i class="fas fa-trophy"></i> Concerts For
+                                                            Live</a></li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=19020"
+                                                            title="Awards"><i class="fas fa-trophy"></i> Arin Awards</a>
+                                                    </li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=19021"
+                                                            title="Awards"><i class="fas fa-trophy"></i> Test</a></li>
+                                                    <li><a href="https://arin.bz/user/awards/services-offered?label=19034"
+                                                            title="Awards"><i class="fas fa-trophy"></i> Tesy Url</a>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                        </a></li>
-                                    <li><a class="dropdown-item" href="#">
-                                            <div class="dropDown-innerdiv bg-white d-flex gap-2 align-items-center">
-                                                <span class="text-Darkblue"><i
-                                                        class="fa-solid fa-right-from-bracket"></i></span>
-                                                <span class="text-Darkblue">Log Out</span>
+                                        </li>
+
+
+                                        <li><a href="https://arin.bz/search"><i class="fas fa-search"></i> Search</a>
+                                        </li>
+
+                                        <li class="has_submenu"><a class="has_submenu_link" href="javascript:void(0)"><i
+                                                    class="fas fa-toggle-on"></i>
+                                                Switch</a>
+                                            <div class="submenu">
+                                                <ul>
+                                                    <li><a href="https://arin.bz/bni-in-mh-nagpur-hematite"
+                                                            title="https://arin.bz/bni-in-mh-nagpur-hematite"><i
+                                                                class="fas fa-sitemap"></i>
+                                                            bni-in-mh-nagpur-hematite</a></li>
+                                                    <li><a href="https://arin.bz/BNI-Global"
+                                                            title="https://arin.bz/BNI-Global"><i
+                                                                class="fas fa-sitemap"></i> BNI-Global</a></li>
+                                                    <li><a href="https://arin.bz/akrk" title="https://arin.bz/akrk"><i
+                                                                class="fas fa-sitemap"></i>
+                                                            akrk</a></li>
+                                                    <li><a href="https://arin.bz/y3wf" title="https://arin.bz/y3wf"><i
+                                                                class="fas fa-sitemap"></i>
+                                                            y3wf</a></li>
+                                                    <li><a href="https://arin.bz/igv1" title="https://arin.bz/igv1"><i
+                                                                class="fas fa-sitemap"></i>
+                                                            igv1</a></li>
+                                                    <li><a href="https://arin.bz/hkt4" title="https://arin.bz/hkt4"><i
+                                                                class="fas fa-sitemap"></i>
+                                                            hkt4</a></li>
+                                                    <li><a href="https://arin.bz/td9e" title="https://arin.bz/td9e"><i
+                                                                class="fas fa-sitemap"></i>
+                                                            td9e</a></li>
+                                                </ul>
                                             </div>
-                                        </a></li>
-                                </ul>
+                                        </li>
+
+                                        <li><a href="https://arin.bz/signout"><i class="fas fa-sign-out"></i>
+                                                Singout</a></li>
+                                    </ul>
+                                </div>
                             </div>
 
                         </div>
@@ -423,6 +403,7 @@
         <!-- </div> -->
     </div>
 
+    
 
 
 
@@ -431,6 +412,13 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
     <script>
+        // $('.has_submenu a').click(function(e){
+        $(document).on('click', '.has_submenu a', function (event) {
+            $(this).parents(".has_submenu").find('.submenu, .has_submenu_link').toggleClass('open')
+        })
+    </script>
+    <script>
+
         function changeHeight() {
             // Change the height of the first box
             const box1 = document.getElementById('mainBox');
