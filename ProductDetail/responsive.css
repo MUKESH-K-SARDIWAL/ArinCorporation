@@ -15,5 +15,23 @@
         display: none;
     }
 
+    .videoBox {
+        height: 350px;
+        min-height: 300px;
+        max-height: 400px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .owl-nav {
+        display: none;
+    }
+
+    .videoBox {
+        height: 300px;
+        min-height: 100%;
+        max-height: 100%;
+    }
 
 }

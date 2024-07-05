@@ -266,7 +266,8 @@ h4 .accordion-button {
         width: 100%;
         /* display: inline-block; */
         height: 250px;
-        img{
+
+        img {
             object-fit: fill !important;
         }
     }
@@ -836,6 +837,30 @@ h4 .accordion-button {
 
 .owl-carousel .owl-item img {
     height: 100%;
+}
+
+.btnIconforSocial {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    text-decoration: none;
+
+    i {
+        font-size: 20px;
+    }
+}
+
+
+.videoBox {
+    height: 450px;
+    min-height: 400px;
+    max-height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 /* new design update css end */
