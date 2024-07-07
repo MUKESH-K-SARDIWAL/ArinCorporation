@@ -93,11 +93,7 @@
 
     }
 
-    .bluestrip {
-        left: 50px;
-        transform: rotate(-39deg);
-        width: 0px;
-    }
+    
 
     .bg-layout-3 {
         min-height: 100%;
@@ -128,11 +124,65 @@
         font-size: 1.5rem !important;
     }
 
+    .profileswiperImage {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .bluestrip {
+        left: 50px;
+        transform: rotate(0deg);
+        width: 200px;
+        z-index: 0;
+    }
+
+    .pt122 {
+        padding-top: 90px;
+    }
+
 }
 
-@media (max-width:767px) {}
+@media (max-width:767px) {
+    .profileswiperImage {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .bluestrip {
+        left: 50px;
+        transform: rotate(0deg);
+        width: 200px;
+        z-index: 0;
+    }
+
+    .pt122 {
+        padding-top: 122px;
+    }
+}
 
 @media (max-width:576px) {
+    .profileswiperImage {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .bluestrip {
+        left: 50px;
+        transform: rotate(-39deg);
+        width: 200px;
+        z-index: 0;
+    }
+
+    .pt122 {
+        padding-top: 122px;
+    }
+
     .blinkit {
 
         bottom: 20px;

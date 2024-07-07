@@ -201,12 +201,12 @@
     <div class=" ">
 
         <!-- <div class="container"> -->
-        <div class=" col-12 d-flex flex-lg-row flex-column-reverse align-items-center justify-content-between overflow-hidden h-min position-relative h-screen bg-back"
+        <div class=" col-12 d-flex flex-lg-row flex-column-reverse align-items-center justify-content-between overflow-hidden h-min position-relative h-screen bg-back pt122"
             id="mainBox">
-            <div class="col-xl-7 col-lg-6 col   py-100">
+            <div class="col-xl-7 col-lg-6 col mt-md-0 mt-3 py-100">
                 <div class="left-side-box"></div>
                 <div class="left-side-content container mx-auto ">
-                    <div class="d-lg-block d-none">
+                    <div class="d-lg-block">
                         <div>
                             <h3 class="userName text-shadow text-Darkblue text-center ">Mukesh Kumar</h3>
                             <h4 class="userdestination text-shadow text-Darkblue text-center ">Front End Dev.,
@@ -326,7 +326,7 @@
                         </div>
 
                     </div>
-                    <div class="d-lg-none d-block position-absolute mobile-screen-visible">
+                    <!-- <div class="d-lg-none d-block position-absolute mobile-screen-visible">
                         <div>
                             <h3 class="userName text-shadow text-Darkblue text-center ">Mukesh Kumar</h3>
                             <h4 class="userdestination text-shadow text-Darkblue text-center ">Front End Dev.,
@@ -356,7 +356,7 @@
                                 </span>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="blinkit text-end">
                         <div class="spinner-grow  text-danger" role="status">
                             <span class="visually-hidden">Loading...</span>
@@ -440,15 +440,16 @@
         //         box2.style.height = entry.contentRect.height + 'px';
         //     }
         // });
+        //  autoplay: {
+        //         delay: 5000,
+        //             disableOnInteraction: false,
+        //     },
 
         // observer.observe(box1);
     </script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-            autoplay: {
-                delay: 5000,
-                disableOnInteraction: false,
-            },
+           
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
