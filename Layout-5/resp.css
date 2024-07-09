@@ -80,6 +80,14 @@
         height: 100%;
     }
 
+    .blinkit {
+        position: absolute;
+        bottom: 0%;
+        right: 39%;
+        z-index: 99;
+    }
+
+
     .py-100 {
         padding-top: 0px;
         padding-bottom: 0px;
@@ -93,7 +101,7 @@
 
     }
 
-    
+
 
     .bg-layout-3 {
         min-height: 100%;
@@ -166,14 +174,21 @@
 
 @media (max-width:576px) {
     .profileswiperImage {
-        width: 300px;
-        height: 300px;
+        max-width: 300px;
+        max-height: 300px;
+
         border-radius: 50%;
         overflow: hidden;
     }
 
+    .mobile-height {
+        min-height: 100vh;
+        padding-top: 30px;
+    }
+
     .bluestrip {
         left: 50px;
+        top: -20%;
         transform: rotate(-39deg);
         width: 200px;
         z-index: 0;
@@ -184,9 +199,9 @@
     }
 
     .blinkit {
-
-        bottom: 20px;
-        right: 20px;
+        position: absolute;
+        bottom: 35%;
+        right: 37%;
         z-index: 99;
     }
 
