@@ -80,6 +80,13 @@
         height: 100%;
     }
 
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 36%;
+    }
+
     .blinkit {
         position: absolute;
         bottom: 0%;
@@ -173,6 +180,14 @@
 }
 
 @media (max-width:576px) {
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 47%;
+    }
+
     .profileswiperImage {
         max-width: 300px;
         max-height: 300px;
@@ -217,7 +232,7 @@
     }
 
     .brands-icon i {
-        font-size: 2.2rem !important;
+        font-size: 1.3rem !important;
     }
 
     .bottom-solid-strip {
