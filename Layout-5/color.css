@@ -7,11 +7,14 @@
 }
 
 .text-Darkblue {
-    color: #fff !important;
+    color: #000 ;
 }
 
 .text-secondary {
     color: #696969 !important;
+}
+.text-lightGray{
+    color: #696969;
 }
 
 
@@ -20,5 +23,5 @@
 }
 
 .swiper-pagination-bullet-active {
-    background: #00bd9f;
+    background: #fff;
 }
