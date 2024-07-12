@@ -211,3 +211,8 @@ body {
     right: 50px;
     z-index: 99;
 }
+
+
+.border-white2 > a {
+    border: 2px solid #fff;
+}
