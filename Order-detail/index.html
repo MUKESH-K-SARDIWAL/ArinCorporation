@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-12 border-lg-right">
+            <div class="profile-content p-4">
+                <h4 class="text-center">My Orders</h4>
+                <div class="table-responsive order-list">
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th>ORDER ID</th>
+                                <th>AMOUNT</th>
+                                <th>DATE &amp; TIME</th>
+                                <th>ORDER STATUS</th>
+                                <th>PAYMENT TYPE</th>
+                                <th>ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody id="order-list-table">
+                            <tr>
+                                <td><span class="mobile-label">ORDER ID :</span> <b>Arin-89</b></td>
+                                <td><span class="mobile-label">AMOUNT :</span> ₹ 824.18</td>
+                                <td><span class="mobile-label">DATE &amp; TIME :</span> 2024-07-06 15:23:01</td>
+                                <td><span class="mobile-label">ORDER STATUS :</span> <span
+                                        class="order-badges bg-green">New</span></td>
+                                <td><span class="mobile-label">PAYMENT TYPE :</span> <span
+                                        class="payment-badges bg-light-green">online</span></td>
+                                <td><a href="javascript:void(0);" class="view-btn btn">View</a></td>
+                            </tr>
+                            <tr class="dropdown-content">
+                                <td colspan="10" class="rounded">
+                                    <div class="col-12 border-lg-right" id="order-details-wrapper">
+                                        <div class="profile-content p-2">
+                                            <!-- <h4>Invoice Details</h4> -->
+
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="shipping-details">
+                                                        <h4>Delivery Address</h4>
+                                                        <div id="shipping_address_details" class="mb-1">
+                                                            <!-- <h5 class="mb-0">Work</h5> -->
+                                                            <p class="mb-0 fs-14"> Shivani </p>
+                                                            <p class="mb-0 fs-14"> Bhopal, Tikamgarh </p>
+                                                            <p class="mb-0 fs-14"> </p>
+                                                            <p class="mb-0 fs-14">bhopal Pincode - 472001 </p>
+                                                            <p class="mb-0 fs-14"> madhya pradesh - india</p>
+                                                            <p class="mb-0 fs-14">7890654123 </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="invoice-details " id="invoice-details">
+                                                        <ul>
+                                                            <li><b>Order ID : </b> Arin-89</li>
+                                                            <li><b>Order Date : </b> July 6, 2024 at 3:23 PM</li>
+                                                            <li><b>Expected Delivery Date : </b> Dec 26, 2023</li>
+
+                                                            <li><b>Order Status : <b>New</b></b></li><b>
+                                                            </b>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div id="order-products-list">
+                                                        <div class="order-product-list">
+                                                            <div class="cart-product-details">
+                                                                <div class="cart-product-img">
+                                                                    <a
+                                                                        href="https://www.aristobrat.in/cdn/shop/files/ClassicShirt_White_1.jpg?v=1709556583&width=400">
+                                                                        <img src="https://www.aristobrat.in/cdn/shop/files/ClassicShirt_White_1.jpg?v=1709556583&width=400"
+                                                                            alt="">
+                                                                    </a>
+                                                                </div>
+
+                                                                <div class="cart-product-content">
+                                                                    <h4> F-732</h4>
+                                                                    <p>Quantity: 1</p>
+                                                                    <h3>₹ 420</h3>
+                                                                    <ul>
+                                                                        <li>Product ID: 100% Cotton Loop Knit Full
+                                                                            Sleeves
+                                                                            Hoddy Jumpsuit</li>
+                                                                        <li><b>COLOR:</b> Sky Blue</li>
+                                                                        <li><b>SIZE:</b> 0-3 months</li>
+                                                                    </ul>
+                                                                    
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-md-6">
+                                                    <div class="order-action-buttons" id="order-actions">
+                                                        <a href="#" id="cancel-order-btn" data-bs-toggle="modal"
+                                                            data-bs-target="#cancelOrder"
+                                                            class="action-btn cancel-btn">Cancel Order</a>
+                                                    </div>
+                                                </div> -->
+                                            </div>
+
+
+                                            <!-- <div class="row">
+                                                
+                                                <div class="col-lg-7">
+                                                    <div class="shipping-details" id="order_summary">
+                                                        <h4>Order Summary</h4>
+                                                        <table class="table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th>Subtotal</th>
+                                                                    <td>:</td>
+                                                                    <td>₹ 440</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>You Saved</th>
+                                                                    <td>:</td>
+                                                                    <td><span class="text-red">- ₹ 20</span></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Coupon Discount</th>
+                                                                    <td>:</td>
+                                                                    <td>₹ 0</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Delivery Charge (Standard)</th>
+                                                                    <td>:</td>
+                                                                    <td>₹ 404.18</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>GST</th>
+                                                                    <td>:</td>
+                                                                    <td>Inclusive in product price</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Payment Method</th>
+                                                                    <td>:</td>
+                                                                    <td>ONLINE</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Payment Status</th>
+                                                                    <td>:</td>
+                                                                    <td>COMPLETE</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Transaction Id</th>
+                                                                    <td>:</td>
+                                                                    <td>668913a257172</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Total Amount</th>
+                                                                    <td>:</td>
+                                                                    <td colspan="2">₹ 824.18</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const viewButtons = document.querySelectorAll('.view-btn');
+
+            viewButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const currentDropdown = this.closest('tr').nextElementSibling;
+
+                    // Close any other open dropdowns
+                    document.querySelectorAll('.dropdown-content').forEach(dropdown => {
+                        if (dropdown !== currentDropdown) {
+                            dropdown.style.display = 'none';
+                        }
+                    });
+
+                    // Toggle the current dropdown
+                    currentDropdown.style.display = currentDropdown.style.display === 'table-row' ? 'none' : 'table-row';
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
